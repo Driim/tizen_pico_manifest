@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="tools/image-configurations" path="meta/image-configurations" groups="meta"/>
+  <project name="tools/package-groups" path="meta/package-groups" groups="meta"/>
+<!-- THIS IS FOR FUTURE LOCAL FULL BUILD USAGE
+  <project name="meta/project-config" path="meta/project-config" groups="meta"/>
+  <project name="meta/gbs-conf" path"meta/gbs-conf" groups="meta" >
+    <copyfile src=“gbs.conf" dest=“.gbs.conf" />
+  </project>
+ THIS IS FOR FUTURE LOCAL FULL BUILD USAGE -->
+
+</manifest>

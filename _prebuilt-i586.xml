@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- THIS IS FOR FUTURE LOCAL FULL BUILD USAGE
+  <project name="prebuilts/i586/xxx.git" path="prebuilts/i586/xxx.git" groups="prebuilts"/>
+  <project name="prebuilts/i586/yyy.git" path="prebuilts/i586/yyy.git" groups="prebuilts"/>
+ THIS IS FOR FUTURE LOCAL FULL BUILD USAGE -->
+
+</manifest>
