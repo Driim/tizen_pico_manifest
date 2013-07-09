@@ -294,6 +294,7 @@
   <project name="platform/upstream/libzip" path="platform/upstream/libzip" groups="platform"/>
   <project name="platform/upstream/libzypp" path="platform/upstream/libzypp" groups="platform"/>
   <project name="platform/upstream/libzypp-bindings" path="platform/upstream/libzypp-bindings" groups="platform"/>
+  <project name="platform/upstream/lightmediascanner" path="platform/upstream/lightmediascanner" groups="platform"/>
   <project name="platform/upstream/links" path="platform/upstream/links" groups="platform"/>
   <project name="platform/upstream/linux-firmware" path="platform/upstream/linux-firmware" groups="platform"/>
   <project name="platform/upstream/linux-glibc-devel" path="platform/upstream/linux-glibc-devel" groups="platform"/>
@@ -328,6 +329,7 @@
   <project name="platform/upstream/ncurses" path="platform/upstream/ncurses" groups="platform"/>
   <project name="platform/upstream/net-tools" path="platform/upstream/net-tools" groups="platform"/>
   <project name="platform/upstream/nettle" path="platform/upstream/nettle" groups="platform"/>
+  <project name="platform/upstream/nodejs" path="platform/upstream/nodejs" groups="platform"/>
   <project name="platform/upstream/nspr" path="platform/upstream/nspr" groups="platform"/>
   <project name="platform/upstream/nss" path="platform/upstream/nss" groups="platform"/>
   <project name="platform/upstream/nss-mdns" path="platform/upstream/nss-mdns" groups="platform"/>
@@ -438,6 +440,7 @@
   <project name="platform/upstream/rpmorphan" path="platform/upstream/rpmorphan" groups="platform"/>
   <project name="platform/upstream/rsync" path="platform/upstream/rsync" groups="platform"/>
   <project name="platform/upstream/ruby" path="platform/upstream/ruby" groups="platform"/>
+  <project name="platform/upstream/sbc" path="platform/upstream/sbc" groups="platform"/>
   <project name="platform/upstream/scons" path="platform/upstream/scons" groups="platform"/>
   <project name="platform/upstream/screen" path="platform/upstream/screen" groups="platform"/>
   <project name="platform/upstream/scrnsaverproto" path="platform/upstream/scrnsaverproto" groups="platform"/>
@@ -473,6 +476,7 @@
   <project name="platform/upstream/time" path="platform/upstream/time" groups="platform"/>
   <project name="platform/upstream/tizen-branding-default" path="platform/upstream/tizen-branding-default" groups="platform"/>
   <project name="platform/upstream/tizen-coreutils" path="platform/upstream/tizen-coreutils" groups="platform"/>
+  <project name="platform/upstream/tizen-installer" path="platform/upstream/tizen-installer" groups="platform"/>
   <project name="platform/upstream/tizen-release" path="platform/upstream/tizen-release" groups="platform"/>
   <project name="platform/upstream/tizen-rpm-config" path="platform/upstream/tizen-rpm-config" groups="platform"/>
   <project name="platform/upstream/tolua++" path="platform/upstream/tolua++" groups="platform"/>
