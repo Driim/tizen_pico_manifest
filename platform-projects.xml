@@ -1,5 +1,207 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <project name="platform/core/api/app-manager" path="platform/core/api/app-manager" groups="platform"/>
+  <project name="platform/core/api/application" path="platform/core/api/application" groups="platform"/>
+  <project name="platform/core/api/audio-io" path="platform/core/api/audio-io" groups="platform"/>
+  <project name="platform/core/api/bluetooth" path="platform/core/api/bluetooth" groups="platform"/>
+  <project name="platform/core/api/call" path="platform/core/api/call" groups="platform"/>
+  <project name="platform/core/api/camera" path="platform/core/api/camera" groups="platform"/>
+  <project name="platform/core/api/common" path="platform/core/api/common" groups="platform"/>
+  <project name="platform/core/api/connection" path="platform/core/api/connection" groups="platform"/>
+  <project name="platform/core/api/device" path="platform/core/api/device" groups="platform"/>
+  <project name="platform/core/api/efl-util" path="platform/core/api/efl-util" groups="platform"/>
+  <project name="platform/core/api/email" path="platform/core/api/email" groups="platform"/>
+  <project name="platform/core/api/favorites" path="platform/core/api/favorites" groups="platform"/>
+  <project name="platform/core/api/geocoder" path="platform/core/api/geocoder" groups="platform"/>
+  <project name="platform/core/api/haptic" path="platform/core/api/haptic" groups="platform"/>
+  <project name="platform/core/api/image-util" path="platform/core/api/image-util" groups="platform"/>
+  <project name="platform/core/api/location-manager" path="platform/core/api/location-manager" groups="platform"/>
+  <project name="platform/core/api/media-content" path="platform/core/api/media-content" groups="platform"/>
+  <project name="platform/core/api/media-key" path="platform/core/api/media-key" groups="platform"/>
+  <project name="platform/core/api/messages" path="platform/core/api/messages" groups="platform"/>
+  <project name="platform/core/api/metadata-extractor" path="platform/core/api/metadata-extractor" groups="platform"/>
+  <project name="platform/core/api/mime-type" path="platform/core/api/mime-type" groups="platform"/>
+  <project name="platform/core/api/network-info" path="platform/core/api/network-info" groups="platform"/>
+  <project name="platform/core/api/nfc" path="platform/core/api/nfc" groups="platform"/>
+  <project name="platform/core/api/package-manager" path="platform/core/api/package-manager" groups="platform"/>
+  <project name="platform/core/api/player" path="platform/core/api/player" groups="platform"/>
+  <project name="platform/core/api/poi" path="platform/core/api/poi" groups="platform"/>
+  <project name="platform/core/api/power" path="platform/core/api/power" groups="platform"/>
+  <project name="platform/core/api/radio" path="platform/core/api/radio" groups="platform"/>
+  <project name="platform/core/api/recorder" path="platform/core/api/recorder" groups="platform"/>
+  <project name="platform/core/api/route" path="platform/core/api/route" groups="platform"/>
+  <project name="platform/core/api/runtime-info" path="platform/core/api/runtime-info" groups="platform"/>
+  <project name="platform/core/api/sensor" path="platform/core/api/sensor" groups="platform"/>
+  <project name="platform/core/api/serial" path="platform/core/api/serial" groups="platform"/>
+  <project name="platform/core/api/sim" path="platform/core/api/sim" groups="platform"/>
+  <project name="platform/core/api/sound-manager" path="platform/core/api/sound-manager" groups="platform"/>
+  <project name="platform/core/api/system-info" path="platform/core/api/system-info" groups="platform"/>
+  <project name="platform/core/api/system-settings" path="platform/core/api/system-settings" groups="platform"/>
+  <project name="platform/core/api/tethering" path="platform/core/api/tethering" groups="platform"/>
+  <project name="platform/core/api/tone-player" path="platform/core/api/tone-player" groups="platform"/>
+  <project name="platform/core/api/url-download" path="platform/core/api/url-download" groups="platform"/>
+  <project name="platform/core/api/usb-accessory" path="platform/core/api/usb-accessory" groups="platform"/>
+  <project name="platform/core/api/video-util" path="platform/core/api/video-util" groups="platform"/>
+  <project name="platform/core/api/wav-player" path="platform/core/api/wav-player" groups="platform"/>
+  <project name="platform/core/api/wifi" path="platform/core/api/wifi" groups="platform"/>
+  <project name="platform/core/api/wifi-direct" path="platform/core/api/wifi-direct" groups="platform"/>
+  <project name="platform/core/appfw/ail" path="platform/core/appfw/ail" groups="platform"/>
+  <project name="platform/core/appfw/alarm-manager" path="platform/core/appfw/alarm-manager" groups="platform"/>
+  <project name="platform/core/appfw/app-checker" path="platform/core/appfw/app-checker" groups="platform"/>
+  <project name="platform/core/appfw/app-core" path="platform/core/appfw/app-core" groups="platform"/>
+  <project name="platform/core/appfw/app-svc" path="platform/core/appfw/app-svc" groups="platform"/>
+  <project name="platform/core/appfw/app2sd" path="platform/core/appfw/app2sd" groups="platform"/>
+  <project name="platform/core/appfw/appcore-agent" path="platform/core/appfw/appcore-agent" groups="platform"/>
+  <project name="platform/core/appfw/aul-1" path="platform/core/appfw/aul-1" groups="platform"/>
+  <project name="platform/core/appfw/badge" path="platform/core/appfw/badge" groups="platform"/>
+  <project name="platform/core/appfw/com-core" path="platform/core/appfw/com-core" groups="platform"/>
+  <project name="platform/core/appfw/heynoti" path="platform/core/appfw/heynoti" groups="platform"/>
+  <project name="platform/core/appfw/librua" path="platform/core/appfw/librua" groups="platform"/>
+  <project name="platform/core/appfw/libslp-db-util" path="platform/core/appfw/libslp-db-util" groups="platform"/>
+  <project name="platform/core/appfw/message-port" path="platform/core/appfw/message-port" groups="platform"/>
+  <project name="platform/core/appfw/pkgmgr-info" path="platform/core/appfw/pkgmgr-info" groups="platform"/>
+  <project name="platform/core/appfw/shortcut" path="platform/core/appfw/shortcut" groups="platform"/>
+  <project name="platform/core/appfw/slp-pkgmgr" path="platform/core/appfw/slp-pkgmgr" groups="platform"/>
+  <project name="platform/core/appfw/sppc" path="platform/core/appfw/sppc" groups="platform"/>
+  <project name="platform/core/appfw/status" path="platform/core/appfw/status" groups="platform"/>
+  <project name="platform/core/appfw/ui-gadget-1" path="platform/core/appfw/ui-gadget-1" groups="platform"/>
+  <project name="platform/core/appfw/vconf" path="platform/core/appfw/vconf" groups="platform"/>
+  <project name="platform/core/appfw/vconf-internal-keys" path="platform/core/appfw/vconf-internal-keys" groups="platform"/>
+  <project name="platform/core/appfw/xdgmime" path="platform/core/appfw/xdgmime" groups="platform"/>
+  <project name="platform/core/base/bundle" path="platform/core/base/bundle" groups="platform"/>
+  <project name="platform/core/base/gconf-dbus" path="platform/core/base/gconf-dbus" groups="platform"/>
+  <project name="platform/core/base/libsqlfs" path="platform/core/base/libsqlfs" groups="platform"/>
+  <project name="platform/core/base/rpm-installer" path="platform/core/base/rpm-installer" groups="platform"/>
+  <project name="platform/core/base/sys-string-0" path="platform/core/base/sys-string-0" groups="platform"/>
+  <project name="platform/core/base/syspopup" path="platform/core/base/syspopup" groups="platform"/>
+  <project name="platform/core/connectivity/bluetooth-agent" path="platform/core/connectivity/bluetooth-agent" groups="platform"/>
+  <project name="platform/core/connectivity/bluetooth-frwk" path="platform/core/connectivity/bluetooth-frwk" groups="platform"/>
+  <project name="platform/core/connectivity/bluetooth-share" path="platform/core/connectivity/bluetooth-share" groups="platform"/>
+  <project name="platform/core/connectivity/data-router" path="platform/core/connectivity/data-router" groups="platform"/>
+  <project name="platform/core/connectivity/libnet-client" path="platform/core/connectivity/libnet-client" groups="platform"/>
+  <project name="platform/core/connectivity/libwifi-direct" path="platform/core/connectivity/libwifi-direct" groups="platform"/>
+  <project name="platform/core/connectivity/mobileap-agent" path="platform/core/connectivity/mobileap-agent" groups="platform"/>
+  <project name="platform/core/connectivity/net-config" path="platform/core/connectivity/net-config" groups="platform"/>
+  <project name="platform/core/connectivity/nfc-manager" path="platform/core/connectivity/nfc-manager" groups="platform"/>
+  <project name="platform/core/connectivity/nfc-manager-neard" path="platform/core/connectivity/nfc-manager-neard" groups="platform"/>
+  <project name="platform/core/connectivity/wifi-direct-manager" path="platform/core/connectivity/wifi-direct-manager" groups="platform"/>
+  <project name="platform/core/graphics/default-fonts-fc-sdk" path="platform/core/graphics/default-fonts-fc-sdk" groups="platform"/>
+  <project name="platform/core/graphics/default-fonts-sdk" path="platform/core/graphics/default-fonts-sdk" groups="platform"/>
+  <project name="platform/core/graphics/opengl-es" path="platform/core/graphics/opengl-es" groups="platform"/>
+  <project name="platform/core/location/gps-manager" path="platform/core/location/gps-manager" groups="platform"/>
+  <project name="platform/core/location/lbs-dbus" path="platform/core/location/lbs-dbus" groups="platform"/>
+  <project name="platform/core/location/liblocation-appman" path="platform/core/location/liblocation-appman" groups="platform"/>
+  <project name="platform/core/location/libslp-location" path="platform/core/location/libslp-location" groups="platform"/>
+  <project name="platform/core/location/location-module" path="platform/core/location/location-module" groups="platform"/>
+  <project name="platform/core/location/ug-setting-location-efl" path="platform/core/location/ug-setting-location-efl" groups="platform"/>
+  <project name="platform/core/messaging/email-service" path="platform/core/messaging/email-service" groups="platform"/>
+  <project name="platform/core/messaging/msg-service" path="platform/core/messaging/msg-service" groups="platform"/>
+  <project name="platform/core/multimedia/alsa-scenario-0.2" path="platform/core/multimedia/alsa-scenario-0.2" groups="platform"/>
+  <project name="platform/core/multimedia/audio-session-manager" path="platform/core/multimedia/audio-session-manager" groups="platform"/>
+  <project name="platform/core/multimedia/avsystem" path="platform/core/multimedia/avsystem" groups="platform"/>
+  <project name="platform/upstream/ffmpeg" path="platform/upstream/ffmpeg" groups="platform"/>
+  <project name="platform/core/multimedia/libcamsrcjpegenc" path="platform/core/multimedia/libcamsrcjpegenc" groups="platform"/>
+  <project name="platform/core/multimedia/libcamsrcjpegenc-sw-libjpeg" path="platform/core/multimedia/libcamsrcjpegenc-sw-libjpeg" groups="platform"/>
+  <project name="platform/core/multimedia/libmedia-service" path="platform/core/multimedia/libmedia-service" groups="platform"/>
+  <project name="platform/core/multimedia/libmedia-thumbnail" path="platform/core/multimedia/libmedia-thumbnail" groups="platform"/>
+  <project name="platform/core/multimedia/libmm-camcorder" path="platform/core/multimedia/libmm-camcorder" groups="platform"/>
+  <project name="platform/core/multimedia/libmm-common" path="platform/core/multimedia/libmm-common" groups="platform"/>
+  <project name="platform/core/multimedia/libmm-fileinfo" path="platform/core/multimedia/libmm-fileinfo" groups="platform"/>
+  <project name="platform/core/multimedia/libmm-imgp-gstcs" path="platform/core/multimedia/libmm-imgp-gstcs" groups="platform"/>
+  <project name="platform/core/multimedia/libmm-log" path="platform/core/multimedia/libmm-log" groups="platform"/>
+  <project name="platform/core/multimedia/libmm-player" path="platform/core/multimedia/libmm-player" groups="platform"/>
+  <project name="platform/core/multimedia/libmm-radio" path="platform/core/multimedia/libmm-radio" groups="platform"/>
+  <project name="platform/core/multimedia/libmm-session" path="platform/core/multimedia/libmm-session" groups="platform"/>
+  <project name="platform/core/multimedia/libmm-sound" path="platform/core/multimedia/libmm-sound" groups="platform"/>
+  <project name="platform/core/multimedia/libmm-ta" path="platform/core/multimedia/libmm-ta" groups="platform"/>
+  <project name="platform/core/multimedia/libmm-transcode" path="platform/core/multimedia/libmm-transcode" groups="platform"/>
+  <project name="platform/core/multimedia/libmm-utility" path="platform/core/multimedia/libmm-utility" groups="platform"/>
+  <project name="platform/core/multimedia/media-data-sdk" path="platform/core/multimedia/media-data-sdk" groups="platform"/>
+  <project name="platform/core/multimedia/media-server" path="platform/core/multimedia/media-server" groups="platform"/>
+  <project name="platform/core/multimedia/mmfw-sysconf" path="platform/core/multimedia/mmfw-sysconf" groups="platform"/>
+  <project name="platform/core/pim/calendar-service" path="platform/core/pim/calendar-service" groups="platform"/>
+  <project name="platform/core/pim/contacts-service" path="platform/core/pim/contacts-service" groups="platform"/>
+  <project name="platform/core/pim/libaccounts-svc" path="platform/core/pim/libaccounts-svc" groups="platform"/>
+  <project name="platform/core/pim/pims-ipc" path="platform/core/pim/pims-ipc" groups="platform"/>
+  <project name="platform/core/security/cert-svc" path="platform/core/security/cert-svc" groups="platform"/>
+  <project name="platform/core/security/cert-svc-ui" path="platform/core/security/cert-svc-ui" groups="platform"/>
+  <project name="platform/core/security/drm-client" path="platform/core/security/drm-client" groups="platform"/>
+  <project name="platform/core/security/dukgenerator" path="platform/core/security/dukgenerator" groups="platform"/>
+  <project name="platform/core/security/libcryptsvc" path="platform/core/security/libcryptsvc" groups="platform"/>
+  <project name="platform/core/security/libprivilege-control" path="platform/core/security/libprivilege-control" groups="platform"/>
+  <project name="platform/core/security/privacy-manager" path="platform/core/security/privacy-manager" groups="platform"/>
+  <project name="platform/core/security/secure-storage" path="platform/core/security/secure-storage" groups="platform"/>
+  <project name="platform/core/security/security-server" path="platform/core/security/security-server" groups="platform"/>
+  <project name="platform/core/system/devman" path="platform/core/system/devman" groups="platform"/>
+  <project name="platform/core/system/dlog" path="platform/core/system/dlog" groups="platform"/>
+  <project name="platform/core/system/haptic-module-tizen" path="platform/core/system/haptic-module-tizen" groups="platform"/>
+  <project name="platform/core/system/libdevice-node" path="platform/core/system/libdevice-node" groups="platform"/>
+  <project name="platform/core/system/libhaptic" path="platform/core/system/libhaptic" groups="platform"/>
+  <project name="platform/core/system/libsf-common" path="platform/core/system/libsf-common" groups="platform"/>
+  <project name="platform/core/system/libslp-pm" path="platform/core/system/libslp-pm" groups="platform"/>
+  <project name="platform/core/system/libslp-sensor" path="platform/core/system/libslp-sensor" groups="platform"/>
+  <project name="platform/core/system/libslp-sysman" path="platform/core/system/libslp-sysman" groups="platform"/>
+  <project name="platform/core/system/libsvi" path="platform/core/system/libsvi" groups="platform"/>
+  <project name="platform/core/system/oma-dm-agent" path="platform/core/system/oma-dm-agent" groups="platform"/>
+  <project name="platform/core/system/oma-ds-agent" path="platform/core/system/oma-ds-agent" groups="platform"/>
+  <project name="platform/core/system/power-manager" path="platform/core/system/power-manager" groups="platform"/>
+  <project name="platform/core/system/sdbd" path="platform/core/system/sdbd" groups="platform"/>
+  <project name="platform/core/system/sensor-framework" path="platform/core/system/sensor-framework" groups="platform"/>
+  <project name="platform/core/system/smartcard-plugin-nfc" path="platform/core/system/smartcard-plugin-nfc" groups="platform"/>
+  <project name="platform/core/system/smartcard-plugin-uicc" path="platform/core/system/smartcard-plugin-uicc" groups="platform"/>
+  <project name="platform/core/system/smartcard-service" path="platform/core/system/smartcard-service" groups="platform"/>
+  <project name="platform/core/system/svi-data" path="platform/core/system/svi-data" groups="platform"/>
+  <project name="platform/core/system/sync-agent" path="platform/core/system/sync-agent" groups="platform"/>
+  <project name="platform/core/system/sys-assert" path="platform/core/system/sys-assert" groups="platform"/>
+  <project name="platform/core/system/system-popup" path="platform/core/system/system-popup" groups="platform"/>
+  <project name="platform/core/system/system-server" path="platform/core/system/system-server" groups="platform"/>
+  <project name="platform/core/telephony/libslp-tapi" path="platform/core/telephony/libslp-tapi" groups="platform"/>
+  <project name="platform/core/telephony/libtcore" path="platform/core/telephony/libtcore" groups="platform"/>
+  <project name="platform/core/telephony/tel-plugin-at_standard" path="platform/core/telephony/tel-plugin-at_standard" groups="platform"/>
+  <project name="platform/core/telephony/tel-plugin-atmodem" path="platform/core/telephony/tel-plugin-atmodem" groups="platform"/>
+  <project name="platform/core/telephony/tel-plugin-database" path="platform/core/telephony/tel-plugin-database" groups="platform"/>
+  <project name="platform/core/telephony/tel-plugin-dbus_tapi" path="platform/core/telephony/tel-plugin-dbus_tapi" groups="platform"/>
+  <project name="platform/core/telephony/tel-plugin-imc" path="platform/core/telephony/tel-plugin-imc" groups="platform"/>
+  <project name="platform/core/telephony/tel-plugin-imcmodem" path="platform/core/telephony/tel-plugin-imcmodem" groups="platform"/>
+  <project name="platform/core/telephony/tel-plugin-indicator" path="platform/core/telephony/tel-plugin-indicator" groups="platform"/>
+  <project name="platform/core/telephony/tel-plugin-packetservice" path="platform/core/telephony/tel-plugin-packetservice" groups="platform"/>
+  <project name="platform/core/telephony/tel-plugin-vconf" path="platform/core/telephony/tel-plugin-vconf" groups="platform"/>
+  <project name="platform/core/telephony/tel-plugin-vmodem" path="platform/core/telephony/tel-plugin-vmodem" groups="platform"/>
+  <project name="platform/core/telephony/telephony-daemon" path="platform/core/telephony/telephony-daemon" groups="platform"/>
+  <project name="platform/core/uifw/anthy" path="platform/core/uifw/anthy" groups="platform"/>
+  <project name="platform/core/uifw/e17-extra-config-modules" path="platform/core/uifw/e17-extra-config-modules" groups="platform"/>
+  <project name="platform/core/uifw/e17-misc" path="platform/core/uifw/e17-misc" groups="platform"/>
+  <project name="platform/core/uifw/elm-misc" path="platform/core/uifw/elm-misc" groups="platform"/>
+  <project name="platform/core/uifw/libdmx" path="platform/core/uifw/libdmx" groups="platform"/>
+  <project name="platform/core/uifw/libdri2" path="platform/core/uifw/libdri2" groups="platform"/>
+  <project name="platform/core/uifw/libhangul" path="platform/core/uifw/libhangul" groups="platform"/>
+  <project name="platform/core/uifw/libslp-utilx" path="platform/core/uifw/libslp-utilx" groups="platform"/>
+  <project name="platform/core/uifw/libtbm" path="platform/core/uifw/libtbm" groups="platform"/>
+  <project name="platform/core/uifw/libttssmt" path="platform/core/uifw/libttssmt" groups="platform"/>
+  <project name="platform/core/uifw/stt" path="platform/core/uifw/stt" groups="platform"/>
+  <project name="platform/core/uifw/tts" path="platform/core/uifw/tts" groups="platform"/>
+  <project name="platform/framework/native/appfw" path="platform/framework/native/appfw" groups="platform"/>
+  <project name="platform/framework/native/channel-service" path="platform/framework/native/channel-service" groups="platform"/>
+  <project name="platform/framework/native/env-config" path="platform/framework/native/env-config" groups="platform"/>
+  <project name="platform/framework/native/loader" path="platform/framework/native/loader" groups="platform"/>
+  <project name="platform/framework/native/sys-config" path="platform/framework/native/sys-config" groups="platform"/>
+  <project name="platform/framework/web/data-provider-master" path="platform/framework/web/data-provider-master" groups="platform"/>
+  <project name="platform/framework/web/data-provider-slave" path="platform/framework/web/data-provider-slave" groups="platform"/>
+  <project name="platform/framework/web/download-provider" path="platform/framework/web/download-provider" groups="platform"/>
+  <project name="platform/framework/web/heap-monitor" path="platform/framework/web/heap-monitor" groups="platform"/>
+  <project name="platform/framework/web/livebox" path="platform/framework/web/livebox" groups="platform"/>
+  <project name="platform/framework/web/livebox-cpp" path="platform/framework/web/livebox-cpp" groups="platform"/>
+  <project name="platform/framework/web/livebox-service" path="platform/framework/web/livebox-service" groups="platform"/>
+  <project name="platform/framework/web/livebox-viewer" path="platform/framework/web/livebox-viewer" groups="platform"/>
+  <project name="platform/framework/web/provider" path="platform/framework/web/provider" groups="platform"/>
+  <project name="platform/framework/web/web-ui-fw" path="platform/framework/web/web-ui-fw" groups="platform"/>
+  <project name="platform/framework/web/webkit-efl" path="platform/framework/web/webkit-efl" groups="platform"/>
+  <project name="platform/framework/web/wrt" path="platform/framework/web/wrt" groups="platform"/>
+  <project name="platform/framework/web/wrt-commons" path="platform/framework/web/wrt-commons" groups="platform"/>
+  <project name="platform/framework/web/wrt-installer" path="platform/framework/web/wrt-installer" groups="platform"/>
+  <project name="platform/framework/web/wrt-plugins-common" path="platform/framework/web/wrt-plugins-common" groups="platform"/>
+  <project name="platform/framework/web/wrt-plugins-tizen" path="platform/framework/web/wrt-plugins-tizen" groups="platform"/>
+  <project name="platform/framework/web/wrt-security" path="platform/framework/web/wrt-security" groups="platform"/>
   <project name="platform/upstream/SDL" path="platform/upstream/SDL" groups="platform"/>
   <project name="platform/upstream/acl" path="platform/upstream/acl" groups="platform"/>
   <project name="platform/upstream/acpid" path="platform/upstream/acpid" groups="platform"/>
@@ -16,7 +218,6 @@
   <project name="platform/upstream/autoconf213" path="platform/upstream/autoconf213" groups="platform"/>
   <project name="platform/upstream/automake" path="platform/upstream/automake" groups="platform"/>
   <project name="platform/upstream/avahi" path="platform/upstream/avahi" groups="platform"/>
-  <project name="platform/upstream/base-manifest" path="platform/upstream/base-manifest" groups="platform"/>
   <project name="platform/upstream/bash" path="platform/upstream/bash" groups="platform"/>
   <project name="platform/upstream/bc" path="platform/upstream/bc" groups="platform"/>
   <project name="platform/upstream/bdftopcf" path="platform/upstream/bdftopcf" groups="platform"/>
@@ -44,6 +245,7 @@
   <project name="platform/upstream/chromium" path="platform/upstream/chromium" groups="platform"/>
   <project name="platform/upstream/chrpath" path="platform/upstream/chrpath" groups="platform"/>
   <project name="platform/upstream/cloog" path="platform/upstream/cloog" groups="platform"/>
+  <project name="platform/upstream/cloog-isl" path="platform/upstream/cloog-isl" groups="platform"/>
   <project name="platform/upstream/cmake" path="platform/upstream/cmake" groups="platform"/>
   <project name="platform/upstream/compositeproto" path="platform/upstream/compositeproto" groups="platform"/>
   <project name="platform/upstream/connman" path="platform/upstream/connman" groups="platform"/>
@@ -56,11 +258,9 @@
   <project name="platform/upstream/csr-framework" path="platform/upstream/csr-framework" groups="platform"/>
   <project name="platform/upstream/ctags" path="platform/upstream/ctags" groups="platform"/>
   <project name="platform/upstream/cups" path="platform/upstream/cups" groups="platform"/>
-  <project name="platform/upstream/cups-filters" path="platform/upstream/cups-filters" groups="platform"/>
   <project name="platform/upstream/curl" path="platform/upstream/curl" groups="platform"/>
   <project name="platform/upstream/damageproto" path="platform/upstream/damageproto" groups="platform"/>
   <project name="platform/upstream/dash" path="platform/upstream/dash" groups="platform"/>
-  <project name="platform/upstream/db-manager" path="platform/upstream/db-manager" groups="platform"/>
   <project name="platform/upstream/db4" path="platform/upstream/db4" groups="platform"/>
   <project name="platform/upstream/dbus" path="platform/upstream/dbus" groups="platform"/>
   <project name="platform/upstream/dbus-glib" path="platform/upstream/dbus-glib" groups="platform"/>
@@ -73,7 +273,6 @@
   <project name="platform/upstream/dmidecode" path="platform/upstream/dmidecode" groups="platform"/>
   <project name="platform/upstream/dmxproto" path="platform/upstream/dmxproto" groups="platform"/>
   <project name="platform/upstream/dnsmasq" path="platform/upstream/dnsmasq" groups="platform"/>
-  <project name="platform/upstream/docbook-xsl" path="platform/upstream/docbook-xsl" groups="platform"/>
   <project name="platform/upstream/docbook-xsl-stylesheets" path="platform/upstream/docbook-xsl-stylesheets" groups="platform"/>
   <project name="platform/upstream/docbook_4" path="platform/upstream/docbook_4" groups="platform"/>
   <project name="platform/upstream/dos2unix" path="platform/upstream/dos2unix" groups="platform"/>
@@ -82,7 +281,6 @@
   <project name="platform/upstream/dracut" path="platform/upstream/dracut" groups="platform"/>
   <project name="platform/upstream/dri2proto" path="platform/upstream/dri2proto" groups="platform"/>
   <project name="platform/upstream/e2fsprogs" path="platform/upstream/e2fsprogs" groups="platform"/>
-  <project name="platform/upstream/e_dbus" path="platform/upstream/e_dbus" groups="platform"/>
   <project name="platform/upstream/econnman" path="platform/upstream/econnman" groups="platform"/>
   <project name="platform/upstream/ecore" path="platform/upstream/ecore" groups="platform"/>
   <project name="platform/upstream/ed" path="platform/upstream/ed" groups="platform"/>
@@ -109,7 +307,6 @@
   <project name="platform/upstream/expat" path="platform/upstream/expat" groups="platform"/>
   <project name="platform/upstream/expect" path="platform/upstream/expect" groups="platform"/>
   <project name="platform/upstream/expedite" path="platform/upstream/expedite" groups="platform"/>
-  <project name="platform/upstream/fakeroot" path="platform/upstream/fakeroot" groups="platform"/>
   <project name="platform/upstream/fdupes" path="platform/upstream/fdupes" groups="platform"/>
   <project name="platform/upstream/file" path="platform/upstream/file" groups="platform"/>
   <project name="platform/upstream/filesystem" path="platform/upstream/filesystem" groups="platform"/>
@@ -130,8 +327,6 @@
   <project name="platform/upstream/gawk" path="platform/upstream/gawk" groups="platform"/>
   <project name="platform/upstream/gcc" path="platform/upstream/gcc" groups="platform"/>
   <project name="platform/upstream/gcc47" path="platform/upstream/gcc47" groups="platform"/>
-  <project name="platform/upstream/gcc48" path="platform/upstream/gcc48" groups="platform"/>
-  <project name="platform/upstream/gcd" path="platform/upstream/gcd" groups="platform"/>
   <project name="platform/upstream/gdb" path="platform/upstream/gdb" groups="platform"/>
   <project name="platform/upstream/gdbm" path="platform/upstream/gdbm" groups="platform"/>
   <project name="platform/upstream/gdk-pixbuf" path="platform/upstream/gdk-pixbuf" groups="platform"/>
@@ -141,7 +336,6 @@
   <project name="platform/upstream/git" path="platform/upstream/git" groups="platform"/>
   <project name="platform/upstream/glib" path="platform/upstream/glib" groups="platform"/>
   <project name="platform/upstream/glib-networking" path="platform/upstream/glib-networking" groups="platform"/>
-  <project name="platform/upstream/glib2.0" path="platform/upstream/glib2.0" groups="platform"/>
   <project name="platform/upstream/glibc" path="platform/upstream/glibc" groups="platform"/>
   <project name="platform/upstream/glproto" path="platform/upstream/glproto" groups="platform"/>
   <project name="platform/upstream/gmp" path="platform/upstream/gmp" groups="platform"/>
@@ -156,9 +350,13 @@
   <project name="platform/upstream/gptfdisk" path="platform/upstream/gptfdisk" groups="platform"/>
   <project name="platform/upstream/grep" path="platform/upstream/grep" groups="platform"/>
   <project name="platform/upstream/groff" path="platform/upstream/groff" groups="platform"/>
+  <project name="platform/upstream/gst-common" path="platform/upstream/gst-common" groups="platform"/>
+  <project name="platform/upstream/gst-libav" path="platform/upstream/gst-libav" groups="platform"/>
+  <project name="platform/upstream/gst-omx" path="platform/upstream/gst-omx" groups="platform"/>
   <project name="platform/upstream/gst-plugins-bad" path="platform/upstream/gst-plugins-bad" groups="platform"/>
   <project name="platform/upstream/gst-plugins-base" path="platform/upstream/gst-plugins-base" groups="platform"/>
   <project name="platform/upstream/gst-plugins-good" path="platform/upstream/gst-plugins-good" groups="platform"/>
+  <project name="platform/upstream/gst-plugins-ugly" path="platform/upstream/gst-plugins-ugly" groups="platform"/>
   <project name="platform/upstream/gstreamer" path="platform/upstream/gstreamer" groups="platform"/>
   <project name="platform/upstream/gstreamer-vaapi" path="platform/upstream/gstreamer-vaapi" groups="platform"/>
   <project name="platform/upstream/gtest" path="platform/upstream/gtest" groups="platform"/>
@@ -168,7 +366,6 @@
   <project name="platform/upstream/harfbuzz" path="platform/upstream/harfbuzz" groups="platform"/>
   <project name="platform/upstream/help2man" path="platform/upstream/help2man" groups="platform"/>
   <project name="platform/upstream/hostname" path="platform/upstream/hostname" groups="platform"/>
-  <project name="platform/upstream/hplip" path="platform/upstream/hplip" groups="platform"/>
   <project name="platform/upstream/hunspell" path="platform/upstream/hunspell" groups="platform"/>
   <project name="platform/upstream/hwdata" path="platform/upstream/hwdata" groups="platform"/>
   <project name="platform/upstream/icecream" path="platform/upstream/icecream" groups="platform"/>
@@ -181,6 +378,7 @@
   <project name="platform/upstream/iproute2" path="platform/upstream/iproute2" groups="platform"/>
   <project name="platform/upstream/iptables" path="platform/upstream/iptables" groups="platform"/>
   <project name="platform/upstream/iputils" path="platform/upstream/iputils" groups="platform"/>
+  <project name="platform/upstream/isl" path="platform/upstream/isl" groups="platform"/>
   <project name="platform/upstream/iso-codes" path="platform/upstream/iso-codes" groups="platform"/>
   <project name="platform/upstream/iso_ent" path="platform/upstream/iso_ent" groups="platform"/>
   <project name="platform/upstream/jasper" path="platform/upstream/jasper" groups="platform"/>
@@ -216,7 +414,6 @@
   <project name="platform/upstream/libXi" path="platform/upstream/libXi" groups="platform"/>
   <project name="platform/upstream/libXinerama" path="platform/upstream/libXinerama" groups="platform"/>
   <project name="platform/upstream/libXmu" path="platform/upstream/libXmu" groups="platform"/>
-  <project name="platform/upstream/libXp" path="platform/upstream/libXp" groups="platform"/>
   <project name="platform/upstream/libXpm" path="platform/upstream/libXpm" groups="platform"/>
   <project name="platform/upstream/libXrandr" path="platform/upstream/libXrandr" groups="platform"/>
   <project name="platform/upstream/libXrender" path="platform/upstream/libXrender" groups="platform"/>
@@ -232,6 +429,7 @@
   <project name="platform/upstream/libarchive" path="platform/upstream/libarchive" groups="platform"/>
   <project name="platform/upstream/libassuan" path="platform/upstream/libassuan" groups="platform"/>
   <project name="platform/upstream/libasyncns" path="platform/upstream/libasyncns" groups="platform"/>
+  <project name="platform/upstream/libav" path="platform/upstream/libav" groups="platform"/>
   <project name="platform/upstream/libbullet" path="platform/upstream/libbullet" groups="platform"/>
   <project name="platform/upstream/libcap" path="platform/upstream/libcap" groups="platform"/>
   <project name="platform/upstream/libcap-ng" path="platform/upstream/libcap-ng" groups="platform"/>
@@ -241,8 +439,6 @@
   <project name="platform/upstream/libelf0" path="platform/upstream/libelf0" groups="platform"/>
   <project name="platform/upstream/libevent" path="platform/upstream/libevent" groups="platform"/>
   <project name="platform/upstream/libexif" path="platform/upstream/libexif" groups="platform"/>
-  <project name="platform/upstream/libffi" path="platform/upstream/libffi" groups="platform"/>
-  <project name="platform/upstream/libflac" path="platform/upstream/libflac" groups="platform"/>
   <project name="platform/upstream/libfontenc" path="platform/upstream/libfontenc" groups="platform"/>
   <project name="platform/upstream/libgcrypt" path="platform/upstream/libgcrypt" groups="platform"/>
   <project name="platform/upstream/libgpg-error" path="platform/upstream/libgpg-error" groups="platform"/>
@@ -265,8 +461,6 @@
   <project name="platform/upstream/libpipeline" path="platform/upstream/libpipeline" groups="platform"/>
   <project name="platform/upstream/libpng" path="platform/upstream/libpng" groups="platform"/>
   <project name="platform/upstream/libpthread-stubs" path="platform/upstream/libpthread-stubs" groups="platform"/>
-  <project name="platform/upstream/libremix" path="platform/upstream/libremix" groups="platform"/>
-  <project name="platform/upstream/libsmi" path="platform/upstream/libsmi" groups="platform"/>
   <project name="platform/upstream/libsndfile" path="platform/upstream/libsndfile" groups="platform"/>
   <project name="platform/upstream/libsolv" path="platform/upstream/libsolv" groups="platform"/>
   <project name="platform/upstream/libsoup" path="platform/upstream/libsoup" groups="platform"/>
@@ -310,7 +504,6 @@
   <project name="platform/upstream/make" path="platform/upstream/make" groups="platform"/>
   <project name="platform/upstream/makedepend" path="platform/upstream/makedepend" groups="platform"/>
   <project name="platform/upstream/man-db" path="platform/upstream/man-db" groups="platform"/>
-  <project name="platform/upstream/manifest" path="platform/upstream/manifest" groups="platform"/>
   <project name="platform/upstream/mesa" path="platform/upstream/mesa" groups="platform"/>
   <project name="platform/upstream/meta-base" path="platform/upstream/meta-base" groups="platform"/>
   <project name="platform/upstream/meta-common" path="platform/upstream/meta-common" groups="platform"/>
@@ -327,6 +520,8 @@
   <project name="platform/upstream/nano" path="platform/upstream/nano" groups="platform"/>
   <project name="platform/upstream/nasm" path="platform/upstream/nasm" groups="platform"/>
   <project name="platform/upstream/ncurses" path="platform/upstream/ncurses" groups="platform"/>
+  <project name="platform/upstream/neard" path="platform/upstream/neard" groups="platform"/>
+  <project name="platform/upstream/neardal" path="platform/upstream/neardal" groups="platform"/>
   <project name="platform/upstream/net-tools" path="platform/upstream/net-tools" groups="platform"/>
   <project name="platform/upstream/nettle" path="platform/upstream/nettle" groups="platform"/>
   <project name="platform/upstream/nodejs" path="platform/upstream/nodejs" groups="platform"/>
@@ -387,7 +582,7 @@
   <project name="platform/upstream/ppl" path="platform/upstream/ppl" groups="platform"/>
   <project name="platform/upstream/prelink" path="platform/upstream/prelink" groups="platform"/>
   <project name="platform/upstream/procps-ng" path="platform/upstream/procps-ng" groups="platform"/>
-  <project name="platform/upstream/psb-headers" path="platform/upstream/psb-headers" groups="platform"/>
+  <project name="platform/upstream/protobuf" path="platform/upstream/protobuf" groups="platform"/>
   <project name="platform/upstream/psmisc" path="platform/upstream/psmisc" groups="platform"/>
   <project name="platform/upstream/pth" path="platform/upstream/pth" groups="platform"/>
   <project name="platform/upstream/pulseaudio" path="platform/upstream/pulseaudio" groups="platform"/>
@@ -418,7 +613,6 @@
   <project name="platform/upstream/python-setuptools" path="platform/upstream/python-setuptools" groups="platform"/>
   <project name="platform/upstream/python-sqlite" path="platform/upstream/python-sqlite" groups="platform"/>
   <project name="platform/upstream/python-urlgrabber" path="platform/upstream/python-urlgrabber" groups="platform"/>
-  <project name="platform/upstream/python-yaml" path="platform/upstream/python-yaml" groups="platform"/>
   <project name="platform/upstream/qemu" path="platform/upstream/qemu" groups="platform"/>
   <project name="platform/upstream/qemu-accel" path="platform/upstream/qemu-accel" groups="platform"/>
   <project name="platform/upstream/qpdf" path="platform/upstream/qpdf" groups="platform"/>
@@ -464,21 +658,16 @@
   <project name="platform/upstream/syslinux" path="platform/upstream/syslinux" groups="platform"/>
   <project name="platform/upstream/sysprof" path="platform/upstream/sysprof" groups="platform"/>
   <project name="platform/upstream/systemd" path="platform/upstream/systemd" groups="platform"/>
-  <project name="platform/upstream/sysvinit" path="platform/upstream/sysvinit" groups="platform"/>
   <project name="platform/upstream/tar" path="platform/upstream/tar" groups="platform"/>
   <project name="platform/upstream/tcl" path="platform/upstream/tcl" groups="platform"/>
   <project name="platform/upstream/tcpdump" path="platform/upstream/tcpdump" groups="platform"/>
   <project name="platform/upstream/tdb" path="platform/upstream/tdb" groups="platform"/>
   <project name="platform/upstream/terminology" path="platform/upstream/terminology" groups="platform"/>
-  <project name="platform/upstream/test" path="platform/upstream/test" groups="platform"/>
   <project name="platform/upstream/texinfo" path="platform/upstream/texinfo" groups="platform"/>
   <project name="platform/upstream/tiff" path="platform/upstream/tiff" groups="platform"/>
   <project name="platform/upstream/time" path="platform/upstream/time" groups="platform"/>
   <project name="platform/upstream/tizen-branding-default" path="platform/upstream/tizen-branding-default" groups="platform"/>
-  <project name="platform/upstream/tizen-coreutils" path="platform/upstream/tizen-coreutils" groups="platform"/>
-  <project name="platform/upstream/tizen-installer" path="platform/upstream/tizen-installer" groups="platform"/>
   <project name="platform/upstream/tizen-release" path="platform/upstream/tizen-release" groups="platform"/>
-  <project name="platform/upstream/tizen-rpm-config" path="platform/upstream/tizen-rpm-config" groups="platform"/>
   <project name="platform/upstream/tolua++" path="platform/upstream/tolua++" groups="platform"/>
   <project name="platform/upstream/tree" path="platform/upstream/tree" groups="platform"/>
   <project name="platform/upstream/tzdata" path="platform/upstream/tzdata" groups="platform"/>
@@ -497,6 +686,7 @@
   <project name="platform/upstream/util-macros" path="platform/upstream/util-macros" groups="platform"/>
   <project name="platform/upstream/uw-imap-toolkit" path="platform/upstream/uw-imap-toolkit" groups="platform"/>
   <project name="platform/upstream/v8" path="platform/upstream/v8" groups="platform"/>
+  <project name="platform/upstream/vala" path="platform/upstream/vala" groups="platform"/>
   <project name="platform/upstream/valgrind" path="platform/upstream/valgrind" groups="platform"/>
   <project name="platform/upstream/vconfig" path="platform/upstream/vconfig" groups="platform"/>
   <project name="platform/upstream/videoproto" path="platform/upstream/videoproto" groups="platform"/>
@@ -570,7 +760,6 @@
   <project name="platform/upstream/zeromq" path="platform/upstream/zeromq" groups="platform"/>
   <project name="platform/upstream/zip" path="platform/upstream/zip" groups="platform"/>
   <project name="platform/upstream/zlib" path="platform/upstream/zlib" groups="platform"/>
-  <project name="platform/upstream/zypp-plugin" path="platform/upstream/zypp-plugin" groups="platform"/>
   <project name="platform/upstream/zypper" path="platform/upstream/zypper" groups="platform"/>
   <project name="platform/upstream/zypper-plugin" path="platform/upstream/zypper-plugin" groups="platform"/>
 </manifest>

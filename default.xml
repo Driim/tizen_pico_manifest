@@ -7,5 +7,7 @@
   <include name="_metadata.xml" />
   <include name="_prebuilt-i586.xml" />
   <include name="_prebuilt-armv7l.xml" />
+  <include name="apps-projects.xml" />
   <include name="platform-projects.xml" />
+  <include name="tools-projects.xml" />
 </manifest>

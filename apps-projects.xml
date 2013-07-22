@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="apps/core/preloaded/app-selector" path="apps/core/preloaded/app-selector" groups="apps"/>
+  <project name="apps/core/preloaded/boot-animation" path="apps/core/preloaded/boot-animation" groups="apps"/>
+  <project name="apps/core/preloaded/bt-syspopup" path="apps/core/preloaded/bt-syspopup" groups="apps"/>
+  <project name="apps/core/preloaded/calculator" path="apps/core/preloaded/calculator" groups="apps"/>
+  <project name="apps/core/preloaded/calendar" path="apps/core/preloaded/calendar" groups="apps"/>
+  <project name="apps/core/preloaded/camera" path="apps/core/preloaded/camera" groups="apps"/>
+  <project name="apps/core/preloaded/draglock" path="apps/core/preloaded/draglock" groups="apps"/>
+  <project name="apps/core/preloaded/image-viewer" path="apps/core/preloaded/image-viewer" groups="apps"/>
+  <project name="apps/core/preloaded/libslp-alarm" path="apps/core/preloaded/libslp-alarm" groups="apps"/>
+  <project name="apps/core/preloaded/libslp-memo" path="apps/core/preloaded/libslp-memo" groups="apps"/>
+  <project name="apps/core/preloaded/libug-worldclock-efl" path="apps/core/preloaded/libug-worldclock-efl" groups="apps"/>
+  <project name="apps/core/preloaded/lockscreen" path="apps/core/preloaded/lockscreen" groups="apps"/>
+  <project name="apps/core/preloaded/menu-daemon" path="apps/core/preloaded/menu-daemon" groups="apps"/>
+  <project name="apps/core/preloaded/menu-screen" path="apps/core/preloaded/menu-screen" groups="apps"/>
+  <project name="apps/core/preloaded/minicontrol" path="apps/core/preloaded/minicontrol" groups="apps"/>
+  <project name="apps/core/preloaded/net-popup" path="apps/core/preloaded/net-popup" groups="apps"/>
+  <project name="apps/core/preloaded/notification" path="apps/core/preloaded/notification" groups="apps"/>
+  <project name="apps/core/preloaded/print-service" path="apps/core/preloaded/print-service" groups="apps"/>
+  <project name="apps/core/preloaded/pwlock" path="apps/core/preloaded/pwlock" groups="apps"/>
+  <project name="apps/core/preloaded/settings" path="apps/core/preloaded/settings" groups="apps"/>
+  <project name="apps/core/preloaded/starter" path="apps/core/preloaded/starter" groups="apps"/>
+  <project name="apps/core/preloaded/taskmanager" path="apps/core/preloaded/taskmanager" groups="apps"/>
+  <project name="apps/core/preloaded/tickernoti" path="apps/core/preloaded/tickernoti" groups="apps"/>
+  <project name="apps/core/preloaded/ug-camera-efl" path="apps/core/preloaded/ug-camera-efl" groups="apps"/>
+  <project name="apps/core/preloaded/ug-setting-gallery-efl" path="apps/core/preloaded/ug-setting-gallery-efl" groups="apps"/>
+  <project name="apps/core/preloaded/ug-setting-homescreen-efl" path="apps/core/preloaded/ug-setting-homescreen-efl" groups="apps"/>
+  <project name="apps/core/preloaded/usb-manager" path="apps/core/preloaded/usb-manager" groups="apps"/>
+  <project name="apps/core/preloaded/usb-syspopup" path="apps/core/preloaded/usb-syspopup" groups="apps"/>
+  <project name="apps/core/preloaded/volume-app" path="apps/core/preloaded/volume-app" groups="apps"/>
+</manifest>
