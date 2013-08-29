@@ -155,7 +155,7 @@
   <project name="platform/core/system/sys-assert" path="platform/core/system/sys-assert" groups="platform"/>
   <project name="platform/core/system/system-popup" path="platform/core/system/system-popup" groups="platform"/>
   <project name="platform/core/system/system-server" path="platform/core/system/system-server" groups="platform"/>
-  <project name="platform/core/telephony/libslp-tapi" path="platform/core/telephony/libslp-tapi" groups="platform"/>
+  <project name="platform/core/telephony/libtapi" path="platform/core/telephony/libtapi" groups="platform"/>
   <project name="platform/core/telephony/libtcore" path="platform/core/telephony/libtcore" groups="platform"/>
   <project name="platform/core/telephony/tel-plugin-at_standard" path="platform/core/telephony/tel-plugin-at_standard" groups="platform"/>
   <project name="platform/core/telephony/tel-plugin-atmodem" path="platform/core/telephony/tel-plugin-atmodem" groups="platform"/>

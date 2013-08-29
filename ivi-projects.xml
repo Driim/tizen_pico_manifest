@@ -817,6 +817,7 @@
   <project name="profile/ivi/ico-uxf-weston-plugin" path="profile/ivi/ico-uxf-weston-plugin" groups="ivi"/>
   <project name="profile/ivi/ivi-repos" path="profile/ivi/ivi-repos" groups="ivi"/>
   <project name="profile/ivi/ivi-repos-x86_64" path="profile/ivi/ivi-repos-x86_64" groups="ivi"/>
+  <project name="profile/ivi/kernel-x86-ivi" path="profile/ivi/kernel-x86-ivi" groups="ivi"/>
   <project name="profile/ivi/lemolo" path="profile/ivi/lemolo" groups="ivi"/>
   <project name="profile/ivi/libgsignon-glib" path="profile/ivi/libgsignon-glib" groups="ivi"/>
   <project name="profile/ivi/libwebsockets" path="profile/ivi/libwebsockets" groups="ivi"/>
