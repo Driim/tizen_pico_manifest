@@ -119,6 +119,9 @@
   <project name="platform/core/multimedia/media-data-sdk" path="platform/core/multimedia/media-data-sdk" groups="platform"/>
   <project name="platform/core/multimedia/media-server" path="platform/core/multimedia/media-server" groups="platform"/>
   <project name="platform/core/multimedia/mmfw-sysconf" path="platform/core/multimedia/mmfw-sysconf" groups="platform"/>
+  <project name="platform/core/multimedia/gst-plugins-audio-hwdec" path="platform/core/multimedia/gst-plugins-audio-hwdec" groups="platform"/>
+  <project name="platform/core/multimedia/pulseaudio-modules-audio-dsp" path="platform/core/multimedia/pulseaudio-modules-audio-dsp" groups="platform"/>
+  <project name="platform/core/multimedia/tinycompress" path="platform/core/multimedia/tinycompress" groups="platform"/>
   <project name="platform/core/pim/calendar-service" path="platform/core/pim/calendar-service" groups="platform"/>
   <project name="platform/core/pim/contacts-service" path="platform/core/pim/contacts-service" groups="platform"/>
   <project name="platform/core/pim/libaccounts-svc" path="platform/core/pim/libaccounts-svc" groups="platform"/>
