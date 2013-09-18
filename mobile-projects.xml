@@ -29,7 +29,6 @@
   <project name="apps/core/preloaded/my-account" path="apps/core/preloaded/my-account" groups="mobile"/>
   <project name="apps/core/preloaded/myfiles" path="apps/core/preloaded/myfiles" groups="mobile"/>
   <project name="apps/core/preloaded/net-popup" path="apps/core/preloaded/net-popup" groups="mobile"/>
-  <project name="apps/core/preloaded/notification" path="apps/core/preloaded/notification" groups="mobile"/>
   <project name="apps/core/preloaded/phone-contacts" path="apps/core/preloaded/phone-contacts" groups="mobile"/>
   <project name="apps/core/preloaded/print-service" path="apps/core/preloaded/print-service" groups="mobile"/>
   <project name="apps/core/preloaded/pwlock" path="apps/core/preloaded/pwlock" groups="mobile"/>
@@ -90,6 +89,7 @@
   <project name="platform/core/api/mime-type" path="platform/core/api/mime-type" groups="mobile"/>
   <project name="platform/core/api/network-info" path="platform/core/api/network-info" groups="mobile"/>
   <project name="platform/core/api/nfc" path="platform/core/api/nfc" groups="mobile"/>
+  <project name="platform/core/api/notification" path="platform/core/api/notification" groups="mobile"/>
   <project name="platform/core/api/package-manager" path="platform/core/api/package-manager" groups="mobile"/>
   <project name="platform/core/api/player" path="platform/core/api/player" groups="mobile"/>
   <project name="platform/core/api/poi" path="platform/core/api/poi" groups="mobile"/>

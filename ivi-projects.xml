@@ -16,7 +16,6 @@
   <project name="apps/core/preloaded/menu-screen" path="apps/core/preloaded/menu-screen" groups="ivi"/>
   <project name="apps/core/preloaded/minicontrol" path="apps/core/preloaded/minicontrol" groups="ivi"/>
   <project name="apps/core/preloaded/net-popup" path="apps/core/preloaded/net-popup" groups="ivi"/>
-  <project name="apps/core/preloaded/notification" path="apps/core/preloaded/notification" groups="ivi"/>
   <project name="apps/core/preloaded/print-service" path="apps/core/preloaded/print-service" groups="ivi"/>
   <project name="apps/core/preloaded/pwlock" path="apps/core/preloaded/pwlock" groups="ivi"/>
   <project name="apps/core/preloaded/settings" path="apps/core/preloaded/settings" groups="ivi"/>
@@ -53,6 +52,7 @@
   <project name="platform/core/api/mime-type" path="platform/core/api/mime-type" groups="ivi"/>
   <project name="platform/core/api/network-info" path="platform/core/api/network-info" groups="ivi"/>
   <project name="platform/core/api/nfc" path="platform/core/api/nfc" groups="ivi"/>
+  <project name="platform/core/api/notification" path="platform/core/api/notification" groups="ivi"/>
   <project name="platform/core/api/package-manager" path="platform/core/api/package-manager" groups="ivi"/>
   <project name="platform/core/api/player" path="platform/core/api/player" groups="ivi"/>
   <project name="platform/core/api/poi" path="platform/core/api/poi" groups="ivi"/>

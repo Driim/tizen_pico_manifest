@@ -23,6 +23,7 @@
   <project name="platform/core/api/mime-type" path="platform/core/api/mime-type" groups="platform"/>
   <project name="platform/core/api/network-info" path="platform/core/api/network-info" groups="platform"/>
   <project name="platform/core/api/nfc" path="platform/core/api/nfc" groups="platform"/>
+  <project name="platform/core/api/notification" path="platform/core/api/notification" groups="platform"/>
   <project name="platform/core/api/package-manager" path="platform/core/api/package-manager" groups="platform"/>
   <project name="platform/core/api/player" path="platform/core/api/player" groups="platform"/>
   <project name="platform/core/api/poi" path="platform/core/api/poi" groups="platform"/>

@@ -16,7 +16,6 @@
   <project name="apps/core/preloaded/menu-screen" path="apps/core/preloaded/menu-screen" groups="apps"/>
   <project name="apps/core/preloaded/minicontrol" path="apps/core/preloaded/minicontrol" groups="apps"/>
   <project name="apps/core/preloaded/net-popup" path="apps/core/preloaded/net-popup" groups="apps"/>
-  <project name="apps/core/preloaded/notification" path="apps/core/preloaded/notification" groups="apps"/>
   <project name="apps/core/preloaded/print-service" path="apps/core/preloaded/print-service" groups="apps"/>
   <project name="apps/core/preloaded/pwlock" path="apps/core/preloaded/pwlock" groups="apps"/>
   <project name="apps/core/preloaded/settings" path="apps/core/preloaded/settings" groups="apps"/>
