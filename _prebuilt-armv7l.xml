@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-<!-- THIS IS FOR FUTURE LOCAL FULL BUILD USAGE
-  <project name="prebuilts/armv7l/xxx.git" path="prebuilts/armv7l/xxx.git" groups="prebuilts"/>
-  <project name="prebuilts/armv7l/yyy.git" path="prebuilts/armv7l/yyy.git" groups="prebuilts"/>
- THIS IS FOR FUTURE LOCAL FULL BUILD USAGE -->
-
-</manifest>
