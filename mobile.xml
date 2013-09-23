@@ -4,9 +4,7 @@
   <default revision="tizen"
            remote="tizen-gerrit"
            sync-j="4" />
-  <include name="_metadata.xml" />
-  <include name="_prebuilt-i586.xml" />
-  <include name="_prebuilt-armv7l.xml" />
-  <include name="mobile-projects.xml" />
-  <include name="tools-projects.xml" />
+  <include name="mobile/metadata.xml" />
+  <include name="mobile/prebuilt.xml" />
+  <include name="mobile/projects.xml" />
 </manifest>

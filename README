@@ -1,0 +1,54 @@
+=================================
+Manifest files for Tizen packages
+=================================
+
+Branches
+--------
+
+Different branches of manifest git are mapped to different version of Tizen:
+
+=========   ================
+Branches    Version of Tizen
+=========   ================
+tizen_2.1   2.1
+tizen_2.1   2.2
+tizen       3.0
+=========   ================
+
+Main manifest files for different branches(Versions)
+----------------------------------------------------
+
+Tizen 2.1 and Tizen 2.2
+'''''''''''''''''''''''
+
+Tizen 2.1 and Tizen 2.2 have the same manifest structure:
+
+- _metadata.xml:
+
+  meta packages including image-configuation, package-groups, build-config and gbs-config
+
+- _prebuilt-{i586, arm}.xml:
+
+  pre-built binary toolchain related packages, which are used for local full buuild
+
+- _projects.xml:
+
+  different groups of packages
+
+There's only no profile special manifest file in Tizen 2.1 and Tizen 2.2,
+only common (default.xml) exists.
+
+Tizen 3.0
+'''''''''
+
+IVI and Mobile profiles are supportted in Tizen 3.0.
+
+ivi.xml: main index file for ivi profile
+mobile.xml: main index file for mobile profile
+
+Different profiles have its' different package list and pre-builts, as there's no
+common packages are shared, so packages list must be maintained individually.
+
+Basic Usage::
+    $  repo init -u <url> -b tizen -m ivi.xml
+    $  repo init -u <url> -b tizen -m mobile.xml

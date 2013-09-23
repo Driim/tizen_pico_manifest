@@ -4,9 +4,7 @@
   <default revision="tizen"
            remote="tizen-gerrit"
            sync-j="4" />
-  <include name="_metadata.xml" />
-  <include name="_prebuilt-i586.xml" />
-  <include name="_prebuilt-armv7l.xml" />
-  <include name="ivi-projects.xml" />
-  <include name="tools-projects.xml" />
+  <include name="ivi/metadata.xml" />
+  <include name="ivi/prebuilt.xml" />
+  <include name="ivi/projects.xml" />
 </manifest>

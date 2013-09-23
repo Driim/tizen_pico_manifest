@@ -827,4 +827,5 @@
   <project name="profile/ivi/weekeyboard" path="profile/ivi/weekeyboard" groups="ivi"/>
   <project name="profile/ivi/wrt-plugins-ivi" path="profile/ivi/wrt-plugins-ivi" groups="ivi"/>
   <project name="sdk/system-plugin-emulator" path="sdk/system-plugin-emulator" groups="ivi"/>
+  <project name="tools/mic-bootstrap" path="tools/mic-bootstrap" groups="ivi"/>
 </manifest>

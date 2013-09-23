@@ -851,4 +851,5 @@
   <project name="profile/mobile/tizen-mobile-session" path="profile/mobile/tizen-mobile-session" groups="mobile"/>
   <project name="sdk/simulator-opengl" path="sdk/simulator-opengl" groups="mobile"/>
   <project name="sdk/tools/web-app-checker" path="sdk/tools/web-app-checker" groups="mobile"/>
+  <project name="tools/mic-bootstrap" path="tools/mic-bootstrap" groups="mobile"/>
 </manifest>
