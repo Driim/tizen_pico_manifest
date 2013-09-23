@@ -296,7 +296,6 @@
   <project name="platform/upstream/efreet" path="platform/upstream/efreet" groups="platform"/>
   <project name="platform/upstream/eina" path="platform/upstream/eina" groups="platform"/>
   <project name="platform/upstream/eio" path="platform/upstream/eio" groups="platform"/>
-  <project name="platform/upstream/eject" path="platform/upstream/eject" groups="platform"/>
   <project name="platform/upstream/elementary" path="platform/upstream/elementary" groups="platform"/>
   <project name="platform/upstream/elfutils" path="platform/upstream/elfutils" groups="platform"/>
   <project name="platform/upstream/embryo" path="platform/upstream/embryo" groups="platform"/>
