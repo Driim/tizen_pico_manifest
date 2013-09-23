@@ -4,7 +4,6 @@
   <project name="apps/core/preloaded/app-selector" path="apps/core/preloaded/app-selector" groups="mobile"/>
   <project name="apps/core/preloaded/boot-animation" path="apps/core/preloaded/boot-animation" groups="mobile"/>
   <project name="apps/core/preloaded/bt-syspopup" path="apps/core/preloaded/bt-syspopup" groups="mobile"/>
-  <project name="apps/core/preloaded/calculator" path="apps/core/preloaded/calculator" groups="mobile"/>
   <project name="apps/core/preloaded/calendar" path="apps/core/preloaded/calendar" groups="mobile"/>
   <project name="apps/core/preloaded/call" path="apps/core/preloaded/call" groups="mobile"/>
   <project name="apps/core/preloaded/call-setting" path="apps/core/preloaded/call-setting" groups="mobile"/>
@@ -13,8 +12,6 @@
   <project name="apps/core/preloaded/clock" path="apps/core/preloaded/clock" groups="mobile"/>
   <project name="apps/core/preloaded/draglock" path="apps/core/preloaded/draglock" groups="mobile"/>
   <project name="apps/core/preloaded/email" path="apps/core/preloaded/email" groups="mobile"/>
-  <project name="apps/core/preloaded/gallery" path="apps/core/preloaded/gallery" groups="mobile"/>
-  <project name="apps/core/preloaded/image-viewer" path="apps/core/preloaded/image-viewer" groups="mobile"/>
   <project name="apps/core/preloaded/indicator-win" path="apps/core/preloaded/indicator-win" groups="mobile"/>
   <project name="apps/core/preloaded/libslp-alarm" path="apps/core/preloaded/libslp-alarm" groups="mobile"/>
   <project name="apps/core/preloaded/libslp-memo" path="apps/core/preloaded/libslp-memo" groups="mobile"/>
@@ -27,7 +24,6 @@
   <project name="apps/core/preloaded/minicontrol" path="apps/core/preloaded/minicontrol" groups="mobile"/>
   <project name="apps/core/preloaded/music-player" path="apps/core/preloaded/music-player" groups="mobile"/>
   <project name="apps/core/preloaded/my-account" path="apps/core/preloaded/my-account" groups="mobile"/>
-  <project name="apps/core/preloaded/myfiles" path="apps/core/preloaded/myfiles" groups="mobile"/>
   <project name="apps/core/preloaded/net-popup" path="apps/core/preloaded/net-popup" groups="mobile"/>
   <project name="apps/core/preloaded/phone-contacts" path="apps/core/preloaded/phone-contacts" groups="mobile"/>
   <project name="apps/core/preloaded/print-service" path="apps/core/preloaded/print-service" groups="mobile"/>
@@ -53,7 +49,6 @@
   <project name="apps/core/preloaded/ug-wifi-efl" path="apps/core/preloaded/ug-wifi-efl" groups="mobile"/>
   <project name="apps/core/preloaded/usb-manager" path="apps/core/preloaded/usb-manager" groups="mobile"/>
   <project name="apps/core/preloaded/usb-syspopup" path="apps/core/preloaded/usb-syspopup" groups="mobile"/>
-  <project name="apps/core/preloaded/video-player" path="apps/core/preloaded/video-player" groups="mobile"/>
   <project name="apps/core/preloaded/volume-app" path="apps/core/preloaded/volume-app" groups="mobile"/>
   <project name="apps/core/preloaded/wrt-setting" path="apps/core/preloaded/wrt-setting" groups="mobile"/>
   <project name="platform/adaptation/intel_mfld/bootstub-mfld-blackbay" path="platform/adaptation/intel_mfld/bootstub-mfld-blackbay" groups="mobile"/>
@@ -160,7 +155,6 @@
   <project name="platform/core/location/lbs-dbus" path="platform/core/location/lbs-dbus" groups="mobile"/>
   <project name="platform/core/location/liblocation-appman" path="platform/core/location/liblocation-appman" groups="mobile"/>
   <project name="platform/core/location/libslp-location" path="platform/core/location/libslp-location" groups="mobile"/>
-  <project name="platform/core/location/location-module" path="platform/core/location/location-module" groups="mobile"/>
   <project name="platform/core/location/ug-setting-location-efl" path="platform/core/location/ug-setting-location-efl" groups="mobile"/>
   <project name="platform/core/messaging/email-service" path="platform/core/messaging/email-service" groups="mobile"/>
   <project name="platform/core/messaging/msg-service" path="platform/core/messaging/msg-service" groups="mobile"/>
@@ -400,7 +394,6 @@
   <project name="platform/upstream/gdb" path="platform/upstream/gdb" groups="mobile"/>
   <project name="platform/upstream/gdbm" path="platform/upstream/gdbm" groups="mobile"/>
   <project name="platform/upstream/gdk-pixbuf" path="platform/upstream/gdk-pixbuf" groups="mobile"/>
-  <project name="platform/upstream/geoclue" path="platform/upstream/geoclue" groups="mobile"/>
   <project name="platform/upstream/gettext" path="platform/upstream/gettext" groups="mobile"/>
   <project name="platform/upstream/giflib" path="platform/upstream/giflib" groups="mobile"/>
   <project name="platform/upstream/git" path="platform/upstream/git" groups="mobile"/>
