@@ -849,6 +849,14 @@
   <project name="profile/mobile/gstreamer0.10-ffmpeg" path="profile/mobile/gstreamer0.10-ffmpeg" groups="mobile"/>
   <project name="profile/mobile/meta-mobile" path="profile/mobile/meta-mobile" groups="mobile"/>
   <project name="profile/mobile/tizen-mobile-session" path="profile/mobile/tizen-mobile-session" groups="mobile"/>
+  <project name="profile/mobile/gst-plugins-ext0.10" path="profile/mobile/gst-plugins-ext0.10" group="mobile"/>
+  <project name="profile/mobile/gst-rtsp-server-wfd" path="profile/mobile/gst-rtsp-server-wfd" group="mobile"/>
+  <project name="profile/mobile/libmm-wfd" path="profile/mobile/libmm-wfd" group="mobile"/>
+  <project name="profile/mobile/ug-wifi-display" path="profile/mobile/ug-wifi-display" group="mobile"/>
+  <project name="profile/mobile/wifi-direct-manager" path="profile/mobile/wifi-direct-manager" group="mobile"/>
+  <project name="profile/mobile/wpa_supplicant" path="profile/mobile/wpa_supplicant" group="mobile"/>
+  <project name="profile/mobile/vconf-internal-keys" path="profile/mobile/vconf-internal-keys" group="mobile"/>
+  <project name="profile/mobile/gst-plugins-good" path="profile/mobile/gst-plugins-good" group="mobile"/>
   <project name="sdk/simulator-opengl" path="sdk/simulator-opengl" groups="mobile"/>
   <project name="sdk/tools/web-app-checker" path="sdk/tools/web-app-checker" groups="mobile"/>
   <project name="tools/mic-bootstrap" path="tools/mic-bootstrap" groups="mobile"/>
