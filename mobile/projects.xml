@@ -252,6 +252,7 @@
   <project name="platform/core/uifw/libttssmt" path="platform/core/uifw/libttssmt" groups="mobile"/>
   <project name="platform/core/uifw/stt" path="platform/core/uifw/stt" groups="mobile"/>
   <project name="platform/core/uifw/tts" path="platform/core/uifw/tts" groups="mobile"/>
+  <project name="platform/core/uifw/efl-assist" path="platform/core/uifw/efl-assist" groups="mobile"/>
   <project name="platform/framework/native/appfw" path="platform/framework/native/appfw" groups="mobile"/>
   <project name="platform/framework/native/channel-service" path="platform/framework/native/channel-service" groups="mobile"/>
   <project name="platform/framework/native/env-config" path="platform/framework/native/env-config" groups="mobile"/>
