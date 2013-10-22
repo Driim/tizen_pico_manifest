@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="adaptation/intel_mfld/tel-plugin-mfld-blackbay" path="adaptation/intel_mfld/tel-plugin-mfld-blackbay" groups="mobile"/>
   <project name="apps/core/preloaded/app-selector" path="apps/core/preloaded/app-selector" groups="mobile"/>
   <project name="apps/core/preloaded/boot-animation" path="apps/core/preloaded/boot-animation" groups="mobile"/>
   <project name="apps/core/preloaded/bt-syspopup" path="apps/core/preloaded/bt-syspopup" groups="mobile"/>
+  <project name="apps/core/preloaded/calculator" path="apps/core/preloaded/calculator" groups="mobile"/>
   <project name="apps/core/preloaded/calendar" path="apps/core/preloaded/calendar" groups="mobile"/>
   <project name="apps/core/preloaded/call" path="apps/core/preloaded/call" groups="mobile"/>
   <project name="apps/core/preloaded/call-setting" path="apps/core/preloaded/call-setting" groups="mobile"/>
   <project name="apps/core/preloaded/camera" path="apps/core/preloaded/camera" groups="mobile"/>
+  <project name="apps/core/preloaded/charging-animation" path="apps/core/preloaded/charging-animation" groups="mobile"/>
   <project name="apps/core/preloaded/ciss" path="apps/core/preloaded/ciss" groups="mobile"/>
   <project name="apps/core/preloaded/clock" path="apps/core/preloaded/clock" groups="mobile"/>
   <project name="apps/core/preloaded/draglock" path="apps/core/preloaded/draglock" groups="mobile"/>
   <project name="apps/core/preloaded/email" path="apps/core/preloaded/email" groups="mobile"/>
+  <project name="apps/core/preloaded/gallery" path="apps/core/preloaded/gallery" groups="mobile"/>
+  <project name="apps/core/preloaded/image-viewer" path="apps/core/preloaded/image-viewer" groups="mobile"/>
   <project name="apps/core/preloaded/indicator-win" path="apps/core/preloaded/indicator-win" groups="mobile"/>
   <project name="apps/core/preloaded/libslp-alarm" path="apps/core/preloaded/libslp-alarm" groups="mobile"/>
   <project name="apps/core/preloaded/libslp-memo" path="apps/core/preloaded/libslp-memo" groups="mobile"/>
@@ -22,8 +25,10 @@
   <project name="apps/core/preloaded/menu-screen" path="apps/core/preloaded/menu-screen" groups="mobile"/>
   <project name="apps/core/preloaded/message-app" path="apps/core/preloaded/message-app" groups="mobile"/>
   <project name="apps/core/preloaded/minicontrol" path="apps/core/preloaded/minicontrol" groups="mobile"/>
+  <project name="apps/core/preloaded/mobileprint" path="apps/core/preloaded/mobileprint" groups="mobile"/>
   <project name="apps/core/preloaded/music-player" path="apps/core/preloaded/music-player" groups="mobile"/>
   <project name="apps/core/preloaded/my-account" path="apps/core/preloaded/my-account" groups="mobile"/>
+  <project name="apps/core/preloaded/myfiles" path="apps/core/preloaded/myfiles" groups="mobile"/>
   <project name="apps/core/preloaded/net-popup" path="apps/core/preloaded/net-popup" groups="mobile"/>
   <project name="apps/core/preloaded/phone-contacts" path="apps/core/preloaded/phone-contacts" groups="mobile"/>
   <project name="apps/core/preloaded/print-service" path="apps/core/preloaded/print-service" groups="mobile"/>
@@ -49,18 +54,25 @@
   <project name="apps/core/preloaded/ug-wifi-efl" path="apps/core/preloaded/ug-wifi-efl" groups="mobile"/>
   <project name="apps/core/preloaded/usb-manager" path="apps/core/preloaded/usb-manager" groups="mobile"/>
   <project name="apps/core/preloaded/usb-syspopup" path="apps/core/preloaded/usb-syspopup" groups="mobile"/>
+  <project name="apps/core/preloaded/video-player" path="apps/core/preloaded/video-player" groups="mobile"/>
   <project name="apps/core/preloaded/volume-app" path="apps/core/preloaded/volume-app" groups="mobile"/>
   <project name="apps/core/preloaded/wrt-setting" path="apps/core/preloaded/wrt-setting" groups="mobile"/>
+  <project name="platform/adaptation/emulator/emulator-plugin-nfc" path="platform/adaptation/emulator/emulator-plugin-nfc" groups="mobile"/>
   <project name="platform/adaptation/intel_mfld/bootstub-mfld-blackbay" path="platform/adaptation/intel_mfld/bootstub-mfld-blackbay" groups="mobile"/>
   <project name="platform/adaptation/intel_mfld/device-configs-mfld-blackbay" path="platform/adaptation/intel_mfld/device-configs-mfld-blackbay" groups="mobile"/>
   <project name="platform/adaptation/intel_mfld/device-manager-plugin-mfld-blackbay" path="platform/adaptation/intel_mfld/device-manager-plugin-mfld-blackbay" groups="mobile"/>
   <project name="platform/adaptation/intel_mfld/linux-firmware-mfld" path="platform/adaptation/intel_mfld/linux-firmware-mfld" groups="mobile"/>
   <project name="platform/adaptation/intel_mfld/mmfw-sysconf-mfld-blackbay" path="platform/adaptation/intel_mfld/mmfw-sysconf-mfld-blackbay" groups="mobile"/>
   <project name="platform/adaptation/intel_mfld/preos-runtime" path="platform/adaptation/intel_mfld/preos-runtime" groups="mobile"/>
-  <project name="platform/adaptation/intel_mfld/psb-headers" path="platform/adaptation/intel_mfld/psb-headers" groups="mobile"/>
-  <project name="platform/adaptation/intel_mfld/psb-video-mfld" path="platform/adaptation/intel_mfld/psb-video-mfld" groups="mobile"/>
-  <project name="platform/adaptation/intel_mfld/pvr-bin-mdfld" path="platform/adaptation/intel_mfld/pvr-bin-mdfld" groups="mobile"/>
   <project name="platform/adaptation/intel_mfld/xorg-server-configs-mfld-blackbay" path="platform/adaptation/intel_mfld/xorg-server-configs-mfld-blackbay" groups="mobile"/>
+  <project name="platform/adaptation/samsung_exynos/libtbm-exynos4412" path="platform/adaptation/samsung_exynos/libtbm-exynos4412" groups="mobile"/>
+  <project name="platform/adaptation/samsung_exynos/xf86-misc-exynos4412" path="platform/adaptation/samsung_exynos/xf86-misc-exynos4412" groups="mobile"/>
+  <project name="platform/adaptation/samsung_exynos/xf86-video-exynos" path="platform/adaptation/samsung_exynos/xf86-video-exynos" groups="mobile"/>
+  <project name="platform/adaptation/xf86-input-evdevmultitouch" path="platform/adaptation/xf86-input-evdevmultitouch" groups="mobile"/>
+  <project name="platform/adaptation/xf86-input-gesture" path="platform/adaptation/xf86-input-gesture" groups="mobile"/>
+  <project name="platform/adaptation/xf86-misc-emulfb" path="platform/adaptation/xf86-misc-emulfb" groups="mobile"/>
+  <project name="platform/adaptation/xf86-module-xdbg" path="platform/adaptation/xf86-module-xdbg" groups="mobile"/>
+  <project name="platform/adaptation/xf86-video-emulfb" path="platform/adaptation/xf86-video-emulfb" groups="mobile"/>
   <project name="platform/core/api/app-manager" path="platform/core/api/app-manager" groups="mobile"/>
   <project name="platform/core/api/application" path="platform/core/api/application" groups="mobile"/>
   <project name="platform/core/api/audio-io" path="platform/core/api/audio-io" groups="mobile"/>
@@ -161,6 +173,8 @@
   <project name="platform/core/multimedia/alsa-scenario-0.2" path="platform/core/multimedia/alsa-scenario-0.2" groups="mobile"/>
   <project name="platform/core/multimedia/audio-session-manager" path="platform/core/multimedia/audio-session-manager" groups="mobile"/>
   <project name="platform/core/multimedia/avsystem" path="platform/core/multimedia/avsystem" groups="mobile"/>
+  <project name="platform/core/multimedia/gst-plugins-ext0.10" path="platform/core/multimedia/gst-plugins-ext0.10" groups="mobile"/>
+  <project name="platform/core/multimedia/gst-rtsp-server-wfd" path="platform/core/multimedia/gst-rtsp-server-wfd" groups="mobile"/>
   <project name="platform/core/multimedia/libcamsrcjpegenc" path="platform/core/multimedia/libcamsrcjpegenc" groups="mobile"/>
   <project name="platform/core/multimedia/libcamsrcjpegenc-sw-libjpeg" path="platform/core/multimedia/libcamsrcjpegenc-sw-libjpeg" groups="mobile"/>
   <project name="platform/core/multimedia/libmedia-service" path="platform/core/multimedia/libmedia-service" groups="mobile"/>
@@ -170,13 +184,13 @@
   <project name="platform/core/multimedia/libmm-fileinfo" path="platform/core/multimedia/libmm-fileinfo" groups="mobile"/>
   <project name="platform/core/multimedia/libmm-imgp-gstcs" path="platform/core/multimedia/libmm-imgp-gstcs" groups="mobile"/>
   <project name="platform/core/multimedia/libmm-log" path="platform/core/multimedia/libmm-log" groups="mobile"/>
-  <project name="platform/core/multimedia/libmm-player" path="platform/core/multimedia/libmm-player" groups="mobile"/>
   <project name="platform/core/multimedia/libmm-radio" path="platform/core/multimedia/libmm-radio" groups="mobile"/>
   <project name="platform/core/multimedia/libmm-session" path="platform/core/multimedia/libmm-session" groups="mobile"/>
   <project name="platform/core/multimedia/libmm-sound" path="platform/core/multimedia/libmm-sound" groups="mobile"/>
   <project name="platform/core/multimedia/libmm-ta" path="platform/core/multimedia/libmm-ta" groups="mobile"/>
   <project name="platform/core/multimedia/libmm-transcode" path="platform/core/multimedia/libmm-transcode" groups="mobile"/>
   <project name="platform/core/multimedia/libmm-utility" path="platform/core/multimedia/libmm-utility" groups="mobile"/>
+  <project name="platform/core/multimedia/libmm-wfd" path="platform/core/multimedia/libmm-wfd" groups="mobile"/>
   <project name="platform/core/multimedia/media-data-sdk" path="platform/core/multimedia/media-data-sdk" groups="mobile"/>
   <project name="platform/core/multimedia/media-server" path="platform/core/multimedia/media-server" groups="mobile"/>
   <project name="platform/core/pim/calendar-service" path="platform/core/pim/calendar-service" groups="mobile"/>
@@ -187,10 +201,14 @@
   <project name="platform/core/security/cert-svc-ui" path="platform/core/security/cert-svc-ui" groups="mobile"/>
   <project name="platform/core/security/default-ac-domains" path="platform/core/security/default-ac-domains" groups="mobile"/>
   <project name="platform/core/security/drm-client" path="platform/core/security/drm-client" groups="mobile"/>
+  <project name="platform/core/security/drm-service-core-tizen" path="platform/core/security/drm-service-core-tizen" groups="mobile"/>
   <project name="platform/core/security/dukgenerator" path="platform/core/security/dukgenerator" groups="mobile"/>
+  <project name="platform/core/security/hash-signer" path="platform/core/security/hash-signer" groups="mobile"/>
   <project name="platform/core/security/libcryptsvc" path="platform/core/security/libcryptsvc" groups="mobile"/>
   <project name="platform/core/security/libprivilege-control" path="platform/core/security/libprivilege-control" groups="mobile"/>
   <project name="platform/core/security/privacy-manager" path="platform/core/security/privacy-manager" groups="mobile"/>
+  <project name="platform/core/security/privacy-popup" path="platform/core/security/privacy-popup" groups="mobile"/>
+  <project name="platform/core/security/privilege-checker" path="platform/core/security/privilege-checker" groups="mobile"/>
   <project name="platform/core/security/secure-storage" path="platform/core/security/secure-storage" groups="mobile"/>
   <project name="platform/core/security/security-server" path="platform/core/security/security-server" groups="mobile"/>
   <project name="platform/core/system/devman" path="platform/core/system/devman" groups="mobile"/>
@@ -234,6 +252,8 @@
   <project name="platform/core/uifw/e17-extra-config-modules" path="platform/core/uifw/e17-extra-config-modules" groups="mobile"/>
   <project name="platform/core/uifw/e17-extra-modules" path="platform/core/uifw/e17-extra-modules" groups="mobile"/>
   <project name="platform/core/uifw/e17-misc" path="platform/core/uifw/e17-misc" groups="mobile"/>
+  <project name="platform/core/uifw/edje-multisense-plugin" path="platform/core/uifw/edje-multisense-plugin" groups="mobile"/>
+  <project name="platform/core/uifw/efl-assist" path="platform/core/uifw/efl-assist" groups="mobile"/>
   <project name="platform/core/uifw/efl-theme-tizen" path="platform/core/uifw/efl-theme-tizen" groups="mobile"/>
   <project name="platform/core/uifw/elm-misc" path="platform/core/uifw/elm-misc" groups="mobile"/>
   <project name="platform/core/uifw/ise-default" path="platform/core/uifw/ise-default" groups="mobile"/>
@@ -252,13 +272,33 @@
   <project name="platform/core/uifw/libttssmt" path="platform/core/uifw/libttssmt" groups="mobile"/>
   <project name="platform/core/uifw/stt" path="platform/core/uifw/stt" groups="mobile"/>
   <project name="platform/core/uifw/tts" path="platform/core/uifw/tts" groups="mobile"/>
-  <project name="platform/core/uifw/efl-assist" path="platform/core/uifw/efl-assist" groups="mobile"/>
+  <project name="platform/framework/native/app-service" path="platform/framework/native/app-service" groups="mobile"/>
   <project name="platform/framework/native/appfw" path="platform/framework/native/appfw" groups="mobile"/>
+  <project name="platform/framework/native/bluetooth" path="platform/framework/native/bluetooth" groups="mobile"/>
   <project name="platform/framework/native/channel-service" path="platform/framework/native/channel-service" groups="mobile"/>
+  <project name="platform/framework/native/compat" path="platform/framework/native/compat" groups="mobile"/>
+  <project name="platform/framework/native/content" path="platform/framework/native/content" groups="mobile"/>
   <project name="platform/framework/native/env-config" path="platform/framework/native/env-config" groups="mobile"/>
+  <project name="platform/framework/native/image" path="platform/framework/native/image" groups="mobile"/>
+  <project name="platform/framework/native/image-core" path="platform/framework/native/image-core" groups="mobile"/>
+  <project name="platform/framework/native/ime" path="platform/framework/native/ime" groups="mobile"/>
+  <project name="platform/framework/native/installer" path="platform/framework/native/installer" groups="mobile"/>
   <project name="platform/framework/native/json" path="platform/framework/native/json" groups="mobile"/>
   <project name="platform/framework/native/loader" path="platform/framework/native/loader" groups="mobile"/>
+  <project name="platform/framework/native/locations" path="platform/framework/native/locations" groups="mobile"/>
+  <project name="platform/framework/native/media" path="platform/framework/native/media" groups="mobile"/>
+  <project name="platform/framework/native/net" path="platform/framework/native/net" groups="mobile"/>
+  <project name="platform/framework/native/nfc" path="platform/framework/native/nfc" groups="mobile"/>
+  <project name="platform/framework/native/secure-element" path="platform/framework/native/secure-element" groups="mobile"/>
+  <project name="platform/framework/native/security-service" path="platform/framework/native/security-service" groups="mobile"/>
+  <project name="platform/framework/native/shell" path="platform/framework/native/shell" groups="mobile"/>
+  <project name="platform/framework/native/social" path="platform/framework/native/social" groups="mobile"/>
+  <project name="platform/framework/native/speech" path="platform/framework/native/speech" groups="mobile"/>
   <project name="platform/framework/native/sys-config" path="platform/framework/native/sys-config" groups="mobile"/>
+  <project name="platform/framework/native/telephony" path="platform/framework/native/telephony" groups="mobile"/>
+  <project name="platform/framework/native/uifw" path="platform/framework/native/uifw" groups="mobile"/>
+  <project name="platform/framework/native/uix" path="platform/framework/native/uix" groups="mobile"/>
+  <project name="platform/framework/native/vision" path="platform/framework/native/vision" groups="mobile"/>
   <project name="platform/framework/web/data-provider-master" path="platform/framework/web/data-provider-master" groups="mobile"/>
   <project name="platform/framework/web/data-provider-slave" path="platform/framework/web/data-provider-slave" groups="mobile"/>
   <project name="platform/framework/web/download-provider" path="platform/framework/web/download-provider" groups="mobile"/>
@@ -269,17 +309,13 @@
   <project name="platform/framework/web/livebox-service" path="platform/framework/web/livebox-service" groups="mobile"/>
   <project name="platform/framework/web/livebox-viewer" path="platform/framework/web/livebox-viewer" groups="mobile"/>
   <project name="platform/framework/web/provider" path="platform/framework/web/provider" groups="mobile"/>
-  <project name="platform/framework/web/web-ui-fw" path="platform/framework/web/web-ui-fw" groups="mobile"/>
   <project name="platform/framework/web/webkit-efl" path="platform/framework/web/webkit-efl" groups="mobile"/>
-  <project name="platform/framework/web/wrt" path="platform/framework/web/wrt" groups="mobile"/>
   <project name="platform/framework/web/wrt-commons" path="platform/framework/web/wrt-commons" groups="mobile"/>
   <project name="platform/framework/web/wrt-installer" path="platform/framework/web/wrt-installer" groups="mobile"/>
   <project name="platform/framework/web/wrt-plugins-common" path="platform/framework/web/wrt-plugins-common" groups="mobile"/>
+  <project name="platform/framework/web/wrt-plugins-tizen" path="platform/framework/web/wrt-plugins-tizen" groups="mobile"/>
   <project name="platform/framework/web/wrt-security" path="platform/framework/web/wrt-security" groups="mobile"/>
-  <project name="platform/kernel/kernel-mfld-blackbay" path="platform/kernel/kernel-mfld-blackbay" groups="mobile"/>
-  <project name="platform/upstream/SDL" path="platform/upstream/SDL" groups="mobile"/>
   <project name="platform/upstream/acl" path="platform/upstream/acl" groups="mobile"/>
-  <project name="platform/upstream/acpid" path="platform/upstream/acpid" groups="mobile"/>
   <project name="platform/upstream/adns" path="platform/upstream/adns" groups="mobile"/>
   <project name="platform/upstream/alsa-lib" path="platform/upstream/alsa-lib" groups="mobile"/>
   <project name="platform/upstream/alsa-plugins" path="platform/upstream/alsa-plugins" groups="mobile"/>
@@ -345,7 +381,6 @@
   <project name="platform/upstream/desktop-file-utils" path="platform/upstream/desktop-file-utils" groups="mobile"/>
   <project name="platform/upstream/device-mapper" path="platform/upstream/device-mapper" groups="mobile"/>
   <project name="platform/upstream/diffutils" path="platform/upstream/diffutils" groups="mobile"/>
-  <project name="platform/upstream/dmidecode" path="platform/upstream/dmidecode" groups="mobile"/>
   <project name="platform/upstream/dmxproto" path="platform/upstream/dmxproto" groups="mobile"/>
   <project name="platform/upstream/dnsmasq" path="platform/upstream/dnsmasq" groups="mobile"/>
   <project name="platform/upstream/docbook-xsl-stylesheets" path="platform/upstream/docbook-xsl-stylesheets" groups="mobile"/>
@@ -356,14 +391,11 @@
   <project name="platform/upstream/dracut" path="platform/upstream/dracut" groups="mobile"/>
   <project name="platform/upstream/dri2proto" path="platform/upstream/dri2proto" groups="mobile"/>
   <project name="platform/upstream/e2fsprogs" path="platform/upstream/e2fsprogs" groups="mobile"/>
-  <project name="platform/upstream/econnman" path="platform/upstream/econnman" groups="mobile"/>
   <project name="platform/upstream/ed" path="platform/upstream/ed" groups="mobile"/>
   <project name="platform/upstream/efi-shell" path="platform/upstream/efi-shell" groups="mobile"/>
-  <project name="platform/upstream/elementary" path="platform/upstream/elementary" groups="mobile"/>
+  <project name="platform/upstream/efreet" path="platform/upstream/efreet" groups="mobile"/>
   <project name="platform/upstream/elfutils" path="platform/upstream/elfutils" groups="mobile"/>
-  <project name="platform/upstream/emulator-macros" path="platform/upstream/emulator-macros" groups="mobile"/>
   <project name="platform/upstream/enchant" path="platform/upstream/enchant" groups="mobile"/>
-  <project name="platform/upstream/enlightenment" path="platform/upstream/enlightenment" groups="mobile"/>
   <project name="platform/upstream/epson-inkjet-printer-escpr" path="platform/upstream/epson-inkjet-printer-escpr" groups="mobile"/>
   <project name="platform/upstream/epson-laser-printer-escpage" path="platform/upstream/epson-laser-printer-escpage" groups="mobile"/>
   <project name="platform/upstream/evolution-data-server" path="platform/upstream/evolution-data-server" groups="mobile"/>
@@ -382,7 +414,6 @@
   <project name="platform/upstream/fontconfig" path="platform/upstream/fontconfig" groups="mobile"/>
   <project name="platform/upstream/fontsproto" path="platform/upstream/fontsproto" groups="mobile"/>
   <project name="platform/upstream/freealut" path="platform/upstream/freealut" groups="mobile"/>
-  <project name="platform/upstream/freeglut" path="platform/upstream/freeglut" groups="mobile"/>
   <project name="platform/upstream/freetype2" path="platform/upstream/freetype2" groups="mobile"/>
   <project name="platform/upstream/fribidi" path="platform/upstream/fribidi" groups="mobile"/>
   <project name="platform/upstream/fsync" path="platform/upstream/fsync" groups="mobile"/>
@@ -391,6 +422,7 @@
   <project name="platform/upstream/gcc" path="platform/upstream/gcc" groups="mobile"/>
   <project name="platform/upstream/gcc48" path="platform/upstream/gcc48" groups="mobile"/>
   <project name="platform/upstream/gccmakedep" path="platform/upstream/gccmakedep" groups="mobile"/>
+  <project name="platform/upstream/gcd" path="platform/upstream/gcd" groups="mobile"/>
   <project name="platform/upstream/gcr" path="platform/upstream/gcr" groups="mobile"/>
   <project name="platform/upstream/gdb" path="platform/upstream/gdb" groups="mobile"/>
   <project name="platform/upstream/gdbm" path="platform/upstream/gdbm" groups="mobile"/>
@@ -404,7 +436,6 @@
   <project name="platform/upstream/glproto" path="platform/upstream/glproto" groups="mobile"/>
   <project name="platform/upstream/gmp" path="platform/upstream/gmp" groups="mobile"/>
   <project name="platform/upstream/gnome-common" path="platform/upstream/gnome-common" groups="mobile"/>
-  <project name="platform/upstream/gnu-efi" path="platform/upstream/gnu-efi" groups="mobile"/>
   <project name="platform/upstream/gnutls" path="platform/upstream/gnutls" groups="mobile"/>
   <project name="platform/upstream/gobject-introspection" path="platform/upstream/gobject-introspection" groups="mobile"/>
   <project name="platform/upstream/google-droid-fonts" path="platform/upstream/google-droid-fonts" groups="mobile"/>
@@ -416,21 +447,18 @@
   <project name="platform/upstream/groff" path="platform/upstream/groff" groups="mobile"/>
   <project name="platform/upstream/gst-common" path="platform/upstream/gst-common" groups="mobile"/>
   <project name="platform/upstream/gst-libav" path="platform/upstream/gst-libav" groups="mobile"/>
-  <project name="platform/upstream/gst-omx" path="platform/upstream/gst-omx" groups="mobile"/>
-  <project name="platform/upstream/gst-plugins-bad" path="platform/upstream/gst-plugins-bad" groups="mobile"/>
   <project name="platform/upstream/gst-plugins-base" path="platform/upstream/gst-plugins-base" groups="mobile"/>
   <project name="platform/upstream/gst-plugins-good" path="platform/upstream/gst-plugins-good" groups="mobile"/>
   <project name="platform/upstream/gst-plugins-ugly" path="platform/upstream/gst-plugins-ugly" groups="mobile"/>
   <project name="platform/upstream/gstreamer" path="platform/upstream/gstreamer" groups="mobile"/>
-  <project name="platform/upstream/gstreamer-vaapi" path="platform/upstream/gstreamer-vaapi" groups="mobile"/>
   <project name="platform/upstream/gtest" path="platform/upstream/gtest" groups="mobile"/>
   <project name="platform/upstream/gtk-doc" path="platform/upstream/gtk-doc" groups="mobile"/>
-  <project name="platform/upstream/gummiboot" path="platform/upstream/gummiboot" groups="mobile"/>
   <project name="platform/upstream/gzip" path="platform/upstream/gzip" groups="mobile"/>
   <project name="platform/upstream/hardlink" path="platform/upstream/hardlink" groups="mobile"/>
   <project name="platform/upstream/harfbuzz" path="platform/upstream/harfbuzz" groups="mobile"/>
   <project name="platform/upstream/help2man" path="platform/upstream/help2man" groups="mobile"/>
   <project name="platform/upstream/hostname" path="platform/upstream/hostname" groups="mobile"/>
+  <project name="platform/upstream/hplip" path="platform/upstream/hplip" groups="mobile"/>
   <project name="platform/upstream/hunspell" path="platform/upstream/hunspell" groups="mobile"/>
   <project name="platform/upstream/hwdata" path="platform/upstream/hwdata" groups="mobile"/>
   <project name="platform/upstream/icecream" path="platform/upstream/icecream" groups="mobile"/>
@@ -451,7 +479,6 @@
   <project name="platform/upstream/json-glib" path="platform/upstream/json-glib" groups="mobile"/>
   <project name="platform/upstream/kbd" path="platform/upstream/kbd" groups="mobile"/>
   <project name="platform/upstream/kbproto" path="platform/upstream/kbproto" groups="mobile"/>
-  <project name="platform/upstream/kernel-adaptation-pc" path="platform/upstream/kernel-adaptation-pc" groups="mobile"/>
   <project name="platform/upstream/keyutils" path="platform/upstream/keyutils" groups="mobile"/>
   <project name="platform/upstream/kickstarter" path="platform/upstream/kickstarter" groups="mobile"/>
   <project name="platform/upstream/kmod" path="platform/upstream/kmod" groups="mobile"/>
@@ -543,11 +570,9 @@
   <project name="platform/upstream/libunwind" path="platform/upstream/libunwind" groups="mobile"/>
   <project name="platform/upstream/libusb" path="platform/upstream/libusb" groups="mobile"/>
   <project name="platform/upstream/libusb-compat" path="platform/upstream/libusb-compat" groups="mobile"/>
-  <project name="platform/upstream/libva" path="platform/upstream/libva" groups="mobile"/>
   <project name="platform/upstream/libvorbis" path="platform/upstream/libvorbis" groups="mobile"/>
   <project name="platform/upstream/libvpx" path="platform/upstream/libvpx" groups="mobile"/>
   <project name="platform/upstream/libwbxml2" path="platform/upstream/libwbxml2" groups="mobile"/>
-  <project name="platform/upstream/libwsbm" path="platform/upstream/libwsbm" groups="mobile"/>
   <project name="platform/upstream/libxcb" path="platform/upstream/libxcb" groups="mobile"/>
   <project name="platform/upstream/libxkbcommon" path="platform/upstream/libxkbcommon" groups="mobile"/>
   <project name="platform/upstream/libxkbfile" path="platform/upstream/libxkbfile" groups="mobile"/>
@@ -601,6 +626,7 @@
   <project name="platform/upstream/openal-soft" path="platform/upstream/openal-soft" groups="mobile"/>
   <project name="platform/upstream/openconnect" path="platform/upstream/openconnect" groups="mobile"/>
   <project name="platform/upstream/opencore-amr" path="platform/upstream/opencore-amr" groups="mobile"/>
+  <project name="platform/upstream/opengl-es-virtual-drv" path="platform/upstream/opengl-es-virtual-drv" groups="mobile"/>
   <project name="platform/upstream/openssh" path="platform/upstream/openssh" groups="mobile"/>
   <project name="platform/upstream/openssl" path="platform/upstream/openssl" groups="mobile"/>
   <project name="platform/upstream/oprofile" path="platform/upstream/oprofile" groups="mobile"/>
@@ -612,7 +638,6 @@
   <project name="platform/upstream/pango" path="platform/upstream/pango" groups="mobile"/>
   <project name="platform/upstream/parted" path="platform/upstream/parted" groups="mobile"/>
   <project name="platform/upstream/patch" path="platform/upstream/patch" groups="mobile"/>
-  <project name="platform/upstream/patchelf" path="platform/upstream/patchelf" groups="mobile"/>
   <project name="platform/upstream/pattern-tools" path="platform/upstream/pattern-tools" groups="mobile"/>
   <project name="platform/upstream/pbzip2" path="platform/upstream/pbzip2" groups="mobile"/>
   <project name="platform/upstream/pc-installer" path="platform/upstream/pc-installer" groups="mobile"/>
@@ -724,8 +749,6 @@
   <project name="platform/upstream/swup" path="platform/upstream/swup" groups="mobile"/>
   <project name="platform/upstream/syncevolution" path="platform/upstream/syncevolution" groups="mobile"/>
   <project name="platform/upstream/sysfsutils" path="platform/upstream/sysfsutils" groups="mobile"/>
-  <project name="platform/upstream/syslinux" path="platform/upstream/syslinux" groups="mobile"/>
-  <project name="platform/upstream/sysprof" path="platform/upstream/sysprof" groups="mobile"/>
   <project name="platform/upstream/systemd" path="platform/upstream/systemd" groups="mobile"/>
   <project name="platform/upstream/tar" path="platform/upstream/tar" groups="mobile"/>
   <project name="platform/upstream/tcl" path="platform/upstream/tcl" groups="mobile"/>
@@ -764,13 +787,11 @@
   <project name="platform/upstream/vim" path="platform/upstream/vim" groups="mobile"/>
   <project name="platform/upstream/vpnc" path="platform/upstream/vpnc" groups="mobile"/>
   <project name="platform/upstream/wdiff" path="platform/upstream/wdiff" groups="mobile"/>
-  <project name="platform/upstream/weston" path="platform/upstream/weston" groups="mobile"/>
   <project name="platform/upstream/wget" path="platform/upstream/wget" groups="mobile"/>
   <project name="platform/upstream/which" path="platform/upstream/which" groups="mobile"/>
   <project name="platform/upstream/wireless-regdb" path="platform/upstream/wireless-regdb" groups="mobile"/>
   <project name="platform/upstream/wpa_supplicant" path="platform/upstream/wpa_supplicant" groups="mobile"/>
   <project name="platform/upstream/x11proto-gesture" path="platform/upstream/x11proto-gesture" groups="mobile"/>
-  <project name="platform/upstream/x86info" path="platform/upstream/x86info" groups="mobile"/>
   <project name="platform/upstream/xauth" path="platform/upstream/xauth" groups="mobile"/>
   <project name="platform/upstream/xbitmaps" path="platform/upstream/xbitmaps" groups="mobile"/>
   <project name="platform/upstream/xcb-proto" path="platform/upstream/xcb-proto" groups="mobile"/>
@@ -786,11 +807,7 @@
   <project name="platform/upstream/xf86-input-evdev" path="platform/upstream/xf86-input-evdev" groups="mobile"/>
   <project name="platform/upstream/xf86-input-keyboard" path="platform/upstream/xf86-input-keyboard" groups="mobile"/>
   <project name="platform/upstream/xf86-input-synaptics" path="platform/upstream/xf86-input-synaptics" groups="mobile"/>
-  <project name="platform/upstream/xf86-video-cirrus" path="platform/upstream/xf86-video-cirrus" groups="mobile"/>
   <project name="platform/upstream/xf86-video-fbdev" path="platform/upstream/xf86-video-fbdev" groups="mobile"/>
-  <project name="platform/upstream/xf86-video-intel" path="platform/upstream/xf86-video-intel" groups="mobile"/>
-  <project name="platform/upstream/xf86-video-vesa" path="platform/upstream/xf86-video-vesa" groups="mobile"/>
-  <project name="platform/upstream/xf86-video-vmware" path="platform/upstream/xf86-video-vmware" groups="mobile"/>
   <project name="platform/upstream/xf86bigfontproto" path="platform/upstream/xf86bigfontproto" groups="mobile"/>
   <project name="platform/upstream/xf86dgaproto" path="platform/upstream/xf86dgaproto" groups="mobile"/>
   <project name="platform/upstream/xf86driproto" path="platform/upstream/xf86driproto" groups="mobile"/>
@@ -808,6 +825,7 @@
   <project name="platform/upstream/xlsatoms" path="platform/upstream/xlsatoms" groups="mobile"/>
   <project name="platform/upstream/xmlcharent" path="platform/upstream/xmlcharent" groups="mobile"/>
   <project name="platform/upstream/xmlsec1" path="platform/upstream/xmlsec1" groups="mobile"/>
+  <project name="platform/upstream/xmlstarlet" path="platform/upstream/xmlstarlet" groups="mobile"/>
   <project name="platform/upstream/xmlto" path="platform/upstream/xmlto" groups="mobile"/>
   <project name="platform/upstream/xmodmap" path="platform/upstream/xmodmap" groups="mobile"/>
   <project name="platform/upstream/xorg-cf-files" path="platform/upstream/xorg-cf-files" groups="mobile"/>
@@ -839,7 +857,6 @@
   <project name="profile/mobile/edje" path="profile/mobile/edje" groups="mobile"/>
   <project name="profile/mobile/eet" path="profile/mobile/eet" groups="mobile"/>
   <project name="profile/mobile/eeze" path="profile/mobile/eeze" groups="mobile"/>
-  <project name="profile/mobile/efreet" path="profile/mobile/efreet" groups="mobile"/>
   <project name="profile/mobile/eina" path="profile/mobile/eina" groups="mobile"/>
   <project name="profile/mobile/eio" path="profile/mobile/eio" groups="mobile"/>
   <project name="profile/mobile/elementary" path="profile/mobile/elementary" groups="mobile"/>
@@ -848,18 +865,16 @@
   <project name="profile/mobile/ethumb" path="profile/mobile/ethumb" groups="mobile"/>
   <project name="profile/mobile/evas" path="profile/mobile/evas" groups="mobile"/>
   <project name="profile/mobile/expedite" path="profile/mobile/expedite" groups="mobile"/>
+  <project name="profile/mobile/gst-openmax0.10" path="profile/mobile/gst-openmax0.10" groups="mobile"/>
+  <project name="profile/mobile/gst-plugins-bad0.10" path="profile/mobile/gst-plugins-bad0.10" groups="mobile"/>
+  <project name="profile/mobile/gst-plugins-base0.10" path="profile/mobile/gst-plugins-base0.10" groups="mobile"/>
+  <project name="profile/mobile/gst-plugins-good0.10" path="profile/mobile/gst-plugins-good0.10" groups="mobile"/>
+  <project name="profile/mobile/gst-plugins-ugly0.10" path="profile/mobile/gst-plugins-ugly0.10" groups="mobile"/>
+  <project name="profile/mobile/gstreamer0.10" path="profile/mobile/gstreamer0.10" groups="mobile"/>
   <project name="profile/mobile/gstreamer0.10-ffmpeg" path="profile/mobile/gstreamer0.10-ffmpeg" groups="mobile"/>
+  <project name="profile/mobile/libmm-player" path="profile/mobile/libmm-player" groups="mobile"/>
   <project name="profile/mobile/meta-mobile" path="profile/mobile/meta-mobile" groups="mobile"/>
   <project name="profile/mobile/tizen-mobile-session" path="profile/mobile/tizen-mobile-session" groups="mobile"/>
-  <project name="profile/mobile/gst-plugins-ext0.10" path="profile/mobile/gst-plugins-ext0.10" group="mobile"/>
-  <project name="profile/mobile/gst-rtsp-server-wfd" path="profile/mobile/gst-rtsp-server-wfd" group="mobile"/>
-  <project name="profile/mobile/libmm-wfd" path="profile/mobile/libmm-wfd" group="mobile"/>
-  <project name="profile/mobile/ug-wifi-display" path="profile/mobile/ug-wifi-display" group="mobile"/>
-  <project name="profile/mobile/wifi-direct-manager" path="profile/mobile/wifi-direct-manager" group="mobile"/>
-  <project name="profile/mobile/wpa_supplicant" path="profile/mobile/wpa_supplicant" group="mobile"/>
-  <project name="profile/mobile/vconf-internal-keys" path="profile/mobile/vconf-internal-keys" group="mobile"/>
-  <project name="profile/mobile/gst-plugins-good" path="profile/mobile/gst-plugins-good" group="mobile"/>
-  <project name="sdk/simulator-opengl" path="sdk/simulator-opengl" groups="mobile"/>
-  <project name="sdk/tools/web-app-checker" path="sdk/tools/web-app-checker" groups="mobile"/>
+  <project name="sdk/system-plugin-emulator" path="sdk/system-plugin-emulator" groups="mobile"/>
   <project name="tools/mic-bootstrap" path="tools/mic-bootstrap" groups="mobile"/>
 </manifest>
