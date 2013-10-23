@@ -521,6 +521,7 @@
   <project name="platform/upstream/libnfnetlink" path="platform/upstream/libnfnetlink" groups="mobile"/>
   <project name="platform/upstream/libnl1" path="platform/upstream/libnl1" groups="mobile"/>
   <project name="platform/upstream/libnl2" path="platform/upstream/libnl2" groups="mobile"/>
+  <project name="platform/upstream/libnl3" path="platform/upstream/libnl3" groups="mobile"/>
   <project name="platform/upstream/libogg" path="platform/upstream/libogg" groups="mobile"/>
   <project name="platform/upstream/liboil" path="platform/upstream/liboil" groups="mobile"/>
   <project name="platform/upstream/libpcap" path="platform/upstream/libpcap" groups="mobile"/>

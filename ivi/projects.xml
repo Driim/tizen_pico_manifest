@@ -459,6 +459,7 @@
   <project name="platform/upstream/libnfnetlink" path="platform/upstream/libnfnetlink" groups="ivi"/>
   <project name="platform/upstream/libnl1" path="platform/upstream/libnl1" groups="ivi"/>
   <project name="platform/upstream/libnl2" path="platform/upstream/libnl2" groups="ivi"/>
+  <project name="platform/upstream/libnl3" path="platform/upstream/libnl3" groups="ivi"/>
   <project name="platform/upstream/libogg" path="platform/upstream/libogg" groups="ivi"/>
   <project name="platform/upstream/liboil" path="platform/upstream/liboil" groups="ivi"/>
   <project name="platform/upstream/libpcap" path="platform/upstream/libpcap" groups="ivi"/>
