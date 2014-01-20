@@ -7,9 +7,7 @@
   <project name="apps/core/preloaded/camera" path="apps/core/preloaded/camera" groups="generic"/>
   <project name="apps/core/preloaded/draglock" path="apps/core/preloaded/draglock" groups="generic"/>
   <project name="apps/core/preloaded/image-viewer" path="apps/core/preloaded/image-viewer" groups="generic"/>
-  <project name="apps/core/preloaded/libslp-alarm" path="apps/core/preloaded/libslp-alarm" groups="generic"/>
   <project name="apps/core/preloaded/libslp-memo" path="apps/core/preloaded/libslp-memo" groups="generic"/>
-  <project name="apps/core/preloaded/libug-worldclock-efl" path="apps/core/preloaded/libug-worldclock-efl" groups="generic"/>
   <project name="apps/core/preloaded/lockscreen" path="apps/core/preloaded/lockscreen" groups="generic"/>
   <project name="apps/core/preloaded/menu-daemon" path="apps/core/preloaded/menu-daemon" groups="generic"/>
   <project name="apps/core/preloaded/menu-screen" path="apps/core/preloaded/menu-screen" groups="generic"/>
@@ -21,19 +19,21 @@
   <project name="apps/core/preloaded/starter" path="apps/core/preloaded/starter" groups="generic"/>
   <project name="apps/core/preloaded/taskmanager" path="apps/core/preloaded/taskmanager" groups="generic"/>
   <project name="apps/core/preloaded/tickernoti" path="apps/core/preloaded/tickernoti" groups="generic"/>
-  <project name="apps/core/preloaded/ug-camera-efl" path="apps/core/preloaded/ug-camera-efl" groups="generic"/>
   <project name="apps/core/preloaded/ug-setting-gallery-efl" path="apps/core/preloaded/ug-setting-gallery-efl" groups="generic"/>
   <project name="apps/core/preloaded/ug-setting-homescreen-efl" path="apps/core/preloaded/ug-setting-homescreen-efl" groups="generic"/>
   <project name="apps/core/preloaded/usb-manager" path="apps/core/preloaded/usb-manager" groups="generic"/>
   <project name="apps/core/preloaded/usb-syspopup" path="apps/core/preloaded/usb-syspopup" groups="generic"/>
-  <project name="apps/core/preloaded/volume-app" path="apps/core/preloaded/volume-app" groups="generic"/>
-  <project name="apps/core/preloaded/wrt-setting" path="apps/core/preloaded/wrt-setting" groups="generic"/>
-  <project name="platform/core/api/app-manager" path="platform/core/api/app-manager" groups="generic"/>
+  <project name="kernel/kernel-generic" path="kernel/kernel-generic" groups="generic"/>
+  <project name="platform/adaptation/device-config-touch" path="platform/adaptation/device-config-touch" groups="generic"/>
+  <project name="platform/adaptation/intel_clovertrail/systemd-bootmode-clovertrail" path="platform/adaptation/intel_clovertrail/systemd-bootmode-clovertrail" groups="generic"/>
+  <project name="platform/adaptation/samsung_exynos/libtbm-exynos4412" path="platform/adaptation/samsung_exynos/libtbm-exynos4412" groups="generic"/>
+  <project name="platform/adaptation/system-plugin-ia-generic" path="platform/adaptation/system-plugin-ia-generic" groups="generic"/>
+  <project name="platform/adaptation/xorg-x11-drv-evdev" path="platform/adaptation/xorg-x11-drv-evdev" groups="generic"/>
   <project name="platform/core/api/application" path="platform/core/api/application" groups="generic"/>
+  <project name="platform/core/api/app-manager" path="platform/core/api/app-manager" groups="generic"/>
   <project name="platform/core/api/audio-io" path="platform/core/api/audio-io" groups="generic"/>
   <project name="platform/core/api/bluetooth" path="platform/core/api/bluetooth" groups="generic"/>
   <project name="platform/core/api/call" path="platform/core/api/call" groups="generic"/>
-  <project name="platform/core/api/camera" path="platform/core/api/camera" groups="generic"/>
   <project name="platform/core/api/common" path="platform/core/api/common" groups="generic"/>
   <project name="platform/core/api/connection" path="platform/core/api/connection" groups="generic"/>
   <project name="platform/core/api/device" path="platform/core/api/device" groups="generic"/>
@@ -57,7 +57,6 @@
   <project name="platform/core/api/poi" path="platform/core/api/poi" groups="generic"/>
   <project name="platform/core/api/power" path="platform/core/api/power" groups="generic"/>
   <project name="platform/core/api/radio" path="platform/core/api/radio" groups="generic"/>
-  <project name="platform/core/api/recorder" path="platform/core/api/recorder" groups="generic"/>
   <project name="platform/core/api/route" path="platform/core/api/route" groups="generic"/>
   <project name="platform/core/api/runtime-info" path="platform/core/api/runtime-info" groups="generic"/>
   <project name="platform/core/api/sensor" path="platform/core/api/sensor" groups="generic"/>
@@ -70,7 +69,6 @@
   <project name="platform/core/api/tone-player" path="platform/core/api/tone-player" groups="generic"/>
   <project name="platform/core/api/url-download" path="platform/core/api/url-download" groups="generic"/>
   <project name="platform/core/api/usb-accessory" path="platform/core/api/usb-accessory" groups="generic"/>
-  <project name="platform/core/api/video-util" path="platform/core/api/video-util" groups="generic"/>
   <project name="platform/core/api/wav-player" path="platform/core/api/wav-player" groups="generic"/>
   <project name="platform/core/api/wifi" path="platform/core/api/wifi" groups="generic"/>
   <project name="platform/core/api/wifi-direct" path="platform/core/api/wifi-direct" groups="generic"/>
@@ -87,11 +85,14 @@
   <project name="platform/core/appfw/heynoti" path="platform/core/appfw/heynoti" groups="generic"/>
   <project name="platform/core/appfw/librua" path="platform/core/appfw/librua" groups="generic"/>
   <project name="platform/core/appfw/libslp-db-util" path="platform/core/appfw/libslp-db-util" groups="generic"/>
+  <project name="platform/core/appfw/message-port" path="platform/core/appfw/message-port" groups="generic"/>
   <project name="platform/core/appfw/pkgmgr-info" path="platform/core/appfw/pkgmgr-info" groups="generic"/>
   <project name="platform/core/appfw/shortcut" path="platform/core/appfw/shortcut" groups="generic"/>
   <project name="platform/core/appfw/slp-pkgmgr" path="platform/core/appfw/slp-pkgmgr" groups="generic"/>
   <project name="platform/core/appfw/sppc" path="platform/core/appfw/sppc" groups="generic"/>
   <project name="platform/core/appfw/status" path="platform/core/appfw/status" groups="generic"/>
+  <project name="platform/core/appfw/tizen-platform-config" path="platform/core/appfw/tizen-platform-config" groups="generic"/>
+  <project name="platform/core/appfw/tizen-platform-wrapper" path="platform/core/appfw/tizen-platform-wrapper" groups="generic"/>
   <project name="platform/core/appfw/ui-gadget-1" path="platform/core/appfw/ui-gadget-1" groups="generic"/>
   <project name="platform/core/appfw/vconf" path="platform/core/appfw/vconf" groups="generic"/>
   <project name="platform/core/appfw/vconf-internal-keys" path="platform/core/appfw/vconf-internal-keys" groups="generic"/>
@@ -109,19 +110,14 @@
   <project name="platform/core/connectivity/data-router" path="platform/core/connectivity/data-router" groups="generic"/>
   <project name="platform/core/connectivity/libnet-client" path="platform/core/connectivity/libnet-client" groups="generic"/>
   <project name="platform/core/connectivity/libwifi-direct" path="platform/core/connectivity/libwifi-direct" groups="generic"/>
-  <project name="platform/core/connectivity/mobileap-agent" path="platform/core/connectivity/mobileap-agent" groups="generic"/>
   <project name="platform/core/connectivity/net-config" path="platform/core/connectivity/net-config" groups="generic"/>
   <project name="platform/core/connectivity/nfc-manager" path="platform/core/connectivity/nfc-manager" groups="generic"/>
-  <project name="platform/core/connectivity/nfc-manager-neard" path="platform/core/connectivity/nfc-manager-neard" groups="generic"/>
-  <project name="platform/core/connectivity/wifi-direct-manager" path="platform/core/connectivity/wifi-direct-manager" groups="generic"/>
   <project name="platform/core/graphics/default-fonts-fc-sdk" path="platform/core/graphics/default-fonts-fc-sdk" groups="generic"/>
   <project name="platform/core/graphics/default-fonts-sdk" path="platform/core/graphics/default-fonts-sdk" groups="generic"/>
   <project name="platform/core/graphics/opengl-es" path="platform/core/graphics/opengl-es" groups="generic"/>
-  <project name="platform/core/location/gps-manager" path="platform/core/location/gps-manager" groups="generic"/>
   <project name="platform/core/location/lbs-dbus" path="platform/core/location/lbs-dbus" groups="generic"/>
   <project name="platform/core/location/liblocation-appman" path="platform/core/location/liblocation-appman" groups="generic"/>
   <project name="platform/core/location/libslp-location" path="platform/core/location/libslp-location" groups="generic"/>
-  <project name="platform/core/location/location-module" path="platform/core/location/location-module" groups="generic"/>
   <project name="platform/core/location/ug-setting-location-efl" path="platform/core/location/ug-setting-location-efl" groups="generic"/>
   <project name="platform/core/messaging/email-service" path="platform/core/messaging/email-service" groups="generic"/>
   <project name="platform/core/messaging/msg-service" path="platform/core/messaging/msg-service" groups="generic"/>
@@ -132,20 +128,18 @@
   <project name="platform/core/multimedia/libcamsrcjpegenc-sw-libjpeg" path="platform/core/multimedia/libcamsrcjpegenc-sw-libjpeg" groups="generic"/>
   <project name="platform/core/multimedia/libmedia-service" path="platform/core/multimedia/libmedia-service" groups="generic"/>
   <project name="platform/core/multimedia/libmedia-thumbnail" path="platform/core/multimedia/libmedia-thumbnail" groups="generic"/>
-  <project name="platform/core/multimedia/libmm-camcorder" path="platform/core/multimedia/libmm-camcorder" groups="generic"/>
   <project name="platform/core/multimedia/libmm-common" path="platform/core/multimedia/libmm-common" groups="generic"/>
   <project name="platform/core/multimedia/libmm-fileinfo" path="platform/core/multimedia/libmm-fileinfo" groups="generic"/>
-  <project name="platform/core/multimedia/libmm-imgp-gstcs" path="platform/core/multimedia/libmm-imgp-gstcs" groups="generic"/>
   <project name="platform/core/multimedia/libmm-log" path="platform/core/multimedia/libmm-log" groups="generic"/>
   <project name="platform/core/multimedia/libmm-player" path="platform/core/multimedia/libmm-player" groups="generic"/>
   <project name="platform/core/multimedia/libmm-radio" path="platform/core/multimedia/libmm-radio" groups="generic"/>
   <project name="platform/core/multimedia/libmm-session" path="platform/core/multimedia/libmm-session" groups="generic"/>
   <project name="platform/core/multimedia/libmm-sound" path="platform/core/multimedia/libmm-sound" groups="generic"/>
   <project name="platform/core/multimedia/libmm-ta" path="platform/core/multimedia/libmm-ta" groups="generic"/>
-  <project name="platform/core/multimedia/libmm-transcode" path="platform/core/multimedia/libmm-transcode" groups="generic"/>
   <project name="platform/core/multimedia/libmm-utility" path="platform/core/multimedia/libmm-utility" groups="generic"/>
   <project name="platform/core/multimedia/media-data-sdk" path="platform/core/multimedia/media-data-sdk" groups="generic"/>
   <project name="platform/core/multimedia/media-server" path="platform/core/multimedia/media-server" groups="generic"/>
+  <project name="platform/core/multimedia/mmfw-sysconf" path="platform/core/multimedia/mmfw-sysconf" groups="generic"/>
   <project name="platform/core/pim/calendar-service" path="platform/core/pim/calendar-service" groups="generic"/>
   <project name="platform/core/pim/contacts-service" path="platform/core/pim/contacts-service" groups="generic"/>
   <project name="platform/core/pim/libaccounts-svc" path="platform/core/pim/libaccounts-svc" groups="generic"/>
@@ -160,7 +154,6 @@
   <project name="platform/core/security/libprivilege-control" path="platform/core/security/libprivilege-control" groups="generic"/>
   <project name="platform/core/security/privacy-manager" path="platform/core/security/privacy-manager" groups="generic"/>
   <project name="platform/core/security/privacy-popup" path="platform/core/security/privacy-popup" groups="generic"/>
-  <project name="platform/core/security/privilege-checker" path="platform/core/security/privilege-checker" groups="generic"/>
   <project name="platform/core/security/secure-storage" path="platform/core/security/secure-storage" groups="generic"/>
   <project name="platform/core/security/security-server" path="platform/core/security/security-server" groups="generic"/>
   <project name="platform/core/system/devman" path="platform/core/system/devman" groups="generic"/>
@@ -173,14 +166,9 @@
   <project name="platform/core/system/libslp-sensor" path="platform/core/system/libslp-sensor" groups="generic"/>
   <project name="platform/core/system/libslp-sysman" path="platform/core/system/libslp-sysman" groups="generic"/>
   <project name="platform/core/system/libsvi" path="platform/core/system/libsvi" groups="generic"/>
-  <project name="platform/core/system/oma-dm-agent" path="platform/core/system/oma-dm-agent" groups="generic"/>
   <project name="platform/core/system/oma-ds-agent" path="platform/core/system/oma-ds-agent" groups="generic"/>
   <project name="platform/core/system/power-manager" path="platform/core/system/power-manager" groups="generic"/>
-  <project name="platform/core/system/sdbd" path="platform/core/system/sdbd" groups="generic"/>
   <project name="platform/core/system/sensor-framework" path="platform/core/system/sensor-framework" groups="generic"/>
-  <project name="platform/core/connectivity/smartcard-plugin-nfc" path="platform/core/system/smartcard-plugin-nfc" groups="generic"/>
-  <project name="platform/core/connectivity/smartcard-plugin-uicc" path="platform/core/system/smartcard-plugin-uicc" groups="generic"/>
-  <project name="platform/core/connectivity/smartcard-service" path="platform/core/system/smartcard-service" groups="generic"/>
   <project name="platform/core/system/svi-data" path="platform/core/system/svi-data" groups="generic"/>
   <project name="platform/core/system/sync-agent" path="platform/core/system/sync-agent" groups="generic"/>
   <project name="platform/core/system/sys-assert" path="platform/core/system/sys-assert" groups="generic"/>
@@ -188,10 +176,7 @@
   <project name="platform/core/system/system-server" path="platform/core/system/system-server" groups="generic"/>
   <project name="platform/core/telephony/libtapi" path="platform/core/telephony/libtapi" groups="generic"/>
   <project name="platform/core/telephony/libtcore" path="platform/core/telephony/libtcore" groups="generic"/>
-  <project name="platform/core/telephony/tel-plugin-at_standard" path="platform/core/telephony/tel-plugin-at_standard" groups="generic"/>
-  <project name="platform/core/telephony/tel-plugin-atmodem" path="platform/core/telephony/tel-plugin-atmodem" groups="generic"/>
   <project name="platform/core/telephony/tel-plugin-database" path="platform/core/telephony/tel-plugin-database" groups="generic"/>
-  <project name="platform/core/telephony/tel-plugin-dbus_tapi" path="platform/core/telephony/tel-plugin-dbus_tapi" groups="generic"/>
   <project name="platform/core/telephony/tel-plugin-imc" path="platform/core/telephony/tel-plugin-imc" groups="generic"/>
   <project name="platform/core/telephony/tel-plugin-imcmodem" path="platform/core/telephony/tel-plugin-imcmodem" groups="generic"/>
   <project name="platform/core/telephony/tel-plugin-indicator" path="platform/core/telephony/tel-plugin-indicator" groups="generic"/>
@@ -200,23 +185,26 @@
   <project name="platform/core/telephony/tel-plugin-vmodem" path="platform/core/telephony/tel-plugin-vmodem" groups="generic"/>
   <project name="platform/core/telephony/telephony-daemon" path="platform/core/telephony/telephony-daemon" groups="generic"/>
   <project name="platform/core/uifw/anthy" path="platform/core/uifw/anthy" groups="generic"/>
-  <project name="platform/core/uifw/e17-extra-config-modules" path="platform/core/uifw/e17-extra-config-modules" groups="generic"/>
-  <project name="platform/core/uifw/e17-misc" path="platform/core/uifw/e17-misc" groups="generic"/>
+  <project name="platform/core/uifw/efl-assist" path="platform/core/uifw/efl-assist" groups="generic"/>
   <project name="platform/core/uifw/elm-misc" path="platform/core/uifw/elm-misc" groups="generic"/>
   <project name="platform/core/uifw/libdmx" path="platform/core/uifw/libdmx" groups="generic"/>
   <project name="platform/core/uifw/libdri2" path="platform/core/uifw/libdri2" groups="generic"/>
   <project name="platform/core/uifw/libhangul" path="platform/core/uifw/libhangul" groups="generic"/>
   <project name="platform/core/uifw/libslp-utilx" path="platform/core/uifw/libslp-utilx" groups="generic"/>
   <project name="platform/core/uifw/libtbm" path="platform/core/uifw/libtbm" groups="generic"/>
-  <project name="platform/core/uifw/libttssmt" path="platform/core/uifw/libttssmt" groups="generic"/>
   <project name="platform/core/uifw/stt" path="platform/core/uifw/stt" groups="generic"/>
   <project name="platform/core/uifw/tts" path="platform/core/uifw/tts" groups="generic"/>
-  <project name="platform/framework/native/env-config" path="platform/framework/native/env-config" groups="generic"/>
-  <project name="platform/framework/native/loader" path="platform/framework/native/loader" groups="generic"/>
   <project name="platform/framework/native/sys-config" path="platform/framework/native/sys-config" groups="generic"/>
+  <project name="platform/framework/web/data-provider-master" path="platform/framework/web/data-provider-master" groups="generic"/>
+  <project name="platform/framework/web/data-provider-slave" path="platform/framework/web/data-provider-slave" groups="generic"/>
   <project name="platform/framework/web/download-provider" path="platform/framework/web/download-provider" groups="generic"/>
   <project name="platform/framework/web/heap-monitor" path="platform/framework/web/heap-monitor" groups="generic"/>
   <project name="platform/framework/web/web-ui-fw" path="platform/framework/web/web-ui-fw" groups="generic"/>
+  <project name="platform/framework/web/livebox" path="platform/framework/web/livebox" groups="generic"/>
+  <project name="platform/framework/web/livebox-cpp" path="platform/framework/web/livebox-cpp" groups="generic"/>
+  <project name="platform/framework/web/livebox-service" path="platform/framework/web/livebox-service" groups="generic"/>
+  <project name="platform/framework/web/livebox-viewer" path="platform/framework/web/livebox-viewer" groups="generic"/>
+  <project name="platform/framework/web/provider" path="platform/framework/web/provider" groups="generic"/>
   <project name="platform/framework/web/webkit-efl" path="platform/framework/web/webkit-efl" groups="generic"/>
   <project name="platform/framework/web/wrt" path="platform/framework/web/wrt" groups="generic"/>
   <project name="platform/framework/web/wrt-commons" path="platform/framework/web/wrt-commons" groups="generic"/>
@@ -351,12 +339,10 @@
   <project name="platform/upstream/gcc" path="platform/upstream/gcc" groups="generic"/>
   <project name="platform/upstream/gcc48" path="platform/upstream/gcc48" groups="generic"/>
   <project name="platform/upstream/gccmakedep" path="platform/upstream/gccmakedep" groups="generic"/>
-  <project name="platform/upstream/gcd" path="platform/upstream/gcd" groups="generic"/>
   <project name="platform/upstream/gcr" path="platform/upstream/gcr" groups="generic"/>
   <project name="platform/upstream/gdb" path="platform/upstream/gdb" groups="generic"/>
   <project name="platform/upstream/gdbm" path="platform/upstream/gdbm" groups="generic"/>
   <project name="platform/upstream/gdk-pixbuf" path="platform/upstream/gdk-pixbuf" groups="generic"/>
-  <project name="platform/upstream/geoclue" path="platform/upstream/geoclue" groups="generic"/>
   <project name="platform/upstream/gettext" path="platform/upstream/gettext" groups="generic"/>
   <project name="platform/upstream/giflib" path="platform/upstream/giflib" groups="generic"/>
   <project name="platform/upstream/git" path="platform/upstream/git" groups="generic"/>
@@ -378,7 +364,6 @@
   <project name="platform/upstream/groff" path="platform/upstream/groff" groups="generic"/>
   <project name="platform/upstream/gst-common" path="platform/upstream/gst-common" groups="generic"/>
   <project name="platform/upstream/gst-libav" path="platform/upstream/gst-libav" groups="generic"/>
-  <project name="platform/upstream/gst-omx" path="platform/upstream/gst-omx" groups="generic"/>
   <project name="platform/upstream/gst-plugins-bad" path="platform/upstream/gst-plugins-bad" groups="generic"/>
   <project name="platform/upstream/gst-plugins-base" path="platform/upstream/gst-plugins-base" groups="generic"/>
   <project name="platform/upstream/gst-plugins-good" path="platform/upstream/gst-plugins-good" groups="generic"/>
@@ -387,14 +372,19 @@
   <project name="platform/upstream/gstreamer-vaapi" path="platform/upstream/gstreamer-vaapi" groups="generic"/>
   <project name="platform/upstream/gtest" path="platform/upstream/gtest" groups="generic"/>
   <project name="platform/upstream/gtk-doc" path="platform/upstream/gtk-doc" groups="generic"/>
+  <project name="platform/upstream/gumd" path="platform/upstream/gumd" groups="generic"/>
   <project name="platform/upstream/gummiboot" path="platform/upstream/gummiboot" groups="generic"/>
   <project name="platform/upstream/gzip" path="platform/upstream/gzip" groups="generic"/>
   <project name="platform/upstream/hardlink" path="platform/upstream/hardlink" groups="generic"/>
   <project name="platform/upstream/harfbuzz" path="platform/upstream/harfbuzz" groups="generic"/>
   <project name="platform/upstream/help2man" path="platform/upstream/help2man" groups="generic"/>
   <project name="platform/upstream/hostname" path="platform/upstream/hostname" groups="generic"/>
+  <project name="platform/upstream/hplip" path="platform/upstream/hplip" groups="generic"/>
   <project name="platform/upstream/hunspell" path="platform/upstream/hunspell" groups="generic"/>
   <project name="platform/upstream/hwdata" path="platform/upstream/hwdata" groups="generic"/>
+  <project name="platform/upstream/ibus" path="platform/upstream/ibus" groups="generic"/>
+  <project name="platform/upstream/ibus-hangul" path="platform/upstream/ibus-hangul" groups="generic"/>
+  <project name="platform/upstream/ibus-libpinyin" path="platform/upstream/ibus-libpinyin" groups="generic"/>
   <project name="platform/upstream/icecream" path="platform/upstream/icecream" groups="generic"/>
   <project name="platform/upstream/icu" path="platform/upstream/icu" groups="generic"/>
   <project name="platform/upstream/image-configurations" path="platform/upstream/image-configurations" groups="generic"/>
@@ -436,6 +426,7 @@
   <project name="platform/upstream/libXfont" path="platform/upstream/libXfont" groups="generic"/>
   <project name="platform/upstream/libXfontcache" path="platform/upstream/libXfontcache" groups="generic"/>
   <project name="platform/upstream/libXft" path="platform/upstream/libXft" groups="generic"/>
+  <project name="platform/upstream/libXgesture" path="platform/upstream/libXgesture" groups="generic"/>
   <project name="platform/upstream/libXi" path="platform/upstream/libXi" groups="generic"/>
   <project name="platform/upstream/libXinerama" path="platform/upstream/libXinerama" groups="generic"/>
   <project name="platform/upstream/libXmu" path="platform/upstream/libXmu" groups="generic"/>
@@ -478,15 +469,17 @@
   <project name="platform/upstream/libjpeg6" path="platform/upstream/libjpeg6" groups="generic"/>
   <project name="platform/upstream/libksba" path="platform/upstream/libksba" groups="generic"/>
   <project name="platform/upstream/libmnl" path="platform/upstream/libmnl" groups="generic"/>
+  <project name="platform/upstream/libmp4v2" path="platform/upstream/libmp4v2" groups="generic"/>
   <project name="platform/upstream/libnetfilter_conntrack" path="platform/upstream/libnetfilter_conntrack" groups="generic"/>
   <project name="platform/upstream/libnfnetlink" path="platform/upstream/libnfnetlink" groups="generic"/>
   <project name="platform/upstream/libnl1" path="platform/upstream/libnl1" groups="generic"/>
   <project name="platform/upstream/libnl2" path="platform/upstream/libnl2" groups="generic"/>
+  <project name="platform/upstream/libnl3" path="platform/upstream/libnl3" groups="generic"/>
   <project name="platform/upstream/libogg" path="platform/upstream/libogg" groups="generic"/>
   <project name="platform/upstream/liboil" path="platform/upstream/liboil" groups="generic"/>
   <project name="platform/upstream/libpcap" path="platform/upstream/libpcap" groups="generic"/>
   <project name="platform/upstream/libpciaccess" path="platform/upstream/libpciaccess" groups="generic"/>
-  <project name="platform/upstream/libphonenumber" path="platform/upstream/libphonenumber" groups="generic"/>
+  <project name="platform/upstream/libpinyin" path="platform/upstream/libpinyin" groups="generic"/>
   <project name="platform/upstream/libpipeline" path="platform/upstream/libpipeline" groups="generic"/>
   <project name="platform/upstream/libpng" path="platform/upstream/libpng" groups="generic"/>
   <project name="platform/upstream/libpthread-stubs" path="platform/upstream/libpthread-stubs" groups="generic"/>
@@ -517,7 +510,6 @@
   <project name="platform/upstream/libzip" path="platform/upstream/libzip" groups="generic"/>
   <project name="platform/upstream/libzypp" path="platform/upstream/libzypp" groups="generic"/>
   <project name="platform/upstream/libzypp-bindings" path="platform/upstream/libzypp-bindings" groups="generic"/>
-  <project name="platform/upstream/lightmediascanner" path="platform/upstream/lightmediascanner" groups="generic"/>
   <project name="platform/upstream/links" path="platform/upstream/links" groups="generic"/>
   <project name="platform/upstream/linux-firmware" path="platform/upstream/linux-firmware" groups="generic"/>
   <project name="platform/upstream/linux-glibc-devel" path="platform/upstream/linux-glibc-devel" groups="generic"/>
@@ -534,8 +526,8 @@
   <project name="platform/upstream/makedepend" path="platform/upstream/makedepend" groups="generic"/>
   <project name="platform/upstream/man-db" path="platform/upstream/man-db" groups="generic"/>
   <project name="platform/upstream/mesa" path="platform/upstream/mesa" groups="generic"/>
-  <project name="platform/upstream/meta-base" path="platform/upstream/meta-base" groups="generic"/>
   <project name="platform/upstream/meta-common" path="platform/upstream/meta-common" groups="generic"/>
+  <project name="platform/upstream/meta-generic" path="platform/upstream/meta-generic" groups="generic"/>
   <project name="platform/upstream/mic" path="platform/upstream/mic" groups="generic"/>
   <project name="platform/upstream/mkfontdir" path="platform/upstream/mkfontdir" groups="generic"/>
   <project name="platform/upstream/mkfontscale" path="platform/upstream/mkfontscale" groups="generic"/>
@@ -562,7 +554,7 @@
   <project name="platform/upstream/openal-soft" path="platform/upstream/openal-soft" groups="generic"/>
   <project name="platform/upstream/openconnect" path="platform/upstream/openconnect" groups="generic"/>
   <project name="platform/upstream/opencore-amr" path="platform/upstream/opencore-amr" groups="generic"/>
-  <project name="platform/upstream/opengl-es-virtual-drv" path="platform/upstream/opengl-es-virtual-drv" revision="9bac49a769fe5e048df214e463c01da2de757516" groups="generic"/>
+  <project name="platform/upstream/opengl-es-virtual-drv" path="platform/upstream/opengl-es-virtual-drv" groups="generic"/>
   <project name="platform/upstream/openssh" path="platform/upstream/openssh" groups="generic"/>
   <project name="platform/upstream/openssl" path="platform/upstream/openssl" groups="generic"/>
   <project name="platform/upstream/oprofile" path="platform/upstream/oprofile" groups="generic"/>
@@ -644,6 +636,8 @@
   <project name="platform/upstream/python-sqlite" path="platform/upstream/python-sqlite" groups="generic"/>
   <project name="platform/upstream/python-urlgrabber" path="platform/upstream/python-urlgrabber" groups="generic"/>
   <project name="platform/upstream/qemu" path="platform/upstream/qemu" groups="generic"/>
+  <project name="platform/upstream/qpdf" path="platform/upstream/qpdf" groups="generic"/>
+  <project name="platform/upstream/qtchooser" path="platform/upstream/qtchooser" groups="generic"/>
   <project name="platform/upstream/ragel" path="platform/upstream/ragel" groups="generic"/>
   <project name="platform/upstream/randrproto" path="platform/upstream/randrproto" groups="generic"/>
   <project name="platform/upstream/raptor" path="platform/upstream/raptor" groups="generic"/>
@@ -683,7 +677,6 @@
   <project name="platform/upstream/sudo" path="platform/upstream/sudo" groups="generic"/>
   <project name="platform/upstream/swig" path="platform/upstream/swig" groups="generic"/>
   <project name="platform/upstream/swup" path="platform/upstream/swup" groups="generic"/>
-  <project name="platform/upstream/syncevolution" path="platform/upstream/syncevolution" groups="generic"/>
   <project name="platform/upstream/sysfsutils" path="platform/upstream/sysfsutils" groups="generic"/>
   <project name="platform/upstream/syslinux" path="platform/upstream/syslinux" groups="generic"/>
   <project name="platform/upstream/sysprof" path="platform/upstream/sysprof" groups="generic"/>
@@ -699,6 +692,7 @@
   <project name="platform/upstream/time" path="platform/upstream/time" groups="generic"/>
   <project name="platform/upstream/tizen-branding-default" path="platform/upstream/tizen-branding-default" groups="generic"/>
   <project name="platform/upstream/tizen-release" path="platform/upstream/tizen-release" groups="generic"/>
+  <project name="platform/upstream/tk" path="platform/upstream/tk" groups="generic"/>
   <project name="platform/upstream/tolua++" path="platform/upstream/tolua++" groups="generic"/>
   <project name="platform/upstream/tree" path="platform/upstream/tree" groups="generic"/>
   <project name="platform/upstream/tzdata" path="platform/upstream/tzdata" groups="generic"/>
@@ -719,7 +713,6 @@
   <project name="platform/upstream/v4l-utils" path="platform/upstream/v4l-utils" groups="generic"/>
   <project name="platform/upstream/v8" path="platform/upstream/v8" groups="generic"/>
   <project name="platform/upstream/vala" path="platform/upstream/vala" groups="generic"/>
-  <project name="platform/upstream/valgrind" path="platform/upstream/valgrind" groups="generic"/>
   <project name="platform/upstream/vconfig" path="platform/upstream/vconfig" groups="generic"/>
   <project name="platform/upstream/videoproto" path="platform/upstream/videoproto" groups="generic"/>
   <project name="platform/upstream/vim" path="platform/upstream/vim" groups="generic"/>
@@ -731,6 +724,7 @@
   <project name="platform/upstream/which" path="platform/upstream/which" groups="generic"/>
   <project name="platform/upstream/wireless-regdb" path="platform/upstream/wireless-regdb" groups="generic"/>
   <project name="platform/upstream/wpa_supplicant" path="platform/upstream/wpa_supplicant" groups="generic"/>
+  <project name="platform/upstream/x11proto-gesture" path="platform/upstream/x11proto-gesture" groups="generic"/>
   <project name="platform/upstream/x86info" path="platform/upstream/x86info" groups="generic"/>
   <project name="platform/upstream/xauth" path="platform/upstream/xauth" groups="generic"/>
   <project name="platform/upstream/xbitmaps" path="platform/upstream/xbitmaps" groups="generic"/>
@@ -747,7 +741,13 @@
   <project name="platform/upstream/xf86bigfontproto" path="platform/upstream/xf86bigfontproto" groups="generic"/>
   <project name="platform/upstream/xf86dgaproto" path="platform/upstream/xf86dgaproto" groups="generic"/>
   <project name="platform/upstream/xf86driproto" path="platform/upstream/xf86driproto" groups="generic"/>
+  <project name="platform/upstream/xf86-input-evdev" path="platform/upstream/xf86-input-evdev" groups="generic"/>
+  <project name="platform/upstream/xf86-input-keyboard" path="platform/upstream/xf86-input-keyboard" groups="generic"/>
+  <project name="platform/upstream/xf86-input-synaptics" path="platform/upstream/xf86-input-synaptics" groups="generic"/>
   <project name="platform/upstream/xf86miscproto" path="platform/upstream/xf86miscproto" groups="generic"/>
+  <project name="platform/upstream/xf86-video-cirrus" path="platform/upstream/xf86-video-cirrus" groups="generic"/>
+  <project name="platform/upstream/xf86-video-fbdev" path="platform/upstream/xf86-video-fbdev" groups="generic"/>
+  <project name="platform/upstream/xf86-video-vmware" path="platform/upstream/xf86-video-vmware" groups="generic"/>
   <project name="platform/upstream/xf86vidmodeproto" path="platform/upstream/xf86vidmodeproto" groups="generic"/>
   <project name="platform/upstream/xhost" path="platform/upstream/xhost" groups="generic"/>
   <project name="platform/upstream/xineramaproto" path="platform/upstream/xineramaproto" groups="generic"/>
@@ -764,7 +764,9 @@
   <project name="platform/upstream/xmlstarlet" path="platform/upstream/xmlstarlet" groups="generic"/>
   <project name="platform/upstream/xmlto" path="platform/upstream/xmlto" groups="generic"/>
   <project name="platform/upstream/xmodmap" path="platform/upstream/xmodmap" groups="generic"/>
+  <project name="platform/upstream/xorg-cf-files" path="platform/upstream/xorg-cf-files" groups="generic"/>
   <project name="platform/upstream/xorg-launch-helper" path="platform/upstream/xorg-launch-helper" groups="generic"/>
+  <project name="platform/upstream/xorg-server" path="platform/upstream/xorg-server" groups="generic"/>
   <project name="platform/upstream/xprop" path="platform/upstream/xprop" groups="generic"/>
   <project name="platform/upstream/xproto" path="platform/upstream/xproto" groups="generic"/>
   <project name="platform/upstream/xrandr" path="platform/upstream/xrandr" groups="generic"/>
@@ -784,6 +786,8 @@
   <project name="platform/upstream/zlib" path="platform/upstream/zlib" groups="generic"/>
   <project name="platform/upstream/zypper" path="platform/upstream/zypper" groups="generic"/>
   <project name="platform/upstream/zypper-plugin" path="platform/upstream/zypper-plugin" groups="generic"/>
-  <project name="sdk/system-plugin-emulator" path="sdk/system-plugin-emulator" groups="generic"/>
+  <project name="profile/ivi/efl-theme-tizen" path="profile/ivi/efl-theme-tizen" groups="generic"/>
+  <project name="test/generic/desktop-skin" path="test/generic/desktop-skin" groups="generic"/>
+  <project name="test/generic/wrt-widgets" path="test/generic/wrt-widgets" groups="generic"/>
   <project name="tools/mic-bootstrap" path="tools/mic-bootstrap" groups="generic"/>
 </manifest>
