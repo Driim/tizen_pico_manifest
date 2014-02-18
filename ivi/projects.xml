@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <project name="adaptation/face-engine" path="adaptation/face-engine" groups="ivi"/>
   <project name="apps/core/preloaded/app-selector" path="apps/core/preloaded/app-selector" groups="ivi"/>
   <project name="apps/core/preloaded/boot-animation" path="apps/core/preloaded/boot-animation" groups="ivi"/>
   <project name="apps/core/preloaded/bt-syspopup" path="apps/core/preloaded/bt-syspopup" groups="ivi"/>
   <project name="apps/core/preloaded/calculator" path="apps/core/preloaded/calculator" groups="ivi"/>
+  <project name="apps/core/preloaded/calendar" path="apps/core/preloaded/calendar" groups="ivi"/>
   <project name="apps/core/preloaded/camera" path="apps/core/preloaded/camera" groups="ivi"/>
   <project name="apps/core/preloaded/draglock" path="apps/core/preloaded/draglock" groups="ivi"/>
   <project name="apps/core/preloaded/image-viewer" path="apps/core/preloaded/image-viewer" groups="ivi"/>
@@ -16,18 +18,19 @@
   <project name="apps/core/preloaded/minicontrol" path="apps/core/preloaded/minicontrol" groups="ivi"/>
   <project name="apps/core/preloaded/net-popup" path="apps/core/preloaded/net-popup" groups="ivi"/>
   <project name="apps/core/preloaded/print-service" path="apps/core/preloaded/print-service" groups="ivi"/>
-  <project name="apps/core/preloaded/pwlock" path="apps/core/preloaded/pwlock" groups="ivi"/>
   <project name="apps/core/preloaded/settings" path="apps/core/preloaded/settings" groups="ivi"/>
   <project name="apps/core/preloaded/starter" path="apps/core/preloaded/starter" groups="ivi"/>
   <project name="apps/core/preloaded/taskmanager" path="apps/core/preloaded/taskmanager" groups="ivi"/>
   <project name="apps/core/preloaded/tickernoti" path="apps/core/preloaded/tickernoti" groups="ivi"/>
+  <project name="apps/core/preloaded/udisks-automount-agent" path="apps/core/preloaded/udisks-automount-agent" groups="ivi"/>
   <project name="apps/core/preloaded/ug-camera-efl" path="apps/core/preloaded/ug-camera-efl" groups="ivi"/>
   <project name="apps/core/preloaded/ug-setting-gallery-efl" path="apps/core/preloaded/ug-setting-gallery-efl" groups="ivi"/>
   <project name="apps/core/preloaded/ug-setting-homescreen-efl" path="apps/core/preloaded/ug-setting-homescreen-efl" groups="ivi"/>
   <project name="apps/core/preloaded/usb-manager" path="apps/core/preloaded/usb-manager" groups="ivi"/>
   <project name="apps/core/preloaded/usb-syspopup" path="apps/core/preloaded/usb-syspopup" groups="ivi"/>
   <project name="apps/core/preloaded/volume-app" path="apps/core/preloaded/volume-app" groups="ivi"/>
-  <project name="apps/core/preloaded/wrt-setting" path="apps/core/preloaded/wrt-setting" groups="ivi"/>
+  <project name="platform/adaptation/emulator/emulator-plugin-nfc" path="platform/adaptation/emulator/emulator-plugin-nfc" groups="ivi"/>
+  <project name="platform/adaptation/emulator/emulator-yagl" path="platform/adaptation/emulator/emulator-yagl" groups="ivi"/>
   <project name="platform/core/api/app-manager" path="platform/core/api/app-manager" groups="ivi"/>
   <project name="platform/core/api/application" path="platform/core/api/application" groups="ivi"/>
   <project name="platform/core/api/audio-io" path="platform/core/api/audio-io" groups="ivi"/>
@@ -92,6 +95,8 @@
   <project name="platform/core/appfw/slp-pkgmgr" path="platform/core/appfw/slp-pkgmgr" groups="ivi"/>
   <project name="platform/core/appfw/sppc" path="platform/core/appfw/sppc" groups="ivi"/>
   <project name="platform/core/appfw/status" path="platform/core/appfw/status" groups="ivi"/>
+  <project name="platform/core/appfw/tizen-platform-config" path="platform/core/appfw/tizen-platform-config" groups="ivi"/>
+  <project name="platform/core/appfw/tizen-platform-wrapper" path="platform/core/appfw/tizen-platform-wrapper" groups="ivi"/>
   <project name="platform/core/appfw/ui-gadget-1" path="platform/core/appfw/ui-gadget-1" groups="ivi"/>
   <project name="platform/core/appfw/vconf" path="platform/core/appfw/vconf" groups="ivi"/>
   <project name="platform/core/appfw/vconf-internal-keys" path="platform/core/appfw/vconf-internal-keys" groups="ivi"/>
@@ -128,6 +133,8 @@
   <project name="platform/core/multimedia/alsa-scenario-0.2" path="platform/core/multimedia/alsa-scenario-0.2" groups="ivi"/>
   <project name="platform/core/multimedia/audio-session-manager" path="platform/core/multimedia/audio-session-manager" groups="ivi"/>
   <project name="platform/core/multimedia/avsystem" path="platform/core/multimedia/avsystem" groups="ivi"/>
+  <project name="platform/core/multimedia/gst-plugins-ext0.10" path="platform/core/multimedia/gst-plugins-ext0.10" groups="ivi"/>
+  <project name="platform/core/multimedia/gst-rtsp-server-wfd" path="platform/core/multimedia/gst-rtsp-server-wfd" groups="ivi"/>
   <project name="platform/core/multimedia/libcamsrcjpegenc" path="platform/core/multimedia/libcamsrcjpegenc" groups="ivi"/>
   <project name="platform/core/multimedia/libcamsrcjpegenc-sw-libjpeg" path="platform/core/multimedia/libcamsrcjpegenc-sw-libjpeg" groups="ivi"/>
   <project name="platform/core/multimedia/libmedia-service" path="platform/core/multimedia/libmedia-service" groups="ivi"/>
@@ -154,6 +161,7 @@
   <project name="platform/core/security/cert-svc-ui" path="platform/core/security/cert-svc-ui" groups="ivi"/>
   <project name="platform/core/security/default-ac-domains" path="platform/core/security/default-ac-domains" groups="ivi"/>
   <project name="platform/core/security/drm-client" path="platform/core/security/drm-client" groups="ivi"/>
+  <project name="platform/core/security/drm-service-core-tizen" path="platform/core/security/drm-service-core-tizen" groups="ivi"/>
   <project name="platform/core/security/dukgenerator" path="platform/core/security/dukgenerator" groups="ivi"/>
   <project name="platform/core/security/hash-signer" path="platform/core/security/hash-signer" groups="ivi"/>
   <project name="platform/core/security/libcryptsvc" path="platform/core/security/libcryptsvc" groups="ivi"/>
@@ -176,7 +184,6 @@
   <project name="platform/core/system/oma-dm-agent" path="platform/core/system/oma-dm-agent" groups="ivi"/>
   <project name="platform/core/system/oma-ds-agent" path="platform/core/system/oma-ds-agent" groups="ivi"/>
   <project name="platform/core/system/power-manager" path="platform/core/system/power-manager" groups="ivi"/>
-  <project name="platform/core/system/sdbd" path="platform/core/system/sdbd" groups="ivi"/>
   <project name="platform/core/system/sensor-framework" path="platform/core/system/sensor-framework" groups="ivi"/>
   <project name="platform/core/connectivity/smartcard-plugin-nfc" path="platform/core/system/smartcard-plugin-nfc" groups="ivi"/>
   <project name="platform/core/connectivity/smartcard-plugin-uicc" path="platform/core/system/smartcard-plugin-uicc" groups="ivi"/>
@@ -186,6 +193,7 @@
   <project name="platform/core/system/sys-assert" path="platform/core/system/sys-assert" groups="ivi"/>
   <project name="platform/core/system/system-popup" path="platform/core/system/system-popup" groups="ivi"/>
   <project name="platform/core/system/system-server" path="platform/core/system/system-server" groups="ivi"/>
+  <project name="platform/core/system/tlm" path="platform/core/system/tlm" groups="ivi"/>
   <project name="platform/core/telephony/libtapi" path="platform/core/telephony/libtapi" groups="ivi"/>
   <project name="platform/core/telephony/libtcore" path="platform/core/telephony/libtcore" groups="ivi"/>
   <project name="platform/core/telephony/tel-plugin-at_standard" path="platform/core/telephony/tel-plugin-at_standard" groups="ivi"/>
@@ -200,8 +208,7 @@
   <project name="platform/core/telephony/tel-plugin-vmodem" path="platform/core/telephony/tel-plugin-vmodem" groups="ivi"/>
   <project name="platform/core/telephony/telephony-daemon" path="platform/core/telephony/telephony-daemon" groups="ivi"/>
   <project name="platform/core/uifw/anthy" path="platform/core/uifw/anthy" groups="ivi"/>
-  <project name="platform/core/uifw/e17-extra-config-modules" path="platform/core/uifw/e17-extra-config-modules" groups="ivi"/>
-  <project name="platform/core/uifw/e17-misc" path="platform/core/uifw/e17-misc" groups="ivi"/>
+  <project name="platform/core/uifw/efl-assist" path="platform/core/uifw/efl-assist" groups="ivi"/>
   <project name="platform/core/uifw/elm-misc" path="platform/core/uifw/elm-misc" groups="ivi"/>
   <project name="platform/core/uifw/libdmx" path="platform/core/uifw/libdmx" groups="ivi"/>
   <project name="platform/core/uifw/libdri2" path="platform/core/uifw/libdri2" groups="ivi"/>
@@ -211,11 +218,15 @@
   <project name="platform/core/uifw/libttssmt" path="platform/core/uifw/libttssmt" groups="ivi"/>
   <project name="platform/core/uifw/stt" path="platform/core/uifw/stt" groups="ivi"/>
   <project name="platform/core/uifw/tts" path="platform/core/uifw/tts" groups="ivi"/>
-  <project name="platform/framework/native/env-config" path="platform/framework/native/env-config" groups="ivi"/>
-  <project name="platform/framework/native/loader" path="platform/framework/native/loader" groups="ivi"/>
-  <project name="platform/framework/native/sys-config" path="platform/framework/native/sys-config" groups="ivi"/>
+  <project name="platform/framework/web/data-provider-master" path="platform/framework/web/data-provider-master" groups="ivi"/>
+  <project name="platform/framework/web/data-provider-slave" path="platform/framework/web/data-provider-slave" groups="ivi"/>
   <project name="platform/framework/web/download-provider" path="platform/framework/web/download-provider" groups="ivi"/>
   <project name="platform/framework/web/heap-monitor" path="platform/framework/web/heap-monitor" groups="ivi"/>
+  <project name="platform/framework/web/livebox" path="platform/framework/web/livebox" groups="ivi"/>
+  <project name="platform/framework/web/livebox-cpp" path="platform/framework/web/livebox-cpp" groups="ivi"/>
+  <project name="platform/framework/web/livebox-service" path="platform/framework/web/livebox-service" groups="ivi"/>
+  <project name="platform/framework/web/livebox-viewer" path="platform/framework/web/livebox-viewer" groups="ivi"/>
+  <project name="platform/framework/web/provider" path="platform/framework/web/provider" groups="ivi"/>
   <project name="platform/framework/web/web-ui-fw" path="platform/framework/web/web-ui-fw" groups="ivi"/>
   <project name="platform/framework/web/webkit-efl" path="platform/framework/web/webkit-efl" groups="ivi"/>
   <project name="platform/framework/web/wrt" path="platform/framework/web/wrt" groups="ivi"/>
@@ -280,6 +291,7 @@
   <project name="platform/upstream/csr-framework" path="platform/upstream/csr-framework" groups="ivi"/>
   <project name="platform/upstream/ctags" path="platform/upstream/ctags" groups="ivi"/>
   <project name="platform/upstream/cups" path="platform/upstream/cups" groups="ivi"/>
+  <project name="platform/upstream/cups-filters" path="platform/upstream/cups-filters" groups="ivi"/>
   <project name="platform/upstream/curl" path="platform/upstream/curl" groups="ivi"/>
   <project name="platform/upstream/damageproto" path="platform/upstream/damageproto" groups="ivi"/>
   <project name="platform/upstream/dash" path="platform/upstream/dash" groups="ivi"/>
@@ -314,6 +326,7 @@
   <project name="platform/upstream/efreet" path="platform/upstream/efreet" groups="ivi"/>
   <project name="platform/upstream/eina" path="platform/upstream/eina" groups="ivi"/>
   <project name="platform/upstream/eio" path="platform/upstream/eio" groups="ivi"/>
+  <project name="platform/upstream/eldbus" path="platform/upstream/eldbus" groups="ivi"/>
   <project name="platform/upstream/elementary" path="platform/upstream/elementary" groups="ivi"/>
   <project name="platform/upstream/elfutils" path="platform/upstream/elfutils" groups="ivi"/>
   <project name="platform/upstream/embryo" path="platform/upstream/embryo" groups="ivi"/>
@@ -387,6 +400,7 @@
   <project name="platform/upstream/gstreamer-vaapi" path="platform/upstream/gstreamer-vaapi" groups="ivi"/>
   <project name="platform/upstream/gtest" path="platform/upstream/gtest" groups="ivi"/>
   <project name="platform/upstream/gtk-doc" path="platform/upstream/gtk-doc" groups="ivi"/>
+  <project name="platform/upstream/gumd" path="platform/upstream/gumd" groups="ivi"/>
   <project name="platform/upstream/gummiboot" path="platform/upstream/gummiboot" groups="ivi"/>
   <project name="platform/upstream/gzip" path="platform/upstream/gzip" groups="ivi"/>
   <project name="platform/upstream/hardlink" path="platform/upstream/hardlink" groups="ivi"/>
@@ -395,6 +409,9 @@
   <project name="platform/upstream/hostname" path="platform/upstream/hostname" groups="ivi"/>
   <project name="platform/upstream/hunspell" path="platform/upstream/hunspell" groups="ivi"/>
   <project name="platform/upstream/hwdata" path="platform/upstream/hwdata" groups="ivi"/>
+  <project name="platform/upstream/ibus" path="platform/upstream/ibus" groups="ivi"/>
+  <project name="platform/upstream/ibus-hangul" path="platform/upstream/ibus-hangul" groups="ivi"/>
+  <project name="platform/upstream/ibus-libpinyin" path="platform/upstream/ibus-libpinyin" groups="ivi"/>
   <project name="platform/upstream/icecream" path="platform/upstream/icecream" groups="ivi"/>
   <project name="platform/upstream/icu" path="platform/upstream/icu" groups="ivi"/>
   <project name="platform/upstream/image-configurations" path="platform/upstream/image-configurations" groups="ivi"/>
@@ -409,6 +426,7 @@
   <project name="platform/upstream/iso-codes" path="platform/upstream/iso-codes" groups="ivi"/>
   <project name="platform/upstream/iso_ent" path="platform/upstream/iso_ent" groups="ivi"/>
   <project name="platform/upstream/jasper" path="platform/upstream/jasper" groups="ivi"/>
+  <project name="platform/upstream/js" path="platform/upstream/js" groups="ivi"/>
   <project name="platform/upstream/json-c" path="platform/upstream/json-c" groups="ivi"/>
   <project name="platform/upstream/json-glib" path="platform/upstream/json-glib" groups="ivi"/>
   <project name="platform/upstream/kbd" path="platform/upstream/kbd" groups="ivi"/>
@@ -454,6 +472,7 @@
   <project name="platform/upstream/libarchive" path="platform/upstream/libarchive" groups="ivi"/>
   <project name="platform/upstream/libassuan" path="platform/upstream/libassuan" groups="ivi"/>
   <project name="platform/upstream/libasyncns" path="platform/upstream/libasyncns" groups="ivi"/>
+  <project name="platform/upstream/libatasmart" path="platform/upstream/libatasmart" groups="ivi"/>
   <project name="platform/upstream/libav" path="platform/upstream/libav" groups="ivi"/>
   <project name="platform/upstream/libbullet" path="platform/upstream/libbullet" groups="ivi"/>
   <project name="platform/upstream/libcap" path="platform/upstream/libcap" groups="ivi"/>
@@ -478,15 +497,18 @@
   <project name="platform/upstream/libjpeg6" path="platform/upstream/libjpeg6" groups="ivi"/>
   <project name="platform/upstream/libksba" path="platform/upstream/libksba" groups="ivi"/>
   <project name="platform/upstream/libmnl" path="platform/upstream/libmnl" groups="ivi"/>
+  <project name="platform/upstream/libmp4v2" path="platform/upstream/libmp4v2" groups="ivi"/>
   <project name="platform/upstream/libnetfilter_conntrack" path="platform/upstream/libnetfilter_conntrack" groups="ivi"/>
   <project name="platform/upstream/libnfnetlink" path="platform/upstream/libnfnetlink" groups="ivi"/>
   <project name="platform/upstream/libnl1" path="platform/upstream/libnl1" groups="ivi"/>
   <project name="platform/upstream/libnl2" path="platform/upstream/libnl2" groups="ivi"/>
+  <project name="platform/upstream/libnl3" path="platform/upstream/libnl3" groups="ivi"/>
   <project name="platform/upstream/libogg" path="platform/upstream/libogg" groups="ivi"/>
   <project name="platform/upstream/liboil" path="platform/upstream/liboil" groups="ivi"/>
   <project name="platform/upstream/libpcap" path="platform/upstream/libpcap" groups="ivi"/>
   <project name="platform/upstream/libpciaccess" path="platform/upstream/libpciaccess" groups="ivi"/>
   <project name="platform/upstream/libphonenumber" path="platform/upstream/libphonenumber" groups="ivi"/>
+  <project name="platform/upstream/libpinyin" path="platform/upstream/libpinyin" groups="ivi"/>
   <project name="platform/upstream/libpipeline" path="platform/upstream/libpipeline" groups="ivi"/>
   <project name="platform/upstream/libpng" path="platform/upstream/libpng" groups="ivi"/>
   <project name="platform/upstream/libpthread-stubs" path="platform/upstream/libpthread-stubs" groups="ivi"/>
@@ -523,6 +545,7 @@
   <project name="platform/upstream/linux-glibc-devel" path="platform/upstream/linux-glibc-devel" groups="ivi"/>
   <project name="platform/upstream/lksctp-tools" path="platform/upstream/lksctp-tools" groups="ivi"/>
   <project name="platform/upstream/llvm" path="platform/upstream/llvm" groups="ivi"/>
+  <project name="platform/upstream/lrzsz" path="platform/upstream/lrzsz" groups="ivi"/>
   <project name="platform/upstream/lsb" path="platform/upstream/lsb" groups="ivi"/>
   <project name="platform/upstream/lsof" path="platform/upstream/lsof" groups="ivi"/>
   <project name="platform/upstream/ltrace" path="platform/upstream/ltrace" groups="ivi"/>
@@ -536,6 +559,7 @@
   <project name="platform/upstream/mesa" path="platform/upstream/mesa" groups="ivi"/>
   <project name="platform/upstream/meta-base" path="platform/upstream/meta-base" groups="ivi"/>
   <project name="platform/upstream/meta-common" path="platform/upstream/meta-common" groups="ivi"/>
+  <project name="platform/upstream/meta-generic" path="platform/upstream/meta-generic" groups="ivi"/>
   <project name="platform/upstream/mic" path="platform/upstream/mic" groups="ivi"/>
   <project name="platform/upstream/mkfontdir" path="platform/upstream/mkfontdir" groups="ivi"/>
   <project name="platform/upstream/mkfontscale" path="platform/upstream/mkfontscale" groups="ivi"/>
@@ -557,7 +581,6 @@
   <project name="platform/upstream/nspr" path="platform/upstream/nspr" groups="ivi"/>
   <project name="platform/upstream/nss" path="platform/upstream/nss" groups="ivi"/>
   <project name="platform/upstream/nss-mdns" path="platform/upstream/nss-mdns" groups="ivi"/>
-  <project name="platform/upstream/obexd" path="platform/upstream/obexd" groups="ivi"/>
   <project name="platform/upstream/ofono" path="platform/upstream/ofono" groups="ivi"/>
   <project name="platform/upstream/openal-soft" path="platform/upstream/openal-soft" groups="ivi"/>
   <project name="platform/upstream/openconnect" path="platform/upstream/openconnect" groups="ivi"/>
@@ -605,6 +628,7 @@
   <project name="platform/upstream/pixman" path="platform/upstream/pixman" groups="ivi"/>
   <project name="platform/upstream/pkg-config" path="platform/upstream/pkg-config" groups="ivi"/>
   <project name="platform/upstream/plymouth" path="platform/upstream/plymouth" groups="ivi"/>
+  <project name="platform/upstream/polkit" path="platform/upstream/polkit" groups="ivi"/>
   <project name="platform/upstream/poppler" path="platform/upstream/poppler" groups="ivi"/>
   <project name="platform/upstream/poppler-data" path="platform/upstream/poppler-data" groups="ivi"/>
   <project name="platform/upstream/popt" path="platform/upstream/popt" groups="ivi"/>
@@ -640,10 +664,24 @@
   <project name="platform/upstream/python-pyOpenSSL" path="platform/upstream/python-pyOpenSSL" groups="ivi"/>
   <project name="platform/upstream/python-pycurl" path="platform/upstream/python-pycurl" groups="ivi"/>
   <project name="platform/upstream/python-pygments" path="platform/upstream/python-pygments" groups="ivi"/>
+  <project name="platform/upstream/python-requests" path="platform/upstream/python-requests" groups="ivi"/>
   <project name="platform/upstream/python-setuptools" path="platform/upstream/python-setuptools" groups="ivi"/>
   <project name="platform/upstream/python-sqlite" path="platform/upstream/python-sqlite" groups="ivi"/>
   <project name="platform/upstream/python-urlgrabber" path="platform/upstream/python-urlgrabber" groups="ivi"/>
   <project name="platform/upstream/qemu" path="platform/upstream/qemu" groups="ivi"/>
+  <project name="platform/upstream/qpdf" path="platform/upstream/qpdf" groups="ivi"/>
+  <project name="platform/upstream/qtbase" path="platform/upstream/qtbase" groups="ivi"/>
+  <project name="platform/upstream/qtchooser" path="platform/upstream/qtchooser" groups="ivi"/>
+  <project name="platform/upstream/qtdeclarative" path="platform/upstream/qtdeclarative" groups="ivi"/>
+  <project name="platform/upstream/qtgraphicaleffects" path="platform/upstream/qtgraphicaleffects" groups="ivi"/>
+  <project name="platform/upstream/qtimageformats" path="platform/upstream/qtimageformats" groups="ivi"/>
+  <project name="platform/upstream/qtmultimedia" path="platform/upstream/qtmultimedia" groups="ivi"/>
+  <project name="platform/upstream/qtquickcontrols" path="platform/upstream/qtquickcontrols" groups="ivi"/>
+  <project name="platform/upstream/qtquickcontrols-tizen" path="platform/upstream/qtquickcontrols-tizen" groups="ivi"/>
+  <project name="platform/upstream/qtsensors" path="platform/upstream/qtsensors" groups="ivi"/>
+  <project name="platform/upstream/qttools" path="platform/upstream/qttools" groups="ivi"/>
+  <project name="platform/upstream/qtwayland" path="platform/upstream/qtwayland" groups="ivi"/>
+  <project name="platform/upstream/qtxmlpatterns" path="platform/upstream/qtxmlpatterns" groups="ivi"/>
   <project name="platform/upstream/ragel" path="platform/upstream/ragel" groups="ivi"/>
   <project name="platform/upstream/randrproto" path="platform/upstream/randrproto" groups="ivi"/>
   <project name="platform/upstream/raptor" path="platform/upstream/raptor" groups="ivi"/>
@@ -685,7 +723,6 @@
   <project name="platform/upstream/swup" path="platform/upstream/swup" groups="ivi"/>
   <project name="platform/upstream/syncevolution" path="platform/upstream/syncevolution" groups="ivi"/>
   <project name="platform/upstream/sysfsutils" path="platform/upstream/sysfsutils" groups="ivi"/>
-  <project name="platform/upstream/syslinux" path="platform/upstream/syslinux" groups="ivi"/>
   <project name="platform/upstream/sysprof" path="platform/upstream/sysprof" groups="ivi"/>
   <project name="platform/upstream/system-installer" path="platform/upstream/system-installer" groups="ivi"/>
   <project name="platform/upstream/systemd" path="platform/upstream/systemd" groups="ivi"/>
@@ -703,6 +740,7 @@
   <project name="platform/upstream/tree" path="platform/upstream/tree" groups="ivi"/>
   <project name="platform/upstream/tzdata" path="platform/upstream/tzdata" groups="ivi"/>
   <project name="platform/upstream/udhcp" path="platform/upstream/udhcp" groups="ivi"/>
+  <project name="platform/upstream/udisks2" path="platform/upstream/udisks2" groups="ivi"/>
   <project name="platform/upstream/uim" path="platform/upstream/uim" groups="ivi"/>
   <project name="platform/upstream/unifdef" path="platform/upstream/unifdef" groups="ivi"/>
   <project name="platform/upstream/unzip" path="platform/upstream/unzip" groups="ivi"/>
@@ -726,6 +764,7 @@
   <project name="platform/upstream/vpnc" path="platform/upstream/vpnc" groups="ivi"/>
   <project name="platform/upstream/wayland" path="platform/upstream/wayland" groups="ivi"/>
   <project name="platform/upstream/wdiff" path="platform/upstream/wdiff" groups="ivi"/>
+  <project name="platform/upstream/weekeyboard" path="platform/upstream/weekeyboard" groups="ivi"/>
   <project name="platform/upstream/weston" path="platform/upstream/weston" groups="ivi"/>
   <project name="platform/upstream/wget" path="platform/upstream/wget" groups="ivi"/>
   <project name="platform/upstream/which" path="platform/upstream/which" groups="ivi"/>
@@ -784,6 +823,7 @@
   <project name="platform/upstream/zlib" path="platform/upstream/zlib" groups="ivi"/>
   <project name="platform/upstream/zypper" path="platform/upstream/zypper" groups="ivi"/>
   <project name="platform/upstream/zypper-plugin" path="platform/upstream/zypper-plugin" groups="ivi"/>
+  <project name="profile/generic/model/config" path="profile/generic/model/config" groups="ivi"/>
   <project name="profile/ivi/GSSDP" path="profile/ivi/GSSDP" groups="ivi"/>
   <project name="profile/ivi/GUPnP" path="profile/ivi/GUPnP" groups="ivi"/>
   <project name="profile/ivi/GUPnP-AV" path="profile/ivi/GUPnP-AV" groups="ivi"/>
@@ -795,7 +835,10 @@
   <project name="profile/ivi/automotive-message-broker" path="profile/ivi/automotive-message-broker" groups="ivi"/>
   <project name="profile/ivi/cowhide" path="profile/ivi/cowhide" groups="ivi"/>
   <project name="profile/ivi/dLeyna" path="profile/ivi/dLeyna" groups="ivi"/>
+  <project name="profile/ivi/dlt-daemon" path="profile/ivi/dlt-daemon" groups="ivi"/>
+  <project name="profile/ivi/efl-theme-tizen" path="profile/ivi/efl-theme-tizen" groups="ivi"/>
   <project name="profile/ivi/festival" path="profile/ivi/festival" groups="ivi"/>
+  <project name="profile/ivi/genivi/genivi-audio-manager" path="profile/ivi/genivi/genivi-audio-manager" groups="ivi"/>
   <project name="profile/ivi/gsignond" path="profile/ivi/gsignond" groups="ivi"/>
   <project name="profile/ivi/ico-uxf-device-input-controller" path="profile/ivi/ico-uxf-device-input-controller" groups="ivi"/>
   <project name="profile/ivi/ico-uxf-homescreen" path="profile/ivi/ico-uxf-homescreen" groups="ivi"/>
@@ -805,30 +848,41 @@
   <project name="profile/ivi/ico-vic-amb-plugin" path="profile/ivi/ico-vic-amb-plugin" groups="ivi"/>
   <project name="profile/ivi/ico-vic-carsimulator" path="profile/ivi/ico-vic-carsimulator" groups="ivi"/>
   <project name="profile/ivi/ivi-repos" path="profile/ivi/ivi-repos" groups="ivi"/>
-  <project name="profile/ivi/ivi-repos-x86_64" path="profile/ivi/ivi-repos-x86_64" groups="ivi"/>
   <project name="profile/ivi/kernel-x86-ivi" path="profile/ivi/kernel-x86-ivi" groups="ivi"/>
+  <project name="profile/ivi/layer-management" path="profile/ivi/layer-management" groups="ivi"/>
   <project name="profile/ivi/lemolo" path="profile/ivi/lemolo" groups="ivi"/>
   <project name="profile/ivi/libgsignon-glib" path="profile/ivi/libgsignon-glib" groups="ivi"/>
   <project name="profile/ivi/libwebsockets" path="profile/ivi/libwebsockets" groups="ivi"/>
   <project name="profile/ivi/message-port" path="profile/ivi/message-port" groups="ivi"/>
   <project name="profile/ivi/meta-ivi" path="profile/ivi/meta-ivi" groups="ivi"/>
+  <project name="profile/ivi/model/config" path="profile/ivi/model/config" groups="ivi"/>
   <project name="profile/ivi/murphy" path="profile/ivi/murphy" groups="ivi"/>
+  <project name="profile/ivi/node-startup-controller" path="profile/ivi/node-startup-controller" groups="ivi"/>
   <project name="profile/ivi/notification-service" path="profile/ivi/notification-service" groups="ivi"/>
   <project name="profile/ivi/opencv" path="profile/ivi/opencv" groups="ivi"/>
   <project name="profile/ivi/pocketsphinx" path="profile/ivi/pocketsphinx" groups="ivi"/>
   <project name="profile/ivi/psplash" path="profile/ivi/psplash" groups="ivi"/>
   <project name="profile/ivi/pulseaudio-module-murphy-ivi" path="profile/ivi/pulseaudio-module-murphy-ivi" groups="ivi"/>
+  <project name="profile/ivi/quota" path="profile/ivi/quota" groups="ivi"/>
   <project name="profile/ivi/release-repos" path="profile/ivi/release-repos" groups="ivi"/>
   <project name="profile/ivi/rygel" path="profile/ivi/rygel" groups="ivi"/>
   <project name="profile/ivi/saythis" path="profile/ivi/saythis" groups="ivi"/>
   <project name="profile/ivi/settings-daemon" path="profile/ivi/settings-daemon" groups="ivi"/>
   <project name="profile/ivi/setup-efi-ivi" path="profile/ivi/setup-efi-ivi" groups="ivi"/>
+  <project name="profile/ivi/setup-ivi" path="profile/ivi/setup-ivi" groups="ivi"/>
+  <project name="profile/ivi/setup-mbr-ivi" path="profile/ivi/setup-mbr-ivi" groups="ivi"/>
   <project name="profile/ivi/signonui-efl" path="profile/ivi/signonui-efl" groups="ivi"/>
   <project name="profile/ivi/smartdevicelink" path="profile/ivi/smartdevicelink" groups="ivi"/>
   <project name="profile/ivi/speech-recognition" path="profile/ivi/speech-recognition" groups="ivi"/>
   <project name="profile/ivi/sphinxbase" path="profile/ivi/sphinxbase" groups="ivi"/>
-  <project name="profile/ivi/weekeyboard" path="profile/ivi/weekeyboard" groups="ivi"/>
+  <project name="profile/ivi/syslinux" path="profile/ivi/syslinux" groups="ivi"/>
+  <project name="profile/ivi/udev-rules" path="profile/ivi/udev-rules" groups="ivi"/>
+  <project name="profile/ivi/wayland-ivi-extension" path="profile/ivi/wayland-ivi-extension" groups="ivi"/>
+  <project name="profile/ivi/weston-ivi" path="profile/ivi/weston-ivi" groups="ivi"/>
   <project name="profile/ivi/wrt-plugins-ivi" path="profile/ivi/wrt-plugins-ivi" groups="ivi"/>
   <project name="sdk/system-plugin-emulator" path="sdk/system-plugin-emulator" groups="ivi"/>
+  <project name="sdk/target/sdbd" path="sdk/target/sdbd" groups="ivi"/>
+  <project name="tools/lthor" path="tools/lthor" groups="ivi"/>
   <project name="tools/mic-bootstrap" path="tools/mic-bootstrap" groups="ivi"/>
+ <!-- Source packages without VCS infomation: -->
 </manifest>
