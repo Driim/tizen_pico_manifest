@@ -1,34 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="adaptation/face-engine" path="adaptation/face-engine" groups="ivi"/>
-  <project name="apps/core/preloaded/app-selector" path="apps/core/preloaded/app-selector" groups="ivi"/>
   <project name="apps/core/preloaded/boot-animation" path="apps/core/preloaded/boot-animation" groups="ivi"/>
-  <project name="apps/core/preloaded/bt-syspopup" path="apps/core/preloaded/bt-syspopup" groups="ivi"/>
-  <project name="apps/core/preloaded/calculator" path="apps/core/preloaded/calculator" groups="ivi"/>
-  <project name="apps/core/preloaded/calendar" path="apps/core/preloaded/calendar" groups="ivi"/>
-  <project name="apps/core/preloaded/camera" path="apps/core/preloaded/camera" groups="ivi"/>
-  <project name="apps/core/preloaded/draglock" path="apps/core/preloaded/draglock" groups="ivi"/>
-  <project name="apps/core/preloaded/image-viewer" path="apps/core/preloaded/image-viewer" groups="ivi"/>
   <project name="apps/core/preloaded/libslp-alarm" path="apps/core/preloaded/libslp-alarm" groups="ivi"/>
   <project name="apps/core/preloaded/libslp-memo" path="apps/core/preloaded/libslp-memo" groups="ivi"/>
   <project name="apps/core/preloaded/libug-worldclock-efl" path="apps/core/preloaded/libug-worldclock-efl" groups="ivi"/>
-  <project name="apps/core/preloaded/lockscreen" path="apps/core/preloaded/lockscreen" groups="ivi"/>
   <project name="apps/core/preloaded/menu-daemon" path="apps/core/preloaded/menu-daemon" groups="ivi"/>
-  <project name="apps/core/preloaded/menu-screen" path="apps/core/preloaded/menu-screen" groups="ivi"/>
   <project name="apps/core/preloaded/minicontrol" path="apps/core/preloaded/minicontrol" groups="ivi"/>
-  <project name="apps/core/preloaded/net-popup" path="apps/core/preloaded/net-popup" groups="ivi"/>
   <project name="apps/core/preloaded/print-service" path="apps/core/preloaded/print-service" groups="ivi"/>
-  <project name="apps/core/preloaded/settings" path="apps/core/preloaded/settings" groups="ivi"/>
   <project name="apps/core/preloaded/starter" path="apps/core/preloaded/starter" groups="ivi"/>
-  <project name="apps/core/preloaded/taskmanager" path="apps/core/preloaded/taskmanager" groups="ivi"/>
-  <project name="apps/core/preloaded/tickernoti" path="apps/core/preloaded/tickernoti" groups="ivi"/>
   <project name="apps/core/preloaded/udisks-automount-agent" path="apps/core/preloaded/udisks-automount-agent" groups="ivi"/>
   <project name="apps/core/preloaded/ug-camera-efl" path="apps/core/preloaded/ug-camera-efl" groups="ivi"/>
   <project name="apps/core/preloaded/ug-setting-gallery-efl" path="apps/core/preloaded/ug-setting-gallery-efl" groups="ivi"/>
   <project name="apps/core/preloaded/ug-setting-homescreen-efl" path="apps/core/preloaded/ug-setting-homescreen-efl" groups="ivi"/>
   <project name="apps/core/preloaded/usb-manager" path="apps/core/preloaded/usb-manager" groups="ivi"/>
-  <project name="apps/core/preloaded/usb-syspopup" path="apps/core/preloaded/usb-syspopup" groups="ivi"/>
-  <project name="apps/core/preloaded/volume-app" path="apps/core/preloaded/volume-app" groups="ivi"/>
   <project name="platform/adaptation/emulator/emulator-plugin-nfc" path="platform/adaptation/emulator/emulator-plugin-nfc" groups="ivi"/>
   <project name="platform/adaptation/emulator/emulator-yagl" path="platform/adaptation/emulator/emulator-yagl" groups="ivi"/>
   <project name="platform/core/api/app-manager" path="platform/core/api/app-manager" groups="ivi"/>
@@ -118,6 +103,9 @@
   <project name="platform/core/connectivity/net-config" path="platform/core/connectivity/net-config" groups="ivi"/>
   <project name="platform/core/connectivity/nfc-manager" path="platform/core/connectivity/nfc-manager" groups="ivi"/>
   <project name="platform/core/connectivity/nfc-manager-neard" path="platform/core/connectivity/nfc-manager-neard" groups="ivi"/>
+  <project name="platform/core/connectivity/smartcard-plugin-nfc" path="platform/core/connectivity/smartcard-plugin-nfc" groups="ivi"/>
+  <project name="platform/core/connectivity/smartcard-plugin-uicc" path="platform/core/connectivity/smartcard-plugin-uicc" groups="ivi"/>
+  <project name="platform/core/connectivity/smartcard-service" path="platform/core/connectivity/smartcard-service" groups="ivi"/>
   <project name="platform/core/connectivity/wifi-direct-manager" path="platform/core/connectivity/wifi-direct-manager" groups="ivi"/>
   <project name="platform/core/graphics/default-fonts-fc-sdk" path="platform/core/graphics/default-fonts-fc-sdk" groups="ivi"/>
   <project name="platform/core/graphics/default-fonts-sdk" path="platform/core/graphics/default-fonts-sdk" groups="ivi"/>
@@ -153,6 +141,7 @@
   <project name="platform/core/multimedia/libmm-utility" path="platform/core/multimedia/libmm-utility" groups="ivi"/>
   <project name="platform/core/multimedia/media-data-sdk" path="platform/core/multimedia/media-data-sdk" groups="ivi"/>
   <project name="platform/core/multimedia/media-server" path="platform/core/multimedia/media-server" groups="ivi"/>
+  <project name="platform/core/multimedia/tinycompress" path="platform/core/multimedia/tinycompress" groups="ivi"/>
   <project name="platform/core/pim/calendar-service" path="platform/core/pim/calendar-service" groups="ivi"/>
   <project name="platform/core/pim/contacts-service" path="platform/core/pim/contacts-service" groups="ivi"/>
   <project name="platform/core/pim/libaccounts-svc" path="platform/core/pim/libaccounts-svc" groups="ivi"/>
@@ -185,9 +174,6 @@
   <project name="platform/core/system/oma-ds-agent" path="platform/core/system/oma-ds-agent" groups="ivi"/>
   <project name="platform/core/system/power-manager" path="platform/core/system/power-manager" groups="ivi"/>
   <project name="platform/core/system/sensor-framework" path="platform/core/system/sensor-framework" groups="ivi"/>
-  <project name="platform/core/connectivity/smartcard-plugin-nfc" path="platform/core/system/smartcard-plugin-nfc" groups="ivi"/>
-  <project name="platform/core/connectivity/smartcard-plugin-uicc" path="platform/core/system/smartcard-plugin-uicc" groups="ivi"/>
-  <project name="platform/core/connectivity/smartcard-service" path="platform/core/system/smartcard-service" groups="ivi"/>
   <project name="platform/core/system/svi-data" path="platform/core/system/svi-data" groups="ivi"/>
   <project name="platform/core/system/sync-agent" path="platform/core/system/sync-agent" groups="ivi"/>
   <project name="platform/core/system/sys-assert" path="platform/core/system/sys-assert" groups="ivi"/>
@@ -219,7 +205,6 @@
   <project name="platform/core/uifw/stt" path="platform/core/uifw/stt" groups="ivi"/>
   <project name="platform/core/uifw/tts" path="platform/core/uifw/tts" groups="ivi"/>
   <project name="platform/framework/web/data-provider-master" path="platform/framework/web/data-provider-master" groups="ivi"/>
-  <project name="platform/framework/web/data-provider-slave" path="platform/framework/web/data-provider-slave" groups="ivi"/>
   <project name="platform/framework/web/download-provider" path="platform/framework/web/download-provider" groups="ivi"/>
   <project name="platform/framework/web/heap-monitor" path="platform/framework/web/heap-monitor" groups="ivi"/>
   <project name="platform/framework/web/livebox" path="platform/framework/web/livebox" groups="ivi"/>
@@ -559,7 +544,6 @@
   <project name="platform/upstream/mesa" path="platform/upstream/mesa" groups="ivi"/>
   <project name="platform/upstream/meta-base" path="platform/upstream/meta-base" groups="ivi"/>
   <project name="platform/upstream/meta-common" path="platform/upstream/meta-common" groups="ivi"/>
-  <project name="platform/upstream/meta-generic" path="platform/upstream/meta-generic" groups="ivi"/>
   <project name="platform/upstream/mic" path="platform/upstream/mic" groups="ivi"/>
   <project name="platform/upstream/mkfontdir" path="platform/upstream/mkfontdir" groups="ivi"/>
   <project name="platform/upstream/mkfontscale" path="platform/upstream/mkfontscale" groups="ivi"/>
@@ -577,6 +561,7 @@
   <project name="platform/upstream/neardal" path="platform/upstream/neardal" groups="ivi"/>
   <project name="platform/upstream/net-tools" path="platform/upstream/net-tools" groups="ivi"/>
   <project name="platform/upstream/nettle" path="platform/upstream/nettle" groups="ivi"/>
+  <project name="platform/upstream/ninja" path="platform/upstream/ninja" groups="ivi"/>
   <project name="platform/upstream/nodejs" path="platform/upstream/nodejs" groups="ivi"/>
   <project name="platform/upstream/nspr" path="platform/upstream/nspr" groups="ivi"/>
   <project name="platform/upstream/nss" path="platform/upstream/nss" groups="ivi"/>
@@ -823,7 +808,6 @@
   <project name="platform/upstream/zlib" path="platform/upstream/zlib" groups="ivi"/>
   <project name="platform/upstream/zypper" path="platform/upstream/zypper" groups="ivi"/>
   <project name="platform/upstream/zypper-plugin" path="platform/upstream/zypper-plugin" groups="ivi"/>
-  <project name="profile/generic/model/config" path="profile/generic/model/config" groups="ivi"/>
   <project name="profile/ivi/GSSDP" path="profile/ivi/GSSDP" groups="ivi"/>
   <project name="profile/ivi/GUPnP" path="profile/ivi/GUPnP" groups="ivi"/>
   <project name="profile/ivi/GUPnP-AV" path="profile/ivi/GUPnP-AV" groups="ivi"/>
@@ -832,6 +816,8 @@
   <project name="profile/ivi/MediaPlayer" path="profile/ivi/MediaPlayer" groups="ivi"/>
   <project name="profile/ivi/OpenAVB" path="profile/ivi/OpenAVB" groups="ivi"/>
   <project name="profile/ivi/SettingsApp" path="profile/ivi/SettingsApp" groups="ivi"/>
+  <project name="profile/ivi/apr" path="profile/ivi/apr" groups="ivi"/>
+  <project name="profile/ivi/apr-util" path="profile/ivi/apr-util" groups="ivi"/>
   <project name="profile/ivi/automotive-message-broker" path="profile/ivi/automotive-message-broker" groups="ivi"/>
   <project name="profile/ivi/cowhide" path="profile/ivi/cowhide" groups="ivi"/>
   <project name="profile/ivi/dLeyna" path="profile/ivi/dLeyna" groups="ivi"/>
@@ -840,6 +826,16 @@
   <project name="profile/ivi/festival" path="profile/ivi/festival" groups="ivi"/>
   <project name="profile/ivi/genivi/genivi-audio-manager" path="profile/ivi/genivi/genivi-audio-manager" groups="ivi"/>
   <project name="profile/ivi/gsignond" path="profile/ivi/gsignond" groups="ivi"/>
+  <project name="profile/ivi/html5_UI_AMBSimulator" path="profile/ivi/html5_UI_AMBSimulator" groups="ivi"/>
+  <project name="profile/ivi/html5_UI_Appmanager" path="profile/ivi/html5_UI_Appmanager" groups="ivi"/>
+  <project name="profile/ivi/html5_UI_Common" path="profile/ivi/html5_UI_Common" groups="ivi"/>
+  <project name="profile/ivi/html5_UI_Dashboard" path="profile/ivi/html5_UI_Dashboard" groups="ivi"/>
+  <project name="profile/ivi/html5_UI_Homescreen" path="profile/ivi/html5_UI_Homescreen" groups="ivi"/>
+  <project name="profile/ivi/html5_UI_Hvac" path="profile/ivi/html5_UI_Hvac" groups="ivi"/>
+  <project name="profile/ivi/html5_UI_Multimediaplayer" path="profile/ivi/html5_UI_Multimediaplayer" groups="ivi"/>
+  <project name="profile/ivi/html5_UI_Nav" path="profile/ivi/html5_UI_Nav" groups="ivi"/>
+  <project name="profile/ivi/html5_UI_Phone" path="profile/ivi/html5_UI_Phone" groups="ivi"/>
+  <project name="profile/ivi/html5_UI_SDL" path="profile/ivi/html5_UI_SDL" groups="ivi"/>
   <project name="profile/ivi/ico-uxf-device-input-controller" path="profile/ivi/ico-uxf-device-input-controller" groups="ivi"/>
   <project name="profile/ivi/ico-uxf-homescreen" path="profile/ivi/ico-uxf-homescreen" groups="ivi"/>
   <project name="profile/ivi/ico-uxf-homescreen-sample-apps" path="profile/ivi/ico-uxf-homescreen-sample-apps" groups="ivi"/>
@@ -853,6 +849,7 @@
   <project name="profile/ivi/lemolo" path="profile/ivi/lemolo" groups="ivi"/>
   <project name="profile/ivi/libgsignon-glib" path="profile/ivi/libgsignon-glib" groups="ivi"/>
   <project name="profile/ivi/libwebsockets" path="profile/ivi/libwebsockets" groups="ivi"/>
+  <project name="profile/ivi/log4cxx" path="profile/ivi/log4cxx" groups="ivi"/>
   <project name="profile/ivi/message-port" path="profile/ivi/message-port" groups="ivi"/>
   <project name="profile/ivi/meta-ivi" path="profile/ivi/meta-ivi" groups="ivi"/>
   <project name="profile/ivi/model/config" path="profile/ivi/model/config" groups="ivi"/>
@@ -860,6 +857,7 @@
   <project name="profile/ivi/node-startup-controller" path="profile/ivi/node-startup-controller" groups="ivi"/>
   <project name="profile/ivi/notification-service" path="profile/ivi/notification-service" groups="ivi"/>
   <project name="profile/ivi/opencv" path="profile/ivi/opencv" groups="ivi"/>
+  <project name="profile/ivi/phoned" path="profile/ivi/phoned" groups="ivi"/>
   <project name="profile/ivi/pocketsphinx" path="profile/ivi/pocketsphinx" groups="ivi"/>
   <project name="profile/ivi/psplash" path="profile/ivi/psplash" groups="ivi"/>
   <project name="profile/ivi/pulseaudio-module-murphy-ivi" path="profile/ivi/pulseaudio-module-murphy-ivi" groups="ivi"/>
@@ -879,9 +877,13 @@
   <project name="profile/ivi/udev-rules" path="profile/ivi/udev-rules" groups="ivi"/>
   <project name="profile/ivi/wayland-ivi-extension" path="profile/ivi/wayland-ivi-extension" groups="ivi"/>
   <project name="profile/ivi/weston-ivi" path="profile/ivi/weston-ivi" groups="ivi"/>
+  <project name="profile/ivi/weston-ivi-shell" path="profile/ivi/weston-ivi-shell" groups="ivi"/>
   <project name="profile/ivi/wrt-plugins-ivi" path="profile/ivi/wrt-plugins-ivi" groups="ivi"/>
+  <project name="profile/ivi/wrt-plugins-ivi-bt" path="profile/ivi/wrt-plugins-ivi-bt" groups="ivi"/>
+  <project name="profile/ivi/wrt-plugins-ivi-hfp" path="profile/ivi/wrt-plugins-ivi-hfp" groups="ivi"/>
   <project name="sdk/system-plugin-emulator" path="sdk/system-plugin-emulator" groups="ivi"/>
   <project name="sdk/target/sdbd" path="sdk/target/sdbd" groups="ivi"/>
+  <project name="tools/bmap-tools" path="tools/bmap-tools" groups="ivi"/>
   <project name="tools/lthor" path="tools/lthor" groups="ivi"/>
   <project name="tools/mic-bootstrap" path="tools/mic-bootstrap" groups="ivi"/>
  <!-- Source packages without VCS infomation: -->
