@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <include name="_remote.xml" />
-  <default revision="tizen"
+  <default revision="accepted/tizen_generic"
            remote="tizen-gerrit"
            sync-j="4" />
   <include name="generic/metadata.xml" />
