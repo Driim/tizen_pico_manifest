@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <project name="scm/meta/build-config" path="scm/meta/build-config" groups="meta" revision="tizen_generic"/>
-  <project name="scm/meta/gbs-config" path="scm/meta/gbs-config" groups="meta" revision="tizen_generic">
-     <copyfile src="gbs.conf" dest=".gbs.conf" />
-  </project>
-</manifest>
