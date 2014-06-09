@@ -14,6 +14,7 @@
   <project name="apps/core/preloaded/usb-manager" path="apps/core/preloaded/usb-manager" groups="common"/>
   <project name="apps/core/preloaded/usb-syspopup" path="apps/core/preloaded/usb-syspopup" groups="common"/>
   <project name="platform/adaptation/device-config-touch" path="platform/adaptation/device-config-touch" groups="common"/>
+  <project name="platform/adaptation/emulator/system-plugin-emulator" path="platform/adaptation/emulator/system-plugin-emulator" groups="common"/>
   <project name="platform/adaptation/system-plugin-ia-generic" path="platform/adaptation/system-plugin-ia-generic" groups="common"/>
   <project name="platform/core/api/app-manager" path="platform/core/api/app-manager" groups="common"/>
   <project name="platform/core/api/application" path="platform/core/api/application" groups="common"/>
@@ -135,6 +136,7 @@
   <project name="platform/core/pim/libaccounts-svc" path="platform/core/pim/libaccounts-svc" groups="common"/>
   <project name="platform/core/pim/pims-ipc" path="platform/core/pim/pims-ipc" groups="common"/>
   <project name="platform/core/security/cert-svc" path="platform/core/security/cert-svc" groups="common"/>
+  <project name="platform/core/security/cert-svc-ui" path="platform/core/security/cert-svc-ui" groups="common"/>
   <project name="platform/core/security/cynara" path="platform/core/security/cynara" groups="common"/>
   <project name="platform/core/security/default-ac-domains" path="platform/core/security/default-ac-domains" groups="common"/>
   <project name="platform/core/security/drm-client" path="platform/core/security/drm-client" groups="common"/>
@@ -189,8 +191,6 @@
   <project name="platform/framework/web/tizen-extensions-crosswalk" path="platform/framework/web/tizen-extensions-crosswalk" groups="common"/>
   <project name="platform/framework/web/web-ui-fw" path="platform/framework/web/web-ui-fw" groups="common"/>
   <project name="platform/framework/web/wrt-commons" path="platform/framework/web/wrt-commons" groups="common"/>
-  <project name="platform/framework/web/wrt-installer" path="platform/framework/web/wrt-installer" groups="common"/>
-  <project name="platform/framework/web/wrt-security" path="platform/framework/web/wrt-security" groups="common"/>
   <project name="platform/upstream/SDL" path="platform/upstream/SDL" groups="common"/>
   <project name="platform/upstream/acl" path="platform/upstream/acl" groups="common"/>
   <project name="platform/upstream/acpid" path="platform/upstream/acpid" groups="common"/>
@@ -266,28 +266,17 @@
   <project name="platform/upstream/doxygen" path="platform/upstream/doxygen" groups="common"/>
   <project name="platform/upstream/dracut" path="platform/upstream/dracut" groups="common"/>
   <project name="platform/upstream/e2fsprogs" path="platform/upstream/e2fsprogs" groups="common"/>
-  <project name="platform/upstream/ecore" path="platform/upstream/ecore" groups="common"/>
   <project name="platform/upstream/ecryptfs-utils" path="platform/upstream/ecryptfs-utils" groups="common"/>
   <project name="platform/upstream/ed" path="platform/upstream/ed" groups="common"/>
   <project name="platform/upstream/edbus" path="platform/upstream/edbus" groups="common"/>
-  <project name="platform/upstream/edje" path="platform/upstream/edje" groups="common"/>
-  <project name="platform/upstream/eet" path="platform/upstream/eet" groups="common"/>
-  <project name="platform/upstream/eeze" path="platform/upstream/eeze" groups="common"/>
   <project name="platform/upstream/efi-shell" path="platform/upstream/efi-shell" groups="common"/>
-  <project name="platform/upstream/efreet" path="platform/upstream/efreet" groups="common"/>
-  <project name="platform/upstream/eina" path="platform/upstream/eina" groups="common"/>
-  <project name="platform/upstream/eio" path="platform/upstream/eio" groups="common"/>
-  <project name="platform/upstream/eldbus" path="platform/upstream/eldbus" groups="common"/>
+  <project name="platform/upstream/efl" path="platform/upstream/efl" groups="common"/>
   <project name="platform/upstream/elementary" path="platform/upstream/elementary" groups="common"/>
   <project name="platform/upstream/elfutils" path="platform/upstream/elfutils" groups="common"/>
-  <project name="platform/upstream/embryo" path="platform/upstream/embryo" groups="common"/>
-  <project name="platform/upstream/emotion" path="platform/upstream/emotion" groups="common"/>
   <project name="platform/upstream/emulator-macros" path="platform/upstream/emulator-macros" groups="common"/>
   <project name="platform/upstream/enchant" path="platform/upstream/enchant" groups="common"/>
   <project name="platform/upstream/epson-inkjet-printer-escpr" path="platform/upstream/epson-inkjet-printer-escpr" groups="common"/>
   <project name="platform/upstream/epson-laser-printer-escpage" path="platform/upstream/epson-laser-printer-escpage" groups="common"/>
-  <project name="platform/upstream/ethumb" path="platform/upstream/ethumb" groups="common"/>
-  <project name="platform/upstream/evas" path="platform/upstream/evas" groups="common"/>
   <project name="platform/upstream/evolution-data-server" path="platform/upstream/evolution-data-server" groups="common"/>
   <project name="platform/upstream/expat" path="platform/upstream/expat" groups="common"/>
   <project name="platform/upstream/expect" path="platform/upstream/expect" groups="common"/>
@@ -431,6 +420,7 @@
   <project name="platform/upstream/liboil" path="platform/upstream/liboil" groups="common"/>
   <project name="platform/upstream/libpcap" path="platform/upstream/libpcap" groups="common"/>
   <project name="platform/upstream/libpciaccess" path="platform/upstream/libpciaccess" groups="common"/>
+  <project name="platform/upstream/libphonenumber" path="platform/upstream/libphonenumber" groups="common"/>
   <project name="platform/upstream/libpinyin" path="platform/upstream/libpinyin" groups="common"/>
   <project name="platform/upstream/libpipeline" path="platform/upstream/libpipeline" groups="common"/>
   <project name="platform/upstream/libpng" path="platform/upstream/libpng" groups="common"/>
@@ -493,6 +483,7 @@
   <project name="platform/upstream/ncurses" path="platform/upstream/ncurses" groups="common"/>
   <project name="platform/upstream/neard" path="platform/upstream/neard" groups="common"/>
   <project name="platform/upstream/neardal" path="platform/upstream/neardal" groups="common"/>
+  <project name="platform/upstream/neon" path="platform/upstream/neon" groups="common"/>
   <project name="platform/upstream/net-tools" path="platform/upstream/net-tools" groups="common"/>
   <project name="platform/upstream/nettle" path="platform/upstream/nettle" groups="common"/>
   <project name="platform/upstream/ninja" path="platform/upstream/ninja" groups="common"/>
@@ -633,6 +624,7 @@
   <project name="platform/upstream/sudo" path="platform/upstream/sudo" groups="common"/>
   <project name="platform/upstream/swig" path="platform/upstream/swig" groups="common"/>
   <project name="platform/upstream/swup" path="platform/upstream/swup" groups="common"/>
+  <project name="platform/upstream/syncevolution" path="platform/upstream/syncevolution" groups="common"/>
   <project name="platform/upstream/sysfsutils" path="platform/upstream/sysfsutils" groups="common"/>
   <project name="platform/upstream/syslinux" path="platform/upstream/syslinux" groups="common"/>
   <project name="platform/upstream/sysprof" path="platform/upstream/sysprof" groups="common"/>
@@ -723,6 +715,8 @@
   <project name="profile/ivi/setup-mbr-ivi" path="profile/ivi/setup-mbr-ivi" groups="common"/>
   <project name="scm/test" path="scm/test" groups="common"/>
   <project name="sdk/target/sdbd" path="sdk/target/sdbd" groups="common"/>
+  <project name="test/common/common-sanity-suite" path="test/common/common-sanity-suite" groups="common"/>
+  <project name="test/tools/common-suite-launcher" path="test/tools/common-suite-launcher" groups="common"/>
   <project name="test/tools/testkit-lite" path="test/tools/testkit-lite" groups="common"/>
   <project name="test/tools/testkit-stub" path="test/tools/testkit-stub" groups="common"/>
   <project name="tools/bmap-tools" path="tools/bmap-tools" groups="common"/>
