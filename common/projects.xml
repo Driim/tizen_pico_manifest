@@ -13,9 +13,7 @@
   <project name="apps/core/preloaded/ug-setting-homescreen-efl" path="apps/core/preloaded/ug-setting-homescreen-efl" groups="common"/>
   <project name="apps/core/preloaded/usb-manager" path="apps/core/preloaded/usb-manager" groups="common"/>
   <project name="apps/core/preloaded/usb-syspopup" path="apps/core/preloaded/usb-syspopup" groups="common"/>
-  <project name="platform/adaptation/device-config-touch" path="platform/adaptation/device-config-touch" groups="common"/>
   <project name="platform/adaptation/emulator/system-plugin-emulator" path="platform/adaptation/emulator/system-plugin-emulator" groups="common"/>
-  <project name="platform/adaptation/system-plugin-ia-generic" path="platform/adaptation/system-plugin-ia-generic" groups="common"/>
   <project name="platform/core/api/app-manager" path="platform/core/api/app-manager" groups="common"/>
   <project name="platform/core/api/application" path="platform/core/api/application" groups="common"/>
   <project name="platform/core/api/audio-io" path="platform/core/api/audio-io" groups="common"/>
@@ -109,7 +107,6 @@
   <project name="platform/core/location/lbs-dbus" path="platform/core/location/lbs-dbus" groups="common"/>
   <project name="platform/core/location/liblocation-appman" path="platform/core/location/liblocation-appman" groups="common"/>
   <project name="platform/core/location/libslp-location" path="platform/core/location/libslp-location" groups="common"/>
-  <project name="platform/core/location/ug-setting-location-efl" path="platform/core/location/ug-setting-location-efl" groups="common"/>
   <project name="platform/core/messaging/email-service" path="platform/core/messaging/email-service" groups="common"/>
   <project name="platform/core/messaging/msg-service" path="platform/core/messaging/msg-service" groups="common"/>
   <project name="platform/core/multimedia/alsa-scenario-0.2" path="platform/core/multimedia/alsa-scenario-0.2" groups="common"/>
@@ -145,15 +142,13 @@
   <project name="platform/core/security/libcryptsvc" path="platform/core/security/libcryptsvc" groups="common"/>
   <project name="platform/core/security/libprivilege-control" path="platform/core/security/libprivilege-control" groups="common"/>
   <project name="platform/core/security/privacy-manager" path="platform/core/security/privacy-manager" groups="common"/>
+  <project name="platform/core/security/privilege-checker" path="platform/core/security/privilege-checker" groups="common"/>
   <project name="platform/core/security/secure-storage" path="platform/core/security/secure-storage" groups="common"/>
   <project name="platform/core/security/security-server" path="platform/core/security/security-server" groups="common"/>
-  <project name="platform/core/system/devman" path="platform/core/system/devman" groups="common"/>
   <project name="platform/core/system/dlog" path="platform/core/system/dlog" groups="common"/>
   <project name="platform/core/system/haptic-module-tizen" path="platform/core/system/haptic-module-tizen" groups="common"/>
   <project name="platform/core/system/libdevice-node" path="platform/core/system/libdevice-node" groups="common"/>
-  <project name="platform/core/system/libhaptic" path="platform/core/system/libhaptic" groups="common"/>
   <project name="platform/core/system/libsf-common" path="platform/core/system/libsf-common" groups="common"/>
-  <project name="platform/core/system/libslp-pm" path="platform/core/system/libslp-pm" groups="common"/>
   <project name="platform/core/system/libslp-sensor" path="platform/core/system/libslp-sensor" groups="common"/>
   <project name="platform/core/system/libslp-sysman" path="platform/core/system/libslp-sysman" groups="common"/>
   <project name="platform/core/system/libsvi" path="platform/core/system/libsvi" groups="common"/>
@@ -180,6 +175,7 @@
   <project name="platform/core/telephony/telephony-daemon" path="platform/core/telephony/telephony-daemon" groups="common"/>
   <project name="platform/core/uifw/anthy" path="platform/core/uifw/anthy" groups="common"/>
   <project name="platform/core/uifw/efl-assist" path="platform/core/uifw/efl-assist" groups="common"/>
+  <project name="platform/core/uifw/efl-theme-tizen" path="platform/core/uifw/efl-theme-tizen" groups="common"/>
   <project name="platform/core/uifw/elm-misc" path="platform/core/uifw/elm-misc" groups="common"/>
   <project name="platform/core/uifw/libhangul" path="platform/core/uifw/libhangul" groups="common"/>
   <project name="platform/core/uifw/libtbm" path="platform/core/uifw/libtbm" groups="common"/>
@@ -187,9 +183,7 @@
   <project name="platform/core/uifw/tts" path="platform/core/uifw/tts" groups="common"/>
   <project name="platform/framework/web/crosswalk" path="platform/framework/web/crosswalk" groups="common"/>
   <project name="platform/framework/web/download-provider" path="platform/framework/web/download-provider" groups="common"/>
-  <project name="platform/framework/web/heap-monitor" path="platform/framework/web/heap-monitor" groups="common"/>
   <project name="platform/framework/web/tizen-extensions-crosswalk" path="platform/framework/web/tizen-extensions-crosswalk" groups="common"/>
-  <project name="platform/framework/web/web-ui-fw" path="platform/framework/web/web-ui-fw" groups="common"/>
   <project name="platform/framework/web/wrt-commons" path="platform/framework/web/wrt-commons" groups="common"/>
   <project name="platform/upstream/SDL" path="platform/upstream/SDL" groups="common"/>
   <project name="platform/upstream/acl" path="platform/upstream/acl" groups="common"/>
@@ -209,7 +203,6 @@
   <project name="platform/upstream/avahi" path="platform/upstream/avahi" groups="common"/>
   <project name="platform/upstream/bash" path="platform/upstream/bash" groups="common"/>
   <project name="platform/upstream/bc" path="platform/upstream/bc" groups="common"/>
-  <project name="platform/upstream/bdftopcf" path="platform/upstream/bdftopcf" groups="common"/>
   <project name="platform/upstream/binutils" path="platform/upstream/binutils" groups="common"/>
   <project name="platform/upstream/bison" path="platform/upstream/bison" groups="common"/>
   <project name="platform/upstream/bluez" path="platform/upstream/bluez" groups="common"/>
@@ -266,6 +259,7 @@
   <project name="platform/upstream/doxygen" path="platform/upstream/doxygen" groups="common"/>
   <project name="platform/upstream/dracut" path="platform/upstream/dracut" groups="common"/>
   <project name="platform/upstream/e2fsprogs" path="platform/upstream/e2fsprogs" groups="common"/>
+  <project name="platform/upstream/ebtables" path="platform/upstream/ebtables" groups="common"/>
   <project name="platform/upstream/ecryptfs-utils" path="platform/upstream/ecryptfs-utils" groups="common"/>
   <project name="platform/upstream/ed" path="platform/upstream/ed" groups="common"/>
   <project name="platform/upstream/edbus" path="platform/upstream/edbus" groups="common"/>
@@ -370,15 +364,13 @@
   <project name="platform/upstream/keyutils" path="platform/upstream/keyutils" groups="common"/>
   <project name="platform/upstream/kickstarter" path="platform/upstream/kickstarter" groups="common"/>
   <project name="platform/upstream/kmod" path="platform/upstream/kmod" groups="common"/>
+  <project name="platform/upstream/kmscon" path="platform/upstream/kmscon" groups="common"/>
   <project name="platform/upstream/krb5" path="platform/upstream/krb5" groups="common"/>
   <project name="platform/upstream/lcms2" path="platform/upstream/lcms2" groups="common"/>
   <project name="platform/upstream/less" path="platform/upstream/less" groups="common"/>
   <project name="platform/upstream/leveldb" path="platform/upstream/leveldb" groups="common"/>
   <project name="platform/upstream/libICE" path="platform/upstream/libICE" groups="common"/>
   <project name="platform/upstream/libSM" path="platform/upstream/libSM" groups="common"/>
-  <project name="platform/upstream/libXau" path="platform/upstream/libXau" groups="common"/>
-  <project name="platform/upstream/libXdmcp" path="platform/upstream/libXdmcp" groups="common"/>
-  <project name="platform/upstream/libXfont" path="platform/upstream/libXfont" groups="common"/>
   <project name="platform/upstream/libaio" path="platform/upstream/libaio" groups="common"/>
   <project name="platform/upstream/libarchive" path="platform/upstream/libarchive" groups="common"/>
   <project name="platform/upstream/libassuan" path="platform/upstream/libassuan" groups="common"/>
@@ -393,6 +385,7 @@
   <project name="platform/upstream/libdrm" path="platform/upstream/libdrm" groups="common"/>
   <project name="platform/upstream/libedit" path="platform/upstream/libedit" groups="common"/>
   <project name="platform/upstream/libelf0" path="platform/upstream/libelf0" groups="common"/>
+  <project name="platform/upstream/libevdev" path="platform/upstream/libevdev" groups="common"/>
   <project name="platform/upstream/libevent" path="platform/upstream/libevent" groups="common"/>
   <project name="platform/upstream/libexif" path="platform/upstream/libexif" groups="common"/>
   <project name="platform/upstream/libffi" path="platform/upstream/libffi" groups="common"/>
@@ -434,6 +427,7 @@
   <project name="platform/upstream/libtheora" path="platform/upstream/libtheora" groups="common"/>
   <project name="platform/upstream/libtirpc" path="platform/upstream/libtirpc" groups="common"/>
   <project name="platform/upstream/libtool" path="platform/upstream/libtool" groups="common"/>
+  <project name="platform/upstream/libtsm" path="platform/upstream/libtsm" groups="common"/>
   <project name="platform/upstream/libunistring" path="platform/upstream/libunistring" groups="common"/>
   <project name="platform/upstream/libunwind" path="platform/upstream/libunwind" groups="common"/>
   <project name="platform/upstream/libusb" path="platform/upstream/libusb" groups="common"/>
@@ -674,18 +668,11 @@
   <project name="platform/upstream/which" path="platform/upstream/which" groups="common"/>
   <project name="platform/upstream/wireless-regdb" path="platform/upstream/wireless-regdb" groups="common"/>
   <project name="platform/upstream/wpa_supplicant" path="platform/upstream/wpa_supplicant" groups="common"/>
-  <project name="platform/upstream/x86info" path="platform/upstream/x86info" groups="common"/>
-  <project name="platform/upstream/xbitmaps" path="platform/upstream/xbitmaps" groups="common"/>
-  <project name="platform/upstream/xdelta1" path="platform/upstream/xdelta1" groups="common"/>
-  <project name="platform/upstream/xdg-user-dirs" path="platform/upstream/xdg-user-dirs" groups="common"/>
-  <project name="platform/upstream/xdg-utils" path="platform/upstream/xdg-utils" groups="common"/>
   <project name="platform/upstream/xkeyboard-config" path="platform/upstream/xkeyboard-config" groups="common"/>
   <project name="platform/upstream/xmlcharent" path="platform/upstream/xmlcharent" groups="common"/>
   <project name="platform/upstream/xmlsec1" path="platform/upstream/xmlsec1" groups="common"/>
   <project name="platform/upstream/xmlstarlet" path="platform/upstream/xmlstarlet" groups="common"/>
   <project name="platform/upstream/xmlto" path="platform/upstream/xmlto" groups="common"/>
-  <project name="platform/upstream/xorg-cf-files" path="platform/upstream/xorg-cf-files" groups="common"/>
-  <project name="platform/upstream/xorg-launch-helper" path="platform/upstream/xorg-launch-helper" groups="common"/>
   <project name="platform/upstream/xproto" path="platform/upstream/xproto" groups="common"/>
   <project name="platform/upstream/xtrans" path="platform/upstream/xtrans" groups="common"/>
   <project name="platform/upstream/xz" path="platform/upstream/xz" groups="common"/>
@@ -703,24 +690,26 @@
   <project name="profile/common/meta" path="profile/common/meta" groups="common"/>
   <project name="profile/common/weston-common" path="profile/common/weston-common" groups="common"/>
   <project name="profile/common/wrt-widgets" path="profile/common/wrt-widgets" groups="common"/>
-  <project name="profile/extras/intel-gpu-tools" path="profile/extras/intel-gpu-tools" groups="common"/>
   <project name="profile/generic/model/config" path="profile/generic/model/config" groups="common"/>
   <project name="profile/ivi/GSSDP" path="profile/ivi/GSSDP" groups="common"/>
   <project name="profile/ivi/GUPnP" path="profile/ivi/GUPnP" groups="common"/>
   <project name="profile/ivi/GUPnP-AV" path="profile/ivi/GUPnP-AV" groups="common"/>
   <project name="profile/ivi/GUPnP-DLNA" path="profile/ivi/GUPnP-DLNA" groups="common"/>
   <project name="profile/ivi/dLeyna" path="profile/ivi/dLeyna" groups="common"/>
-  <project name="profile/ivi/efl-theme-tizen" path="profile/ivi/efl-theme-tizen" groups="common"/>
   <project name="profile/ivi/setup-ivi" path="profile/ivi/setup-ivi" groups="common"/>
   <project name="profile/ivi/setup-mbr-ivi" path="profile/ivi/setup-mbr-ivi" groups="common"/>
-  <project name="scm/test" path="scm/test" groups="common"/>
   <project name="sdk/target/sdbd" path="sdk/target/sdbd" groups="common"/>
+  <project name="test/common/common-connectivity-suite" path="test/common/common-connectivity-suite" groups="common"/>
+  <project name="test/common/common-crosswalk-suite" path="test/common/common-crosswalk-suite" groups="common"/>
+  <project name="test/common/common-graphics-suite" path="test/common/common-graphics-suite" groups="common"/>
+  <project name="test/common/common-multimedia-suite" path="test/common/common-multimedia-suite" groups="common"/>
   <project name="test/common/common-sanity-suite" path="test/common/common-sanity-suite" groups="common"/>
+  <project name="test/generic/wayland-fits" path="test/generic/wayland-fits" groups="common"/>
   <project name="test/tools/common-suite-launcher" path="test/tools/common-suite-launcher" groups="common"/>
   <project name="test/tools/testkit-lite" path="test/tools/testkit-lite" groups="common"/>
   <project name="test/tools/testkit-stub" path="test/tools/testkit-stub" groups="common"/>
+  <project name="test/tools/tinyweb" path="test/tools/tinyweb" groups="common"/>
   <project name="tools/bmap-tools" path="tools/bmap-tools" groups="common"/>
   <project name="tools/lthor" path="tools/lthor" groups="common"/>
   <project name="tools/mic-bootstrap" path="tools/mic-bootstrap" groups="common"/>
- <!-- Source packages without VCS infomation: -->
 </manifest>
