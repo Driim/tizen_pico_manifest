@@ -129,10 +129,13 @@
   <project name="platform/core/security/privacy-manager" path="platform/core/security/privacy-manager" groups="ivi"/>
   <project name="platform/core/security/secure-storage" path="platform/core/security/secure-storage" groups="ivi"/>
   <project name="platform/core/security/security-server" path="platform/core/security/security-server" groups="ivi"/>
+  <project name="platform/core/system/devman" path="platform/core/system/devman" groups="ivi"/>
   <project name="platform/core/system/dlog" path="platform/core/system/dlog" groups="ivi"/>
   <project name="platform/core/system/haptic-module-tizen" path="platform/core/system/haptic-module-tizen" groups="ivi"/>
   <project name="platform/core/system/libdevice-node" path="platform/core/system/libdevice-node" groups="ivi"/>
+  <project name="platform/core/system/libhaptic" path="platform/core/system/libhaptic" groups="ivi"/>
   <project name="platform/core/system/libsf-common" path="platform/core/system/libsf-common" groups="ivi"/>
+  <project name="platform/core/system/libslp-pm" path="platform/core/system/libslp-pm" groups="ivi"/>
   <project name="platform/core/system/libslp-sensor" path="platform/core/system/libslp-sensor" groups="ivi"/>
   <project name="platform/core/system/libslp-sysman" path="platform/core/system/libslp-sysman" groups="ivi"/>
   <project name="platform/core/system/libsvi" path="platform/core/system/libsvi" groups="ivi"/>
@@ -243,28 +246,15 @@
   <project name="platform/upstream/dri2proto" path="platform/upstream/dri2proto" groups="ivi"/>
   <project name="platform/upstream/e2fsprogs" path="platform/upstream/e2fsprogs" groups="ivi"/>
   <project name="platform/upstream/ebtables" path="platform/upstream/ebtables" groups="ivi"/>
-  <project name="platform/upstream/ecore" path="platform/upstream/ecore" groups="ivi"/>
   <project name="platform/upstream/ecryptfs-utils" path="platform/upstream/ecryptfs-utils" groups="ivi"/>
   <project name="platform/upstream/ed" path="platform/upstream/ed" groups="ivi"/>
   <project name="platform/upstream/edbus" path="platform/upstream/edbus" groups="ivi"/>
-  <project name="platform/upstream/edje" path="platform/upstream/edje" groups="ivi"/>
-  <project name="platform/upstream/eet" path="platform/upstream/eet" groups="ivi"/>
-  <project name="platform/upstream/eeze" path="platform/upstream/eeze" groups="ivi"/>
   <project name="platform/upstream/efi-shell" path="platform/upstream/efi-shell" groups="ivi"/>
-  <project name="platform/upstream/efreet" path="platform/upstream/efreet" groups="ivi"/>
-  <project name="platform/upstream/eina" path="platform/upstream/eina" groups="ivi"/>
-  <project name="platform/upstream/eio" path="platform/upstream/eio" groups="ivi"/>
-  <project name="platform/upstream/eldbus" path="platform/upstream/eldbus" groups="ivi"/>
   <project name="platform/upstream/elementary" path="platform/upstream/elementary" groups="ivi"/>
   <project name="platform/upstream/elfutils" path="platform/upstream/elfutils" groups="ivi"/>
-  <project name="platform/upstream/embryo" path="platform/upstream/embryo" groups="ivi"/>
-  <project name="platform/upstream/emotion" path="platform/upstream/emotion" groups="ivi"/>
   <project name="platform/upstream/emulator-macros" path="platform/upstream/emulator-macros" groups="ivi"/>
-  <project name="platform/upstream/enchant" path="platform/upstream/enchant" groups="ivi"/>
   <project name="platform/upstream/epson-inkjet-printer-escpr" path="platform/upstream/epson-inkjet-printer-escpr" groups="ivi"/>
   <project name="platform/upstream/epson-laser-printer-escpage" path="platform/upstream/epson-laser-printer-escpage" groups="ivi"/>
-  <project name="platform/upstream/ethumb" path="platform/upstream/ethumb" groups="ivi"/>
-  <project name="platform/upstream/evas" path="platform/upstream/evas" groups="ivi"/>
   <project name="platform/upstream/evolution-data-server" path="platform/upstream/evolution-data-server" groups="ivi"/>
   <project name="platform/upstream/expat" path="platform/upstream/expat" groups="ivi"/>
   <project name="platform/upstream/expect" path="platform/upstream/expect" groups="ivi"/>
@@ -716,6 +706,7 @@
   <project name="profile/ivi/log4cxx" path="profile/ivi/log4cxx" groups="ivi"/>
   <project name="profile/ivi/message-port" path="profile/ivi/message-port" groups="ivi"/>
   <project name="profile/ivi/meta-ivi" path="profile/ivi/meta-ivi" groups="ivi"/>
+  <project name="profile/ivi/model/config" path="profile/ivi/model/config" groups="ivi"/>
   <project name="profile/ivi/murphy" path="profile/ivi/murphy" groups="ivi"/>
   <project name="profile/ivi/node-startup-controller" path="profile/ivi/node-startup-controller" groups="ivi"/>
   <project name="profile/ivi/opencv" path="profile/ivi/opencv" groups="ivi"/>
