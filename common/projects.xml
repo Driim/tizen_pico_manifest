@@ -145,10 +145,13 @@
   <project name="platform/core/security/privilege-checker" path="platform/core/security/privilege-checker" groups="common"/>
   <project name="platform/core/security/secure-storage" path="platform/core/security/secure-storage" groups="common"/>
   <project name="platform/core/security/security-server" path="platform/core/security/security-server" groups="common"/>
+  <project name="platform/core/system/devman" path="platform/core/system/devman" groups="common"/>
   <project name="platform/core/system/dlog" path="platform/core/system/dlog" groups="common"/>
   <project name="platform/core/system/haptic-module-tizen" path="platform/core/system/haptic-module-tizen" groups="common"/>
   <project name="platform/core/system/libdevice-node" path="platform/core/system/libdevice-node" groups="common"/>
+  <project name="platform/core/system/libhaptic" path="platform/core/system/libhaptic" groups="common"/>
   <project name="platform/core/system/libsf-common" path="platform/core/system/libsf-common" groups="common"/>
+  <project name="platform/core/system/libslp-pm" path="platform/core/system/libslp-pm" groups="common"/>
   <project name="platform/core/system/libslp-sensor" path="platform/core/system/libslp-sensor" groups="common"/>
   <project name="platform/core/system/libslp-sysman" path="platform/core/system/libslp-sysman" groups="common"/>
   <project name="platform/core/system/libsvi" path="platform/core/system/libsvi" groups="common"/>
