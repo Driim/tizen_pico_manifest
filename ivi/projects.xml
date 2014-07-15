@@ -250,6 +250,7 @@
   <project name="platform/upstream/ed" path="platform/upstream/ed" groups="ivi"/>
   <project name="platform/upstream/edbus" path="platform/upstream/edbus" groups="ivi"/>
   <project name="platform/upstream/efi-shell" path="platform/upstream/efi-shell" groups="ivi"/>
+  <project name="platform/upstream/efl" path="platform/upstream/efl" groups="ivi"/>
   <project name="platform/upstream/elementary" path="platform/upstream/elementary" groups="ivi"/>
   <project name="platform/upstream/elfutils" path="platform/upstream/elfutils" groups="ivi"/>
   <project name="platform/upstream/emulator-macros" path="platform/upstream/emulator-macros" groups="ivi"/>
