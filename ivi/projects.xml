@@ -2,6 +2,7 @@
 <manifest>
   <project name="apps/core/preloaded/libslp-memo" path="apps/core/preloaded/libslp-memo" groups="ivi"/>
   <project name="apps/core/preloaded/udisks-automount-agent" path="apps/core/preloaded/udisks-automount-agent" groups="ivi"/>
+  <project name="platform/adaptation/emulator/emulator-yagl" path="platform/adaptation/emulator/emulator-yagl" groups="ivi"/>
   <project name="platform/adaptation/emulator/system-plugin-emulator" path="platform/adaptation/emulator/system-plugin-emulator" groups="ivi"/>
   <project name="platform/core/api/app-manager" path="platform/core/api/app-manager" groups="ivi"/>
   <project name="platform/core/api/application" path="platform/core/api/application" groups="ivi"/>
