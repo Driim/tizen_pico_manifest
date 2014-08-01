@@ -138,7 +138,6 @@
   <project name="platform/core/system/libsf-common" path="platform/core/system/libsf-common" groups="ivi"/>
   <project name="platform/core/system/libslp-pm" path="platform/core/system/libslp-pm" groups="ivi"/>
   <project name="platform/core/system/libslp-sensor" path="platform/core/system/libslp-sensor" groups="ivi"/>
-  <project name="platform/core/system/libslp-sysman" path="platform/core/system/libslp-sysman" groups="ivi"/>
   <project name="platform/core/system/libsvi" path="platform/core/system/libsvi" groups="ivi"/>
   <project name="platform/core/system/libtlm-nfc" path="platform/core/system/libtlm-nfc" groups="ivi"/>
   <project name="platform/core/system/oma-ds-agent" path="platform/core/system/oma-ds-agent" groups="ivi"/>
@@ -668,6 +667,7 @@
   <project name="platform/upstream/zlib" path="platform/upstream/zlib" groups="ivi"/>
   <project name="platform/upstream/zypper" path="platform/upstream/zypper" groups="ivi"/>
   <project name="platform/upstream/zypper-plugin" path="platform/upstream/zypper-plugin" groups="ivi"/>
+  <project name="profile/common/desktop-skin" path="profile/common/desktop-skin" groups="ivi"/>
   <project name="profile/ivi/GSSDP" path="profile/ivi/GSSDP" groups="ivi"/>
   <project name="profile/ivi/GUPnP" path="profile/ivi/GUPnP" groups="ivi"/>
   <project name="profile/ivi/GUPnP-AV" path="profile/ivi/GUPnP-AV" groups="ivi"/>
@@ -719,6 +719,7 @@
   <project name="profile/ivi/saythis" path="profile/ivi/saythis" groups="ivi"/>
   <project name="profile/ivi/setup-efi-ivi" path="profile/ivi/setup-efi-ivi" groups="ivi"/>
   <project name="profile/ivi/setup-ivi" path="profile/ivi/setup-ivi" groups="ivi"/>
+  <project name="profile/ivi/signonui-efl" path="profile/ivi/signonui-efl" groups="ivi"/>
   <project name="profile/ivi/setup-mbr-ivi" path="profile/ivi/setup-mbr-ivi" groups="ivi"/>
   <project name="profile/ivi/smartdevicelink" path="profile/ivi/smartdevicelink" groups="ivi"/>
   <project name="profile/ivi/speech-recognition" path="profile/ivi/speech-recognition" groups="ivi"/>
@@ -729,6 +730,13 @@
   <project name="profile/ivi/weston-ivi" path="profile/ivi/weston-ivi" groups="ivi"/>
   <project name="profile/ivi/weston-ivi-shell" path="profile/ivi/weston-ivi-shell" groups="ivi"/>
   <project name="sdk/target/sdbd" path="sdk/target/sdbd" groups="ivi"/>
+  <project name="test/common/common-connectivity-suite" path="test/common/common-connectivity-suite" groups="ivi"/>
+  <project name="test/common/common-crosswalk-suite" path="test/common/common-crosswalk-suite" groups="ivi"/>
+  <project name="test/common/common-graphics-suite" path="test/common/common-graphics-suite" groups="ivi"/>
+  <project name="test/common/common-multimedia-suite" path="test/common/common-multimedia-suite" groups="ivi"/>
+  <project name="test/common/common-sanity-suite" path="test/common/common-sanity-suite" groups="ivi"/>
+  <project name="test/tools/common-suite-launcher" path="test/tools/common-suite-launcher" groups="ivi"/>
+  <project name="test/tools/testkit-lite" path="test/tools/testkit-lite" groups="ivi"/>
   <project name="tools/bmap-tools" path="tools/bmap-tools" groups="ivi"/>
   <project name="tools/lthor" path="tools/lthor" groups="ivi"/>
   <project name="tools/mic-bootstrap" path="tools/mic-bootstrap" groups="ivi"/>
