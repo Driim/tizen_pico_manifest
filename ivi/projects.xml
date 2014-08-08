@@ -121,6 +121,7 @@
   <project name="platform/core/pim/libaccounts-svc" path="platform/core/pim/libaccounts-svc" groups="ivi"/>
   <project name="platform/core/pim/pims-ipc" path="platform/core/pim/pims-ipc" groups="ivi"/>
   <project name="platform/core/security/cert-svc" path="platform/core/security/cert-svc" groups="ivi"/>
+  <project name="platform/core/security/cynara" path="platform/core/security/cynara" groups="ivi"/>
   <project name="platform/core/security/default-ac-domains" path="platform/core/security/default-ac-domains" groups="ivi"/>
   <project name="platform/core/security/drm-client" path="platform/core/security/drm-client" groups="ivi"/>
   <project name="platform/core/security/dukgenerator" path="platform/core/security/dukgenerator" groups="ivi"/>
@@ -129,6 +130,7 @@
   <project name="platform/core/security/libprivilege-control" path="platform/core/security/libprivilege-control" groups="ivi"/>
   <project name="platform/core/security/privacy-manager" path="platform/core/security/privacy-manager" groups="ivi"/>
   <project name="platform/core/security/secure-storage" path="platform/core/security/secure-storage" groups="ivi"/>
+  <project name="platform/core/security/security-manager" path="platform/core/security/security-manager" groups="ivi"/>
   <project name="platform/core/security/security-server" path="platform/core/security/security-server" groups="ivi"/>
   <project name="platform/core/system/devman" path="platform/core/system/devman" groups="ivi"/>
   <project name="platform/core/system/dlog" path="platform/core/system/dlog" groups="ivi"/>
@@ -243,7 +245,6 @@
   <project name="platform/upstream/dosfstools" path="platform/upstream/dosfstools" groups="ivi"/>
   <project name="platform/upstream/doxygen" path="platform/upstream/doxygen" groups="ivi"/>
   <project name="platform/upstream/dracut" path="platform/upstream/dracut" groups="ivi"/>
-  <project name="platform/upstream/dri2proto" path="platform/upstream/dri2proto" groups="ivi"/>
   <project name="platform/upstream/e2fsprogs" path="platform/upstream/e2fsprogs" groups="ivi"/>
   <project name="platform/upstream/ebtables" path="platform/upstream/ebtables" groups="ivi"/>
   <project name="platform/upstream/ecryptfs-utils" path="platform/upstream/ecryptfs-utils" groups="ivi"/>
@@ -289,6 +290,7 @@
   <project name="platform/upstream/glib" path="platform/upstream/glib" groups="ivi"/>
   <project name="platform/upstream/glib-networking" path="platform/upstream/glib-networking" groups="ivi"/>
   <project name="platform/upstream/glibc" path="platform/upstream/glibc" groups="ivi"/>
+  <project name="platform/upstream/gmock" path="platform/upstream/gmock" groups="ivi"/>
   <project name="platform/upstream/gmp" path="platform/upstream/gmp" groups="ivi"/>
   <project name="platform/upstream/gnome-common" path="platform/upstream/gnome-common" groups="ivi"/>
   <project name="platform/upstream/gnu-efi" path="platform/upstream/gnu-efi" groups="ivi"/>
@@ -604,7 +606,6 @@
   <project name="platform/upstream/syncevolution" path="platform/upstream/syncevolution" groups="ivi"/>
   <project name="platform/upstream/sysfsutils" path="platform/upstream/sysfsutils" groups="ivi"/>
   <project name="platform/upstream/sysprof" path="platform/upstream/sysprof" groups="ivi"/>
-  <project name="platform/upstream/system-installer" path="platform/upstream/system-installer" groups="ivi"/>
   <project name="platform/upstream/systemd" path="platform/upstream/systemd" groups="ivi"/>
   <project name="platform/upstream/tar" path="platform/upstream/tar" groups="ivi"/>
   <project name="platform/upstream/tcl" path="platform/upstream/tcl" groups="ivi"/>
@@ -719,8 +720,8 @@
   <project name="profile/ivi/saythis" path="profile/ivi/saythis" groups="ivi"/>
   <project name="profile/ivi/setup-efi-ivi" path="profile/ivi/setup-efi-ivi" groups="ivi"/>
   <project name="profile/ivi/setup-ivi" path="profile/ivi/setup-ivi" groups="ivi"/>
-  <project name="profile/ivi/signonui-efl" path="profile/ivi/signonui-efl" groups="ivi"/>
   <project name="profile/ivi/setup-mbr-ivi" path="profile/ivi/setup-mbr-ivi" groups="ivi"/>
+  <project name="profile/ivi/signonui-efl" path="profile/ivi/signonui-efl" groups="ivi"/>
   <project name="profile/ivi/smartdevicelink" path="profile/ivi/smartdevicelink" groups="ivi"/>
   <project name="profile/ivi/speech-recognition" path="profile/ivi/speech-recognition" groups="ivi"/>
   <project name="profile/ivi/sphinxbase" path="profile/ivi/sphinxbase" groups="ivi"/>
@@ -737,6 +738,7 @@
   <project name="test/common/common-sanity-suite" path="test/common/common-sanity-suite" groups="ivi"/>
   <project name="test/tools/common-suite-launcher" path="test/tools/common-suite-launcher" groups="ivi"/>
   <project name="test/tools/testkit-lite" path="test/tools/testkit-lite" groups="ivi"/>
+  <project name="test/tools/testkit-stub" path="test/tools/testkit-stub" groups="ivi"/>
   <project name="tools/bmap-tools" path="tools/bmap-tools" groups="ivi"/>
   <project name="tools/lthor" path="tools/lthor" groups="ivi"/>
   <project name="tools/mic-bootstrap" path="tools/mic-bootstrap" groups="ivi"/>
