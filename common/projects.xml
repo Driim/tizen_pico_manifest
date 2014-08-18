@@ -15,6 +15,7 @@
   <project name="apps/core/preloaded/usb-syspopup" path="apps/core/preloaded/usb-syspopup" groups="common"/>
   <project name="platform/adaptation/emulator/emulator-yagl" path="platform/adaptation/emulator/emulator-yagl" groups="common"/>
   <project name="platform/adaptation/emulator/system-plugin-emulator" path="platform/adaptation/emulator/system-plugin-emulator" groups="common"/>
+  <project name="platform/adaptation/setup-scripts" path="platform/adaptation/setup-scripts" groups="common"/>
   <project name="platform/core/api/app-manager" path="platform/core/api/app-manager" groups="common"/>
   <project name="platform/core/api/application" path="platform/core/api/application" groups="common"/>
   <project name="platform/core/api/audio-io" path="platform/core/api/audio-io" groups="common"/>
@@ -155,6 +156,7 @@
   <project name="platform/core/system/libsf-common" path="platform/core/system/libsf-common" groups="common"/>
   <project name="platform/core/system/libslp-pm" path="platform/core/system/libslp-pm" groups="common"/>
   <project name="platform/core/system/libslp-sensor" path="platform/core/system/libslp-sensor" groups="common"/>
+  <project name="platform/core/system/libslp-sysman" path="platform/core/system/libslp-sysman" groups="common"/>
   <project name="platform/core/system/libsvi" path="platform/core/system/libsvi" groups="common"/>
   <project name="platform/core/system/libtlm-nfc" path="platform/core/system/libtlm-nfc" groups="common"/>
   <project name="platform/core/system/oma-ds-agent" path="platform/core/system/oma-ds-agent" groups="common"/>
@@ -241,6 +243,7 @@
   <project name="platform/upstream/crda" path="platform/upstream/crda" groups="common"/>
   <project name="platform/upstream/createrepo" path="platform/upstream/createrepo" groups="common"/>
   <project name="platform/upstream/cscope" path="platform/upstream/cscope" groups="common"/>
+  <project name="platform/upstream/csf-framework" path="platform/upstream/csf-framework" groups="common"/>
   <project name="platform/upstream/csr-framework" path="platform/upstream/csr-framework" groups="common"/>
   <project name="platform/upstream/ctags" path="platform/upstream/ctags" groups="common"/>
   <project name="platform/upstream/cups" path="platform/upstream/cups" groups="common"/>
@@ -468,6 +471,7 @@
   <project name="platform/upstream/makedepend" path="platform/upstream/makedepend" groups="common"/>
   <project name="platform/upstream/man-db" path="platform/upstream/man-db" groups="common"/>
   <project name="platform/upstream/mesa" path="platform/upstream/mesa" groups="common"/>
+  <project name="platform/upstream/meta-generic" path="platform/upstream/meta-generic" groups="common"/>
   <project name="platform/upstream/mic" path="platform/upstream/mic" groups="common"/>
   <project name="platform/upstream/mkfontdir" path="platform/upstream/mkfontdir" groups="common"/>
   <project name="platform/upstream/mkfontscale" path="platform/upstream/mkfontscale" groups="common"/>
@@ -616,6 +620,7 @@
   <project name="platform/upstream/sgml-common" path="platform/upstream/sgml-common" groups="common"/>
   <project name="platform/upstream/sgml-skel" path="platform/upstream/sgml-skel" groups="common"/>
   <project name="platform/upstream/shared-mime-info" path="platform/upstream/shared-mime-info" groups="common"/>
+  <project name="platform/upstream/signonui-efl" path="platform/upstream/signonui-efl" groups="common"/>
   <project name="platform/upstream/smack" path="platform/upstream/smack" groups="common"/>
   <project name="platform/upstream/snapper" path="platform/upstream/snapper" groups="common"/>
   <project name="platform/upstream/speex" path="platform/upstream/speex" groups="common"/>
