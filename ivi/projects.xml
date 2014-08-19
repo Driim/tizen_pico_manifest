@@ -223,6 +223,7 @@
   <project name="platform/upstream/crda" path="platform/upstream/crda" groups="ivi"/>
   <project name="platform/upstream/createrepo" path="platform/upstream/createrepo" groups="ivi"/>
   <project name="platform/upstream/cscope" path="platform/upstream/cscope" groups="ivi"/>
+  <project name="platform/upstream/csf-framework" path="platform/upstream/csf-framework" groups="ivi"/>
   <project name="platform/upstream/csr-framework" path="platform/upstream/csr-framework" groups="ivi"/>
   <project name="platform/upstream/ctags" path="platform/upstream/ctags" groups="ivi"/>
   <project name="platform/upstream/cups" path="platform/upstream/cups" groups="ivi"/>
@@ -558,6 +559,7 @@
   <project name="platform/upstream/qemu" path="platform/upstream/qemu" groups="ivi"/>
   <project name="platform/upstream/qemu-accel" path="platform/upstream/qemu-accel" groups="ivi"/>
   <project name="platform/upstream/qpdf" path="platform/upstream/qpdf" groups="ivi"/>
+  <project name="platform/upstream/qt-tizen" path="platform/upstream/qt-tizen" groups="ivi"/>
   <project name="platform/upstream/qtbase" path="platform/upstream/qtbase" groups="ivi"/>
   <project name="platform/upstream/qtchooser" path="platform/upstream/qtchooser" groups="ivi"/>
   <project name="platform/upstream/qtdeclarative" path="platform/upstream/qtdeclarative" groups="ivi"/>
@@ -594,6 +596,7 @@
   <project name="platform/upstream/sgml-common" path="platform/upstream/sgml-common" groups="ivi"/>
   <project name="platform/upstream/sgml-skel" path="platform/upstream/sgml-skel" groups="ivi"/>
   <project name="platform/upstream/shared-mime-info" path="platform/upstream/shared-mime-info" groups="ivi"/>
+  <project name="platform/upstream/signonui-efl" path="platform/upstream/signonui-efl" groups="ivi"/>
   <project name="platform/upstream/smack" path="platform/upstream/smack" groups="ivi"/>
   <project name="platform/upstream/snapper" path="platform/upstream/snapper" groups="ivi"/>
   <project name="platform/upstream/speex" path="platform/upstream/speex" groups="ivi"/>
@@ -689,6 +692,8 @@
   <project name="profile/ivi/apr" path="profile/ivi/apr" groups="ivi"/>
   <project name="profile/ivi/apr-util" path="profile/ivi/apr-util" groups="ivi"/>
   <project name="profile/ivi/automotive-message-broker" path="profile/ivi/automotive-message-broker" groups="ivi"/>
+  <project name="profile/ivi/common-api-dbus-runtime" path="profile/ivi/common-api-dbus-runtime" groups="ivi"/>
+  <project name="profile/ivi/common-api-runtime" path="profile/ivi/common-api-runtime" groups="ivi"/>
   <project name="profile/ivi/cowhide" path="profile/ivi/cowhide" groups="ivi"/>
   <project name="profile/ivi/dLeyna" path="profile/ivi/dLeyna" groups="ivi"/>
   <project name="profile/ivi/dlt-daemon" path="profile/ivi/dlt-daemon" groups="ivi"/>
@@ -721,7 +726,6 @@
   <project name="profile/ivi/setup-efi-ivi" path="profile/ivi/setup-efi-ivi" groups="ivi"/>
   <project name="profile/ivi/setup-ivi" path="profile/ivi/setup-ivi" groups="ivi"/>
   <project name="profile/ivi/setup-mbr-ivi" path="profile/ivi/setup-mbr-ivi" groups="ivi"/>
-  <project name="profile/ivi/signonui-efl" path="profile/ivi/signonui-efl" groups="ivi"/>
   <project name="profile/ivi/smartdevicelink" path="profile/ivi/smartdevicelink" groups="ivi"/>
   <project name="profile/ivi/speech-recognition" path="profile/ivi/speech-recognition" groups="ivi"/>
   <project name="profile/ivi/sphinxbase" path="profile/ivi/sphinxbase" groups="ivi"/>
@@ -737,6 +741,7 @@
   <project name="test/common/common-multimedia-suite" path="test/common/common-multimedia-suite" groups="ivi"/>
   <project name="test/common/common-sanity-suite" path="test/common/common-sanity-suite" groups="ivi"/>
   <project name="test/generic/wayland-fits" path="test/generic/wayland-fits" groups="ivi"/>
+  <project name="test/ivi/ivi-sanity-suite" path="test/ivi/ivi-sanity-suite" groups="ivi"/>
   <project name="test/tools/common-suite-launcher" path="test/tools/common-suite-launcher" groups="ivi"/>
   <project name="test/tools/testkit-lite" path="test/tools/testkit-lite" groups="ivi"/>
   <project name="test/tools/testkit-stub" path="test/tools/testkit-stub" groups="ivi"/>
