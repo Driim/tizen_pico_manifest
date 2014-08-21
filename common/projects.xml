@@ -259,6 +259,7 @@
   <project name="platform/upstream/device-mapper" path="platform/upstream/device-mapper" groups="common"/>
   <project name="platform/upstream/diffutils" path="platform/upstream/diffutils" groups="common"/>
   <project name="platform/upstream/dmidecode" path="platform/upstream/dmidecode" groups="common"/>
+  <project name="platform/upstream/dmxproto" path="platform/upstream/dmxproto" groups="common"/>
   <project name="platform/upstream/dnsmasq" path="platform/upstream/dnsmasq" groups="common"/>
   <project name="platform/upstream/docbook-xsl-stylesheets" path="platform/upstream/docbook-xsl-stylesheets" groups="common"/>
   <project name="platform/upstream/docbook_4" path="platform/upstream/docbook_4" groups="common"/>
@@ -290,6 +291,7 @@
   <project name="platform/upstream/flex" path="platform/upstream/flex" groups="common"/>
   <project name="platform/upstream/folks" path="platform/upstream/folks" groups="common"/>
   <project name="platform/upstream/font-util" path="platform/upstream/font-util" groups="common"/>
+  <project name="platform/upstream/fontcacheproto" path="platform/upstream/fontcacheproto" groups="common"/>
   <project name="platform/upstream/fontconfig" path="platform/upstream/fontconfig" groups="common"/>
   <project name="platform/upstream/fontsproto" path="platform/upstream/fontsproto" groups="common"/>
   <project name="platform/upstream/freealut" path="platform/upstream/freealut" groups="common"/>
@@ -407,6 +409,7 @@
   <project name="platform/upstream/libical" path="platform/upstream/libical" groups="common"/>
   <project name="platform/upstream/libidn" path="platform/upstream/libidn" groups="common"/>
   <project name="platform/upstream/libijs" path="platform/upstream/libijs" groups="common"/>
+  <project name="platform/upstream/libinput" path="platform/upstream/libinput" groups="common"/>
   <project name="platform/upstream/libiri" path="platform/upstream/libiri" groups="common"/>
   <project name="platform/upstream/libjpeg-turbo" path="platform/upstream/libjpeg-turbo" groups="common"/>
   <project name="platform/upstream/libjpeg6" path="platform/upstream/libjpeg6" groups="common"/>
@@ -680,11 +683,14 @@
   <project name="platform/upstream/which" path="platform/upstream/which" groups="common"/>
   <project name="platform/upstream/wireless-regdb" path="platform/upstream/wireless-regdb" groups="common"/>
   <project name="platform/upstream/wpa_supplicant" path="platform/upstream/wpa_supplicant" groups="common"/>
+  <project name="platform/upstream/xbitmaps" path="platform/upstream/xbitmaps" groups="common"/>
+  <project name="platform/upstream/xf86miscproto" path="platform/upstream/xf86miscproto" groups="common"/>
   <project name="platform/upstream/xkeyboard-config" path="platform/upstream/xkeyboard-config" groups="common"/>
   <project name="platform/upstream/xmlcharent" path="platform/upstream/xmlcharent" groups="common"/>
   <project name="platform/upstream/xmlsec1" path="platform/upstream/xmlsec1" groups="common"/>
   <project name="platform/upstream/xmlstarlet" path="platform/upstream/xmlstarlet" groups="common"/>
   <project name="platform/upstream/xmlto" path="platform/upstream/xmlto" groups="common"/>
+  <project name="platform/upstream/xorg-launch-helper" path="platform/upstream/xorg-launch-helper" groups="common"/>
   <project name="platform/upstream/xproto" path="platform/upstream/xproto" groups="common"/>
   <project name="platform/upstream/xtrans" path="platform/upstream/xtrans" groups="common"/>
   <project name="platform/upstream/xz" path="platform/upstream/xz" groups="common"/>
