@@ -447,7 +447,7 @@
   <project name="platform/upstream/makedepend" path="platform/upstream/makedepend" groups="ivi"/>
   <project name="platform/upstream/man-db" path="platform/upstream/man-db" groups="ivi"/>
   <project name="platform/upstream/mesa" path="platform/upstream/mesa" groups="ivi"/>
-  <project name="platform/upstream/meta-common" path="platform/upstream/meta-common" groups="ivi"/>
+  <project name="platform/upstream/meta-generic" path="platform/upstream/meta-generic" groups="ivi"/>
   <project name="platform/upstream/mic" path="platform/upstream/mic" groups="ivi"/>
   <project name="platform/upstream/mkfontdir" path="platform/upstream/mkfontdir" groups="ivi"/>
   <project name="platform/upstream/mkfontscale" path="platform/upstream/mkfontscale" groups="ivi"/>
