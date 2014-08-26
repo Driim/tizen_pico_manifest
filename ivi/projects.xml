@@ -120,6 +120,7 @@
   <project name="platform/core/pim/contacts-service" path="platform/core/pim/contacts-service" groups="ivi"/>
   <project name="platform/core/pim/libaccounts-svc" path="platform/core/pim/libaccounts-svc" groups="ivi"/>
   <project name="platform/core/pim/pims-ipc" path="platform/core/pim/pims-ipc" groups="ivi"/>
+  <project name="platform/core/security/ca-certificates-tizen" path="platform/core/security/ca-certificates-tizen" groups="ivi"/>
   <project name="platform/core/security/cert-svc" path="platform/core/security/cert-svc" groups="ivi"/>
   <project name="platform/core/security/cynara" path="platform/core/security/cynara" groups="ivi"/>
   <project name="platform/core/security/default-ac-domains" path="platform/core/security/default-ac-domains" groups="ivi"/>
@@ -271,6 +272,7 @@
   <project name="platform/upstream/font-util" path="platform/upstream/font-util" groups="ivi"/>
   <project name="platform/upstream/fontconfig" path="platform/upstream/fontconfig" groups="ivi"/>
   <project name="platform/upstream/freealut" path="platform/upstream/freealut" groups="ivi"/>
+  <project name="platform/upstream/freerdp" path="platform/upstream/freerdp" groups="ivi"/>
   <project name="platform/upstream/freetype2" path="platform/upstream/freetype2" groups="ivi"/>
   <project name="platform/upstream/fribidi" path="platform/upstream/fribidi" groups="ivi"/>
   <project name="platform/upstream/fsync" path="platform/upstream/fsync" groups="ivi"/>
@@ -355,8 +357,6 @@
   <project name="platform/upstream/lcms2" path="platform/upstream/lcms2" groups="ivi"/>
   <project name="platform/upstream/less" path="platform/upstream/less" groups="ivi"/>
   <project name="platform/upstream/leveldb" path="platform/upstream/leveldb" groups="ivi"/>
-  <project name="platform/upstream/libICE" path="platform/upstream/libICE" groups="ivi"/>
-  <project name="platform/upstream/libSM" path="platform/upstream/libSM" groups="ivi"/>
   <project name="platform/upstream/libaio" path="platform/upstream/libaio" groups="ivi"/>
   <project name="platform/upstream/libarchive" path="platform/upstream/libarchive" groups="ivi"/>
   <project name="platform/upstream/libassuan" path="platform/upstream/libassuan" groups="ivi"/>
@@ -371,6 +371,7 @@
   <project name="platform/upstream/libdrm" path="platform/upstream/libdrm" groups="ivi"/>
   <project name="platform/upstream/libedit" path="platform/upstream/libedit" groups="ivi"/>
   <project name="platform/upstream/libelf0" path="platform/upstream/libelf0" groups="ivi"/>
+  <project name="platform/upstream/libevdev" path="platform/upstream/libevdev" groups="ivi"/>
   <project name="platform/upstream/libevent" path="platform/upstream/libevent" groups="ivi"/>
   <project name="platform/upstream/libexif" path="platform/upstream/libexif" groups="ivi"/>
   <project name="platform/upstream/libffi" path="platform/upstream/libffi" groups="ivi"/>
@@ -608,6 +609,7 @@
   <project name="platform/upstream/swup" path="platform/upstream/swup" groups="ivi"/>
   <project name="platform/upstream/syncevolution" path="platform/upstream/syncevolution" groups="ivi"/>
   <project name="platform/upstream/sysfsutils" path="platform/upstream/sysfsutils" groups="ivi"/>
+  <project name="platform/upstream/syslinux" path="platform/upstream/syslinux" groups="ivi"/>
   <project name="platform/upstream/sysprof" path="platform/upstream/sysprof" groups="ivi"/>
   <project name="platform/upstream/systemd" path="platform/upstream/systemd" groups="ivi"/>
   <project name="platform/upstream/tar" path="platform/upstream/tar" groups="ivi"/>
@@ -659,8 +661,6 @@
   <project name="platform/upstream/xmlsec1" path="platform/upstream/xmlsec1" groups="ivi"/>
   <project name="platform/upstream/xmlstarlet" path="platform/upstream/xmlstarlet" groups="ivi"/>
   <project name="platform/upstream/xmlto" path="platform/upstream/xmlto" groups="ivi"/>
-  <project name="platform/upstream/xproto" path="platform/upstream/xproto" groups="ivi"/>
-  <project name="platform/upstream/xtrans" path="platform/upstream/xtrans" groups="ivi"/>
   <project name="platform/upstream/xz" path="platform/upstream/xz" groups="ivi"/>
   <project name="platform/upstream/yaml" path="platform/upstream/yaml" groups="ivi"/>
   <project name="platform/upstream/yasm" path="platform/upstream/yasm" groups="ivi"/>
@@ -729,7 +729,6 @@
   <project name="profile/ivi/smartdevicelink" path="profile/ivi/smartdevicelink" groups="ivi"/>
   <project name="profile/ivi/speech-recognition" path="profile/ivi/speech-recognition" groups="ivi"/>
   <project name="profile/ivi/sphinxbase" path="profile/ivi/sphinxbase" groups="ivi"/>
-  <project name="profile/ivi/syslinux" path="profile/ivi/syslinux" groups="ivi"/>
   <project name="profile/ivi/udev-rules" path="profile/ivi/udev-rules" groups="ivi"/>
   <project name="profile/ivi/wayland-ivi-extension" path="profile/ivi/wayland-ivi-extension" groups="ivi"/>
   <project name="profile/ivi/weston-ivi" path="profile/ivi/weston-ivi" groups="ivi"/>
