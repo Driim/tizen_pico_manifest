@@ -72,7 +72,7 @@
   <project name="platform/core/appfw/heynoti" path="platform/core/appfw/heynoti" groups="common"/>
   <project name="platform/core/appfw/librua" path="platform/core/appfw/librua" groups="common"/>
   <project name="platform/core/appfw/libslp-db-util" path="platform/core/appfw/libslp-db-util" groups="common"/>
-  <project name="platform/core/appfw/message-port" path="platform/core/appfw/message-port" groups="common"/>
+  <project name="platform/core/appfw/message-port-dbus" path="platform/core/appfw/message-port-dbus" groups="common"/>
   <project name="platform/core/appfw/notification-service" path="platform/core/appfw/notification-service" groups="common"/>
   <project name="platform/core/appfw/pkgmgr-info" path="platform/core/appfw/pkgmgr-info" groups="common"/>
   <project name="platform/core/appfw/shortcut" path="platform/core/appfw/shortcut" groups="common"/>
@@ -134,6 +134,7 @@
   <project name="platform/core/pim/contacts-service" path="platform/core/pim/contacts-service" groups="common"/>
   <project name="platform/core/pim/libaccounts-svc" path="platform/core/pim/libaccounts-svc" groups="common"/>
   <project name="platform/core/pim/pims-ipc" path="platform/core/pim/pims-ipc" groups="common"/>
+  <project name="platform/core/security/ca-certificates-tizen" path="platform/core/security/ca-certificates-tizen" groups="common"/>
   <project name="platform/core/security/cert-svc" path="platform/core/security/cert-svc" groups="common"/>
   <project name="platform/core/security/cert-svc-ui" path="platform/core/security/cert-svc-ui" groups="common"/>
   <project name="platform/core/security/cynara" path="platform/core/security/cynara" groups="common"/>
@@ -231,7 +232,6 @@
   <project name="platform/upstream/ccache" path="platform/upstream/ccache" groups="common"/>
   <project name="platform/upstream/cdrkit" path="platform/upstream/cdrkit" groups="common"/>
   <project name="platform/upstream/check" path="platform/upstream/check" groups="common"/>
-  <project name="platform/upstream/chromium" path="platform/upstream/chromium" groups="common"/>
   <project name="platform/upstream/chrpath" path="platform/upstream/chrpath" groups="common"/>
   <project name="platform/upstream/cloog" path="platform/upstream/cloog" groups="common"/>
   <project name="platform/upstream/cloog-isl" path="platform/upstream/cloog-isl" groups="common"/>
@@ -708,6 +708,7 @@
   <project name="profile/common/meta" path="profile/common/meta" groups="common"/>
   <project name="profile/common/weston-common" path="profile/common/weston-common" groups="common"/>
   <project name="profile/common/wrt-widgets" path="profile/common/wrt-widgets" groups="common"/>
+  <project name="profile/common/x11-common" path="profile/common/x11-common" groups="common"/>
   <project name="profile/generic/model/config" path="profile/generic/model/config" groups="common"/>
   <project name="profile/ivi/GSSDP" path="profile/ivi/GSSDP" groups="common"/>
   <project name="profile/ivi/GUPnP" path="profile/ivi/GUPnP" groups="common"/>
