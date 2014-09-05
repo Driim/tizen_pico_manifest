@@ -60,6 +60,7 @@
   <project name="platform/core/appfw/heynoti" path="platform/core/appfw/heynoti" groups="ivi"/>
   <project name="platform/core/appfw/librua" path="platform/core/appfw/librua" groups="ivi"/>
   <project name="platform/core/appfw/libslp-db-util" path="platform/core/appfw/libslp-db-util" groups="ivi"/>
+  <project name="platform/core/appfw/message-port-dbus" path="platform/core/appfw/message-port-dbus" groups="ivi"/>
   <project name="platform/core/appfw/notification-service" path="platform/core/appfw/notification-service" groups="ivi"/>
   <project name="platform/core/appfw/pkgmgr-info" path="platform/core/appfw/pkgmgr-info" groups="ivi"/>
   <project name="platform/core/appfw/shortcut" path="platform/core/appfw/shortcut" groups="ivi"/>
@@ -357,6 +358,8 @@
   <project name="platform/upstream/lcms2" path="platform/upstream/lcms2" groups="ivi"/>
   <project name="platform/upstream/less" path="platform/upstream/less" groups="ivi"/>
   <project name="platform/upstream/leveldb" path="platform/upstream/leveldb" groups="ivi"/>
+  <project name="platform/upstream/libICE" path="platform/upstream/libICE" groups="ivi"/>
+  <project name="platform/upstream/libSM" path="platform/upstream/libSM" groups="ivi"/>
   <project name="platform/upstream/libaio" path="platform/upstream/libaio" groups="ivi"/>
   <project name="platform/upstream/libarchive" path="platform/upstream/libarchive" groups="ivi"/>
   <project name="platform/upstream/libassuan" path="platform/upstream/libassuan" groups="ivi"/>
@@ -384,6 +387,7 @@
   <project name="platform/upstream/libical" path="platform/upstream/libical" groups="ivi"/>
   <project name="platform/upstream/libidn" path="platform/upstream/libidn" groups="ivi"/>
   <project name="platform/upstream/libijs" path="platform/upstream/libijs" groups="ivi"/>
+  <project name="platform/upstream/libinput" path="platform/upstream/libinput" groups="ivi"/>
   <project name="platform/upstream/libiri" path="platform/upstream/libiri" groups="ivi"/>
   <project name="platform/upstream/libjpeg-turbo" path="platform/upstream/libjpeg-turbo" groups="ivi"/>
   <project name="platform/upstream/libjpeg6" path="platform/upstream/libjpeg6" groups="ivi"/>
@@ -423,6 +427,7 @@
   <project name="platform/upstream/libvorbis" path="platform/upstream/libvorbis" groups="ivi"/>
   <project name="platform/upstream/libvpx" path="platform/upstream/libvpx" groups="ivi"/>
   <project name="platform/upstream/libwbxml2" path="platform/upstream/libwbxml2" groups="ivi"/>
+  <project name="platform/upstream/libwlmessage" path="platform/upstream/libwlmessage" groups="ivi"/>
   <project name="platform/upstream/libxkbcommon" path="platform/upstream/libxkbcommon" groups="ivi"/>
   <project name="platform/upstream/libxml2" path="platform/upstream/libxml2" groups="ivi"/>
   <project name="platform/upstream/libxslt" path="platform/upstream/libxslt" groups="ivi"/>
@@ -661,6 +666,8 @@
   <project name="platform/upstream/xmlsec1" path="platform/upstream/xmlsec1" groups="ivi"/>
   <project name="platform/upstream/xmlstarlet" path="platform/upstream/xmlstarlet" groups="ivi"/>
   <project name="platform/upstream/xmlto" path="platform/upstream/xmlto" groups="ivi"/>
+  <project name="platform/upstream/xproto" path="platform/upstream/xproto" groups="ivi"/>
+  <project name="platform/upstream/xtrans" path="platform/upstream/xtrans" groups="ivi"/>
   <project name="platform/upstream/xz" path="platform/upstream/xz" groups="ivi"/>
   <project name="platform/upstream/yaml" path="platform/upstream/yaml" groups="ivi"/>
   <project name="platform/upstream/yasm" path="platform/upstream/yasm" groups="ivi"/>
