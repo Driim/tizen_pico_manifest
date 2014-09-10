@@ -157,7 +157,6 @@
   <project name="platform/core/system/libsf-common" path="platform/core/system/libsf-common" groups="common"/>
   <project name="platform/core/system/libslp-pm" path="platform/core/system/libslp-pm" groups="common"/>
   <project name="platform/core/system/libslp-sensor" path="platform/core/system/libslp-sensor" groups="common"/>
-  <project name="platform/core/system/libslp-sysman" path="platform/core/system/libslp-sysman" groups="common"/>
   <project name="platform/core/system/libsvi" path="platform/core/system/libsvi" groups="common"/>
   <project name="platform/core/system/libtlm-nfc" path="platform/core/system/libtlm-nfc" groups="common"/>
   <project name="platform/core/system/oma-ds-agent" path="platform/core/system/oma-ds-agent" groups="common"/>
