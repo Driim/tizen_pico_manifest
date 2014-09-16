@@ -448,6 +448,7 @@
   <project name="platform/upstream/libvorbis" path="platform/upstream/libvorbis" groups="common"/>
   <project name="platform/upstream/libvpx" path="platform/upstream/libvpx" groups="common"/>
   <project name="platform/upstream/libwbxml2" path="platform/upstream/libwbxml2" groups="common"/>
+  <project name="platform/upstream/libwlmessage" path="platform/upstream/libwlmessage" groups="common"/>
   <project name="platform/upstream/libxkbcommon" path="platform/upstream/libxkbcommon" groups="common"/>
   <project name="platform/upstream/libxml2" path="platform/upstream/libxml2" groups="common"/>
   <project name="platform/upstream/libxslt" path="platform/upstream/libxslt" groups="common"/>
