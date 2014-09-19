@@ -16,6 +16,9 @@
   <project name="platform/adaptation/emulator/emulator-yagl" path="platform/adaptation/emulator/emulator-yagl" groups="common"/>
   <project name="platform/adaptation/emulator/system-plugin-emulator" path="platform/adaptation/emulator/system-plugin-emulator" groups="common"/>
   <project name="platform/adaptation/setup-scripts" path="platform/adaptation/setup-scripts" groups="common"/>
+  <project name="platform/adaptation/xf86-input-evdevmultitouch" path="platform/adaptation/xf86-input-evdevmultitouch" groups="common"/>
+  <project name="platform/adaptation/xf86-input-gesture" path="platform/adaptation/xf86-input-gesture" groups="common"/>
+  <project name="platform/adaptation/xf86-module-xdbg" path="platform/adaptation/xf86-module-xdbg" groups="common"/>
   <project name="platform/core/api/app-manager" path="platform/core/api/app-manager" groups="common"/>
   <project name="platform/core/api/application" path="platform/core/api/application" groups="common"/>
   <project name="platform/core/api/audio-io" path="platform/core/api/audio-io" groups="common"/>
@@ -149,13 +152,10 @@
   <project name="platform/core/security/secure-storage" path="platform/core/security/secure-storage" groups="common"/>
   <project name="platform/core/security/security-manager" path="platform/core/security/security-manager" groups="common"/>
   <project name="platform/core/security/security-server" path="platform/core/security/security-server" groups="common"/>
-  <project name="platform/core/system/devman" path="platform/core/system/devman" groups="common"/>
   <project name="platform/core/system/dlog" path="platform/core/system/dlog" groups="common"/>
   <project name="platform/core/system/haptic-module-tizen" path="platform/core/system/haptic-module-tizen" groups="common"/>
   <project name="platform/core/system/libdevice-node" path="platform/core/system/libdevice-node" groups="common"/>
-  <project name="platform/core/system/libhaptic" path="platform/core/system/libhaptic" groups="common"/>
   <project name="platform/core/system/libsf-common" path="platform/core/system/libsf-common" groups="common"/>
-  <project name="platform/core/system/libslp-pm" path="platform/core/system/libslp-pm" groups="common"/>
   <project name="platform/core/system/libslp-sensor" path="platform/core/system/libslp-sensor" groups="common"/>
   <project name="platform/core/system/libsvi" path="platform/core/system/libsvi" groups="common"/>
   <project name="platform/core/system/libtlm-nfc" path="platform/core/system/libtlm-nfc" groups="common"/>
@@ -180,10 +180,16 @@
   <project name="platform/core/telephony/tel-plugin-vmodem" path="platform/core/telephony/tel-plugin-vmodem" groups="common"/>
   <project name="platform/core/telephony/telephony-daemon" path="platform/core/telephony/telephony-daemon" groups="common"/>
   <project name="platform/core/uifw/anthy" path="platform/core/uifw/anthy" groups="common"/>
+  <project name="platform/core/uifw/dali-adaptor" path="platform/core/uifw/dali-adaptor" groups="common"/>
+  <project name="platform/core/uifw/dali-core" path="platform/core/uifw/dali-core" groups="common"/>
+  <project name="platform/core/uifw/dali-toolkit" path="platform/core/uifw/dali-toolkit" groups="common"/>
   <project name="platform/core/uifw/efl-assist" path="platform/core/uifw/efl-assist" groups="common"/>
   <project name="platform/core/uifw/efl-theme-tizen" path="platform/core/uifw/efl-theme-tizen" groups="common"/>
   <project name="platform/core/uifw/elm-misc" path="platform/core/uifw/elm-misc" groups="common"/>
+  <project name="platform/core/uifw/libdmx" path="platform/core/uifw/libdmx" groups="common"/>
+  <project name="platform/core/uifw/libdri2" path="platform/core/uifw/libdri2" groups="common"/>
   <project name="platform/core/uifw/libhangul" path="platform/core/uifw/libhangul" groups="common"/>
+  <project name="platform/core/uifw/libslp-utilx" path="platform/core/uifw/libslp-utilx" groups="common"/>
   <project name="platform/core/uifw/libtbm" path="platform/core/uifw/libtbm" groups="common"/>
   <project name="platform/core/uifw/stt" path="platform/core/uifw/stt" groups="common"/>
   <project name="platform/core/uifw/tts" path="platform/core/uifw/tts" groups="common"/>
@@ -210,6 +216,8 @@
   <project name="platform/upstream/avahi" path="platform/upstream/avahi" groups="common"/>
   <project name="platform/upstream/bash" path="platform/upstream/bash" groups="common"/>
   <project name="platform/upstream/bc" path="platform/upstream/bc" groups="common"/>
+  <project name="platform/upstream/bdftopcf" path="platform/upstream/bdftopcf" groups="common"/>
+  <project name="platform/upstream/bigreqsproto" path="platform/upstream/bigreqsproto" groups="common"/>
   <project name="platform/upstream/binutils" path="platform/upstream/binutils" groups="common"/>
   <project name="platform/upstream/bison" path="platform/upstream/bison" groups="common"/>
   <project name="platform/upstream/bluez" path="platform/upstream/bluez" groups="common"/>
@@ -235,6 +243,7 @@
   <project name="platform/upstream/cloog" path="platform/upstream/cloog" groups="common"/>
   <project name="platform/upstream/cloog-isl" path="platform/upstream/cloog-isl" groups="common"/>
   <project name="platform/upstream/cmake" path="platform/upstream/cmake" groups="common"/>
+  <project name="platform/upstream/compositeproto" path="platform/upstream/compositeproto" groups="common"/>
   <project name="platform/upstream/connman" path="platform/upstream/connman" groups="common"/>
   <project name="platform/upstream/coreutils" path="platform/upstream/coreutils" groups="common"/>
   <project name="platform/upstream/corewatcher" path="platform/upstream/corewatcher" groups="common"/>
@@ -243,10 +252,10 @@
   <project name="platform/upstream/createrepo" path="platform/upstream/createrepo" groups="common"/>
   <project name="platform/upstream/cscope" path="platform/upstream/cscope" groups="common"/>
   <project name="platform/upstream/csf-framework" path="platform/upstream/csf-framework" groups="common"/>
-  <project name="platform/upstream/csr-framework" path="platform/upstream/csr-framework" groups="common"/>
   <project name="platform/upstream/ctags" path="platform/upstream/ctags" groups="common"/>
   <project name="platform/upstream/cups" path="platform/upstream/cups" groups="common"/>
   <project name="platform/upstream/curl" path="platform/upstream/curl" groups="common"/>
+  <project name="platform/upstream/damageproto" path="platform/upstream/damageproto" groups="common"/>
   <project name="platform/upstream/dash" path="platform/upstream/dash" groups="common"/>
   <project name="platform/upstream/db4" path="platform/upstream/db4" groups="common"/>
   <project name="platform/upstream/dbus" path="platform/upstream/dbus" groups="common"/>
@@ -266,6 +275,8 @@
   <project name="platform/upstream/dosfstools" path="platform/upstream/dosfstools" groups="common"/>
   <project name="platform/upstream/doxygen" path="platform/upstream/doxygen" groups="common"/>
   <project name="platform/upstream/dracut" path="platform/upstream/dracut" groups="common"/>
+  <project name="platform/upstream/dri2proto" path="platform/upstream/dri2proto" groups="common"/>
+  <project name="platform/upstream/dri3proto" path="platform/upstream/dri3proto" groups="common"/>
   <project name="platform/upstream/e2fsprogs" path="platform/upstream/e2fsprogs" groups="common"/>
   <project name="platform/upstream/ebtables" path="platform/upstream/ebtables" groups="common"/>
   <project name="platform/upstream/ecryptfs-utils" path="platform/upstream/ecryptfs-utils" groups="common"/>
@@ -277,6 +288,7 @@
   <project name="platform/upstream/elfutils" path="platform/upstream/elfutils" groups="common"/>
   <project name="platform/upstream/emulator-macros" path="platform/upstream/emulator-macros" groups="common"/>
   <project name="platform/upstream/enchant" path="platform/upstream/enchant" groups="common"/>
+  <project name="platform/upstream/enlightenment" path="platform/upstream/enlightenment" groups="common"/>
   <project name="platform/upstream/epson-inkjet-printer-escpr" path="platform/upstream/epson-inkjet-printer-escpr" groups="common"/>
   <project name="platform/upstream/epson-laser-printer-escpage" path="platform/upstream/epson-laser-printer-escpage" groups="common"/>
   <project name="platform/upstream/evolution-data-server" path="platform/upstream/evolution-data-server" groups="common"/>
@@ -286,6 +298,7 @@
   <project name="platform/upstream/file" path="platform/upstream/file" groups="common"/>
   <project name="platform/upstream/filesystem" path="platform/upstream/filesystem" groups="common"/>
   <project name="platform/upstream/findutils" path="platform/upstream/findutils" groups="common"/>
+  <project name="platform/upstream/fixesproto" path="platform/upstream/fixesproto" groups="common"/>
   <project name="platform/upstream/flac" path="platform/upstream/flac" groups="common"/>
   <project name="platform/upstream/flex" path="platform/upstream/flex" groups="common"/>
   <project name="platform/upstream/folks" path="platform/upstream/folks" groups="common"/>
@@ -315,6 +328,7 @@
   <project name="platform/upstream/glib" path="platform/upstream/glib" groups="common"/>
   <project name="platform/upstream/glib-networking" path="platform/upstream/glib-networking" groups="common"/>
   <project name="platform/upstream/glibc" path="platform/upstream/glibc" groups="common"/>
+  <project name="platform/upstream/glproto" path="platform/upstream/glproto" groups="common"/>
   <project name="platform/upstream/gmock" path="platform/upstream/gmock" groups="common"/>
   <project name="platform/upstream/gmp" path="platform/upstream/gmp" groups="common"/>
   <project name="platform/upstream/gnome-common" path="platform/upstream/gnome-common" groups="common"/>
@@ -359,6 +373,7 @@
   <project name="platform/upstream/image-configurations" path="platform/upstream/image-configurations" groups="common"/>
   <project name="platform/upstream/imake" path="platform/upstream/imake" groups="common"/>
   <project name="platform/upstream/iniparser" path="platform/upstream/iniparser" groups="common"/>
+  <project name="platform/upstream/inputproto" path="platform/upstream/inputproto" groups="common"/>
   <project name="platform/upstream/intltool" path="platform/upstream/intltool" groups="common"/>
   <project name="platform/upstream/iproute2" path="platform/upstream/iproute2" groups="common"/>
   <project name="platform/upstream/iptables" path="platform/upstream/iptables" groups="common"/>
@@ -371,6 +386,7 @@
   <project name="platform/upstream/json-c" path="platform/upstream/json-c" groups="common"/>
   <project name="platform/upstream/json-glib" path="platform/upstream/json-glib" groups="common"/>
   <project name="platform/upstream/kbd" path="platform/upstream/kbd" groups="common"/>
+  <project name="platform/upstream/kbproto" path="platform/upstream/kbproto" groups="common"/>
   <project name="platform/upstream/keyutils" path="platform/upstream/keyutils" groups="common"/>
   <project name="platform/upstream/kickstarter" path="platform/upstream/kickstarter" groups="common"/>
   <project name="platform/upstream/kmod" path="platform/upstream/kmod" groups="common"/>
@@ -379,8 +395,38 @@
   <project name="platform/upstream/lcms2" path="platform/upstream/lcms2" groups="common"/>
   <project name="platform/upstream/less" path="platform/upstream/less" groups="common"/>
   <project name="platform/upstream/leveldb" path="platform/upstream/leveldb" groups="common"/>
+  <project name="platform/upstream/libGLU" path="platform/upstream/libGLU" groups="common"/>
   <project name="platform/upstream/libICE" path="platform/upstream/libICE" groups="common"/>
   <project name="platform/upstream/libSM" path="platform/upstream/libSM" groups="common"/>
+  <project name="platform/upstream/libX11" path="platform/upstream/libX11" groups="common"/>
+  <project name="platform/upstream/libXScrnSaver" path="platform/upstream/libXScrnSaver" groups="common"/>
+  <project name="platform/upstream/libXau" path="platform/upstream/libXau" groups="common"/>
+  <project name="platform/upstream/libXaw" path="platform/upstream/libXaw" groups="common"/>
+  <project name="platform/upstream/libXcomposite" path="platform/upstream/libXcomposite" groups="common"/>
+  <project name="platform/upstream/libXcursor" path="platform/upstream/libXcursor" groups="common"/>
+  <project name="platform/upstream/libXdamage" path="platform/upstream/libXdamage" groups="common"/>
+  <project name="platform/upstream/libXdmcp" path="platform/upstream/libXdmcp" groups="common"/>
+  <project name="platform/upstream/libXext" path="platform/upstream/libXext" groups="common"/>
+  <project name="platform/upstream/libXfixes" path="platform/upstream/libXfixes" groups="common"/>
+  <project name="platform/upstream/libXfont" path="platform/upstream/libXfont" groups="common"/>
+  <project name="platform/upstream/libXfontcache" path="platform/upstream/libXfontcache" groups="common"/>
+  <project name="platform/upstream/libXft" path="platform/upstream/libXft" groups="common"/>
+  <project name="platform/upstream/libXgesture" path="platform/upstream/libXgesture" groups="common"/>
+  <project name="platform/upstream/libXi" path="platform/upstream/libXi" groups="common"/>
+  <project name="platform/upstream/libXinerama" path="platform/upstream/libXinerama" groups="common"/>
+  <project name="platform/upstream/libXmu" path="platform/upstream/libXmu" groups="common"/>
+  <project name="platform/upstream/libXpm" path="platform/upstream/libXpm" groups="common"/>
+  <project name="platform/upstream/libXrandr" path="platform/upstream/libXrandr" groups="common"/>
+  <project name="platform/upstream/libXrender" path="platform/upstream/libXrender" groups="common"/>
+  <project name="platform/upstream/libXres" path="platform/upstream/libXres" groups="common"/>
+  <project name="platform/upstream/libXshmfence" path="platform/upstream/libXshmfence" groups="common"/>
+  <project name="platform/upstream/libXt" path="platform/upstream/libXt" groups="common"/>
+  <project name="platform/upstream/libXtst" path="platform/upstream/libXtst" groups="common"/>
+  <project name="platform/upstream/libXv" path="platform/upstream/libXv" groups="common"/>
+  <project name="platform/upstream/libXvMC" path="platform/upstream/libXvMC" groups="common"/>
+  <project name="platform/upstream/libXxf86dga" path="platform/upstream/libXxf86dga" groups="common"/>
+  <project name="platform/upstream/libXxf86misc" path="platform/upstream/libXxf86misc" groups="common"/>
+  <project name="platform/upstream/libXxf86vm" path="platform/upstream/libXxf86vm" groups="common"/>
   <project name="platform/upstream/libaio" path="platform/upstream/libaio" groups="common"/>
   <project name="platform/upstream/libarchive" path="platform/upstream/libarchive" groups="common"/>
   <project name="platform/upstream/libassuan" path="platform/upstream/libassuan" groups="common"/>
@@ -449,7 +495,9 @@
   <project name="platform/upstream/libvpx" path="platform/upstream/libvpx" groups="common"/>
   <project name="platform/upstream/libwbxml2" path="platform/upstream/libwbxml2" groups="common"/>
   <project name="platform/upstream/libwlmessage" path="platform/upstream/libwlmessage" groups="common"/>
+  <project name="platform/upstream/libxcb" path="platform/upstream/libxcb" groups="common"/>
   <project name="platform/upstream/libxkbcommon" path="platform/upstream/libxkbcommon" groups="common"/>
+  <project name="platform/upstream/libxkbfile" path="platform/upstream/libxkbfile" groups="common"/>
   <project name="platform/upstream/libxml2" path="platform/upstream/libxml2" groups="common"/>
   <project name="platform/upstream/libxslt" path="platform/upstream/libxslt" groups="common"/>
   <project name="platform/upstream/libzio" path="platform/upstream/libzio" groups="common"/>
@@ -550,6 +598,7 @@
   <project name="platform/upstream/powertop" path="platform/upstream/powertop" groups="common"/>
   <project name="platform/upstream/ppl" path="platform/upstream/ppl" groups="common"/>
   <project name="platform/upstream/prelink" path="platform/upstream/prelink" groups="common"/>
+  <project name="platform/upstream/presentproto" path="platform/upstream/presentproto" groups="common"/>
   <project name="platform/upstream/procps-ng" path="platform/upstream/procps-ng" groups="common"/>
   <project name="platform/upstream/protobuf" path="platform/upstream/protobuf" groups="common"/>
   <project name="platform/upstream/psmisc" path="platform/upstream/psmisc" groups="common"/>
@@ -600,11 +649,15 @@
   <project name="platform/upstream/qtwayland" path="platform/upstream/qtwayland" groups="common"/>
   <project name="platform/upstream/qtxmlpatterns" path="platform/upstream/qtxmlpatterns" groups="common"/>
   <project name="platform/upstream/ragel" path="platform/upstream/ragel" groups="common"/>
+  <project name="platform/upstream/randrproto" path="platform/upstream/randrproto" groups="common"/>
   <project name="platform/upstream/raptor" path="platform/upstream/raptor" groups="common"/>
   <project name="platform/upstream/re2" path="platform/upstream/re2" groups="common"/>
   <project name="platform/upstream/re2c" path="platform/upstream/re2c" groups="common"/>
   <project name="platform/upstream/readline" path="platform/upstream/readline" groups="common"/>
+  <project name="platform/upstream/recordproto" path="platform/upstream/recordproto" groups="common"/>
   <project name="platform/upstream/remix" path="platform/upstream/remix" groups="common"/>
+  <project name="platform/upstream/renderproto" path="platform/upstream/renderproto" groups="common"/>
+  <project name="platform/upstream/resourceproto" path="platform/upstream/resourceproto" groups="common"/>
   <project name="platform/upstream/rfkill" path="platform/upstream/rfkill" groups="common"/>
   <project name="platform/upstream/rng-tools" path="platform/upstream/rng-tools" groups="common"/>
   <project name="platform/upstream/rpm" path="platform/upstream/rpm" groups="common"/>
@@ -617,9 +670,11 @@
   <project name="platform/upstream/sbc" path="platform/upstream/sbc" groups="common"/>
   <project name="platform/upstream/scons" path="platform/upstream/scons" groups="common"/>
   <project name="platform/upstream/screen" path="platform/upstream/screen" groups="common"/>
+  <project name="platform/upstream/scrnsaverproto" path="platform/upstream/scrnsaverproto" groups="common"/>
   <project name="platform/upstream/sed" path="platform/upstream/sed" groups="common"/>
   <project name="platform/upstream/sessreg" path="platform/upstream/sessreg" groups="common"/>
   <project name="platform/upstream/setup" path="platform/upstream/setup" groups="common"/>
+  <project name="platform/upstream/setxkbmap" path="platform/upstream/setxkbmap" groups="common"/>
   <project name="platform/upstream/sgml-common" path="platform/upstream/sgml-common" groups="common"/>
   <project name="platform/upstream/sgml-skel" path="platform/upstream/sgml-skel" groups="common"/>
   <project name="platform/upstream/shared-mime-info" path="platform/upstream/shared-mime-info" groups="common"/>
@@ -673,6 +728,7 @@
   <project name="platform/upstream/valgrind" path="platform/upstream/valgrind" groups="common"/>
   <project name="platform/upstream/vconfig" path="platform/upstream/vconfig" groups="common"/>
   <project name="platform/upstream/vi" path="platform/upstream/vi" groups="common"/>
+  <project name="platform/upstream/videoproto" path="platform/upstream/videoproto" groups="common"/>
   <project name="platform/upstream/vim" path="platform/upstream/vim" groups="common"/>
   <project name="platform/upstream/vpnc" path="platform/upstream/vpnc" groups="common"/>
   <project name="platform/upstream/wayland" path="platform/upstream/wayland" groups="common"/>
@@ -683,16 +739,59 @@
   <project name="platform/upstream/which" path="platform/upstream/which" groups="common"/>
   <project name="platform/upstream/wireless-regdb" path="platform/upstream/wireless-regdb" groups="common"/>
   <project name="platform/upstream/wpa_supplicant" path="platform/upstream/wpa_supplicant" groups="common"/>
+  <project name="platform/upstream/x11proto-gesture" path="platform/upstream/x11proto-gesture" groups="common"/>
+  <project name="platform/upstream/xauth" path="platform/upstream/xauth" groups="common"/>
   <project name="platform/upstream/xbitmaps" path="platform/upstream/xbitmaps" groups="common"/>
+  <project name="platform/upstream/xcb-proto" path="platform/upstream/xcb-proto" groups="common"/>
+  <project name="platform/upstream/xcb-util" path="platform/upstream/xcb-util" groups="common"/>
+  <project name="platform/upstream/xcb-util-keysyms" path="platform/upstream/xcb-util-keysyms" groups="common"/>
+  <project name="platform/upstream/xcmiscproto" path="platform/upstream/xcmiscproto" groups="common"/>
+  <project name="platform/upstream/xconsole" path="platform/upstream/xconsole" groups="common"/>
+  <project name="platform/upstream/xdpyinfo" path="platform/upstream/xdpyinfo" groups="common"/>
+  <project name="platform/upstream/xev" path="platform/upstream/xev" groups="common"/>
+  <project name="platform/upstream/xextproto" path="platform/upstream/xextproto" groups="common"/>
+  <project name="platform/upstream/xeyes" path="platform/upstream/xeyes" groups="common"/>
+  <project name="platform/upstream/xf86-input-evdev" path="platform/upstream/xf86-input-evdev" groups="common"/>
+  <project name="platform/upstream/xf86-input-keyboard" path="platform/upstream/xf86-input-keyboard" groups="common"/>
+  <project name="platform/upstream/xf86-input-synaptics" path="platform/upstream/xf86-input-synaptics" groups="common"/>
+  <project name="platform/upstream/xf86-video-fbdev" path="platform/upstream/xf86-video-fbdev" groups="common"/>
+  <project name="platform/upstream/xf86-video-intel" path="platform/upstream/xf86-video-intel" groups="common"/>
+  <project name="platform/upstream/xf86bigfontproto" path="platform/upstream/xf86bigfontproto" groups="common"/>
+  <project name="platform/upstream/xf86dgaproto" path="platform/upstream/xf86dgaproto" groups="common"/>
+  <project name="platform/upstream/xf86driproto" path="platform/upstream/xf86driproto" groups="common"/>
   <project name="platform/upstream/xf86miscproto" path="platform/upstream/xf86miscproto" groups="common"/>
+  <project name="platform/upstream/xf86vidmodeproto" path="platform/upstream/xf86vidmodeproto" groups="common"/>
+  <project name="platform/upstream/xhost" path="platform/upstream/xhost" groups="common"/>
+  <project name="platform/upstream/xineramaproto" path="platform/upstream/xineramaproto" groups="common"/>
+  <project name="platform/upstream/xinit" path="platform/upstream/xinit" groups="common"/>
+  <project name="platform/upstream/xinput" path="platform/upstream/xinput" groups="common"/>
+  <project name="platform/upstream/xkbcomp" path="platform/upstream/xkbcomp" groups="common"/>
+  <project name="platform/upstream/xkbevd" path="platform/upstream/xkbevd" groups="common"/>
+  <project name="platform/upstream/xkbprint" path="platform/upstream/xkbprint" groups="common"/>
+  <project name="platform/upstream/xkbutils" path="platform/upstream/xkbutils" groups="common"/>
   <project name="platform/upstream/xkeyboard-config" path="platform/upstream/xkeyboard-config" groups="common"/>
+  <project name="platform/upstream/xkill" path="platform/upstream/xkill" groups="common"/>
+  <project name="platform/upstream/xlsatoms" path="platform/upstream/xlsatoms" groups="common"/>
   <project name="platform/upstream/xmlcharent" path="platform/upstream/xmlcharent" groups="common"/>
   <project name="platform/upstream/xmlsec1" path="platform/upstream/xmlsec1" groups="common"/>
   <project name="platform/upstream/xmlstarlet" path="platform/upstream/xmlstarlet" groups="common"/>
   <project name="platform/upstream/xmlto" path="platform/upstream/xmlto" groups="common"/>
+  <project name="platform/upstream/xmodmap" path="platform/upstream/xmodmap" groups="common"/>
   <project name="platform/upstream/xorg-launch-helper" path="platform/upstream/xorg-launch-helper" groups="common"/>
+  <project name="platform/upstream/xorg-server" path="platform/upstream/xorg-server" groups="common"/>
+  <project name="platform/upstream/xprop" path="platform/upstream/xprop" groups="common"/>
   <project name="platform/upstream/xproto" path="platform/upstream/xproto" groups="common"/>
+  <project name="platform/upstream/xrandr" path="platform/upstream/xrandr" groups="common"/>
+  <project name="platform/upstream/xrdb" path="platform/upstream/xrdb" groups="common"/>
+  <project name="platform/upstream/xrestop" path="platform/upstream/xrestop" groups="common"/>
+  <project name="platform/upstream/xset" path="platform/upstream/xset" groups="common"/>
+  <project name="platform/upstream/xsetroot" path="platform/upstream/xsetroot" groups="common"/>
+  <project name="platform/upstream/xterm" path="platform/upstream/xterm" groups="common"/>
   <project name="platform/upstream/xtrans" path="platform/upstream/xtrans" groups="common"/>
+  <project name="platform/upstream/xvinfo" path="platform/upstream/xvinfo" groups="common"/>
+  <project name="platform/upstream/xwd" path="platform/upstream/xwd" groups="common"/>
+  <project name="platform/upstream/xwininfo" path="platform/upstream/xwininfo" groups="common"/>
+  <project name="platform/upstream/xwud" path="platform/upstream/xwud" groups="common"/>
   <project name="platform/upstream/xz" path="platform/upstream/xz" groups="common"/>
   <project name="platform/upstream/yaml" path="platform/upstream/yaml" groups="common"/>
   <project name="platform/upstream/yasm" path="platform/upstream/yasm" groups="common"/>
@@ -715,8 +814,6 @@
   <project name="profile/ivi/GUPnP-AV" path="profile/ivi/GUPnP-AV" groups="common"/>
   <project name="profile/ivi/GUPnP-DLNA" path="profile/ivi/GUPnP-DLNA" groups="common"/>
   <project name="profile/ivi/dLeyna" path="profile/ivi/dLeyna" groups="common"/>
-  <project name="profile/ivi/setup-ivi" path="profile/ivi/setup-ivi" groups="common"/>
-  <project name="profile/ivi/setup-mbr-ivi" path="profile/ivi/setup-mbr-ivi" groups="common"/>
   <project name="sdk/target/sdbd" path="sdk/target/sdbd" groups="common"/>
   <project name="test/common/common-connectivity-suite" path="test/common/common-connectivity-suite" groups="common"/>
   <project name="test/common/common-crosswalk-suite" path="test/common/common-crosswalk-suite" groups="common"/>
