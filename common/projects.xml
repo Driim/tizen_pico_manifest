@@ -13,7 +13,6 @@
   <project name="apps/core/preloaded/ug-setting-homescreen-efl" path="apps/core/preloaded/ug-setting-homescreen-efl" groups="common"/>
   <project name="apps/core/preloaded/usb-manager" path="apps/core/preloaded/usb-manager" groups="common"/>
   <project name="apps/core/preloaded/usb-syspopup" path="apps/core/preloaded/usb-syspopup" groups="common"/>
-  <project name="platform/adaptation/emulator/emulator-yagl" path="platform/adaptation/emulator/emulator-yagl" groups="common"/>
   <project name="platform/adaptation/emulator/system-plugin-emulator" path="platform/adaptation/emulator/system-plugin-emulator" groups="common"/>
   <project name="platform/adaptation/setup-scripts" path="platform/adaptation/setup-scripts" groups="common"/>
   <project name="platform/adaptation/xf86-input-evdevmultitouch" path="platform/adaptation/xf86-input-evdevmultitouch" groups="common"/>
@@ -182,6 +181,7 @@
   <project name="platform/core/uifw/anthy" path="platform/core/uifw/anthy" groups="common"/>
   <project name="platform/core/uifw/dali-adaptor" path="platform/core/uifw/dali-adaptor" groups="common"/>
   <project name="platform/core/uifw/dali-core" path="platform/core/uifw/dali-core" groups="common"/>
+  <project name="platform/core/uifw/dali-demo" path="platform/core/uifw/dali-demo" groups="common"/>
   <project name="platform/core/uifw/dali-toolkit" path="platform/core/uifw/dali-toolkit" groups="common"/>
   <project name="platform/core/uifw/efl-assist" path="platform/core/uifw/efl-assist" groups="common"/>
   <project name="platform/core/uifw/efl-theme-tizen" path="platform/core/uifw/efl-theme-tizen" groups="common"/>
@@ -200,7 +200,6 @@
   <project name="platform/kernel/u-boot" path="platform/kernel/u-boot" groups="common"/>
   <project name="platform/upstream/SDL" path="platform/upstream/SDL" groups="common"/>
   <project name="platform/upstream/acl" path="platform/upstream/acl" groups="common"/>
-  <project name="platform/upstream/acpid" path="platform/upstream/acpid" groups="common"/>
   <project name="platform/upstream/adns" path="platform/upstream/adns" groups="common"/>
   <project name="platform/upstream/alsa-lib" path="platform/upstream/alsa-lib" groups="common"/>
   <project name="platform/upstream/alsa-plugins" path="platform/upstream/alsa-plugins" groups="common"/>
@@ -266,7 +265,6 @@
   <project name="platform/upstream/desktop-file-utils" path="platform/upstream/desktop-file-utils" groups="common"/>
   <project name="platform/upstream/device-mapper" path="platform/upstream/device-mapper" groups="common"/>
   <project name="platform/upstream/diffutils" path="platform/upstream/diffutils" groups="common"/>
-  <project name="platform/upstream/dmidecode" path="platform/upstream/dmidecode" groups="common"/>
   <project name="platform/upstream/dmxproto" path="platform/upstream/dmxproto" groups="common"/>
   <project name="platform/upstream/dnsmasq" path="platform/upstream/dnsmasq" groups="common"/>
   <project name="platform/upstream/docbook-xsl-stylesheets" path="platform/upstream/docbook-xsl-stylesheets" groups="common"/>
@@ -332,7 +330,6 @@
   <project name="platform/upstream/gmock" path="platform/upstream/gmock" groups="common"/>
   <project name="platform/upstream/gmp" path="platform/upstream/gmp" groups="common"/>
   <project name="platform/upstream/gnome-common" path="platform/upstream/gnome-common" groups="common"/>
-  <project name="platform/upstream/gnu-efi" path="platform/upstream/gnu-efi" groups="common"/>
   <project name="platform/upstream/gnutls" path="platform/upstream/gnutls" groups="common"/>
   <project name="platform/upstream/gobject-introspection" path="platform/upstream/gobject-introspection" groups="common"/>
   <project name="platform/upstream/google-droid-fonts" path="platform/upstream/google-droid-fonts" groups="common"/>
@@ -352,11 +349,9 @@
   <project name="platform/upstream/gst-plugins-good" path="platform/upstream/gst-plugins-good" groups="common"/>
   <project name="platform/upstream/gst-plugins-ugly" path="platform/upstream/gst-plugins-ugly" groups="common"/>
   <project name="platform/upstream/gstreamer" path="platform/upstream/gstreamer" groups="common"/>
-  <project name="platform/upstream/gstreamer-vaapi" path="platform/upstream/gstreamer-vaapi" groups="common"/>
   <project name="platform/upstream/gtest" path="platform/upstream/gtest" groups="common"/>
   <project name="platform/upstream/gtk-doc" path="platform/upstream/gtk-doc" groups="common"/>
   <project name="platform/upstream/gumd" path="platform/upstream/gumd" groups="common"/>
-  <project name="platform/upstream/gummiboot" path="platform/upstream/gummiboot" groups="common"/>
   <project name="platform/upstream/gzip" path="platform/upstream/gzip" groups="common"/>
   <project name="platform/upstream/hardlink" path="platform/upstream/hardlink" groups="common"/>
   <project name="platform/upstream/harfbuzz" path="platform/upstream/harfbuzz" groups="common"/>
@@ -489,8 +484,6 @@
   <project name="platform/upstream/libunwind" path="platform/upstream/libunwind" groups="common"/>
   <project name="platform/upstream/libusb" path="platform/upstream/libusb" groups="common"/>
   <project name="platform/upstream/libusb-compat" path="platform/upstream/libusb-compat" groups="common"/>
-  <project name="platform/upstream/libva" path="platform/upstream/libva" groups="common"/>
-  <project name="platform/upstream/libva-intel-driver" path="platform/upstream/libva-intel-driver" groups="common"/>
   <project name="platform/upstream/libvorbis" path="platform/upstream/libvorbis" groups="common"/>
   <project name="platform/upstream/libvpx" path="platform/upstream/libvpx" groups="common"/>
   <project name="platform/upstream/libwbxml2" path="platform/upstream/libwbxml2" groups="common"/>
@@ -562,7 +555,6 @@
   <project name="platform/upstream/pango" path="platform/upstream/pango" groups="common"/>
   <project name="platform/upstream/parted" path="platform/upstream/parted" groups="common"/>
   <project name="platform/upstream/patch" path="platform/upstream/patch" groups="common"/>
-  <project name="platform/upstream/patchelf" path="platform/upstream/patchelf" groups="common"/>
   <project name="platform/upstream/pattern-tools" path="platform/upstream/pattern-tools" groups="common"/>
   <project name="platform/upstream/pbzip2" path="platform/upstream/pbzip2" groups="common"/>
   <project name="platform/upstream/pciutils" path="platform/upstream/pciutils" groups="common"/>
@@ -646,7 +638,6 @@
   <project name="platform/upstream/qtquickcontrols-tizen" path="platform/upstream/qtquickcontrols-tizen" groups="common"/>
   <project name="platform/upstream/qtsensors" path="platform/upstream/qtsensors" groups="common"/>
   <project name="platform/upstream/qttools" path="platform/upstream/qttools" groups="common"/>
-  <project name="platform/upstream/qtwayland" path="platform/upstream/qtwayland" groups="common"/>
   <project name="platform/upstream/qtxmlpatterns" path="platform/upstream/qtxmlpatterns" groups="common"/>
   <project name="platform/upstream/ragel" path="platform/upstream/ragel" groups="common"/>
   <project name="platform/upstream/randrproto" path="platform/upstream/randrproto" groups="common"/>
@@ -690,8 +681,6 @@
   <project name="platform/upstream/swup" path="platform/upstream/swup" groups="common"/>
   <project name="platform/upstream/syncevolution" path="platform/upstream/syncevolution" groups="common"/>
   <project name="platform/upstream/sysfsutils" path="platform/upstream/sysfsutils" groups="common"/>
-  <project name="platform/upstream/syslinux" path="platform/upstream/syslinux" groups="common"/>
-  <project name="platform/upstream/sysprof" path="platform/upstream/sysprof" groups="common"/>
   <project name="platform/upstream/system-installer" path="platform/upstream/system-installer" groups="common"/>
   <project name="platform/upstream/systemd" path="platform/upstream/systemd" groups="common"/>
   <project name="platform/upstream/tar" path="platform/upstream/tar" groups="common"/>
@@ -733,8 +722,6 @@
   <project name="platform/upstream/vpnc" path="platform/upstream/vpnc" groups="common"/>
   <project name="platform/upstream/wayland" path="platform/upstream/wayland" groups="common"/>
   <project name="platform/upstream/wdiff" path="platform/upstream/wdiff" groups="common"/>
-  <project name="platform/upstream/weekeyboard" path="platform/upstream/weekeyboard" groups="common"/>
-  <project name="platform/upstream/weston" path="platform/upstream/weston" groups="common"/>
   <project name="platform/upstream/wget" path="platform/upstream/wget" groups="common"/>
   <project name="platform/upstream/which" path="platform/upstream/which" groups="common"/>
   <project name="platform/upstream/wireless-regdb" path="platform/upstream/wireless-regdb" groups="common"/>
@@ -755,7 +742,6 @@
   <project name="platform/upstream/xf86-input-keyboard" path="platform/upstream/xf86-input-keyboard" groups="common"/>
   <project name="platform/upstream/xf86-input-synaptics" path="platform/upstream/xf86-input-synaptics" groups="common"/>
   <project name="platform/upstream/xf86-video-fbdev" path="platform/upstream/xf86-video-fbdev" groups="common"/>
-  <project name="platform/upstream/xf86-video-intel" path="platform/upstream/xf86-video-intel" groups="common"/>
   <project name="platform/upstream/xf86bigfontproto" path="platform/upstream/xf86bigfontproto" groups="common"/>
   <project name="platform/upstream/xf86dgaproto" path="platform/upstream/xf86dgaproto" groups="common"/>
   <project name="platform/upstream/xf86driproto" path="platform/upstream/xf86driproto" groups="common"/>
@@ -805,7 +791,6 @@
   <project name="profile/common/desktop-skin" path="profile/common/desktop-skin" groups="common"/>
   <project name="profile/common/kernel-common" path="profile/common/kernel-common" groups="common"/>
   <project name="profile/common/meta" path="profile/common/meta" groups="common"/>
-  <project name="profile/common/weston-common" path="profile/common/weston-common" groups="common"/>
   <project name="profile/common/wrt-widgets" path="profile/common/wrt-widgets" groups="common"/>
   <project name="profile/common/x11-common" path="profile/common/x11-common" groups="common"/>
   <project name="profile/generic/model/config" path="profile/generic/model/config" groups="common"/>
@@ -820,7 +805,6 @@
   <project name="test/common/common-graphics-suite" path="test/common/common-graphics-suite" groups="common"/>
   <project name="test/common/common-multimedia-suite" path="test/common/common-multimedia-suite" groups="common"/>
   <project name="test/common/common-sanity-suite" path="test/common/common-sanity-suite" groups="common"/>
-  <project name="test/generic/wayland-fits" path="test/generic/wayland-fits" groups="common"/>
   <project name="test/tools/common-suite-launcher" path="test/tools/common-suite-launcher" groups="common"/>
   <project name="test/tools/testkit-lite" path="test/tools/testkit-lite" groups="common"/>
   <project name="test/tools/testkit-stub" path="test/tools/testkit-stub" groups="common"/>
