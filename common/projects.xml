@@ -681,6 +681,7 @@
   <project name="platform/upstream/swup" path="platform/upstream/swup" groups="common"/>
   <project name="platform/upstream/syncevolution" path="platform/upstream/syncevolution" groups="common"/>
   <project name="platform/upstream/sysfsutils" path="platform/upstream/sysfsutils" groups="common"/>
+  <project name="platform/upstream/syslinux" path="platform/upstream/syslinux" groups="common"/>
   <project name="platform/upstream/system-installer" path="platform/upstream/system-installer" groups="common"/>
   <project name="platform/upstream/systemd" path="platform/upstream/systemd" groups="common"/>
   <project name="platform/upstream/tar" path="platform/upstream/tar" groups="common"/>
