@@ -4,6 +4,7 @@
   <project name="apps/core/preloaded/udisks-automount-agent" path="apps/core/preloaded/udisks-automount-agent" groups="ivi"/>
   <project name="platform/adaptation/emulator/emulator-yagl" path="platform/adaptation/emulator/emulator-yagl" groups="ivi"/>
   <project name="platform/adaptation/emulator/system-plugin-emulator" path="platform/adaptation/emulator/system-plugin-emulator" groups="ivi"/>
+  <project name="platform/adaptation/setup-scripts" path="platform/adaptation/setup-scripts" groups="ivi"/>
   <project name="platform/core/api/app-manager" path="platform/core/api/app-manager" groups="ivi"/>
   <project name="platform/core/api/application" path="platform/core/api/application" groups="ivi"/>
   <project name="platform/core/api/audio-io" path="platform/core/api/audio-io" groups="ivi"/>
@@ -128,6 +129,7 @@
   <project name="platform/core/security/drm-client" path="platform/core/security/drm-client" groups="ivi"/>
   <project name="platform/core/security/dukgenerator" path="platform/core/security/dukgenerator" groups="ivi"/>
   <project name="platform/core/security/hash-signer" path="platform/core/security/hash-signer" groups="ivi"/>
+  <project name="platform/core/security/key-manager" path="platform/core/security/key-manager" groups="ivi"/>
   <project name="platform/core/security/libcryptsvc" path="platform/core/security/libcryptsvc" groups="ivi"/>
   <project name="platform/core/security/libprivilege-control" path="platform/core/security/libprivilege-control" groups="ivi"/>
   <project name="platform/core/security/privacy-manager" path="platform/core/security/privacy-manager" groups="ivi"/>
@@ -172,6 +174,7 @@
   <project name="platform/framework/web/download-provider" path="platform/framework/web/download-provider" groups="ivi"/>
   <project name="platform/framework/web/tizen-extensions-crosswalk" path="platform/framework/web/tizen-extensions-crosswalk" groups="ivi"/>
   <project name="platform/framework/web/wrt-commons" path="platform/framework/web/wrt-commons" groups="ivi"/>
+  <project name="platform/kernel/u-boot" path="platform/kernel/u-boot" groups="ivi"/>
   <project name="platform/upstream/SDL" path="platform/upstream/SDL" groups="ivi"/>
   <project name="platform/upstream/acl" path="platform/upstream/acl" groups="ivi"/>
   <project name="platform/upstream/acpid" path="platform/upstream/acpid" groups="ivi"/>
