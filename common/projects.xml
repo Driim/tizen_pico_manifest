@@ -145,6 +145,7 @@
   <project name="platform/core/security/drm-client" path="platform/core/security/drm-client" groups="common"/>
   <project name="platform/core/security/dukgenerator" path="platform/core/security/dukgenerator" groups="common"/>
   <project name="platform/core/security/hash-signer" path="platform/core/security/hash-signer" groups="common"/>
+  <project name="platform/core/security/key-manager" path="platform/core/security/key-manager" groups="common"/>
   <project name="platform/core/security/libcryptsvc" path="platform/core/security/libcryptsvc" groups="common"/>
   <project name="platform/core/security/libprivilege-control" path="platform/core/security/libprivilege-control" groups="common"/>
   <project name="platform/core/security/privacy-manager" path="platform/core/security/privacy-manager" groups="common"/>
@@ -815,6 +816,7 @@
   <project name="profile/ivi/GUPnP-AV" path="profile/ivi/GUPnP-AV" groups="common"/>
   <project name="profile/ivi/GUPnP-DLNA" path="profile/ivi/GUPnP-DLNA" groups="common"/>
   <project name="profile/ivi/dLeyna" path="profile/ivi/dLeyna" groups="common"/>
+  <project name="sdk/emulator/emulator-kernel" path="sdk/emulator/emulator-kernel" groups="common"/>
   <project name="sdk/target/sdbd" path="sdk/target/sdbd" groups="common"/>
   <project name="test/common/common-connectivity-suite" path="test/common/common-connectivity-suite" groups="common"/>
   <project name="test/common/common-crosswalk-suite" path="test/common/common-crosswalk-suite" groups="common"/>
