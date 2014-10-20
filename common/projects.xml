@@ -267,6 +267,7 @@
   <project name="platform/upstream/deltarpm" path="platform/upstream/deltarpm" groups="common"/>
   <project name="platform/upstream/desktop-file-utils" path="platform/upstream/desktop-file-utils" groups="common"/>
   <project name="platform/upstream/device-mapper" path="platform/upstream/device-mapper" groups="common"/>
+  <project name="platform/upstream/dialog" path="platform/upstream/dialog" groups="common"/>
   <project name="platform/upstream/diffutils" path="platform/upstream/diffutils" groups="common"/>
   <project name="platform/upstream/dmidecode" path="platform/upstream/dmidecode" groups="common"/>
   <project name="platform/upstream/dmxproto" path="platform/upstream/dmxproto" groups="common"/>
