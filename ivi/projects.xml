@@ -238,6 +238,7 @@
   <project name="platform/upstream/deltarpm" path="platform/upstream/deltarpm" groups="ivi"/>
   <project name="platform/upstream/desktop-file-utils" path="platform/upstream/desktop-file-utils" groups="ivi"/>
   <project name="platform/upstream/device-mapper" path="platform/upstream/device-mapper" groups="ivi"/>
+  <project name="platform/upstream/dialog" path="platform/upstream/dialog" groups="ivi"/>
   <project name="platform/upstream/diffutils" path="platform/upstream/diffutils" groups="ivi"/>
   <project name="platform/upstream/dmidecode" path="platform/upstream/dmidecode" groups="ivi"/>
   <project name="platform/upstream/dnsmasq" path="platform/upstream/dnsmasq" groups="ivi"/>
