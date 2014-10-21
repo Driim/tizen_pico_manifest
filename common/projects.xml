@@ -199,6 +199,7 @@
   <project name="platform/framework/web/download-provider" path="platform/framework/web/download-provider" groups="common"/>
   <project name="platform/framework/web/tizen-extensions-crosswalk" path="platform/framework/web/tizen-extensions-crosswalk" groups="common"/>
   <project name="platform/framework/web/wrt-commons" path="platform/framework/web/wrt-commons" groups="common"/>
+  <project name="platform/kernel/linux-3.10" path="platform/kernel/linux-3.10" groups="common"/>
   <project name="platform/kernel/u-boot" path="platform/kernel/u-boot" groups="common"/>
   <project name="platform/upstream/SDL" path="platform/upstream/SDL" groups="common"/>
   <project name="platform/upstream/acl" path="platform/upstream/acl" groups="common"/>
