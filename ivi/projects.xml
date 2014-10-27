@@ -484,7 +484,6 @@
   <project name="platform/upstream/opengl-es-virtual-drv" path="platform/upstream/opengl-es-virtual-drv" groups="ivi"/>
   <project name="platform/upstream/openssh" path="platform/upstream/openssh" groups="ivi"/>
   <project name="platform/upstream/openssl" path="platform/upstream/openssl" groups="ivi"/>
-  <project name="platform/upstream/oprofile" path="platform/upstream/oprofile" groups="ivi"/>
   <project name="platform/upstream/orc" path="platform/upstream/orc" groups="ivi"/>
   <project name="platform/upstream/p11-kit" path="platform/upstream/p11-kit" groups="ivi"/>
   <project name="platform/upstream/package-groups" path="platform/upstream/package-groups" groups="ivi"/>
@@ -545,10 +544,6 @@
   <project name="platform/upstream/python-coverage" path="platform/upstream/python-coverage" groups="ivi"/>
   <project name="platform/upstream/python-cython" path="platform/upstream/python-cython" groups="ivi"/>
   <project name="platform/upstream/python-distribute" path="platform/upstream/python-distribute" groups="ivi"/>
-  <project name="platform/upstream/python-ecore" path="platform/upstream/python-ecore" groups="ivi"/>
-  <project name="platform/upstream/python-edbus" path="platform/upstream/python-edbus" groups="ivi"/>
-  <project name="platform/upstream/python-edje" path="platform/upstream/python-edje" groups="ivi"/>
-  <project name="platform/upstream/python-evas" path="platform/upstream/python-evas" groups="ivi"/>
   <project name="platform/upstream/python-gobject" path="platform/upstream/python-gobject" groups="ivi"/>
   <project name="platform/upstream/python-gpgme" path="platform/upstream/python-gpgme" groups="ivi"/>
   <project name="platform/upstream/python-iniparse" path="platform/upstream/python-iniparse" groups="ivi"/>
@@ -733,9 +728,6 @@
   <project name="profile/ivi/pulseaudio-module-murphy-ivi" path="profile/ivi/pulseaudio-module-murphy-ivi" groups="ivi"/>
   <project name="profile/ivi/rygel" path="profile/ivi/rygel" groups="ivi"/>
   <project name="profile/ivi/saythis" path="profile/ivi/saythis" groups="ivi"/>
-  <project name="profile/ivi/setup-efi-ivi" path="profile/ivi/setup-efi-ivi" groups="ivi"/>
-  <project name="profile/ivi/setup-ivi" path="profile/ivi/setup-ivi" groups="ivi"/>
-  <project name="profile/ivi/setup-mbr-ivi" path="profile/ivi/setup-mbr-ivi" groups="ivi"/>
   <project name="profile/ivi/smartdevicelink" path="profile/ivi/smartdevicelink" groups="ivi"/>
   <project name="profile/ivi/speech-recognition" path="profile/ivi/speech-recognition" groups="ivi"/>
   <project name="profile/ivi/sphinxbase" path="profile/ivi/sphinxbase" groups="ivi"/>
