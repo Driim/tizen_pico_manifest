@@ -557,7 +557,6 @@
   <project name="platform/upstream/opengl-es-virtual-drv" path="platform/upstream/opengl-es-virtual-drv" groups="common"/>
   <project name="platform/upstream/openssh" path="platform/upstream/openssh" groups="common"/>
   <project name="platform/upstream/openssl" path="platform/upstream/openssl" groups="common"/>
-  <project name="platform/upstream/oprofile" path="platform/upstream/oprofile" groups="common"/>
   <project name="platform/upstream/orc" path="platform/upstream/orc" groups="common"/>
   <project name="platform/upstream/p11-kit" path="platform/upstream/p11-kit" groups="common"/>
   <project name="platform/upstream/package-groups" path="platform/upstream/package-groups" groups="common"/>
@@ -619,10 +618,6 @@
   <project name="platform/upstream/python-coverage" path="platform/upstream/python-coverage" groups="common"/>
   <project name="platform/upstream/python-cython" path="platform/upstream/python-cython" groups="common"/>
   <project name="platform/upstream/python-distribute" path="platform/upstream/python-distribute" groups="common"/>
-  <project name="platform/upstream/python-ecore" path="platform/upstream/python-ecore" groups="common"/>
-  <project name="platform/upstream/python-edbus" path="platform/upstream/python-edbus" groups="common"/>
-  <project name="platform/upstream/python-edje" path="platform/upstream/python-edje" groups="common"/>
-  <project name="platform/upstream/python-evas" path="platform/upstream/python-evas" groups="common"/>
   <project name="platform/upstream/python-gobject" path="platform/upstream/python-gobject" groups="common"/>
   <project name="platform/upstream/python-gpgme" path="platform/upstream/python-gpgme" groups="common"/>
   <project name="platform/upstream/python-iniparse" path="platform/upstream/python-iniparse" groups="common"/>
@@ -696,7 +691,6 @@
   <project name="platform/upstream/sysfsutils" path="platform/upstream/sysfsutils" groups="common"/>
   <project name="platform/upstream/syslinux" path="platform/upstream/syslinux" groups="common"/>
   <project name="platform/upstream/sysprof" path="platform/upstream/sysprof" groups="common"/> 
-  <project name="platform/upstream/system-installer" path="platform/upstream/system-installer" groups="common"/>
   <project name="platform/upstream/systemd" path="platform/upstream/systemd" groups="common"/>
   <project name="platform/upstream/tar" path="platform/upstream/tar" groups="common"/>
   <project name="platform/upstream/tcl" path="platform/upstream/tcl" groups="common"/>
@@ -809,6 +803,7 @@
   <project name="profile/common/desktop-skin" path="profile/common/desktop-skin" groups="common"/>
   <project name="profile/common/kernel-common" path="profile/common/kernel-common" groups="common"/>
   <project name="profile/common/meta" path="profile/common/meta" groups="common"/>
+  <project name="profile/common/system-installer" path="profile/common/system-installer" groups="common"/>
   <project name="profile/common/weston-common" path="profile/common/weston-common" groups="common"/> 
   <project name="profile/common/wrt-widgets" path="profile/common/wrt-widgets" groups="common"/>
   <project name="profile/common/x11-common" path="profile/common/x11-common" groups="common"/>
