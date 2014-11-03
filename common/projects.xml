@@ -318,7 +318,7 @@
   <project name="platform/upstream/fuse" path="platform/upstream/fuse" groups="common"/>
   <project name="platform/upstream/gawk" path="platform/upstream/gawk" groups="common"/>
   <project name="platform/upstream/gcc" path="platform/upstream/gcc" groups="common"/>
-  <project name="platform/upstream/gcc48" path="platform/upstream/gcc48" groups="common"/>
+  <project name="platform/upstream/gcc49" path="platform/upstream/gcc49" groups="common"/>
   <project name="platform/upstream/gccmakedep" path="platform/upstream/gccmakedep" groups="common"/>
   <project name="platform/upstream/gcd" path="platform/upstream/gcd" groups="common"/>
   <project name="platform/upstream/gcr" path="platform/upstream/gcr" groups="common"/>
