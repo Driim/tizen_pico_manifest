@@ -351,6 +351,7 @@
   <project name="platform/upstream/gsignond-plugin-sasl" path="platform/upstream/gsignond-plugin-sasl" groups="common"/>
   <project name="platform/upstream/gst-common" path="platform/upstream/gst-common" groups="common"/>
   <project name="platform/upstream/gst-libav" path="platform/upstream/gst-libav" groups="common"/>
+  <project name="platform/upstream/gst-omx" path="platform/upstream/gst-omx" groups="common"/>
   <project name="platform/upstream/gst-plugins-bad" path="platform/upstream/gst-plugins-bad" groups="common"/>
   <project name="platform/upstream/gst-plugins-base" path="platform/upstream/gst-plugins-base" groups="common"/>
   <project name="platform/upstream/gst-plugins-good" path="platform/upstream/gst-plugins-good" groups="common"/>
