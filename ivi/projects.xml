@@ -312,6 +312,7 @@
   <project name="platform/upstream/gsignond-plugin-sasl" path="platform/upstream/gsignond-plugin-sasl" groups="ivi"/>
   <project name="platform/upstream/gst-common" path="platform/upstream/gst-common" groups="ivi"/>
   <project name="platform/upstream/gst-libav" path="platform/upstream/gst-libav" groups="ivi"/>
+  <project name="platform/upstream/gst-omx" path="platform/upstream/gst-omx" groups="ivi"/>
   <project name="platform/upstream/gst-plugins-bad" path="platform/upstream/gst-plugins-bad" groups="ivi"/>
   <project name="platform/upstream/gst-plugins-base" path="platform/upstream/gst-plugins-base" groups="ivi"/>
   <project name="platform/upstream/gst-plugins-good" path="platform/upstream/gst-plugins-good" groups="ivi"/>
@@ -321,7 +322,7 @@
   <project name="platform/upstream/gtest" path="platform/upstream/gtest" groups="ivi"/>
   <project name="platform/upstream/gtk-doc" path="platform/upstream/gtk-doc" groups="ivi"/>
   <project name="platform/upstream/gumd" path="platform/upstream/gumd" groups="ivi"/>
-  <project name="platform/upstream/gummiboot" path="platform/upstream/gummiboot" groups="ivi"/> 
+  <project name="platform/upstream/gummiboot" path="platform/upstream/gummiboot" groups="ivi"/>
   <project name="platform/upstream/gzip" path="platform/upstream/gzip" groups="ivi"/>
   <project name="platform/upstream/hardlink" path="platform/upstream/hardlink" groups="ivi"/>
   <project name="platform/upstream/harfbuzz" path="platform/upstream/harfbuzz" groups="ivi"/>
