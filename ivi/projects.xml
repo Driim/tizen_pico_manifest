@@ -695,6 +695,7 @@
   <project name="profile/ivi/apr" path="profile/ivi/apr" groups="ivi"/>
   <project name="profile/ivi/apr-util" path="profile/ivi/apr-util" groups="ivi"/>
   <project name="profile/ivi/automotive-message-broker" path="profile/ivi/automotive-message-broker" groups="ivi"/>
+  <project name="profile/ivi/can-utils" path="profile/ivi/can-utils" groups="ivi"/>
   <project name="profile/ivi/common-api-dbus-runtime" path="profile/ivi/common-api-dbus-runtime" groups="ivi"/>
   <project name="profile/ivi/common-api-runtime" path="profile/ivi/common-api-runtime" groups="ivi"/>
   <project name="profile/ivi/cowhide" path="profile/ivi/cowhide" groups="ivi"/>
