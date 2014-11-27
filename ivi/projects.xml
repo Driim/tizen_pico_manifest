@@ -281,6 +281,7 @@
   <project name="platform/upstream/gawk" path="platform/upstream/gawk" groups="ivi"/>
   <project name="platform/upstream/gcc" path="platform/upstream/gcc" groups="ivi"/>
   <project name="platform/upstream/gcc48" path="platform/upstream/gcc48" groups="ivi"/>
+  <project name="platform/upstream/gcc49" path="platform/upstream/gcc49" groups="ivi"/>
   <project name="platform/upstream/gccmakedep" path="platform/upstream/gccmakedep" groups="ivi"/>
   <project name="platform/upstream/gcd" path="platform/upstream/gcd" groups="ivi"/>
   <project name="platform/upstream/gcr" path="platform/upstream/gcr" groups="ivi"/>
