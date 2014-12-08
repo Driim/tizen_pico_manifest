@@ -199,6 +199,7 @@
   <project name="platform/framework/web/download-provider" path="platform/framework/web/download-provider" groups="common"/>
   <project name="platform/framework/web/tizen-extensions-crosswalk" path="platform/framework/web/tizen-extensions-crosswalk" groups="common"/>
   <project name="platform/framework/web/wrt-commons" path="platform/framework/web/wrt-commons" groups="common"/>
+  <project name="platform/kernel/linux-arm64" path="platform/kernel/linux-arm64" groups="common"/>
   <project name="platform/kernel/linux-3.10" path="platform/kernel/linux-3.10" groups="common"/>
   <project name="platform/kernel/u-boot" path="platform/kernel/u-boot" groups="common"/>
   <project name="platform/upstream/SDL" path="platform/upstream/SDL" groups="common"/>
@@ -378,6 +379,7 @@
   <project name="platform/upstream/image-configurations" path="platform/upstream/image-configurations" groups="common"/>
   <project name="platform/upstream/imake" path="platform/upstream/imake" groups="common"/>
   <project name="platform/upstream/iniparser" path="platform/upstream/iniparser" groups="common"/>
+  <project name="platform/upstream/intel-gpu-tools" path="platform/upstream/intel-gpu-tools" groups="common"/>
   <project name="platform/upstream/inputproto" path="platform/upstream/inputproto" groups="common"/>
   <project name="platform/upstream/intltool" path="platform/upstream/intltool" groups="common"/>
   <project name="platform/upstream/iproute2" path="platform/upstream/iproute2" groups="common"/>
