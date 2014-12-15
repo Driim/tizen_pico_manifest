@@ -1,4 +1,4 @@
-e?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="apps/core/preloaded/libslp-memo" path="apps/core/preloaded/libslp-memo" groups="ivi"/>
   <project name="apps/core/preloaded/udisks-automount-agent" path="apps/core/preloaded/udisks-automount-agent" groups="ivi"/>
