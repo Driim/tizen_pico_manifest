@@ -341,6 +341,7 @@
   <project name="platform/upstream/image-configurations" path="platform/upstream/image-configurations" groups="ivi"/>
   <project name="platform/upstream/imake" path="platform/upstream/imake" groups="ivi"/>
   <project name="platform/upstream/iniparser" path="platform/upstream/iniparser" groups="ivi"/>
+  <project name="platform/upstream/intel-gpu-tools" path="platform/upstream/intel-gpu-tools" groups="ivi"/>
   <project name="platform/upstream/intltool" path="platform/upstream/intltool" groups="ivi"/>
   <project name="platform/upstream/iproute2" path="platform/upstream/iproute2" groups="ivi"/>
   <project name="platform/upstream/iptables" path="platform/upstream/iptables" groups="ivi"/>
