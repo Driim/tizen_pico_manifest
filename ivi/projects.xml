@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="apps/core/preloaded/libslp-memo" path="apps/core/preloaded/libslp-memo" groups="ivi"/>
   <project name="apps/core/preloaded/udisks-automount-agent" path="apps/core/preloaded/udisks-automount-agent" groups="ivi"/>
   <project name="platform/adaptation/emulator/emulator-yagl" path="platform/adaptation/emulator/emulator-yagl" groups="ivi"/>
   <project name="platform/adaptation/emulator/system-plugin-emulator" path="platform/adaptation/emulator/system-plugin-emulator" groups="ivi"/>
@@ -67,7 +66,6 @@
   <project name="platform/core/appfw/pkgmgr-info" path="platform/core/appfw/pkgmgr-info" groups="ivi"/>
   <project name="platform/core/appfw/shortcut" path="platform/core/appfw/shortcut" groups="ivi"/>
   <project name="platform/core/appfw/slp-pkgmgr" path="platform/core/appfw/slp-pkgmgr" groups="ivi"/>
-  <project name="platform/core/appfw/sppc" path="platform/core/appfw/sppc" groups="ivi"/>
   <project name="platform/core/appfw/status" path="platform/core/appfw/status" groups="ivi"/>
   <project name="platform/core/appfw/tizen-platform-config" path="platform/core/appfw/tizen-platform-config" groups="ivi"/>
   <project name="platform/core/appfw/tizen-platform-wrapper" path="platform/core/appfw/tizen-platform-wrapper" groups="ivi"/>
@@ -144,11 +142,9 @@
   <project name="platform/core/system/libslp-sensor" path="platform/core/system/libslp-sensor" groups="ivi"/>
   <project name="platform/core/system/libsvi" path="platform/core/system/libsvi" groups="ivi"/>
   <project name="platform/core/system/libtlm-nfc" path="platform/core/system/libtlm-nfc" groups="ivi"/>
-  <project name="platform/core/system/oma-ds-agent" path="platform/core/system/oma-ds-agent" groups="ivi"/>
   <project name="platform/core/system/power-manager" path="platform/core/system/power-manager" groups="ivi"/>
   <project name="platform/core/system/sensor-framework" path="platform/core/system/sensor-framework" groups="ivi"/>
   <project name="platform/core/system/svi-data" path="platform/core/system/svi-data" groups="ivi"/>
-  <project name="platform/core/system/sync-agent" path="platform/core/system/sync-agent" groups="ivi"/>
   <project name="platform/core/system/sys-assert" path="platform/core/system/sys-assert" groups="ivi"/>
   <project name="platform/core/system/system-server" path="platform/core/system/system-server" groups="ivi"/>
   <project name="platform/core/system/tlm" path="platform/core/system/tlm" groups="ivi"/>
@@ -281,10 +277,8 @@
   <project name="platform/upstream/fuse" path="platform/upstream/fuse" groups="ivi"/>
   <project name="platform/upstream/gawk" path="platform/upstream/gawk" groups="ivi"/>
   <project name="platform/upstream/gcc" path="platform/upstream/gcc" groups="ivi"/>
-  <project name="platform/upstream/gcc48" path="platform/upstream/gcc48" groups="ivi"/>
   <project name="platform/upstream/gcc49" path="platform/upstream/gcc49" groups="ivi"/>
   <project name="platform/upstream/gccmakedep" path="platform/upstream/gccmakedep" groups="ivi"/>
-  <project name="platform/upstream/gcd" path="platform/upstream/gcd" groups="ivi"/>
   <project name="platform/upstream/gcr" path="platform/upstream/gcr" groups="ivi"/>
   <project name="platform/upstream/gdb" path="platform/upstream/gdb" groups="ivi"/>
   <project name="platform/upstream/gdbm" path="platform/upstream/gdbm" groups="ivi"/>
