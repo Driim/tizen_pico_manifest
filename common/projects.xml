@@ -321,7 +321,6 @@
   <project name="platform/upstream/gcc" path="platform/upstream/gcc" groups="common"/>
   <project name="platform/upstream/gcc49" path="platform/upstream/gcc49" groups="common"/>
   <project name="platform/upstream/gccmakedep" path="platform/upstream/gccmakedep" groups="common"/>
-  <project name="platform/upstream/gcd" path="platform/upstream/gcd" groups="common"/>
   <project name="platform/upstream/gcr" path="platform/upstream/gcr" groups="common"/>
   <project name="platform/upstream/gdb" path="platform/upstream/gdb" groups="common"/>
   <project name="platform/upstream/gdbm" path="platform/upstream/gdbm" groups="common"/>
@@ -716,7 +715,6 @@
   <project name="platform/upstream/update-alternatives" path="platform/upstream/update-alternatives" groups="common"/>
   <project name="platform/upstream/update-desktop-files" path="platform/upstream/update-desktop-files" groups="common"/>
   <project name="platform/upstream/usbutils" path="platform/upstream/usbutils" groups="common"/>
-  <project name="platform/upstream/user-session-units" path="platform/upstream/user-session-units" groups="common"/>
   <project name="platform/upstream/usleep" path="platform/upstream/usleep" groups="common"/>
   <project name="platform/upstream/utempter" path="platform/upstream/utempter" groups="common"/>
   <project name="platform/upstream/uthash" path="platform/upstream/uthash" groups="common"/>
