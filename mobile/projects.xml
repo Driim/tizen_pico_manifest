@@ -804,6 +804,7 @@
   <project name="platform/upstream/zypper" path="platform/upstream/zypper" groups="mobile"/>
   <project name="platform/upstream/zypper-plugin" path="platform/upstream/zypper-plugin" groups="mobile"/>
   <project name="profile/common/desktop-skin" path="profile/common/desktop-skin" groups="mobile"/>
+  <project name="profile/common/system-installer" path="profile/common/system-installer" groups="mobile"/>
   <project name="profile/common/wrt-widgets" path="profile/common/wrt-widgets" groups="mobile"/>
   <project name="profile/common/x11-common" path="profile/common/x11-common" groups="mobile"/>
   <project name="profile/generic/model/config" path="profile/generic/model/config" groups="mobile"/>
