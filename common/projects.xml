@@ -755,6 +755,7 @@
   <project name="platform/upstream/xf86-input-synaptics" path="platform/upstream/xf86-input-synaptics" groups="common"/>
   <project name="platform/upstream/xf86-video-fbdev" path="platform/upstream/xf86-video-fbdev" groups="common"/>
   <project name="platform/upstream/xf86-video-intel" path="platform/upstream/xf86-video-intel" groups="common"/>
+  <project name="platform/upstream/xf86-video-vmware" path="platform/upstream/xf86-video-vmware" groups="common"/>
   <project name="platform/upstream/xf86bigfontproto" path="platform/upstream/xf86bigfontproto" groups="common"/>
   <project name="platform/upstream/xf86dgaproto" path="platform/upstream/xf86dgaproto" groups="common"/>
   <project name="platform/upstream/xf86driproto" path="platform/upstream/xf86driproto" groups="common"/>
