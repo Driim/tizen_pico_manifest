@@ -15,6 +15,7 @@
   <project name="apps/core/preloaded/usb-syspopup" path="apps/core/preloaded/usb-syspopup" groups="common"/>
   <project name="platform/adaptation/emulator/emulator-yagl" path="platform/adaptation/emulator/emulator-yagl" groups="common"/>
   <project name="platform/adaptation/emulator/system-plugin-emulator" path="platform/adaptation/emulator/system-plugin-emulator" groups="common"/>
+  <project name="platform/adaptation/samsung_exynos/xf86-video-exynos" path="platform/adaptation/samsung_exynos/xf86-video-exynos" groups="common"/>
   <project name="platform/adaptation/setup-scripts" path="platform/adaptation/setup-scripts" groups="common"/>
   <project name="platform/adaptation/xf86-input-evdevmultitouch" path="platform/adaptation/xf86-input-evdevmultitouch" groups="common"/>
   <project name="platform/adaptation/xf86-input-gesture" path="platform/adaptation/xf86-input-gesture" groups="common"/>
@@ -153,6 +154,7 @@
   <project name="platform/core/security/secure-storage" path="platform/core/security/secure-storage" groups="common"/>
   <project name="platform/core/security/security-manager" path="platform/core/security/security-manager" groups="common"/>
   <project name="platform/core/security/security-server" path="platform/core/security/security-server" groups="common"/>
+  <project name="platform/core/system/deviced" path="platform/core/system/deviced" groups="common"/>
   <project name="platform/core/system/dlog" path="platform/core/system/dlog" groups="common"/>
   <project name="platform/core/system/haptic-module-tizen" path="platform/core/system/haptic-module-tizen" groups="common"/>
   <project name="platform/core/system/libdevice-node" path="platform/core/system/libdevice-node" groups="common"/>
