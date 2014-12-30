@@ -155,6 +155,7 @@
   <project name="platform/core/security/secure-storage" path="platform/core/security/secure-storage" groups="mobile"/>
   <project name="platform/core/security/security-manager" path="platform/core/security/security-manager" groups="mobile"/>
   <project name="platform/core/security/security-server" path="platform/core/security/security-server" groups="mobile"/>
+  <project name="platform/core/system/deviced" path="platform/core/system/deviced" groups="mobile"/>
   <project name="platform/core/system/dlog" path="platform/core/system/dlog" groups="mobile"/>
   <project name="platform/core/system/haptic-module-tizen" path="platform/core/system/haptic-module-tizen" groups="mobile"/>
   <project name="platform/core/system/libdevice-node" path="platform/core/system/libdevice-node" groups="mobile"/>
