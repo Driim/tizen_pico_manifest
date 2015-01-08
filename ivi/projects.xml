@@ -631,7 +631,6 @@
   <project name="platform/upstream/update-alternatives" path="platform/upstream/update-alternatives" groups="ivi"/>
   <project name="platform/upstream/update-desktop-files" path="platform/upstream/update-desktop-files" groups="ivi"/>
   <project name="platform/upstream/usbutils" path="platform/upstream/usbutils" groups="ivi"/>
-  <project name="platform/upstream/user-session-units" path="platform/upstream/user-session-units" groups="ivi"/>
   <project name="platform/upstream/usleep" path="platform/upstream/usleep" groups="ivi"/>
   <project name="platform/upstream/utempter" path="platform/upstream/utempter" groups="ivi"/>
   <project name="platform/upstream/uthash" path="platform/upstream/uthash" groups="ivi"/>
