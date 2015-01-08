@@ -163,12 +163,10 @@
   <project name="platform/core/system/libsvi" path="platform/core/system/libsvi" groups="common"/>
   <project name="platform/core/system/libtlm-nfc" path="platform/core/system/libtlm-nfc" groups="common"/>
   <project name="platform/core/system/oma-ds-agent" path="platform/core/system/oma-ds-agent" groups="common"/>
-  <project name="platform/core/system/power-manager" path="platform/core/system/power-manager" groups="common"/>
   <project name="platform/core/system/sensor-framework" path="platform/core/system/sensor-framework" groups="common"/>
   <project name="platform/core/system/svi-data" path="platform/core/system/svi-data" groups="common"/>
   <project name="platform/core/system/sync-agent" path="platform/core/system/sync-agent" groups="common"/>
   <project name="platform/core/system/sys-assert" path="platform/core/system/sys-assert" groups="common"/>
-  <project name="platform/core/system/system-server" path="platform/core/system/system-server" groups="common"/>
   <project name="platform/core/system/tlm" path="platform/core/system/tlm" groups="common"/>
   <project name="platform/core/telephony/libtapi" path="platform/core/telephony/libtapi" groups="common"/>
   <project name="platform/core/telephony/libtapi-legacy" path="platform/core/telephony/libtapi-legacy" groups="common"/>
@@ -201,8 +199,8 @@
   <project name="platform/framework/web/download-provider" path="platform/framework/web/download-provider" groups="common"/>
   <project name="platform/framework/web/tizen-extensions-crosswalk" path="platform/framework/web/tizen-extensions-crosswalk" groups="common"/>
   <project name="platform/framework/web/wrt-commons" path="platform/framework/web/wrt-commons" groups="common"/>
-  <project name="platform/kernel/linux-arm64" path="platform/kernel/linux-arm64" groups="common"/>
   <project name="platform/kernel/linux-3.10" path="platform/kernel/linux-3.10" groups="common"/>
+  <project name="platform/kernel/linux-arm64" path="platform/kernel/linux-arm64" groups="common"/>
   <project name="platform/kernel/u-boot" path="platform/kernel/u-boot" groups="common"/>
   <project name="platform/upstream/SDL" path="platform/upstream/SDL" groups="common"/>
   <project name="platform/upstream/acl" path="platform/upstream/acl" groups="common"/>
@@ -380,8 +378,8 @@
   <project name="platform/upstream/image-configurations" path="platform/upstream/image-configurations" groups="common"/>
   <project name="platform/upstream/imake" path="platform/upstream/imake" groups="common"/>
   <project name="platform/upstream/iniparser" path="platform/upstream/iniparser" groups="common"/>
-  <project name="platform/upstream/intel-gpu-tools" path="platform/upstream/intel-gpu-tools" groups="common"/>
   <project name="platform/upstream/inputproto" path="platform/upstream/inputproto" groups="common"/>
+  <project name="platform/upstream/intel-gpu-tools" path="platform/upstream/intel-gpu-tools" groups="common"/>
   <project name="platform/upstream/intltool" path="platform/upstream/intltool" groups="common"/>
   <project name="platform/upstream/iproute2" path="platform/upstream/iproute2" groups="common"/>
   <project name="platform/upstream/iptables" path="platform/upstream/iptables" groups="common"/>
@@ -569,7 +567,7 @@
   <project name="platform/upstream/pango" path="platform/upstream/pango" groups="common"/>
   <project name="platform/upstream/parted" path="platform/upstream/parted" groups="common"/>
   <project name="platform/upstream/patch" path="platform/upstream/patch" groups="common"/>
-  <project name="platform/upstream/patchelf" path="platform/upstream/patchelf" groups="common"/> 
+  <project name="platform/upstream/patchelf" path="platform/upstream/patchelf" groups="common"/>
   <project name="platform/upstream/pattern-tools" path="platform/upstream/pattern-tools" groups="common"/>
   <project name="platform/upstream/pbzip2" path="platform/upstream/pbzip2" groups="common"/>
   <project name="platform/upstream/pciutils" path="platform/upstream/pciutils" groups="common"/>
@@ -694,7 +692,7 @@
   <project name="platform/upstream/syncevolution" path="platform/upstream/syncevolution" groups="common"/>
   <project name="platform/upstream/sysfsutils" path="platform/upstream/sysfsutils" groups="common"/>
   <project name="platform/upstream/syslinux" path="platform/upstream/syslinux" groups="common"/>
-  <project name="platform/upstream/sysprof" path="platform/upstream/sysprof" groups="common"/> 
+  <project name="platform/upstream/sysprof" path="platform/upstream/sysprof" groups="common"/>
   <project name="platform/upstream/systemd" path="platform/upstream/systemd" groups="common"/>
   <project name="platform/upstream/tar" path="platform/upstream/tar" groups="common"/>
   <project name="platform/upstream/tcl" path="platform/upstream/tcl" groups="common"/>
@@ -808,7 +806,7 @@
   <project name="profile/common/kernel-common" path="profile/common/kernel-common" groups="common"/>
   <project name="profile/common/meta" path="profile/common/meta" groups="common"/>
   <project name="profile/common/system-installer" path="profile/common/system-installer" groups="common"/>
-  <project name="profile/common/weston-common" path="profile/common/weston-common" groups="common"/> 
+  <project name="profile/common/weston-common" path="profile/common/weston-common" groups="common"/>
   <project name="profile/common/wrt-widgets" path="profile/common/wrt-widgets" groups="common"/>
   <project name="profile/common/x11-common" path="profile/common/x11-common" groups="common"/>
   <project name="profile/generic/model/config" path="profile/generic/model/config" groups="common"/>
