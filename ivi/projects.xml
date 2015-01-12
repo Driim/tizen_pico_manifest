@@ -162,6 +162,7 @@
   <project name="platform/core/telephony/telephony-daemon" path="platform/core/telephony/telephony-daemon" groups="ivi"/>
   <project name="platform/core/uifw/anthy" path="platform/core/uifw/anthy" groups="ivi"/>
   <project name="platform/core/uifw/efl-assist" path="platform/core/uifw/efl-assist" groups="ivi"/>
+  <project name="platform/core/uifw/efl-theme-tizen" path="platform/core/uifw/efl-theme-tizen" groups="ivi"/>
   <project name="platform/core/uifw/elm-misc" path="platform/core/uifw/elm-misc" groups="ivi"/>
   <project name="platform/core/uifw/libhangul" path="platform/core/uifw/libhangul" groups="ivi"/>
   <project name="platform/core/uifw/libtbm" path="platform/core/uifw/libtbm" groups="ivi"/>
@@ -697,7 +698,6 @@
   <project name="profile/ivi/cowhide" path="profile/ivi/cowhide" groups="ivi"/>
   <project name="profile/ivi/dLeyna" path="profile/ivi/dLeyna" groups="ivi"/>
   <project name="profile/ivi/dlt-daemon" path="profile/ivi/dlt-daemon" groups="ivi"/>
-  <project name="profile/ivi/efl-theme-tizen" path="profile/ivi/efl-theme-tizen" groups="ivi"/>
   <project name="profile/ivi/festival" path="profile/ivi/festival" groups="ivi"/>
   <project name="profile/ivi/genivi/genivi-audio-manager" path="profile/ivi/genivi/genivi-audio-manager" groups="ivi"/>
   <project name="profile/ivi/ico-uxf-device-input-controller" path="profile/ivi/ico-uxf-device-input-controller" groups="ivi"/>
