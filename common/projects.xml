@@ -37,6 +37,7 @@
   <project name="platform/core/api/location-manager" path="platform/core/api/location-manager" groups="common"/>
   <project name="platform/core/api/media-content" path="platform/core/api/media-content" groups="common"/>
   <project name="platform/core/api/media-key" path="platform/core/api/media-key" groups="common"/>
+  <project name="platform/core/api/mediatool" path="platform/core/api/mediatool" groups="common"/>
   <project name="platform/core/api/messages" path="platform/core/api/messages" groups="common"/>
   <project name="platform/core/api/metadata-extractor" path="platform/core/api/metadata-extractor" groups="common"/>
   <project name="platform/core/api/mime-type" path="platform/core/api/mime-type" groups="common"/>
@@ -185,6 +186,10 @@
   <project name="platform/core/uifw/dali-core" path="platform/core/uifw/dali-core" groups="common"/>
   <project name="platform/core/uifw/dali-demo" path="platform/core/uifw/dali-demo" groups="common"/>
   <project name="platform/core/uifw/dali-toolkit" path="platform/core/uifw/dali-toolkit" groups="common"/>
+  <project name="platform/core/uifw/e-mod-tizen-devicemgr" path="platform/core/uifw/e-mod-tizen-devicemgr" groups="common"/>
+  <project name="platform/core/uifw/e-mod-tizen-effect" path="platform/core/uifw/e-mod-tizen-effect" groups="common"/>
+  <project name="platform/core/uifw/e-mod-tizen-keyrouter" path="platform/core/uifw/e-mod-tizen-keyrouter" groups="common"/>
+  <project name="platform/core/uifw/e-mod-tizen-wm-policy" path="platform/core/uifw/e-mod-tizen-wm-policy" groups="common"/>
   <project name="platform/core/uifw/efl-assist" path="platform/core/uifw/efl-assist" groups="common"/>
   <project name="platform/core/uifw/efl-theme-tizen" path="platform/core/uifw/efl-theme-tizen" groups="common"/>
   <project name="platform/core/uifw/elm-misc" path="platform/core/uifw/elm-misc" groups="common"/>
