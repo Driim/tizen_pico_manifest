@@ -38,6 +38,7 @@
   <project name="platform/core/api/location-manager" path="platform/core/api/location-manager" groups="mobile"/>
   <project name="platform/core/api/media-content" path="platform/core/api/media-content" groups="mobile"/>
   <project name="platform/core/api/media-key" path="platform/core/api/media-key" groups="mobile"/>
+  <project name="platform/core/api/mediatool" path="platform/core/api/mediatool" groups="mobile"/>
   <project name="platform/core/api/messages" path="platform/core/api/messages" groups="mobile"/>
   <project name="platform/core/api/metadata-extractor" path="platform/core/api/metadata-extractor" groups="mobile"/>
   <project name="platform/core/api/mime-type" path="platform/core/api/mime-type" groups="mobile"/>
@@ -190,6 +191,10 @@
   <project name="platform/core/uifw/dali-core" path="platform/core/uifw/dali-core" groups="mobile"/>
   <project name="platform/core/uifw/dali-demo" path="platform/core/uifw/dali-demo" groups="mobile"/>
   <project name="platform/core/uifw/dali-toolkit" path="platform/core/uifw/dali-toolkit" groups="mobile"/>
+  <project name="platform/core/uifw/e-mod-tizen-devicemgr" path="platform/core/uifw/e-mod-tizen-devicemgr" groups="mobile"/>
+  <project name="platform/core/uifw/e-mod-tizen-effect" path="platform/core/uifw/e-mod-tizen-effect" groups="mobile"/>
+  <project name="platform/core/uifw/e-mod-tizen-keyrouter" path="platform/core/uifw/e-mod-tizen-keyrouter" groups="mobile"/>
+  <project name="platform/core/uifw/e-mod-tizen-wm-policy" path="platform/core/uifw/e-mod-tizen-wm-policy" groups="mobile"/>
   <project name="platform/core/uifw/efl-assist" path="platform/core/uifw/efl-assist" groups="mobile"/>
   <project name="platform/core/uifw/efl-theme-tizen" path="platform/core/uifw/efl-theme-tizen" groups="mobile"/>
   <project name="platform/core/uifw/elm-misc" path="platform/core/uifw/elm-misc" groups="mobile"/>
@@ -816,6 +821,7 @@
   <project name="profile/ivi/dLeyna" path="profile/ivi/dLeyna" groups="mobile"/>
   <project name="profile/mobile/meta-mobile" path="profile/mobile/meta-mobile" groups="mobile"/>
   <project name="profile/mobile/platform/core/uifw/e-tizen-data" path="profile/mobile/platform/core/uifw/e-tizen-data" groups="mobile"/>
+  <project name="profile/mobile/platform/core/uifw/efl-ext" path="profile/mobile/platform/core/uifw/efl-ext" groups="mobile"/>
   <project name="profile/mobile/platform/core/uifw/efl-misc" path="profile/mobile/platform/core/uifw/efl-misc" groups="mobile"/>
   <project name="sdk/target/sdbd" path="sdk/target/sdbd" groups="mobile"/>
   <project name="test/common/common-crosswalk-suite" path="test/common/common-crosswalk-suite" groups="mobile"/>
