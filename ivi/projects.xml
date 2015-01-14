@@ -729,6 +729,7 @@
   <project name="profile/ivi/smartdevicelink" path="profile/ivi/smartdevicelink" groups="ivi"/>
   <project name="profile/ivi/speech-recognition" path="profile/ivi/speech-recognition" groups="ivi"/>
   <project name="profile/ivi/sphinxbase" path="profile/ivi/sphinxbase" groups="ivi"/>
+  <project name="profile/ivi/tizen-middleware-units" path="profile/ivi/tizen-middleware-units" groups="ivi"/>
   <project name="profile/ivi/udev-rules" path="profile/ivi/udev-rules" groups="ivi"/>
   <project name="profile/ivi/wayland-ivi-extension" path="profile/ivi/wayland-ivi-extension" groups="ivi"/>
   <project name="profile/ivi/weston-ivi" path="profile/ivi/weston-ivi" groups="ivi"/>
