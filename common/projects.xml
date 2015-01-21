@@ -20,11 +20,13 @@
   <project name="platform/adaptation/xf86-input-evdevmultitouch" path="platform/adaptation/xf86-input-evdevmultitouch" groups="common"/>
   <project name="platform/adaptation/xf86-input-gesture" path="platform/adaptation/xf86-input-gesture" groups="common"/>
   <project name="platform/adaptation/xf86-module-xdbg" path="platform/adaptation/xf86-module-xdbg" groups="common"/>
+  <project name="platform/appfw/app-installers" path="platform/appfw/app-installers" groups="common"/>
   <project name="platform/core/api/app-manager" path="platform/core/api/app-manager" groups="common"/>
   <project name="platform/core/api/application" path="platform/core/api/application" groups="common"/>
   <project name="platform/core/api/audio-io" path="platform/core/api/audio-io" groups="common"/>
   <project name="platform/core/api/bluetooth" path="platform/core/api/bluetooth" groups="common"/>
   <project name="platform/core/api/call" path="platform/core/api/call" groups="common"/>
+  <project name="platform/core/api/camera" path="platform/core/api/camera" groups="common"/>
   <project name="platform/core/api/common" path="platform/core/api/common" groups="common"/>
   <project name="platform/core/api/connection" path="platform/core/api/connection" groups="common"/>
   <project name="platform/core/api/device" path="platform/core/api/device" groups="common"/>
@@ -49,6 +51,7 @@
   <project name="platform/core/api/poi" path="platform/core/api/poi" groups="common"/>
   <project name="platform/core/api/power" path="platform/core/api/power" groups="common"/>
   <project name="platform/core/api/radio" path="platform/core/api/radio" groups="common"/>
+  <project name="platform/core/api/recorder" path="platform/core/api/recorder" groups="common"/>
   <project name="platform/core/api/route" path="platform/core/api/route" groups="common"/>
   <project name="platform/core/api/runtime-info" path="platform/core/api/runtime-info" groups="common"/>
   <project name="platform/core/api/sensor" path="platform/core/api/sensor" groups="common"/>
@@ -123,6 +126,7 @@
   <project name="platform/core/multimedia/libcamsrcjpegenc-sw-libjpeg" path="platform/core/multimedia/libcamsrcjpegenc-sw-libjpeg" groups="common"/>
   <project name="platform/core/multimedia/libmedia-service" path="platform/core/multimedia/libmedia-service" groups="common"/>
   <project name="platform/core/multimedia/libmedia-thumbnail" path="platform/core/multimedia/libmedia-thumbnail" groups="common"/>
+  <project name="platform/core/multimedia/libmm-camcorder" path="platform/core/multimedia/libmm-camcorder" groups="common"/>
   <project name="platform/core/multimedia/libmm-common" path="platform/core/multimedia/libmm-common" groups="common"/>
   <project name="platform/core/multimedia/libmm-fileinfo" path="platform/core/multimedia/libmm-fileinfo" groups="common"/>
   <project name="platform/core/multimedia/libmm-log" path="platform/core/multimedia/libmm-log" groups="common"/>
@@ -159,12 +163,10 @@
   <project name="platform/core/system/dlog" path="platform/core/system/dlog" groups="common"/>
   <project name="platform/core/system/haptic-module-tizen" path="platform/core/system/haptic-module-tizen" groups="common"/>
   <project name="platform/core/system/libdevice-node" path="platform/core/system/libdevice-node" groups="common"/>
-  <project name="platform/core/system/libsf-common" path="platform/core/system/libsf-common" groups="common"/>
-  <project name="platform/core/system/libslp-sensor" path="platform/core/system/libslp-sensor" groups="common"/>
   <project name="platform/core/system/libsvi" path="platform/core/system/libsvi" groups="common"/>
   <project name="platform/core/system/libtlm-nfc" path="platform/core/system/libtlm-nfc" groups="common"/>
   <project name="platform/core/system/oma-ds-agent" path="platform/core/system/oma-ds-agent" groups="common"/>
-  <project name="platform/core/system/sensor-framework" path="platform/core/system/sensor-framework" groups="common"/>
+  <project name="platform/core/system/sensord" path="platform/core/system/sensord" groups="common"/>
   <project name="platform/core/system/svi-data" path="platform/core/system/svi-data" groups="common"/>
   <project name="platform/core/system/sync-agent" path="platform/core/system/sync-agent" groups="common"/>
   <project name="platform/core/system/sys-assert" path="platform/core/system/sys-assert" groups="common"/>
