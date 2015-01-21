@@ -26,6 +26,7 @@
   <project name="platform/core/api/audio-io" path="platform/core/api/audio-io" groups="mobile"/>
   <project name="platform/core/api/bluetooth" path="platform/core/api/bluetooth" groups="mobile"/>
   <project name="platform/core/api/call" path="platform/core/api/call" groups="mobile"/>
+  <project name="platform/core/api/camera" path="platform/core/api/camera" groups="mobile"/>
   <project name="platform/core/api/common" path="platform/core/api/common" groups="mobile"/>
   <project name="platform/core/api/connection" path="platform/core/api/connection" groups="mobile"/>
   <project name="platform/core/api/device" path="platform/core/api/device" groups="mobile"/>
@@ -50,6 +51,7 @@
   <project name="platform/core/api/poi" path="platform/core/api/poi" groups="mobile"/>
   <project name="platform/core/api/power" path="platform/core/api/power" groups="mobile"/>
   <project name="platform/core/api/radio" path="platform/core/api/radio" groups="mobile"/>
+  <project name="platform/core/api/recorder" path="platform/core/api/recorder" groups="mobile"/>
   <project name="platform/core/api/route" path="platform/core/api/route" groups="mobile"/>
   <project name="platform/core/api/runtime-info" path="platform/core/api/runtime-info" groups="mobile"/>
   <project name="platform/core/api/sensor" path="platform/core/api/sensor" groups="mobile"/>
@@ -113,7 +115,6 @@
   <project name="platform/core/graphics/default-fonts-sdk" path="platform/core/graphics/default-fonts-sdk" groups="mobile"/>
   <project name="platform/core/graphics/opengl-es" path="platform/core/graphics/opengl-es" groups="mobile"/>
   <project name="platform/core/location/lbs-dbus" path="platform/core/location/lbs-dbus" groups="mobile"/>
-  <project name="platform/core/location/liblocation-appman" path="platform/core/location/liblocation-appman" groups="mobile"/>
   <project name="platform/core/location/libslp-location" path="platform/core/location/libslp-location" groups="mobile"/>
   <project name="platform/core/messaging/email-service" path="platform/core/messaging/email-service" groups="mobile"/>
   <project name="platform/core/messaging/msg-service" path="platform/core/messaging/msg-service" groups="mobile"/>
@@ -124,6 +125,7 @@
   <project name="platform/core/multimedia/libcamsrcjpegenc-sw-libjpeg" path="platform/core/multimedia/libcamsrcjpegenc-sw-libjpeg" groups="mobile"/>
   <project name="platform/core/multimedia/libmedia-service" path="platform/core/multimedia/libmedia-service" groups="mobile"/>
   <project name="platform/core/multimedia/libmedia-thumbnail" path="platform/core/multimedia/libmedia-thumbnail" groups="mobile"/>
+  <project name="platform/core/multimedia/libmm-camcorder" path="platform/core/multimedia/libmm-camcorder" groups="mobile"/>
   <project name="platform/core/multimedia/libmm-common" path="platform/core/multimedia/libmm-common" groups="mobile"/>
   <project name="platform/core/multimedia/libmm-fileinfo" path="platform/core/multimedia/libmm-fileinfo" groups="mobile"/>
   <project name="platform/core/multimedia/libmm-log" path="platform/core/multimedia/libmm-log" groups="mobile"/>
@@ -165,12 +167,10 @@
   <project name="platform/core/system/libsvi" path="platform/core/system/libsvi" groups="mobile"/>
   <project name="platform/core/system/libtlm-nfc" path="platform/core/system/libtlm-nfc" groups="mobile"/>
   <project name="platform/core/system/oma-ds-agent" path="platform/core/system/oma-ds-agent" groups="mobile"/>
-  <project name="platform/core/system/power-manager" path="platform/core/system/power-manager" groups="mobile"/>
   <project name="platform/core/system/sensor-framework" path="platform/core/system/sensor-framework" groups="mobile"/>
   <project name="platform/core/system/svi-data" path="platform/core/system/svi-data" groups="mobile"/>
   <project name="platform/core/system/sync-agent" path="platform/core/system/sync-agent" groups="mobile"/>
   <project name="platform/core/system/sys-assert" path="platform/core/system/sys-assert" groups="mobile"/>
-  <project name="platform/core/system/system-server" path="platform/core/system/system-server" groups="mobile"/>
   <project name="platform/core/system/tlm" path="platform/core/system/tlm" groups="mobile"/>
   <project name="platform/core/telephony/libtapi" path="platform/core/telephony/libtapi" groups="mobile"/>
   <project name="platform/core/telephony/libtapi-legacy" path="platform/core/telephony/libtapi-legacy" groups="mobile"/>
