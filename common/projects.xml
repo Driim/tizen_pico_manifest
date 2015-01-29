@@ -91,6 +91,7 @@
   <project name="platform/core/appfw/tizen-platform-wrapper" path="platform/core/appfw/tizen-platform-wrapper" groups="common"/>
   <project name="platform/core/appfw/ui-gadget-1" path="platform/core/appfw/ui-gadget-1" groups="common"/>
   <project name="platform/core/appfw/vconf" path="platform/core/appfw/vconf" groups="common"/>
+  <project name="platform/core/appfw/vconf-buxton" path="platform/core/appfw/vconf-buxton" groups="common"/>
   <project name="platform/core/appfw/vconf-internal-keys" path="platform/core/appfw/vconf-internal-keys" groups="common"/>
   <project name="platform/core/appfw/xdgmime" path="platform/core/appfw/xdgmime" groups="common"/>
   <project name="platform/core/base/bundle" path="platform/core/base/bundle" groups="common"/>
@@ -138,11 +139,13 @@
   <project name="platform/core/multimedia/libmm-utility" path="platform/core/multimedia/libmm-utility" groups="common"/>
   <project name="platform/core/multimedia/media-data-sdk" path="platform/core/multimedia/media-data-sdk" groups="common"/>
   <project name="platform/core/multimedia/media-server" path="platform/core/multimedia/media-server" groups="common"/>
+  <project name="platform/core/multimedia/mmfw-sysconf" path="platform/core/multimedia/mmfw-sysconf" groups="common"/>
   <project name="platform/core/multimedia/tinycompress" path="platform/core/multimedia/tinycompress" groups="common"/>
   <project name="platform/core/pim/calendar-service" path="platform/core/pim/calendar-service" groups="common"/>
   <project name="platform/core/pim/contacts-service" path="platform/core/pim/contacts-service" groups="common"/>
   <project name="platform/core/pim/libaccounts-svc" path="platform/core/pim/libaccounts-svc" groups="common"/>
   <project name="platform/core/pim/pims-ipc" path="platform/core/pim/pims-ipc" groups="common"/>
+  <project name="platform/core/security/askuser" path="platform/core/security/askuser" groups="common"/>
   <project name="platform/core/security/ca-certificates-tizen" path="platform/core/security/ca-certificates-tizen" groups="common"/>
   <project name="platform/core/security/cert-svc" path="platform/core/security/cert-svc" groups="common"/>
   <project name="platform/core/security/cert-svc-ui" path="platform/core/security/cert-svc-ui" groups="common"/>
@@ -816,6 +819,7 @@
   <project name="profile/common/weston-common" path="profile/common/weston-common" groups="common"/>
   <project name="profile/common/wrt-widgets" path="profile/common/wrt-widgets" groups="common"/>
   <project name="profile/common/x11-common" path="profile/common/x11-common" groups="common"/>
+  <project name="profile/extras/i2c-tools" path="profile/extras/i2c-tools" groups="common"/>
   <project name="profile/generic/model/config" path="profile/generic/model/config" groups="common"/>
   <project name="profile/ivi/GSSDP" path="profile/ivi/GSSDP" groups="common"/>
   <project name="profile/ivi/GUPnP" path="profile/ivi/GUPnP" groups="common"/>
