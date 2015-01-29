@@ -137,11 +137,13 @@
   <project name="platform/core/multimedia/libmm-utility" path="platform/core/multimedia/libmm-utility" groups="mobile"/>
   <project name="platform/core/multimedia/media-data-sdk" path="platform/core/multimedia/media-data-sdk" groups="mobile"/>
   <project name="platform/core/multimedia/media-server" path="platform/core/multimedia/media-server" groups="mobile"/>
+  <project name="platform/core/multimedia/mmfw-sysconf" path="platform/core/multimedia/mmfw-sysconf" groups="mobile"/>
   <project name="platform/core/multimedia/tinycompress" path="platform/core/multimedia/tinycompress" groups="mobile"/>
   <project name="platform/core/pim/calendar-service" path="platform/core/pim/calendar-service" groups="mobile"/>
   <project name="platform/core/pim/contacts-service" path="platform/core/pim/contacts-service" groups="mobile"/>
   <project name="platform/core/pim/libaccounts-svc" path="platform/core/pim/libaccounts-svc" groups="mobile"/>
   <project name="platform/core/pim/pims-ipc" path="platform/core/pim/pims-ipc" groups="mobile"/>
+  <project name="platform/core/security/askuser" path="platform/core/security/askuser" groups="mobile"/>
   <project name="platform/core/security/ca-certificates-tizen" path="platform/core/security/ca-certificates-tizen" groups="mobile"/>
   <project name="platform/core/security/cert-svc" path="platform/core/security/cert-svc" groups="mobile"/>
   <project name="platform/core/security/cert-svc-ui" path="platform/core/security/cert-svc-ui" groups="mobile"/>
@@ -162,12 +164,11 @@
   <project name="platform/core/system/dlog" path="platform/core/system/dlog" groups="mobile"/>
   <project name="platform/core/system/haptic-module-tizen" path="platform/core/system/haptic-module-tizen" groups="mobile"/>
   <project name="platform/core/system/libdevice-node" path="platform/core/system/libdevice-node" groups="mobile"/>
-  <project name="platform/core/system/libsf-common" path="platform/core/system/libsf-common" groups="mobile"/>
-  <project name="platform/core/system/libslp-sensor" path="platform/core/system/libslp-sensor" groups="mobile"/>
   <project name="platform/core/system/libsvi" path="platform/core/system/libsvi" groups="mobile"/>
   <project name="platform/core/system/libtlm-nfc" path="platform/core/system/libtlm-nfc" groups="mobile"/>
   <project name="platform/core/system/oma-ds-agent" path="platform/core/system/oma-ds-agent" groups="mobile"/>
-  <project name="platform/core/system/sensor-framework" path="platform/core/system/sensor-framework" groups="mobile"/>
+  <project name="platform/core/system/resourced" path="platform/core/system/resourced" groups="mobile"/>
+  <project name="platform/core/system/sensord" path="platform/core/system/sensord" groups="mobile"/>
   <project name="platform/core/system/svi-data" path="platform/core/system/svi-data" groups="mobile"/>
   <project name="platform/core/system/sync-agent" path="platform/core/system/sync-agent" groups="mobile"/>
   <project name="platform/core/system/sys-assert" path="platform/core/system/sys-assert" groups="mobile"/>
