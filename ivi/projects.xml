@@ -4,7 +4,9 @@
   <project name="platform/adaptation/emulator/emulator-yagl" path="platform/adaptation/emulator/emulator-yagl" groups="ivi"/>
   <project name="platform/adaptation/emulator/system-plugin-emulator" path="platform/adaptation/emulator/system-plugin-emulator" groups="ivi"/>
   <project name="platform/adaptation/renesas_rcar/board-config" path="platform/adaptation/renesas_rcar/board-config" groups="ivi"/>
+  <project name="platform/adaptation/renesas_rcar/libegl" path="platform/adaptation/renesas_rcar/libegl" groups="ivi"/>
   <project name="platform/adaptation/renesas_rcar/renesas_kernel" path="platform/adaptation/renesas_rcar/renesas_kernel" groups="ivi"/>
+  <project name="platform/adaptation/renesas_rcar/wayland-kms" path="platform/adaptation/renesas_rcar/wayland-kms" groups="ivi"/>
   <project name="platform/adaptation/setup-scripts" path="platform/adaptation/setup-scripts" groups="ivi"/>
   <project name="platform/core/api/app-manager" path="platform/core/api/app-manager" groups="ivi"/>
   <project name="platform/core/api/application" path="platform/core/api/application" groups="ivi"/>
@@ -379,6 +381,7 @@
   <project name="platform/upstream/libexif" path="platform/upstream/libexif" groups="ivi"/>
   <project name="platform/upstream/libffi" path="platform/upstream/libffi" groups="ivi"/>
   <project name="platform/upstream/libfontenc" path="platform/upstream/libfontenc" groups="ivi"/>
+  <project name="platform/upstream/libgbm" path="platform/upstream/libgbm" groups="ivi"/>
   <project name="platform/upstream/libgcrypt" path="platform/upstream/libgcrypt" groups="ivi"/>
   <project name="platform/upstream/libgee" path="platform/upstream/libgee" groups="ivi"/>
   <project name="platform/upstream/libgpg-error" path="platform/upstream/libgpg-error" groups="ivi"/>
