@@ -647,6 +647,7 @@
   <project name="platform/upstream/qemu-accel" path="platform/upstream/qemu-accel" groups="common"/>
   <project name="platform/upstream/qpdf" path="platform/upstream/qpdf" groups="common"/>
   <project name="platform/upstream/qt-tizen" path="platform/upstream/qt-tizen" groups="common"/>
+  <project name="platform/upstream/qt5-cinematic-experience" path="platform/upstream/qt5-cinematic-experience" groups="common"/>
   <project name="platform/upstream/qtbase" path="platform/upstream/qtbase" groups="common"/>
   <project name="platform/upstream/qtchooser" path="platform/upstream/qtchooser" groups="common"/>
   <project name="platform/upstream/qtdeclarative" path="platform/upstream/qtdeclarative" groups="common"/>
