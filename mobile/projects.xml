@@ -64,6 +64,7 @@
   <project name="platform/core/api/tone-player" path="platform/core/api/tone-player" groups="mobile"/>
   <project name="platform/core/api/url-download" path="platform/core/api/url-download" groups="mobile"/>
   <project name="platform/core/api/usb-accessory" path="platform/core/api/usb-accessory" groups="mobile"/>
+  <project name="platform/core/api/video-util" path="platform/core/api/video-util" groups="mobile"/>
   <project name="platform/core/api/wav-player" path="platform/core/api/wav-player" groups="mobile"/>
   <project name="platform/core/api/wifi" path="platform/core/api/wifi" groups="mobile"/>
   <project name="platform/core/api/wifi-direct" path="platform/core/api/wifi-direct" groups="mobile"/>
@@ -90,7 +91,7 @@
   <project name="platform/core/appfw/tizen-platform-config" path="platform/core/appfw/tizen-platform-config" groups="mobile"/>
   <project name="platform/core/appfw/tizen-platform-wrapper" path="platform/core/appfw/tizen-platform-wrapper" groups="mobile"/>
   <project name="platform/core/appfw/ui-gadget-1" path="platform/core/appfw/ui-gadget-1" groups="mobile"/>
-  <project name="platform/core/appfw/vconf" path="platform/core/appfw/vconf" groups="mobile"/>
+  <project name="platform/core/appfw/vconf-buxton" path="platform/core/appfw/vconf-buxton" groups="mobile"/>
   <project name="platform/core/appfw/vconf-internal-keys" path="platform/core/appfw/vconf-internal-keys" groups="mobile"/>
   <project name="platform/core/appfw/xdgmime" path="platform/core/appfw/xdgmime" groups="mobile"/>
   <project name="platform/core/base/bundle" path="platform/core/base/bundle" groups="mobile"/>
@@ -130,12 +131,14 @@
   <project name="platform/core/multimedia/libmm-camcorder" path="platform/core/multimedia/libmm-camcorder" groups="mobile"/>
   <project name="platform/core/multimedia/libmm-common" path="platform/core/multimedia/libmm-common" groups="mobile"/>
   <project name="platform/core/multimedia/libmm-fileinfo" path="platform/core/multimedia/libmm-fileinfo" groups="mobile"/>
+  <project name="platform/core/multimedia/libmm-imgp-gstcs" path="platform/core/multimedia/libmm-imgp-gstcs" groups="mobile"/>
   <project name="platform/core/multimedia/libmm-log" path="platform/core/multimedia/libmm-log" groups="mobile"/>
   <project name="platform/core/multimedia/libmm-player" path="platform/core/multimedia/libmm-player" groups="mobile"/>
   <project name="platform/core/multimedia/libmm-radio" path="platform/core/multimedia/libmm-radio" groups="mobile"/>
   <project name="platform/core/multimedia/libmm-session" path="platform/core/multimedia/libmm-session" groups="mobile"/>
   <project name="platform/core/multimedia/libmm-sound" path="platform/core/multimedia/libmm-sound" groups="mobile"/>
   <project name="platform/core/multimedia/libmm-ta" path="platform/core/multimedia/libmm-ta" groups="mobile"/>
+  <project name="platform/core/multimedia/libmm-transcode" path="platform/core/multimedia/libmm-transcode" groups="mobile"/>
   <project name="platform/core/multimedia/libmm-utility" path="platform/core/multimedia/libmm-utility" groups="mobile"/>
   <project name="platform/core/multimedia/media-data-sdk" path="platform/core/multimedia/media-data-sdk" groups="mobile"/>
   <project name="platform/core/multimedia/media-server" path="platform/core/multimedia/media-server" groups="mobile"/>
@@ -378,6 +381,7 @@
   <project name="platform/upstream/gst-plugins-bad" path="platform/upstream/gst-plugins-bad" groups="mobile"/>
   <project name="platform/upstream/gst-plugins-base" path="platform/upstream/gst-plugins-base" groups="mobile"/>
   <project name="platform/upstream/gst-plugins-good" path="platform/upstream/gst-plugins-good" groups="mobile"/>
+  <project name="platform/upstream/gst-plugins-tizen" path="platform/upstream/gst-plugins-tizen" groups="mobile"/>
   <project name="platform/upstream/gst-plugins-ugly" path="platform/upstream/gst-plugins-ugly" groups="mobile"/>
   <project name="platform/upstream/gstreamer" path="platform/upstream/gstreamer" groups="mobile"/>
   <project name="platform/upstream/gstreamer-vaapi" path="platform/upstream/gstreamer-vaapi" groups="mobile"/>
@@ -512,6 +516,7 @@
   <project name="platform/upstream/libtheora" path="platform/upstream/libtheora" groups="mobile"/>
   <project name="platform/upstream/libtirpc" path="platform/upstream/libtirpc" groups="mobile"/>
   <project name="platform/upstream/libtool" path="platform/upstream/libtool" groups="mobile"/>
+  <project name="platform/upstream/libtremolo" path="platform/upstream/libtremolo" groups="mobile"/>
   <project name="platform/upstream/libtsm" path="platform/upstream/libtsm" groups="mobile"/>
   <project name="platform/upstream/libunistring" path="platform/upstream/libunistring" groups="mobile"/>
   <project name="platform/upstream/libunwind" path="platform/upstream/libunwind" groups="mobile"/>
@@ -827,11 +832,6 @@
   <project name="profile/common/wrt-widgets" path="profile/common/wrt-widgets" groups="mobile"/>
   <project name="profile/common/x11-common" path="profile/common/x11-common" groups="mobile"/>
   <project name="profile/generic/model/config" path="profile/generic/model/config" groups="mobile"/>
-  <project name="profile/ivi/GSSDP" path="profile/ivi/GSSDP" groups="mobile"/>
-  <project name="profile/ivi/GUPnP" path="profile/ivi/GUPnP" groups="mobile"/>
-  <project name="profile/ivi/GUPnP-AV" path="profile/ivi/GUPnP-AV" groups="mobile"/>
-  <project name="profile/ivi/GUPnP-DLNA" path="profile/ivi/GUPnP-DLNA" groups="mobile"/>
-  <project name="profile/ivi/dLeyna" path="profile/ivi/dLeyna" groups="mobile"/>
   <project name="profile/mobile/meta-mobile" path="profile/mobile/meta-mobile" groups="mobile"/>
   <project name="profile/mobile/platform/core/uifw/e-tizen-data" path="profile/mobile/platform/core/uifw/e-tizen-data" groups="mobile"/>
   <project name="profile/mobile/platform/core/uifw/efl-ext" path="profile/mobile/platform/core/uifw/efl-ext" groups="mobile"/>
