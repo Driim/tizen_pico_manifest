@@ -370,6 +370,7 @@
   <project name="platform/upstream/gst-plugins-bad" path="platform/upstream/gst-plugins-bad" groups="common"/>
   <project name="platform/upstream/gst-plugins-base" path="platform/upstream/gst-plugins-base" groups="common"/>
   <project name="platform/upstream/gst-plugins-good" path="platform/upstream/gst-plugins-good" groups="common"/>
+  <project name="platform/upstream/gst-plugins-tizen" path="platform/upstream/gst-plugins-tizen" groups="common"/>
   <project name="platform/upstream/gst-plugins-ugly" path="platform/upstream/gst-plugins-ugly" groups="common"/>
   <project name="platform/upstream/gstreamer" path="platform/upstream/gstreamer" groups="common"/>
   <project name="platform/upstream/gstreamer-vaapi" path="platform/upstream/gstreamer-vaapi" groups="common"/>
@@ -505,6 +506,7 @@
   <project name="platform/upstream/libtheora" path="platform/upstream/libtheora" groups="common"/>
   <project name="platform/upstream/libtirpc" path="platform/upstream/libtirpc" groups="common"/>
   <project name="platform/upstream/libtool" path="platform/upstream/libtool" groups="common"/>
+  <project name="platform/upstream/libtremolo" path="platform/upstream/libtremolo" groups="common"/>
   <project name="platform/upstream/libtsm" path="platform/upstream/libtsm" groups="common"/>
   <project name="platform/upstream/libunistring" path="platform/upstream/libunistring" groups="common"/>
   <project name="platform/upstream/libunwind" path="platform/upstream/libunwind" groups="common"/>
