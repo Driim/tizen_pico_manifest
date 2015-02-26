@@ -13,6 +13,8 @@
   <project name="apps/core/preloaded/ug-setting-homescreen-efl" path="apps/core/preloaded/ug-setting-homescreen-efl" groups="mobile"/>
   <project name="apps/core/preloaded/usb-manager" path="apps/core/preloaded/usb-manager" groups="mobile"/>
   <project name="apps/core/preloaded/usb-syspopup" path="apps/core/preloaded/usb-syspopup" groups="mobile"/>
+  <project name="external/gssdp" path="external/gssdp" groups="mobile"/>
+  <project name="external/gupnp" path="external/gupnp" groups="mobile"/>
   <project name="platform/adaptation/emulator/system-plugin-emulator" path="platform/adaptation/emulator/system-plugin-emulator" groups="mobile"/>
   <project name="platform/adaptation/samsung_exynos/libtbm-exynos4412" path="platform/adaptation/samsung_exynos/libtbm-exynos4412" groups="mobile"/>
   <project name="platform/adaptation/samsung_exynos/xf86-misc-exynos4412" path="platform/adaptation/samsung_exynos/xf86-misc-exynos4412" groups="mobile"/>
@@ -21,6 +23,7 @@
   <project name="platform/adaptation/xf86-input-evdevmultitouch" path="platform/adaptation/xf86-input-evdevmultitouch" groups="mobile"/>
   <project name="platform/adaptation/xf86-input-gesture" path="platform/adaptation/xf86-input-gesture" groups="mobile"/>
   <project name="platform/adaptation/xf86-module-xdbg" path="platform/adaptation/xf86-module-xdbg" groups="mobile"/>
+  <project name="platform/appfw/app-installers" path="platform/appfw/app-installers" groups="mobile"/>
   <project name="platform/core/api/app-manager" path="platform/core/api/app-manager" groups="mobile"/>
   <project name="platform/core/api/application" path="platform/core/api/application" groups="mobile"/>
   <project name="platform/core/api/audio-io" path="platform/core/api/audio-io" groups="mobile"/>
@@ -78,6 +81,7 @@
   <project name="platform/core/appfw/aul-1" path="platform/core/appfw/aul-1" groups="mobile"/>
   <project name="platform/core/appfw/badge" path="platform/core/appfw/badge" groups="mobile"/>
   <project name="platform/core/appfw/com-core" path="platform/core/appfw/com-core" groups="mobile"/>
+  <project name="platform/core/appfw/data-control" path="platform/core/appfw/data-control" groups="mobile"/>
   <project name="platform/core/appfw/heynoti" path="platform/core/appfw/heynoti" groups="mobile"/>
   <project name="platform/core/appfw/librua" path="platform/core/appfw/librua" groups="mobile"/>
   <project name="platform/core/appfw/libslp-db-util" path="platform/core/appfw/libslp-db-util" groups="mobile"/>
