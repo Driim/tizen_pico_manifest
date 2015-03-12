@@ -13,6 +13,8 @@
   <project name="apps/core/preloaded/ug-setting-homescreen-efl" path="apps/core/preloaded/ug-setting-homescreen-efl" groups="common"/>
   <project name="apps/core/preloaded/usb-manager" path="apps/core/preloaded/usb-manager" groups="common"/>
   <project name="apps/core/preloaded/usb-syspopup" path="apps/core/preloaded/usb-syspopup" groups="common"/>
+  <project name="framework/api/url-download" path="framework/api/url-download" groups="common"/>
+  <project name="framework/web/download-provider" path="framework/web/download-provider" groups="common"/>
   <project name="platform/adaptation/emulator/emulator-yagl" path="platform/adaptation/emulator/emulator-yagl" groups="common"/>
   <project name="platform/adaptation/emulator/system-plugin-emulator" path="platform/adaptation/emulator/system-plugin-emulator" groups="common"/>
   <project name="platform/adaptation/samsung_exynos/libtbm-exynos4412" path="platform/adaptation/samsung_exynos/libtbm-exynos4412" groups="common"/>
@@ -63,7 +65,6 @@
   <project name="platform/core/api/system-settings" path="platform/core/api/system-settings" groups="common"/>
   <project name="platform/core/api/tethering" path="platform/core/api/tethering" groups="common"/>
   <project name="platform/core/api/tone-player" path="platform/core/api/tone-player" groups="common"/>
-  <project name="platform/core/api/url-download" path="platform/core/api/url-download" groups="common"/>
   <project name="platform/core/api/usb-accessory" path="platform/core/api/usb-accessory" groups="common"/>
   <project name="platform/core/api/video-util" path="platform/core/api/video-util" groups="common"/>
   <project name="platform/core/api/wav-player" path="platform/core/api/wav-player" groups="common"/>
@@ -136,11 +137,13 @@
   <project name="platform/core/multimedia/libmm-log" path="platform/core/multimedia/libmm-log" groups="common"/>
   <project name="platform/core/multimedia/libmm-player" path="platform/core/multimedia/libmm-player" groups="common"/>
   <project name="platform/core/multimedia/libmm-radio" path="platform/core/multimedia/libmm-radio" groups="common"/>
+  <project name="platform/core/multimedia/libmm-scmirroring-common" path="platform/core/multimedia/libmm-scmirroring-common" groups="common"/>
   <project name="platform/core/multimedia/libmm-session" path="platform/core/multimedia/libmm-session" groups="common"/>
   <project name="platform/core/multimedia/libmm-sound" path="platform/core/multimedia/libmm-sound" groups="common"/>
   <project name="platform/core/multimedia/libmm-ta" path="platform/core/multimedia/libmm-ta" groups="common"/>
   <project name="platform/core/multimedia/libmm-transcode" path="platform/core/multimedia/libmm-transcode" groups="common"/>
   <project name="platform/core/multimedia/libmm-utility" path="platform/core/multimedia/libmm-utility" groups="common"/>
+  <project name="platform/core/multimedia/libmm-wfd" path="platform/core/multimedia/libmm-wfd" groups="common"/>
   <project name="platform/core/multimedia/media-data-sdk" path="platform/core/multimedia/media-data-sdk" groups="common"/>
   <project name="platform/core/multimedia/media-server" path="platform/core/multimedia/media-server" groups="common"/>
   <project name="platform/core/multimedia/mmfw-sysconf" path="platform/core/multimedia/mmfw-sysconf" groups="common"/>
@@ -173,6 +176,7 @@
   <project name="platform/core/system/libstorage" path="platform/core/system/libstorage" groups="common"/>
   <project name="platform/core/system/libsvi" path="platform/core/system/libsvi" groups="common"/>
   <project name="platform/core/system/libtlm-nfc" path="platform/core/system/libtlm-nfc" groups="common"/>
+  <project name="platform/core/system/memps" path="platform/core/system/memps" groups="common"/>
   <project name="platform/core/system/oma-ds-agent" path="platform/core/system/oma-ds-agent" groups="common"/>
   <project name="platform/core/system/sensord" path="platform/core/system/sensord" groups="common"/>
   <project name="platform/core/system/svi-data" path="platform/core/system/svi-data" groups="common"/>
@@ -200,6 +204,7 @@
   <project name="platform/core/uifw/e-mod-tizen-effect" path="platform/core/uifw/e-mod-tizen-effect" groups="common"/>
   <project name="platform/core/uifw/e-mod-tizen-keyrouter" path="platform/core/uifw/e-mod-tizen-keyrouter" groups="common"/>
   <project name="platform/core/uifw/e-mod-tizen-wm-policy" path="platform/core/uifw/e-mod-tizen-wm-policy" groups="common"/>
+  <project name="platform/core/uifw/e-tizen-testcase" path="platform/core/uifw/e-tizen-testcase" groups="common"/>
   <project name="platform/core/uifw/efl-assist" path="platform/core/uifw/efl-assist" groups="common"/>
   <project name="platform/core/uifw/efl-theme-tizen" path="platform/core/uifw/efl-theme-tizen" groups="common"/>
   <project name="platform/core/uifw/elm-misc" path="platform/core/uifw/elm-misc" groups="common"/>
@@ -211,7 +216,6 @@
   <project name="platform/core/uifw/stt" path="platform/core/uifw/stt" groups="common"/>
   <project name="platform/core/uifw/tts" path="platform/core/uifw/tts" groups="common"/>
   <project name="platform/framework/web/crosswalk" path="platform/framework/web/crosswalk" groups="common"/>
-  <project name="platform/framework/web/download-provider" path="platform/framework/web/download-provider" groups="common"/>
   <project name="platform/framework/web/tizen-extensions-crosswalk" path="platform/framework/web/tizen-extensions-crosswalk" groups="common"/>
   <project name="platform/framework/web/wrt-commons" path="platform/framework/web/wrt-commons" groups="common"/>
   <project name="platform/kernel/linux-3.10" path="platform/kernel/linux-3.10" groups="common"/>
@@ -372,6 +376,7 @@
   <project name="platform/upstream/gst-plugins-good" path="platform/upstream/gst-plugins-good" groups="common"/>
   <project name="platform/upstream/gst-plugins-tizen" path="platform/upstream/gst-plugins-tizen" groups="common"/>
   <project name="platform/upstream/gst-plugins-ugly" path="platform/upstream/gst-plugins-ugly" groups="common"/>
+  <project name="platform/upstream/gst-rtsp-server" path="platform/upstream/gst-rtsp-server" groups="common"/>
   <project name="platform/upstream/gstreamer" path="platform/upstream/gstreamer" groups="common"/>
   <project name="platform/upstream/gstreamer-vaapi" path="platform/upstream/gstreamer-vaapi" groups="common"/>
   <project name="platform/upstream/gtest" path="platform/upstream/gtest" groups="common"/>
