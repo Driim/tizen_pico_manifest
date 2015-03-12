@@ -15,6 +15,7 @@
   <project name="apps/core/preloaded/usb-syspopup" path="apps/core/preloaded/usb-syspopup" groups="mobile"/>
   <project name="external/gssdp" path="external/gssdp" groups="mobile"/>
   <project name="external/gupnp" path="external/gupnp" groups="mobile"/>
+  <project name="framework/api/url-download" path="framework/api/url-download" groups="mobile"/>
   <project name="platform/adaptation/emulator/system-plugin-emulator" path="platform/adaptation/emulator/system-plugin-emulator" groups="mobile"/>
   <project name="platform/adaptation/samsung_exynos/libtbm-exynos4412" path="platform/adaptation/samsung_exynos/libtbm-exynos4412" groups="mobile"/>
   <project name="platform/adaptation/samsung_exynos/xf86-misc-exynos4412" path="platform/adaptation/samsung_exynos/xf86-misc-exynos4412" groups="mobile"/>
@@ -65,7 +66,6 @@
   <project name="platform/core/api/system-settings" path="platform/core/api/system-settings" groups="mobile"/>
   <project name="platform/core/api/tethering" path="platform/core/api/tethering" groups="mobile"/>
   <project name="platform/core/api/tone-player" path="platform/core/api/tone-player" groups="mobile"/>
-  <project name="platform/core/api/url-download" path="platform/core/api/url-download" groups="mobile"/>
   <project name="platform/core/api/usb-accessory" path="platform/core/api/usb-accessory" groups="mobile"/>
   <project name="platform/core/api/video-util" path="platform/core/api/video-util" groups="mobile"/>
   <project name="platform/core/api/wav-player" path="platform/core/api/wav-player" groups="mobile"/>
@@ -139,11 +139,13 @@
   <project name="platform/core/multimedia/libmm-log" path="platform/core/multimedia/libmm-log" groups="mobile"/>
   <project name="platform/core/multimedia/libmm-player" path="platform/core/multimedia/libmm-player" groups="mobile"/>
   <project name="platform/core/multimedia/libmm-radio" path="platform/core/multimedia/libmm-radio" groups="mobile"/>
+  <project name="platform/core/multimedia/libmm-scmirroring-common" path="platform/core/multimedia/libmm-scmirroring-common" groups="mobile"/>
   <project name="platform/core/multimedia/libmm-session" path="platform/core/multimedia/libmm-session" groups="mobile"/>
   <project name="platform/core/multimedia/libmm-sound" path="platform/core/multimedia/libmm-sound" groups="mobile"/>
   <project name="platform/core/multimedia/libmm-ta" path="platform/core/multimedia/libmm-ta" groups="mobile"/>
   <project name="platform/core/multimedia/libmm-transcode" path="platform/core/multimedia/libmm-transcode" groups="mobile"/>
   <project name="platform/core/multimedia/libmm-utility" path="platform/core/multimedia/libmm-utility" groups="mobile"/>
+  <project name="platform/core/multimedia/libmm-wfd" path="platform/core/multimedia/libmm-wfd" groups="mobile"/>
   <project name="platform/core/multimedia/media-data-sdk" path="platform/core/multimedia/media-data-sdk" groups="mobile"/>
   <project name="platform/core/multimedia/media-server" path="platform/core/multimedia/media-server" groups="mobile"/>
   <project name="platform/core/multimedia/mmfw-sysconf" path="platform/core/multimedia/mmfw-sysconf" groups="mobile"/>
@@ -176,6 +178,7 @@
   <project name="platform/core/system/libstorage" path="platform/core/system/libstorage" groups="mobile"/>
   <project name="platform/core/system/libsvi" path="platform/core/system/libsvi" groups="mobile"/>
   <project name="platform/core/system/libtlm-nfc" path="platform/core/system/libtlm-nfc" groups="mobile"/>
+  <project name="platform/core/system/memps" path="platform/core/system/memps" groups="mobile"/>
   <project name="platform/core/system/oma-ds-agent" path="platform/core/system/oma-ds-agent" groups="mobile"/>
   <project name="platform/core/system/resourced" path="platform/core/system/resourced" groups="mobile"/>
   <project name="platform/core/system/sensord" path="platform/core/system/sensord" groups="mobile"/>
@@ -206,6 +209,7 @@
   <project name="platform/core/uifw/e-mod-tizen-effect" path="platform/core/uifw/e-mod-tizen-effect" groups="mobile"/>
   <project name="platform/core/uifw/e-mod-tizen-keyrouter" path="platform/core/uifw/e-mod-tizen-keyrouter" groups="mobile"/>
   <project name="platform/core/uifw/e-mod-tizen-wm-policy" path="platform/core/uifw/e-mod-tizen-wm-policy" groups="mobile"/>
+  <project name="platform/core/uifw/e-tizen-testcase" path="platform/core/uifw/e-tizen-testcase" groups="mobile"/>
   <project name="platform/core/uifw/efl-assist" path="platform/core/uifw/efl-assist" groups="mobile"/>
   <project name="platform/core/uifw/efl-theme-tizen" path="platform/core/uifw/efl-theme-tizen" groups="mobile"/>
   <project name="platform/core/uifw/elm-misc" path="platform/core/uifw/elm-misc" groups="mobile"/>
@@ -226,7 +230,6 @@
   <project name="platform/core/uifw/tts" path="platform/core/uifw/tts" groups="mobile"/>
   <project name="platform/framework/web/crosswalk" path="platform/framework/web/crosswalk" groups="mobile"/>
   <project name="platform/framework/web/download-provider" path="platform/framework/web/download-provider" groups="mobile"/>
-  <project name="platform/framework/web/tizen-extensions-crosswalk" path="platform/framework/web/tizen-extensions-crosswalk" groups="mobile"/>
   <project name="platform/framework/web/wrt-commons" path="platform/framework/web/wrt-commons" groups="mobile"/>
   <project name="platform/kernel/linux-3.10" path="platform/kernel/linux-3.10" groups="mobile"/>
   <project name="platform/kernel/linux-arm64" path="platform/kernel/linux-arm64" groups="mobile"/>
@@ -387,6 +390,7 @@
   <project name="platform/upstream/gst-plugins-good" path="platform/upstream/gst-plugins-good" groups="mobile"/>
   <project name="platform/upstream/gst-plugins-tizen" path="platform/upstream/gst-plugins-tizen" groups="mobile"/>
   <project name="platform/upstream/gst-plugins-ugly" path="platform/upstream/gst-plugins-ugly" groups="mobile"/>
+  <project name="platform/upstream/gst-rtsp-server" path="platform/upstream/gst-rtsp-server" groups="mobile"/>
   <project name="platform/upstream/gstreamer" path="platform/upstream/gstreamer" groups="mobile"/>
   <project name="platform/upstream/gstreamer-vaapi" path="platform/upstream/gstreamer-vaapi" groups="mobile"/>
   <project name="platform/upstream/gtest" path="platform/upstream/gtest" groups="mobile"/>
@@ -679,6 +683,7 @@
   <project name="platform/upstream/qtquickcontrols-tizen" path="platform/upstream/qtquickcontrols-tizen" groups="mobile"/>
   <project name="platform/upstream/qtsensors" path="platform/upstream/qtsensors" groups="mobile"/>
   <project name="platform/upstream/qttools" path="platform/upstream/qttools" groups="mobile"/>
+  <project name="platform/upstream/qtwayland" path="platform/upstream/qtwayland" groups="mobile"/>
   <project name="platform/upstream/qtxmlpatterns" path="platform/upstream/qtxmlpatterns" groups="mobile"/>
   <project name="platform/upstream/ragel" path="platform/upstream/ragel" groups="mobile"/>
   <project name="platform/upstream/randrproto" path="platform/upstream/randrproto" groups="mobile"/>
@@ -764,6 +769,8 @@
   <project name="platform/upstream/vpnc" path="platform/upstream/vpnc" groups="mobile"/>
   <project name="platform/upstream/wayland" path="platform/upstream/wayland" groups="mobile"/>
   <project name="platform/upstream/wdiff" path="platform/upstream/wdiff" groups="mobile"/>
+  <project name="platform/upstream/weekeyboard" path="platform/upstream/weekeyboard" groups="mobile"/>
+  <project name="platform/upstream/weston" path="platform/upstream/weston" groups="mobile"/>
   <project name="platform/upstream/wget" path="platform/upstream/wget" groups="mobile"/>
   <project name="platform/upstream/which" path="platform/upstream/which" groups="mobile"/>
   <project name="platform/upstream/wireless-regdb" path="platform/upstream/wireless-regdb" groups="mobile"/>
@@ -843,6 +850,7 @@
   <project name="sdk/target/sdbd" path="sdk/target/sdbd" groups="mobile"/>
   <project name="test/common/common-crosswalk-suite" path="test/common/common-crosswalk-suite" groups="mobile"/>
   <project name="test/common/common-multimedia-suite" path="test/common/common-multimedia-suite" groups="mobile"/>
+  <project name="test/generic/wayland-fits" path="test/generic/wayland-fits" groups="mobile"/>
   <project name="test/tools/common-suite-launcher" path="test/tools/common-suite-launcher" groups="mobile"/>
   <project name="test/tools/testkit-lite" path="test/tools/testkit-lite" groups="mobile"/>
   <project name="test/tools/testkit-stub" path="test/tools/testkit-stub" groups="mobile"/>
