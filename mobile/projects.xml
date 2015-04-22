@@ -15,21 +15,24 @@
   <project name="apps/core/preloaded/usb-syspopup" path="apps/core/preloaded/usb-syspopup" groups="mobile"/>
   <project name="external/gssdp" path="external/gssdp" groups="mobile"/>
   <project name="external/gupnp" path="external/gupnp" groups="mobile"/>
-  <project name="framework/api/url-download" path="framework/api/url-download" groups="mobile"/>
   <project name="platform/adaptation/emulator/system-plugin-emulator" path="platform/adaptation/emulator/system-plugin-emulator" groups="mobile"/>
+  <project name="platform/adaptation/samsung_exynos/alsa-ucm-conf-max98090" path="platform/adaptation/samsung_exynos/alsa-ucm-conf-max98090" groups="mobile"/>
+  <project name="platform/adaptation/samsung_exynos/alsa-ucm-conf-wm5110" path="platform/adaptation/samsung_exynos/alsa-ucm-conf-wm5110" groups="mobile"/>
   <project name="platform/adaptation/samsung_exynos/libtbm-exynos4412" path="platform/adaptation/samsung_exynos/libtbm-exynos4412" groups="mobile"/>
   <project name="platform/adaptation/samsung_exynos/xf86-misc-exynos4412" path="platform/adaptation/samsung_exynos/xf86-misc-exynos4412" groups="mobile"/>
   <project name="platform/adaptation/samsung_exynos/xf86-video-exynos" path="platform/adaptation/samsung_exynos/xf86-video-exynos" groups="mobile"/>
   <project name="platform/adaptation/setup-scripts" path="platform/adaptation/setup-scripts" groups="mobile"/>
+  <project name="platform/adaptation/system-plugin" path="platform/adaptation/system-plugin" groups="mobile"/>
   <project name="platform/adaptation/xf86-input-evdevmultitouch" path="platform/adaptation/xf86-input-evdevmultitouch" groups="mobile"/>
   <project name="platform/adaptation/xf86-input-gesture" path="platform/adaptation/xf86-input-gesture" groups="mobile"/>
   <project name="platform/adaptation/xf86-module-xdbg" path="platform/adaptation/xf86-module-xdbg" groups="mobile"/>
   <project name="platform/appfw/app-installers" path="platform/appfw/app-installers" groups="mobile"/>
+  <project name="platform/core/account/account-manager" path="platform/core/account/account-manager" groups="mobile"/>
+  <project name="platform/core/account/account-parser" path="platform/core/account/account-parser" groups="mobile"/>
   <project name="platform/core/api/app-manager" path="platform/core/api/app-manager" groups="mobile"/>
   <project name="platform/core/api/application" path="platform/core/api/application" groups="mobile"/>
   <project name="platform/core/api/audio-io" path="platform/core/api/audio-io" groups="mobile"/>
   <project name="platform/core/api/bluetooth" path="platform/core/api/bluetooth" groups="mobile"/>
-  <project name="platform/core/api/call" path="platform/core/api/call" groups="mobile"/>
   <project name="platform/core/api/camera" path="platform/core/api/camera" groups="mobile"/>
   <project name="platform/core/api/common" path="platform/core/api/common" groups="mobile"/>
   <project name="platform/core/api/connection" path="platform/core/api/connection" groups="mobile"/>
@@ -40,6 +43,7 @@
   <project name="platform/core/api/geocoder" path="platform/core/api/geocoder" groups="mobile"/>
   <project name="platform/core/api/haptic" path="platform/core/api/haptic" groups="mobile"/>
   <project name="platform/core/api/image-util" path="platform/core/api/image-util" groups="mobile"/>
+  <project name="platform/core/api/libaccount-service" path="platform/core/api/libaccount-service" groups="mobile"/>
   <project name="platform/core/api/location-manager" path="platform/core/api/location-manager" groups="mobile"/>
   <project name="platform/core/api/media-content" path="platform/core/api/media-content" groups="mobile"/>
   <project name="platform/core/api/media-key" path="platform/core/api/media-key" groups="mobile"/>
@@ -47,7 +51,6 @@
   <project name="platform/core/api/messages" path="platform/core/api/messages" groups="mobile"/>
   <project name="platform/core/api/metadata-extractor" path="platform/core/api/metadata-extractor" groups="mobile"/>
   <project name="platform/core/api/mime-type" path="platform/core/api/mime-type" groups="mobile"/>
-  <project name="platform/core/api/network-info" path="platform/core/api/network-info" groups="mobile"/>
   <project name="platform/core/api/nfc" path="platform/core/api/nfc" groups="mobile"/>
   <project name="platform/core/api/notification" path="platform/core/api/notification" groups="mobile"/>
   <project name="platform/core/api/package-manager" path="platform/core/api/package-manager" groups="mobile"/>
@@ -58,14 +61,16 @@
   <project name="platform/core/api/recorder" path="platform/core/api/recorder" groups="mobile"/>
   <project name="platform/core/api/route" path="platform/core/api/route" groups="mobile"/>
   <project name="platform/core/api/runtime-info" path="platform/core/api/runtime-info" groups="mobile"/>
+  <project name="platform/core/api/screen-mirroring" path="platform/core/api/screen-mirroring" groups="mobile"/>
   <project name="platform/core/api/sensor" path="platform/core/api/sensor" groups="mobile"/>
   <project name="platform/core/api/serial" path="platform/core/api/serial" groups="mobile"/>
-  <project name="platform/core/api/sim" path="platform/core/api/sim" groups="mobile"/>
   <project name="platform/core/api/sound-manager" path="platform/core/api/sound-manager" groups="mobile"/>
   <project name="platform/core/api/system-info" path="platform/core/api/system-info" groups="mobile"/>
   <project name="platform/core/api/system-settings" path="platform/core/api/system-settings" groups="mobile"/>
+  <project name="platform/core/api/telephony" path="platform/core/api/telephony" groups="mobile"/>
   <project name="platform/core/api/tethering" path="platform/core/api/tethering" groups="mobile"/>
   <project name="platform/core/api/tone-player" path="platform/core/api/tone-player" groups="mobile"/>
+  <project name="platform/core/api/url-download" path="platform/core/api/url-download" groups="mobile"/>
   <project name="platform/core/api/usb-accessory" path="platform/core/api/usb-accessory" groups="mobile"/>
   <project name="platform/core/api/video-util" path="platform/core/api/video-util" groups="mobile"/>
   <project name="platform/core/api/wav-player" path="platform/core/api/wav-player" groups="mobile"/>
@@ -85,6 +90,7 @@
   <project name="platform/core/appfw/heynoti" path="platform/core/appfw/heynoti" groups="mobile"/>
   <project name="platform/core/appfw/librua" path="platform/core/appfw/librua" groups="mobile"/>
   <project name="platform/core/appfw/libslp-db-util" path="platform/core/appfw/libslp-db-util" groups="mobile"/>
+  <project name="platform/core/appfw/manifest-parser" path="platform/core/appfw/manifest-parser" groups="mobile"/>
   <project name="platform/core/appfw/message-port-dbus" path="platform/core/appfw/message-port-dbus" groups="mobile"/>
   <project name="platform/core/appfw/notification-service" path="platform/core/appfw/notification-service" groups="mobile"/>
   <project name="platform/core/appfw/pkgmgr-info" path="platform/core/appfw/pkgmgr-info" groups="mobile"/>
@@ -101,7 +107,6 @@
   <project name="platform/core/base/bundle" path="platform/core/base/bundle" groups="mobile"/>
   <project name="platform/core/base/gconf-dbus" path="platform/core/base/gconf-dbus" groups="mobile"/>
   <project name="platform/core/base/libsqlfs" path="platform/core/base/libsqlfs" groups="mobile"/>
-  <project name="platform/core/base/rpm-installer" path="platform/core/base/rpm-installer" groups="mobile"/>
   <project name="platform/core/base/sys-string-0" path="platform/core/base/sys-string-0" groups="mobile"/>
   <project name="platform/core/base/syspopup" path="platform/core/base/syspopup" groups="mobile"/>
   <project name="platform/core/connectivity/bluetooth-agent" path="platform/core/connectivity/bluetooth-agent" groups="mobile"/>
@@ -152,7 +157,6 @@
   <project name="platform/core/multimedia/tinycompress" path="platform/core/multimedia/tinycompress" groups="mobile"/>
   <project name="platform/core/pim/calendar-service" path="platform/core/pim/calendar-service" groups="mobile"/>
   <project name="platform/core/pim/contacts-service" path="platform/core/pim/contacts-service" groups="mobile"/>
-  <project name="platform/core/pim/libaccounts-svc" path="platform/core/pim/libaccounts-svc" groups="mobile"/>
   <project name="platform/core/pim/pims-ipc" path="platform/core/pim/pims-ipc" groups="mobile"/>
   <project name="platform/core/security/askuser" path="platform/core/security/askuser" groups="mobile"/>
   <project name="platform/core/security/ca-certificates-tizen" path="platform/core/security/ca-certificates-tizen" groups="mobile"/>
@@ -179,28 +183,26 @@
   <project name="platform/core/system/libsvi" path="platform/core/system/libsvi" groups="mobile"/>
   <project name="platform/core/system/libtlm-nfc" path="platform/core/system/libtlm-nfc" groups="mobile"/>
   <project name="platform/core/system/memps" path="platform/core/system/memps" groups="mobile"/>
-  <project name="platform/core/system/oma-ds-agent" path="platform/core/system/oma-ds-agent" groups="mobile"/>
   <project name="platform/core/system/resourced" path="platform/core/system/resourced" groups="mobile"/>
   <project name="platform/core/system/sensord" path="platform/core/system/sensord" groups="mobile"/>
   <project name="platform/core/system/svi-data" path="platform/core/system/svi-data" groups="mobile"/>
-  <project name="platform/core/system/sync-agent" path="platform/core/system/sync-agent" groups="mobile"/>
   <project name="platform/core/system/sys-assert" path="platform/core/system/sys-assert" groups="mobile"/>
   <project name="platform/core/system/tlm" path="platform/core/system/tlm" groups="mobile"/>
   <project name="platform/core/telephony/libtapi" path="platform/core/telephony/libtapi" groups="mobile"/>
-  <project name="platform/core/telephony/libtapi-legacy" path="platform/core/telephony/libtapi-legacy" groups="mobile"/>
   <project name="platform/core/telephony/libtcore" path="platform/core/telephony/libtcore" groups="mobile"/>
   <project name="platform/core/telephony/tel-plugin-atmodem" path="platform/core/telephony/tel-plugin-atmodem" groups="mobile"/>
   <project name="platform/core/telephony/tel-plugin-database" path="platform/core/telephony/tel-plugin-database" groups="mobile"/>
+  <project name="platform/core/telephony/tel-plugin-dbus_tapi" path="platform/core/telephony/tel-plugin-dbus_tapi" groups="mobile"/>
   <project name="platform/core/telephony/tel-plugin-imc" path="platform/core/telephony/tel-plugin-imc" groups="mobile"/>
   <project name="platform/core/telephony/tel-plugin-imcmodem" path="platform/core/telephony/tel-plugin-imcmodem" groups="mobile"/>
   <project name="platform/core/telephony/tel-plugin-indicator" path="platform/core/telephony/tel-plugin-indicator" groups="mobile"/>
+  <project name="platform/core/telephony/tel-plugin-nitz" path="platform/core/telephony/tel-plugin-nitz" groups="mobile"/>
   <project name="platform/core/telephony/tel-plugin-packetservice" path="platform/core/telephony/tel-plugin-packetservice" groups="mobile"/>
   <project name="platform/core/telephony/tel-plugin-vconf" path="platform/core/telephony/tel-plugin-vconf" groups="mobile"/>
   <project name="platform/core/telephony/tel-plugin-vmodem" path="platform/core/telephony/tel-plugin-vmodem" groups="mobile"/>
   <project name="platform/core/telephony/telephony-daemon" path="platform/core/telephony/telephony-daemon" groups="mobile"/>
   <project name="platform/core/uifw/anthy" path="platform/core/uifw/anthy" groups="mobile"/>
   <project name="platform/core/uifw/at-spi2-atk" path="platform/core/uifw/at-spi2-atk" groups="mobile"/>
-  <project name="platform/core/uifw/at-spi2-core" path="platform/core/uifw/at-spi2-core" groups="mobile"/>
   <project name="platform/core/uifw/dali-adaptor" path="platform/core/uifw/dali-adaptor" groups="mobile"/>
   <project name="platform/core/uifw/dali-core" path="platform/core/uifw/dali-core" groups="mobile"/>
   <project name="platform/core/uifw/dali-demo" path="platform/core/uifw/dali-demo" groups="mobile"/>
@@ -228,6 +230,7 @@
   <project name="platform/core/uifw/libtbm" path="platform/core/uifw/libtbm" groups="mobile"/>
   <project name="platform/core/uifw/stt" path="platform/core/uifw/stt" groups="mobile"/>
   <project name="platform/core/uifw/tts" path="platform/core/uifw/tts" groups="mobile"/>
+  <project name="platform/framework/web/chromium-efl" path="platform/framework/web/chromium-efl" groups="mobile"/>
   <project name="platform/framework/web/crosswalk" path="platform/framework/web/crosswalk" groups="mobile"/>
   <project name="platform/framework/web/download-provider" path="platform/framework/web/download-provider" groups="mobile"/>
   <project name="platform/framework/web/wrt-commons" path="platform/framework/web/wrt-commons" groups="mobile"/>
@@ -243,6 +246,7 @@
   <project name="platform/upstream/alsa-utils" path="platform/upstream/alsa-utils" groups="mobile"/>
   <project name="platform/upstream/asciidoc" path="platform/upstream/asciidoc" groups="mobile"/>
   <project name="platform/upstream/aspell" path="platform/upstream/aspell" groups="mobile"/>
+  <project name="platform/upstream/at-spi2-core" path="platform/upstream/at-spi2-core" groups="mobile"/>
   <project name="platform/upstream/atk" path="platform/upstream/atk" groups="mobile"/>
   <project name="platform/upstream/attr" path="platform/upstream/attr" groups="mobile"/>
   <project name="platform/upstream/augeas" path="platform/upstream/augeas" groups="mobile"/>
@@ -366,6 +370,7 @@
   <project name="platform/upstream/glib-networking" path="platform/upstream/glib-networking" groups="mobile"/>
   <project name="platform/upstream/glibc" path="platform/upstream/glibc" groups="mobile"/>
   <project name="platform/upstream/glproto" path="platform/upstream/glproto" groups="mobile"/>
+  <project name="platform/upstream/gmime" path="platform/upstream/gmime" groups="mobile"/>
   <project name="platform/upstream/gmock" path="platform/upstream/gmock" groups="mobile"/>
   <project name="platform/upstream/gmp" path="platform/upstream/gmp" groups="mobile"/>
   <project name="platform/upstream/gnome-common" path="platform/upstream/gnome-common" groups="mobile"/>
@@ -415,6 +420,7 @@
   <project name="platform/upstream/iniparser" path="platform/upstream/iniparser" groups="mobile"/>
   <project name="platform/upstream/inputproto" path="platform/upstream/inputproto" groups="mobile"/>
   <project name="platform/upstream/intltool" path="platform/upstream/intltool" groups="mobile"/>
+  <project name="platform/upstream/iotivity" path="platform/upstream/iotivity" groups="mobile"/>
   <project name="platform/upstream/iproute2" path="platform/upstream/iproute2" groups="mobile"/>
   <project name="platform/upstream/iptables" path="platform/upstream/iptables" groups="mobile"/>
   <project name="platform/upstream/iputils" path="platform/upstream/iputils" groups="mobile"/>
@@ -574,6 +580,7 @@
   <project name="platform/upstream/mtdev" path="platform/upstream/mtdev" groups="mobile"/>
   <project name="platform/upstream/mtools" path="platform/upstream/mtools" groups="mobile"/>
   <project name="platform/upstream/multipath-tools" path="platform/upstream/multipath-tools" groups="mobile"/>
+  <project name="platform/upstream/murphy" path="platform/upstream/murphy" groups="mobile"/>
   <project name="platform/upstream/nano" path="platform/upstream/nano" groups="mobile"/>
   <project name="platform/upstream/nasm" path="platform/upstream/nasm" groups="mobile"/>
   <project name="platform/upstream/ncurses" path="platform/upstream/ncurses" groups="mobile"/>
@@ -840,10 +847,12 @@
   <project name="platform/upstream/zypper-plugin" path="platform/upstream/zypper-plugin" groups="mobile"/>
   <project name="profile/common/desktop-skin" path="profile/common/desktop-skin" groups="mobile"/>
   <project name="profile/common/system-installer" path="profile/common/system-installer" groups="mobile"/>
+  <project name="profile/common/weston-common" path="profile/common/weston-common" groups="mobile"/>
   <project name="profile/common/wrt-widgets" path="profile/common/wrt-widgets" groups="mobile"/>
   <project name="profile/common/x11-common" path="profile/common/x11-common" groups="mobile"/>
   <project name="profile/generic/model/config" path="profile/generic/model/config" groups="mobile"/>
   <project name="profile/mobile/meta-mobile" path="profile/mobile/meta-mobile" groups="mobile"/>
+  <project name="profile/mobile/platform/core/uifw/e-mod-tizen-qpmgr" path="profile/mobile/platform/core/uifw/e-mod-tizen-qpmgr" groups="mobile"/>
   <project name="profile/mobile/platform/core/uifw/e-tizen-data" path="profile/mobile/platform/core/uifw/e-tizen-data" groups="mobile"/>
   <project name="profile/mobile/platform/core/uifw/efl-ext" path="profile/mobile/platform/core/uifw/efl-ext" groups="mobile"/>
   <project name="profile/mobile/platform/core/uifw/efl-misc" path="profile/mobile/platform/core/uifw/efl-misc" groups="mobile"/>
