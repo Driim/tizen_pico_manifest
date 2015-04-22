@@ -13,13 +13,14 @@
   <project name="apps/core/preloaded/ug-setting-homescreen-efl" path="apps/core/preloaded/ug-setting-homescreen-efl" groups="common"/>
   <project name="apps/core/preloaded/usb-manager" path="apps/core/preloaded/usb-manager" groups="common"/>
   <project name="apps/core/preloaded/usb-syspopup" path="apps/core/preloaded/usb-syspopup" groups="common"/>
-  <project name="framework/api/url-download" path="framework/api/url-download" groups="common"/>
-  <project name="framework/web/download-provider" path="framework/web/download-provider" groups="common"/>
   <project name="platform/adaptation/emulator/emulator-yagl" path="platform/adaptation/emulator/emulator-yagl" groups="common"/>
   <project name="platform/adaptation/emulator/system-plugin-emulator" path="platform/adaptation/emulator/system-plugin-emulator" groups="common"/>
+  <project name="platform/adaptation/samsung_exynos/alsa-ucm-conf-max98090" path="platform/adaptation/samsung_exynos/alsa-ucm-conf-max98090" groups="common"/>
+  <project name="platform/adaptation/samsung_exynos/alsa-ucm-conf-wm5110" path="platform/adaptation/samsung_exynos/alsa-ucm-conf-wm5110" groups="common"/>
   <project name="platform/adaptation/samsung_exynos/libtbm-exynos4412" path="platform/adaptation/samsung_exynos/libtbm-exynos4412" groups="common"/>
   <project name="platform/adaptation/samsung_exynos/xf86-video-exynos" path="platform/adaptation/samsung_exynos/xf86-video-exynos" groups="common"/>
   <project name="platform/adaptation/setup-scripts" path="platform/adaptation/setup-scripts" groups="common"/>
+  <project name="platform/adaptation/system-plugin" path="platform/adaptation/system-plugin" groups="common"/>
   <project name="platform/adaptation/xf86-input-evdevmultitouch" path="platform/adaptation/xf86-input-evdevmultitouch" groups="common"/>
   <project name="platform/adaptation/xf86-input-gesture" path="platform/adaptation/xf86-input-gesture" groups="common"/>
   <project name="platform/adaptation/xf86-module-xdbg" path="platform/adaptation/xf86-module-xdbg" groups="common"/>
@@ -28,7 +29,6 @@
   <project name="platform/core/api/application" path="platform/core/api/application" groups="common"/>
   <project name="platform/core/api/audio-io" path="platform/core/api/audio-io" groups="common"/>
   <project name="platform/core/api/bluetooth" path="platform/core/api/bluetooth" groups="common"/>
-  <project name="platform/core/api/call" path="platform/core/api/call" groups="common"/>
   <project name="platform/core/api/camera" path="platform/core/api/camera" groups="common"/>
   <project name="platform/core/api/common" path="platform/core/api/common" groups="common"/>
   <project name="platform/core/api/connection" path="platform/core/api/connection" groups="common"/>
@@ -39,6 +39,7 @@
   <project name="platform/core/api/geocoder" path="platform/core/api/geocoder" groups="common"/>
   <project name="platform/core/api/haptic" path="platform/core/api/haptic" groups="common"/>
   <project name="platform/core/api/image-util" path="platform/core/api/image-util" groups="common"/>
+  <project name="platform/core/api/libaccount-service" path="platform/core/api/libaccount-service" groups="common"/>
   <project name="platform/core/api/location-manager" path="platform/core/api/location-manager" groups="common"/>
   <project name="platform/core/api/media-content" path="platform/core/api/media-content" groups="common"/>
   <project name="platform/core/api/media-key" path="platform/core/api/media-key" groups="common"/>
@@ -46,7 +47,6 @@
   <project name="platform/core/api/messages" path="platform/core/api/messages" groups="common"/>
   <project name="platform/core/api/metadata-extractor" path="platform/core/api/metadata-extractor" groups="common"/>
   <project name="platform/core/api/mime-type" path="platform/core/api/mime-type" groups="common"/>
-  <project name="platform/core/api/network-info" path="platform/core/api/network-info" groups="common"/>
   <project name="platform/core/api/nfc" path="platform/core/api/nfc" groups="common"/>
   <project name="platform/core/api/notification" path="platform/core/api/notification" groups="common"/>
   <project name="platform/core/api/package-manager" path="platform/core/api/package-manager" groups="common"/>
@@ -57,14 +57,16 @@
   <project name="platform/core/api/recorder" path="platform/core/api/recorder" groups="common"/>
   <project name="platform/core/api/route" path="platform/core/api/route" groups="common"/>
   <project name="platform/core/api/runtime-info" path="platform/core/api/runtime-info" groups="common"/>
+  <project name="platform/core/api/screen-mirroring" path="platform/core/api/screen-mirroring" groups="common"/>
   <project name="platform/core/api/sensor" path="platform/core/api/sensor" groups="common"/>
   <project name="platform/core/api/serial" path="platform/core/api/serial" groups="common"/>
-  <project name="platform/core/api/sim" path="platform/core/api/sim" groups="common"/>
   <project name="platform/core/api/sound-manager" path="platform/core/api/sound-manager" groups="common"/>
   <project name="platform/core/api/system-info" path="platform/core/api/system-info" groups="common"/>
   <project name="platform/core/api/system-settings" path="platform/core/api/system-settings" groups="common"/>
+  <project name="platform/core/api/telephony" path="platform/core/api/telephony" groups="common"/>
   <project name="platform/core/api/tethering" path="platform/core/api/tethering" groups="common"/>
   <project name="platform/core/api/tone-player" path="platform/core/api/tone-player" groups="common"/>
+  <project name="platform/core/api/url-download" path="platform/core/api/url-download" groups="common"/>
   <project name="platform/core/api/usb-accessory" path="platform/core/api/usb-accessory" groups="common"/>
   <project name="platform/core/api/video-util" path="platform/core/api/video-util" groups="common"/>
   <project name="platform/core/api/wav-player" path="platform/core/api/wav-player" groups="common"/>
@@ -83,6 +85,7 @@
   <project name="platform/core/appfw/heynoti" path="platform/core/appfw/heynoti" groups="common"/>
   <project name="platform/core/appfw/librua" path="platform/core/appfw/librua" groups="common"/>
   <project name="platform/core/appfw/libslp-db-util" path="platform/core/appfw/libslp-db-util" groups="common"/>
+  <project name="platform/core/appfw/manifest-parser" path="platform/core/appfw/manifest-parser" groups="common"/>
   <project name="platform/core/appfw/message-port-dbus" path="platform/core/appfw/message-port-dbus" groups="common"/>
   <project name="platform/core/appfw/notification-service" path="platform/core/appfw/notification-service" groups="common"/>
   <project name="platform/core/appfw/pkgmgr-info" path="platform/core/appfw/pkgmgr-info" groups="common"/>
@@ -150,7 +153,6 @@
   <project name="platform/core/multimedia/tinycompress" path="platform/core/multimedia/tinycompress" groups="common"/>
   <project name="platform/core/pim/calendar-service" path="platform/core/pim/calendar-service" groups="common"/>
   <project name="platform/core/pim/contacts-service" path="platform/core/pim/contacts-service" groups="common"/>
-  <project name="platform/core/pim/libaccounts-svc" path="platform/core/pim/libaccounts-svc" groups="common"/>
   <project name="platform/core/pim/pims-ipc" path="platform/core/pim/pims-ipc" groups="common"/>
   <project name="platform/core/security/askuser" path="platform/core/security/askuser" groups="common"/>
   <project name="platform/core/security/ca-certificates-tizen" path="platform/core/security/ca-certificates-tizen" groups="common"/>
@@ -177,25 +179,25 @@
   <project name="platform/core/system/libsvi" path="platform/core/system/libsvi" groups="common"/>
   <project name="platform/core/system/libtlm-nfc" path="platform/core/system/libtlm-nfc" groups="common"/>
   <project name="platform/core/system/memps" path="platform/core/system/memps" groups="common"/>
-  <project name="platform/core/system/oma-ds-agent" path="platform/core/system/oma-ds-agent" groups="common"/>
   <project name="platform/core/system/sensord" path="platform/core/system/sensord" groups="common"/>
   <project name="platform/core/system/svi-data" path="platform/core/system/svi-data" groups="common"/>
-  <project name="platform/core/system/sync-agent" path="platform/core/system/sync-agent" groups="common"/>
   <project name="platform/core/system/sys-assert" path="platform/core/system/sys-assert" groups="common"/>
   <project name="platform/core/system/tlm" path="platform/core/system/tlm" groups="common"/>
   <project name="platform/core/telephony/libtapi" path="platform/core/telephony/libtapi" groups="common"/>
-  <project name="platform/core/telephony/libtapi-legacy" path="platform/core/telephony/libtapi-legacy" groups="common"/>
   <project name="platform/core/telephony/libtcore" path="platform/core/telephony/libtcore" groups="common"/>
   <project name="platform/core/telephony/tel-plugin-atmodem" path="platform/core/telephony/tel-plugin-atmodem" groups="common"/>
   <project name="platform/core/telephony/tel-plugin-database" path="platform/core/telephony/tel-plugin-database" groups="common"/>
+  <project name="platform/core/telephony/tel-plugin-dbus_tapi" path="platform/core/telephony/tel-plugin-dbus_tapi" groups="common"/>
   <project name="platform/core/telephony/tel-plugin-imc" path="platform/core/telephony/tel-plugin-imc" groups="common"/>
   <project name="platform/core/telephony/tel-plugin-imcmodem" path="platform/core/telephony/tel-plugin-imcmodem" groups="common"/>
   <project name="platform/core/telephony/tel-plugin-indicator" path="platform/core/telephony/tel-plugin-indicator" groups="common"/>
+  <project name="platform/core/telephony/tel-plugin-nitz" path="platform/core/telephony/tel-plugin-nitz" groups="common"/>
   <project name="platform/core/telephony/tel-plugin-packetservice" path="platform/core/telephony/tel-plugin-packetservice" groups="common"/>
   <project name="platform/core/telephony/tel-plugin-vconf" path="platform/core/telephony/tel-plugin-vconf" groups="common"/>
   <project name="platform/core/telephony/tel-plugin-vmodem" path="platform/core/telephony/tel-plugin-vmodem" groups="common"/>
   <project name="platform/core/telephony/telephony-daemon" path="platform/core/telephony/telephony-daemon" groups="common"/>
   <project name="platform/core/uifw/anthy" path="platform/core/uifw/anthy" groups="common"/>
+  <project name="platform/core/uifw/at-spi2-atk" path="platform/core/uifw/at-spi2-atk" groups="common"/>
   <project name="platform/core/uifw/dali-adaptor" path="platform/core/uifw/dali-adaptor" groups="common"/>
   <project name="platform/core/uifw/dali-core" path="platform/core/uifw/dali-core" groups="common"/>
   <project name="platform/core/uifw/dali-demo" path="platform/core/uifw/dali-demo" groups="common"/>
@@ -216,6 +218,7 @@
   <project name="platform/core/uifw/stt" path="platform/core/uifw/stt" groups="common"/>
   <project name="platform/core/uifw/tts" path="platform/core/uifw/tts" groups="common"/>
   <project name="platform/framework/web/crosswalk" path="platform/framework/web/crosswalk" groups="common"/>
+  <project name="platform/framework/web/download-provider" path="platform/framework/web/download-provider" groups="common"/>
   <project name="platform/framework/web/tizen-extensions-crosswalk" path="platform/framework/web/tizen-extensions-crosswalk" groups="common"/>
   <project name="platform/framework/web/wrt-commons" path="platform/framework/web/wrt-commons" groups="common"/>
   <project name="platform/kernel/linux-3.10" path="platform/kernel/linux-3.10" groups="common"/>
@@ -230,6 +233,7 @@
   <project name="platform/upstream/alsa-utils" path="platform/upstream/alsa-utils" groups="common"/>
   <project name="platform/upstream/asciidoc" path="platform/upstream/asciidoc" groups="common"/>
   <project name="platform/upstream/aspell" path="platform/upstream/aspell" groups="common"/>
+  <project name="platform/upstream/at-spi2-core" path="platform/upstream/at-spi2-core" groups="common"/>
   <project name="platform/upstream/atk" path="platform/upstream/atk" groups="common"/>
   <project name="platform/upstream/attr" path="platform/upstream/attr" groups="common"/>
   <project name="platform/upstream/augeas" path="platform/upstream/augeas" groups="common"/>
@@ -402,6 +406,7 @@
   <project name="platform/upstream/inputproto" path="platform/upstream/inputproto" groups="common"/>
   <project name="platform/upstream/intel-gpu-tools" path="platform/upstream/intel-gpu-tools" groups="common"/>
   <project name="platform/upstream/intltool" path="platform/upstream/intltool" groups="common"/>
+  <project name="platform/upstream/iotivity" path="platform/upstream/iotivity" groups="common"/>
   <project name="platform/upstream/iproute2" path="platform/upstream/iproute2" groups="common"/>
   <project name="platform/upstream/iptables" path="platform/upstream/iptables" groups="common"/>
   <project name="platform/upstream/iputils" path="platform/upstream/iputils" groups="common"/>
@@ -561,6 +566,7 @@
   <project name="platform/upstream/mtdev" path="platform/upstream/mtdev" groups="common"/>
   <project name="platform/upstream/mtools" path="platform/upstream/mtools" groups="common"/>
   <project name="platform/upstream/multipath-tools" path="platform/upstream/multipath-tools" groups="common"/>
+  <project name="platform/upstream/murphy" path="platform/upstream/murphy" groups="common"/>
   <project name="platform/upstream/nano" path="platform/upstream/nano" groups="common"/>
   <project name="platform/upstream/nasm" path="platform/upstream/nasm" groups="common"/>
   <project name="platform/upstream/ncurses" path="platform/upstream/ncurses" groups="common"/>
