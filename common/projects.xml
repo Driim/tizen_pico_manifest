@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="apps/core/preloaded/bt-syspopup" path="apps/core/preloaded/bt-syspopup" groups="common"/>
+  <project name="platform/core/connectivity/bt-syspopup" path="platform/core/connectivity/bt-syspopup" groups="common"/>
   <project name="apps/core/preloaded/calculator" path="apps/core/preloaded/calculator" groups="common"/>
   <project name="apps/core/preloaded/libslp-memo" path="apps/core/preloaded/libslp-memo" groups="common"/>
   <project name="apps/core/preloaded/menu-screen" path="apps/core/preloaded/menu-screen" groups="common"/>
   <project name="apps/core/preloaded/minicontrol" path="apps/core/preloaded/minicontrol" groups="common"/>
-  <project name="apps/core/preloaded/net-popup" path="apps/core/preloaded/net-popup" groups="common"/>
+  <project name="platform/core/connectivity/preloaded/net-popup" path="platform/core/connectivity/net-popup" groups="common"/>
   <project name="apps/core/preloaded/print-service" path="apps/core/preloaded/print-service" groups="common"/>
   <project name="apps/core/preloaded/starter" path="apps/core/preloaded/starter" groups="common"/>
   <project name="apps/core/preloaded/udisks-automount-agent" path="apps/core/preloaded/udisks-automount-agent" groups="common"/>
