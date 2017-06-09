@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <include name="_remote.xml" />
-  <default revision="tizen"
+  <default revision="accepted/tizen_unified"
            remote="tizen-gerrit"
            sync-j="4" />
-  <include name="mobile/metadata.xml" />
-  <include name="mobile/prebuilt.xml" />
-  <include name="mobile/projects.xml" />
+  <include name="unified/standard/metadata.xml" />
+  <include name="unified/standard/projects.xml" />
 </manifest>

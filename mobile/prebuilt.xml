@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <project name="pre-built/toolchain-arm" path="pre-built/toolchain-arm" groups="prebuilts" revision="tizen"/>
-  <project name="pre-built/toolchain-x86" path="pre-built/toolchain-x86" groups="prebuilts" revision="tizen"/>
-</manifest>
