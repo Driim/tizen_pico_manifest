@@ -86,8 +86,8 @@
   <project name="platform/core/api/inputmethod" path="platform/core/api/inputmethod" revision="a9c3351c0b9b7ef881b5e9bbeec30177c13b8855"/>
   <project name="platform/core/api/inputmethod-manager" path="platform/core/api/inputmethod-manager" revision="177c1838e0765d9bb2abb3521d0f6f7e5f72880e"/>
   <project name="platform/core/api/libaccount-service" path="platform/core/api/libaccount-service" revision="4060491eeb503b4685638fcb56d41cfd88026c3f"/>
-  <project name="platform/core/api/location-manager" path="platform/core/api/location-manager" revision="5f4bcb1fbe7873cbca390402e61bf1ce48cb0d10"/>
-  <project name="platform/core/api/maps-service" path="platform/core/api/maps-service" revision="93ed177dd10346382c863cfa6cfdeaf5333d4dbb"/>
+  <project name="platform/core/api/location-manager" path="platform/core/api/location-manager" revision="c10e962b193686a743d9e25e0f4a710331a1a9f4"/>
+  <project name="platform/core/api/maps-service" path="platform/core/api/maps-service" revision="4438f47bfddf79c62ebad390c93ad6910511c4b2"/>
   <project name="platform/core/api/media-content" path="platform/core/api/media-content" revision="3680ae0668706414d736935338d6bca9c643cbd8"/>
   <project name="platform/core/api/media-controller" path="platform/core/api/media-controller" revision="1ddd3cb7ff892337dfce0c6015bf77922c10e381"/>
   <project name="platform/core/api/media-key" path="platform/core/api/media-key" revision="4d2380a486acb4cfa09a551ad4f70e8670685ab4"/>
@@ -194,7 +194,7 @@
   <project name="platform/core/connectivity/mtp-initiator" path="platform/core/connectivity/mtp-initiator" revision="3aaab8de4efa89b9bb7fc50af026289ab0073b6a"/>
   <project name="platform/core/connectivity/net-config" path="platform/core/connectivity/net-config" revision="b1605437caa76c0a80697a1a0c98ac8a99517f62"/>
   <project name="platform/core/connectivity/net-popup" path="platform/core/connectivity/net-popup" revision="9dfe4a31a494436325ce024c3b168a5a1e1abbf3"/>
-  <project name="platform/core/connectivity/nfc-manager" path="platform/core/connectivity/nfc-manager" revision="7f1f835d0fa606b16c556c823c133bfbc443a12b"/>
+  <project name="platform/core/connectivity/nfc-manager" path="platform/core/connectivity/nfc-manager" revision="0f29de14f988164535e1b8a50a6d135d6ede4799"/>
   <project name="platform/core/connectivity/smartcard-plugin-nfc" path="platform/core/connectivity/smartcard-plugin-nfc" revision="1e74825669656e7dab97a57a0bbc96f498a6ce77"/>
   <project name="platform/core/connectivity/smartcard-plugin-uicc" path="platform/core/connectivity/smartcard-plugin-uicc" revision="f933b6f3006737a903b64d41898e776b923f1d6a"/>
   <project name="platform/core/connectivity/smartcard-service" path="platform/core/connectivity/smartcard-service" revision="2e34dbbc203e9cc3404ff4d7222905dba61b86db"/>
@@ -277,11 +277,11 @@
   <project name="platform/core/iot/iotcon" path="platform/core/iot/iotcon" revision="613cd44cd1335dc825c247792d7b2006544f6e80"/>
   <project name="platform/core/location/geofence-dbus" path="platform/core/location/geofence-dbus" revision="bd5748aeed781ff976303ddfff2396956283490b"/>
   <project name="platform/core/location/geofence-server" path="platform/core/location/geofence-server" revision="7f9fda3707c5d5f49a8d89541b251b7b0ad747bd"/>
-  <project name="platform/core/location/lbs-dbus" path="platform/core/location/lbs-dbus" revision="ec8263d1192661708ff4230d99cae1d3d5d37363"/>
+  <project name="platform/core/location/lbs-dbus" path="platform/core/location/lbs-dbus" revision="3208c6ac5a5b3ba5a32125f0fc46929fde0210c0"/>
   <project name="platform/core/location/lbs-location" path="platform/core/location/lbs-location" revision="28c5bdb27419d3d92551482c5272d60d47fa1eec"/>
-  <project name="platform/core/location/lbs-server" path="platform/core/location/lbs-server" revision="35c5d82fefc3259233af00e246b7540f0a0fa0e6"/>
+  <project name="platform/core/location/lbs-server" path="platform/core/location/lbs-server" revision="7776bf934aa4444271fab060aad31b5c544fb09f"/>
   <project name="platform/core/location/lbs-server-plugin-replay" path="platform/core/location/lbs-server-plugin-replay" revision="f5e854f71c3afd7b3c70f418cca7801a48b6a928"/>
-  <project name="platform/core/location/maps-plugin-here" path="platform/core/location/maps-plugin-here" revision="6ddbc86b49b0adc7ad53d46a1527fa46f4131bd9"/>
+  <project name="platform/core/location/maps-plugin-here" path="platform/core/location/maps-plugin-here" revision="a5a1e88a1f2eff8663e4eb2088da21c733c7de21"/>
   <project name="platform/core/location/maps-plugin-mapzen" path="platform/core/location/maps-plugin-mapzen" revision="fe04f0f8051f20ade7053d2e32ec63669d689699"/>
   <project name="platform/core/messaging/email-service" path="platform/core/messaging/email-service" revision="f3ed13bb41217440224efeeaa042c3a45dad8be7"/>
   <project name="platform/core/messaging/msg-service" path="platform/core/messaging/msg-service" revision="b2db74131f566384df0dc44b641a8750a668a5d3"/>
@@ -421,7 +421,7 @@
   <project name="platform/core/uifw/ise-engine-hangul" path="platform/core/uifw/ise-engine-hangul" revision="d77f150638bdfcd23aa555cabe7a80d2978f06b2"/>
   <project name="platform/core/uifw/ise-engine-sunpinyin" path="platform/core/uifw/ise-engine-sunpinyin" revision="f21f176ee1a7e84d352afa06aa01df4e186f8e50"/>
   <project name="platform/core/uifw/ise-engine-tables" path="platform/core/uifw/ise-engine-tables" revision="4df5959f2009e9835d5389d6e7d7917479af66ad"/>
-  <project name="platform/core/uifw/isf" path="platform/core/uifw/isf" revision="79c51081f7b20f370de8e11a9b509e493ae03321"/>
+  <project name="platform/core/uifw/isf" path="platform/core/uifw/isf" revision="c300cef22f3ed45086665051aab0430dc9966f1a"/>
   <project name="platform/core/uifw/libeom" path="platform/core/uifw/libeom" revision="7f4ad9e4290976e2be33ab4a89453fbe5c99d2fc"/>
   <project name="platform/core/uifw/libgbm" path="platform/core/uifw/libgbm" revision="ae5d34445eee38daa4349a9ea0340b3faa324ded"/>
   <project name="platform/core/uifw/libhangul" path="platform/core/uifw/libhangul" revision="025191eda9ef24340d1cc660ccea982147f3ff95"/>
@@ -787,7 +787,7 @@
   <project name="profile/ivi/automotive-message-broker" path="profile/ivi/automotive-message-broker" revision="c8cf2b8fab78a6c2915c16a0c4461bd836478bd6"/>
   <project name="profile/ivi/can-utils" path="profile/ivi/can-utils" revision="1aac0e73e985483b003706cbcbfefa9d2a2254da"/>
   <project name="profile/ivi/log4cxx" path="profile/ivi/log4cxx" revision="f126a01f3bf126424b659e189cb2e13887c03465"/>
-  <project name="profile/ivi/meta-ivi" path="profile/ivi/meta-ivi" revision="978fdb8484084af82fa771ed93c97bd861c311ab"/>
+  <project name="profile/ivi/meta-ivi" path="profile/ivi/meta-ivi" revision="a812a387fae8962e2f56eb2b395cbe6b06e056e9"/>
   <project name="profile/ivi/platform/core/uifw/e-tizen-data" path="profile/ivi/platform/core/uifw/e-tizen-data" revision="89357078b2499925066f0d8571d9ade4d5a1aa6f"/>
   <project name="profile/ivi/platform/core/uifw/efl-config" path="profile/ivi/platform/core/uifw/efl-config" revision="b10805f4acf63f743d5e87e3ed1c4f62e97ab55a"/>
   <project name="profile/ivi/platform/core/uifw/efl-misc" path="profile/ivi/platform/core/uifw/efl-misc" revision="5aff91ef9c78899caba4654911a3b453413f1dcb"/>
@@ -812,7 +812,7 @@
   <project name="profile/mobile/apps/native/homescreen-efl" path="profile/mobile/apps/native/homescreen-efl" revision="ef0da64cec02c8c1a156a128cfdffdbab8efe696"/>
   <project name="profile/mobile/apps/native/indicator" path="profile/mobile/apps/native/indicator" revision="392bd27c0d56bc477d1177f50d153519b40ff4f1"/>
   <project name="profile/mobile/apps/native/libug-worldclock-efl" path="profile/mobile/apps/native/libug-worldclock-efl" revision="2caa5a17b4bce3093a26755afaa9c06bcc31d538"/>
-  <project name="profile/mobile/apps/native/location/lbs-setting" path="profile/mobile/apps/native/location/lbs-setting" revision="45c3fdc75c58e1f24b850b232b2d69801b60a77c"/>
+  <project name="profile/mobile/apps/native/location/lbs-setting" path="profile/mobile/apps/native/location/lbs-setting" revision="80a736c2ab1b618e7366f6017be69a3effee20af"/>
   <project name="profile/mobile/apps/native/location/myplace" path="profile/mobile/apps/native/location/myplace" revision="08ff063c90b3692721e31d898ebf63a89bcdcf19"/>
   <project name="profile/mobile/apps/native/location/simple-maps" path="profile/mobile/apps/native/location/simple-maps" revision="33a5d04da6cae14d56f8b220c425e2f878e4fd01"/>
   <project name="profile/mobile/apps/native/lockscreen" path="profile/mobile/apps/native/lockscreen" revision="788fcb0c6624f61332af1ea5419c2743ba77bb9f"/>
@@ -841,7 +841,7 @@
   <project name="profile/mobile/apps/native/voice/voice-setting" path="profile/mobile/apps/native/voice/voice-setting" revision="fa795a8134068286e47e14db5f7edc206629e769"/>
   <project name="profile/mobile/apps/native/wallpaper-ui-service" path="profile/mobile/apps/native/wallpaper-ui-service" revision="447622f2958844347e78bb07130136834aca669a"/>
   <project name="profile/mobile/apps/web/browser" path="profile/mobile/apps/web/browser" revision="cebc1d1a8b7435fbed8afa2e57cd6c28660cd51c"/>
-  <project name="profile/mobile/meta-mobile" path="profile/mobile/meta-mobile" revision="b9cde606eeecd317b7cdebcc936dcb713a02708d"/>
+  <project name="profile/mobile/meta-mobile" path="profile/mobile/meta-mobile" revision="143e7343a01861a4886007adf3fc7eea7f93414a"/>
   <project name="profile/mobile/platform/adaptation/spreadtrum/audio-config-sc" path="profile/mobile/platform/adaptation/spreadtrum/audio-config-sc" revision="6cd164b8051bd07c9a0130796c2a9fc8c47818f3"/>
   <project name="profile/mobile/platform/adaptation/spreadtrum/device-manager-plugin-sc7730" path="profile/mobile/platform/adaptation/spreadtrum/device-manager-plugin-sc7730" revision="2539ac4005339de876fb6abe6d80ecbb95377147"/>
   <project name="profile/mobile/platform/core/appfw/app-selector" path="profile/mobile/platform/core/appfw/app-selector" revision="52beab85697be447adfa807a77a871362e6e9907"/>
@@ -868,7 +868,7 @@
   <project name="profile/tv/apps/native/air_settings" path="profile/tv/apps/native/air_settings" revision="8d4f6275e0bb75f9a8316a0918911409a4102a12"/>
   <project name="profile/tv/apps/native/air_volume" path="profile/tv/apps/native/air_volume" revision="0ef25754c4a85b857efe5bd37a119a030b70c2d4"/>
   <project name="profile/tv/apps/native/utils/app-utils" path="profile/tv/apps/native/utils/app-utils" revision="b045bc26bba98b080424958fec7e05db926c3ac4"/>
-  <project name="profile/tv/meta-tv" path="profile/tv/meta-tv" revision="f65188f7de67af84d5aa785583b3019e5c1a1139"/>
+  <project name="profile/tv/meta-tv" path="profile/tv/meta-tv" revision="9f133995ffe51410fecf11fe210021af4cb378f2"/>
   <project name="profile/tv/platform/core/broadcast/tv-player" path="profile/tv/platform/core/broadcast/tv-player" revision="9c4219dd59bb079bc2e248252fa174e9ea669eab"/>
   <project name="profile/tv/platform/core/broadcast/tv-service" path="profile/tv/platform/core/broadcast/tv-service" revision="6ecc864075a49a7ae72da13fa249d66830011ad7"/>
   <project name="profile/tv/platform/core/uifw/e-tizen-data" path="profile/tv/platform/core/uifw/e-tizen-data" revision="6b130c275dfb4832781630f164b8c0d84986ef30"/>
@@ -899,7 +899,7 @@
   <project name="profile/wearable/apps/native/w-clock-viewer" path="profile/wearable/apps/native/w-clock-viewer" revision="dc1ad6fefd5fa47b96445232f01223ae629b9d97"/>
   <project name="profile/wearable/apps/native/w3-home" path="profile/wearable/apps/native/w3-home" revision="9c33a190865c2f8eff43f2f918804844571ce7a3"/>
   <project name="profile/wearable/apps/native/watch-setting" path="profile/wearable/apps/native/watch-setting" revision="e98ff3ebf8a1b9f49511f2e0a93a94098154c072"/>
-  <project name="profile/wearable/meta-wearable" path="profile/wearable/meta-wearable" revision="f59af9d4251e89ddfc7c9bc5567bf78aa7697df5"/>
+  <project name="profile/wearable/meta-wearable" path="profile/wearable/meta-wearable" revision="41dd2e69efcb092c1bbc42586a3e53aa3914ec65"/>
   <project name="profile/wearable/platform/adaptation/samsung_exynos/audio-config-wm1831" path="profile/wearable/platform/adaptation/samsung_exynos/audio-config-wm1831" revision="32a3cd600356504c8f00646f53c81f87a8bed440"/>
   <project name="profile/wearable/platform/adaptation/samsung_exynos/device-manager-plugin-exynos3250" path="profile/wearable/platform/adaptation/samsung_exynos/device-manager-plugin-exynos3250" revision="f6c85b177aada50852c092fac9883e1cff004ce9"/>
   <project name="profile/wearable/platform/core/appfw/app-selector" path="profile/wearable/platform/core/appfw/app-selector" revision="3d676ba9e9649b7759e7d24d314a8ce9168f486e"/>
