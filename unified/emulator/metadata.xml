@@ -2,6 +2,6 @@
 <manifest>
   <project name="scm/meta/build-config" path="scm/meta/build-config" groups="meta" revision="tizen"/>
   <project name="scm/meta/gbs-config" path="scm/meta/gbs-config" groups="meta" revision="tizen">
-     <copyfile src="unified/emulator_gbs.conf" dest=".gbs.conf" />
+     <copyfile src="4.0/unified/emulator_gbs.conf" dest=".gbs.conf" />
   </project>
 </manifest>

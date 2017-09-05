@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <include name="_remote.xml" />
-  <default revision="accepted/tizen_unified"
+  <default revision="accepted/tizen_4.0_unified"
            remote="tizen-gerrit"
            sync-j="4" />
   <include name="unified/standard/metadata.xml" />
