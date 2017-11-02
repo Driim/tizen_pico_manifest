@@ -218,7 +218,7 @@
   <project name="platform/core/context/sensor-recorder" path="platform/core/context/sensor-recorder" revision="b71445c338c7253e7b3531c7d64683d5011578b1"/>
   <project name="platform/core/convergence/plugin/service-plugin-sample" path="platform/core/convergence/plugin/service-plugin-sample" revision="a70e04c2697258c1e90653a7bdf57a2370a8b78f"/>
   <project name="platform/core/convergence/service-adaptor" path="platform/core/convergence/service-adaptor" revision="57f0b55e7d7360e7a0825b0e7e2497993931144e"/>
-  <project name="platform/core/csapi/tizenfx" path="platform/core/csapi/tizenfx" revision="bbfbf4c45f699a4626e789ef8807dab8c870cc8f"/>
+  <project name="platform/core/csapi/tizenfx" path="platform/core/csapi/tizenfx" revision="9fbe6257a5994c52911a792b51eb0b68bd1a3aa0"/>
   <project name="platform/core/dotnet/build-tools" path="platform/core/dotnet/build-tools" revision="0d00c3dd4664495a796604d6b0ea6cad8c333e15"/>
   <project name="platform/core/dotnet/launcher" path="platform/core/dotnet/launcher" revision="f2803305f8fb8f9c443c1939056ab29b7892286f"/>
   <project name="platform/core/graphics/cairo" path="platform/core/graphics/cairo" revision="8d4b91462e9315ec30f65f921c28f4650049ac43"/>
@@ -380,15 +380,15 @@
   <project name="platform/core/uifw/efl-misc" path="platform/core/uifw/efl-misc" revision="9496202275ee9871b958666fdf8fe2e513e4a78f"/>
   <project name="platform/core/uifw/efl-modules" path="platform/core/uifw/efl-modules" revision="1c0118c49b31df92288332d400876c2a9d0b54b9"/>
   <project name="platform/core/uifw/inputdelegator" path="platform/core/uifw/inputdelegator" revision="0449cc5bd1665088aea3932d941983858d308ec1"/>
-  <project name="platform/core/uifw/inputmethod-setting" path="platform/core/uifw/inputmethod-setting" revision="de4171b24695fe0ad5040a7c1e73ef918ce71bc8"/>
-  <project name="platform/core/uifw/ise-default" path="platform/core/uifw/ise-default" revision="39cbd15350d65b53cc32c68e16f891d5c20b2a35"/>
+  <project name="platform/core/uifw/inputmethod-setting" path="platform/core/uifw/inputmethod-setting" revision="d10eab4a5f8117631ab0f7b88700194a9efd883e"/>
+  <project name="platform/core/uifw/ise-default" path="platform/core/uifw/ise-default" revision="49e783b9d061d339feb6699cae56ad966dbefe0a"/>
   <project name="platform/core/uifw/ise-engine-anthy" path="platform/core/uifw/ise-engine-anthy" revision="eb4db979b00515e7385e8d763568445fcd5b1719"/>
   <project name="platform/core/uifw/ise-engine-default" path="platform/core/uifw/ise-engine-default" revision="08c65726f08ebec4efaf12cd049b3beb77e6e72d"/>
   <project name="platform/core/uifw/ise-engine-glm" path="platform/core/uifw/ise-engine-glm" revision="81ac3ac6dad32dc117d7ad8130e67df51a42932e"/>
   <project name="platform/core/uifw/ise-engine-hangul" path="platform/core/uifw/ise-engine-hangul" revision="d77f150638bdfcd23aa555cabe7a80d2978f06b2"/>
   <project name="platform/core/uifw/ise-engine-sunpinyin" path="platform/core/uifw/ise-engine-sunpinyin" revision="5e42b6e7475d3ba8122df70b3978f199c54d91f1"/>
   <project name="platform/core/uifw/ise-engine-tables" path="platform/core/uifw/ise-engine-tables" revision="4df5959f2009e9835d5389d6e7d7917479af66ad"/>
-  <project name="platform/core/uifw/isf" path="platform/core/uifw/isf" revision="4334b23befa7e14641f728bd8d718d3056a9365a"/>
+  <project name="platform/core/uifw/isf" path="platform/core/uifw/isf" revision="5c26263eda1ecbdf6a1ea6991254f611966cde69"/>
   <project name="platform/core/uifw/libeom" path="platform/core/uifw/libeom" revision="7f4ad9e4290976e2be33ab4a89453fbe5c99d2fc"/>
   <project name="platform/core/uifw/libgbm" path="platform/core/uifw/libgbm" revision="cae1345fea77c2164ac337274a3a78e986ca19d8"/>
   <project name="platform/core/uifw/libhangul" path="platform/core/uifw/libhangul" revision="025191eda9ef24340d1cc660ccea982147f3ff95"/>
@@ -707,7 +707,7 @@
   <project name="profile/common/apps/native/settings" path="profile/common/apps/native/settings" revision="d9dde093599facd5d9e663c7c48b4f1f5b473331"/>
   <project name="profile/common/apps/web/browser" path="profile/common/apps/web/browser" revision="498ae8d78ff6605bd42f6ed10296cf8c4114e8a5"/>
   <project name="profile/common/desktop-skin" path="profile/common/desktop-skin" revision="7c59e1de7c9ea52e468875bba1e7d612b1e4376d"/>
-  <project name="profile/common/meta" path="profile/common/meta" revision="577b178b712ed80ec2565c03a6851ec98faa0dde"/>
+  <project name="profile/common/meta" path="profile/common/meta" revision="afb8ac1dff15ec007cc740897c7c254875c6dda4"/>
   <project name="profile/common/platform/core/uifw/e-tizen-data" path="profile/common/platform/core/uifw/e-tizen-data" revision="256c9240ba6606f7a2ce70a914d84c8eaf700acb"/>
   <project name="profile/common/platform/core/uifw/efl-theme-tizen-common" path="profile/common/platform/core/uifw/efl-theme-tizen-common" revision="23696027fd8df2d1763f59b396a9aba4dd4a7177"/>
   <project name="profile/common/platform/core/uifw/isf-config" path="profile/common/platform/core/uifw/isf-config" revision="4bcfae1f7294a3d7f298a57b9e85ff0279c8aa12"/>
@@ -795,7 +795,7 @@
   <project name="profile/wearable/apps/native/idle-clock-digital" path="profile/wearable/apps/native/idle-clock-digital" revision="f7ca7e66a00137f04653b59b927313cd3641e7ed"/>
   <project name="profile/wearable/apps/native/indicator-win" path="profile/wearable/apps/native/indicator-win" revision="ccfdf5a3d7186cab6a7cc741b9a4450abef848a4"/>
   <project name="profile/wearable/apps/native/location/lbs-setting" path="profile/wearable/apps/native/location/lbs-setting" revision="d9947a63c210c9d7256f9978abb3ffba7602d9ef"/>
-  <project name="profile/wearable/apps/native/message" path="profile/wearable/apps/native/message" revision="682112bf2572b8c27d0bd63e6dc3219e2e915e6b"/>
+  <project name="profile/wearable/apps/native/message" path="profile/wearable/apps/native/message" revision="1812bfc28c9c5137d4a40efa69842d4b5fb6ed67"/>
   <project name="profile/wearable/apps/native/my-account" path="profile/wearable/apps/native/my-account" revision="6aba69d74b2ad0133101dc8463a4f2f547d98beb"/>
   <project name="profile/wearable/apps/native/phone-contacts" path="profile/wearable/apps/native/phone-contacts" revision="90fbe48cc44da4b9c8d86607476c60d480c10b9a"/>
   <project name="profile/wearable/apps/native/privacy-setting" path="profile/wearable/apps/native/privacy-setting" revision="c0debd94dfe7be2f0cb5112fb9cc683140a403e4"/>
@@ -820,7 +820,7 @@
   <project name="sdk/emulator/emulator-kernel" path="sdk/emulator/emulator-kernel" revision="d0dd04966dffa6d3e70a838353caebfa72d66e26"/>
   <project name="sdk/target/sdbd" path="sdk/target/sdbd" revision="aac196458a03a537667c4e4bebf3fef4ba7dcee3"/>
   <project name="tools/bmap-tools" path="tools/bmap-tools" revision="05e5d08012dba106383f0eff62d8f86b01f1f3a1"/>
-  <project name="tools/building-blocks" path="tools/building-blocks" revision="3f283b93593eca3ebde5964114aecee9d6b189f8"/>
+  <project name="tools/building-blocks" path="tools/building-blocks" revision="198d5ca7c2deb822cc4abb846ced404a54d82701"/>
   <project name="tools/libFuzzer" path="tools/libFuzzer" revision="c35b593f3d6270f19f8ae4e3d2d01143fd525ae0"/>
   <project name="tools/mic-bootstrap" path="tools/mic-bootstrap" revision="f033204c72b134909e2e0f7da57fcce59e023e1c"/>
   <project name="tools/ttrace" path="tools/ttrace" revision="7347360f21e51a139b88f6eb93b0bfa98a62d93e"/>
