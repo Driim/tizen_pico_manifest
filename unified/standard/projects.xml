@@ -175,15 +175,15 @@
   <project name="platform/core/api/wifi-mesh" path="platform/core/api/wifi-mesh" revision="cd8652ad109ab7747713a3d21d244fe967134d1c"/>
   <project name="platform/core/api/zigbee" path="platform/core/api/zigbee" revision="61cf16c7bf2e962f2704634769e4e41051b7fbaf"/>
   <project name="platform/core/appfw/alarm-manager" path="platform/core/appfw/alarm-manager" revision="17f827673046fd4d308fdd9167a83fbde7b70be5"/>
-  <project name="platform/core/appfw/amd" path="platform/core/appfw/amd" revision="483ad8025a6123e6768220901c1e4656bbf4f096"/>
-  <project name="platform/core/appfw/app-core" path="platform/core/appfw/app-core" revision="6f277b9c9dff06d021b18c7140ca6704765389db"/>
+  <project name="platform/core/appfw/amd" path="platform/core/appfw/amd" revision="5d75506b1ad04eed78f71d6b8c4a9add2d54fa54"/>
+  <project name="platform/core/appfw/app-core" path="platform/core/appfw/app-core" revision="7ce4f63cd87bb3b0191862b26d0ef8ae4d9308ba"/>
   <project name="platform/core/appfw/app-installers" path="platform/core/appfw/app-installers" revision="c7b902edd1eab430881ae086e5d7da086d7838ea"/>
   <project name="platform/core/appfw/app-svc" path="platform/core/appfw/app-svc" revision="aba4cc63ef2c0faa4a83068796565ce8763a6541"/>
   <project name="platform/core/appfw/app2sd" path="platform/core/appfw/app2sd" revision="22b0a8548b92ce0d3c6bad9fb7d2a57b3a5721e3"/>
   <project name="platform/core/appfw/appcore-agent" path="platform/core/appfw/appcore-agent" revision="4dea835b040be892f0538ea6dc6a29dc25472b3b"/>
   <project name="platform/core/appfw/appcore-watch" path="platform/core/appfw/appcore-watch" revision="12191ff233e4803027200f8e3d642a7f09cfab9c"/>
   <project name="platform/core/appfw/appcore-widget" path="platform/core/appfw/appcore-widget" revision="78e2f4ade8d499255a24c2d4ced86943171cfb18"/>
-  <project name="platform/core/appfw/aul-1" path="platform/core/appfw/aul-1" revision="305f0714e7a026934a93d488cee26754a6e1dfab"/>
+  <project name="platform/core/appfw/aul-1" path="platform/core/appfw/aul-1" revision="11e405efa4566f4d207fd45489a82ae41ea30ab5"/>
   <project name="platform/core/appfw/badge" path="platform/core/appfw/badge" revision="f87b20702a1a8bcb9b73b8f78ed3f7440731dd6c"/>
   <project name="platform/core/appfw/data-control" path="platform/core/appfw/data-control" revision="49b3966a16b2304f1650e651dc8c5a83f9adc7df"/>
   <project name="platform/core/appfw/data-provider-master" path="platform/core/appfw/data-provider-master" revision="86af720661ce996e20a8415c1a431e8f5aec7754"/>
@@ -392,12 +392,12 @@
   <project name="platform/core/telephony/telephony-syspopup" path="platform/core/telephony/telephony-syspopup" revision="009e253ae02d971fac8eade42bcee95b5479ff74"/>
   <project name="platform/core/uifw/anthy" path="platform/core/uifw/anthy" revision="f1193f620a94036d914ecbeeeffd2795ae8aff28"/>
   <project name="platform/core/uifw/coregl" path="platform/core/uifw/coregl" revision="7e446cebde8da046ebecb77dd63ebfd41202bc08"/>
-  <project name="platform/core/uifw/dali-adaptor" path="platform/core/uifw/dali-adaptor" revision="f4190ec3d9b509b94460ed1329fdf1a909c9a910"/>
-  <project name="platform/core/uifw/dali-core" path="platform/core/uifw/dali-core" revision="fc00d048398c0c390ebf492e59432edcf21884e8"/>
+  <project name="platform/core/uifw/dali-adaptor" path="platform/core/uifw/dali-adaptor" revision="5c80f4b503ea96e78c40d1ccaea85cd78460982e"/>
+  <project name="platform/core/uifw/dali-core" path="platform/core/uifw/dali-core" revision="66fea062599003b32394662a640394b13c203ce8"/>
   <project name="platform/core/uifw/dali-csharp-binder" path="platform/core/uifw/dali-csharp-binder" revision="b912ff6a13fbcca17c1070d3b1aaa1f8df6f0064"/>
   <project name="platform/core/uifw/dali-demo" path="platform/core/uifw/dali-demo" revision="8e955ff6865c0a1efb3b64180a685c9eac1c326f"/>
   <project name="platform/core/uifw/dali-extension" path="platform/core/uifw/dali-extension" revision="074d74481e8c2b8069a14a53c75833e9ce6c448b"/>
-  <project name="platform/core/uifw/dali-toolkit" path="platform/core/uifw/dali-toolkit" revision="0caebfc18d85fe0dc94cc8701d53fcc15e65e6ce"/>
+  <project name="platform/core/uifw/dali-toolkit" path="platform/core/uifw/dali-toolkit" revision="bf6fd2aeca961246f6d3a19481fdc35dcfacf5ca"/>
   <project name="platform/core/uifw/download-fonts-service" path="platform/core/uifw/download-fonts-service" revision="d49e82ff8c57a80bcc56d7aab229231db02a2d1a"/>
   <project name="platform/core/uifw/e-mod-tizen-devicemgr" path="platform/core/uifw/e-mod-tizen-devicemgr" revision="1aace380e40f4b63d59f56935d744a1cfb4406c7"/>
   <project name="platform/core/uifw/e-mod-tizen-effect" path="platform/core/uifw/e-mod-tizen-effect" revision="6cfcb7365038cd01e95753240448bb618eba75d9"/>
@@ -422,7 +422,7 @@
   <project name="platform/core/uifw/ise-engine-hangul" path="platform/core/uifw/ise-engine-hangul" revision="d77f150638bdfcd23aa555cabe7a80d2978f06b2"/>
   <project name="platform/core/uifw/ise-engine-sunpinyin" path="platform/core/uifw/ise-engine-sunpinyin" revision="5e42b6e7475d3ba8122df70b3978f199c54d91f1"/>
   <project name="platform/core/uifw/ise-engine-tables" path="platform/core/uifw/ise-engine-tables" revision="4df5959f2009e9835d5389d6e7d7917479af66ad"/>
-  <project name="platform/core/uifw/isf" path="platform/core/uifw/isf" revision="1793db78465b46b0d361b7476ec187a10165afb3"/>
+  <project name="platform/core/uifw/isf" path="platform/core/uifw/isf" revision="a34bc39e220e1d2a04c7d103dcff8168ed199064"/>
   <project name="platform/core/uifw/libeom" path="platform/core/uifw/libeom" revision="7f4ad9e4290976e2be33ab4a89453fbe5c99d2fc"/>
   <project name="platform/core/uifw/libgbm" path="platform/core/uifw/libgbm" revision="cae1345fea77c2164ac337274a3a78e986ca19d8"/>
   <project name="platform/core/uifw/libhangul" path="platform/core/uifw/libhangul" revision="025191eda9ef24340d1cc660ccea982147f3ff95"/>
@@ -432,7 +432,7 @@
   <project name="platform/core/uifw/libscl-ui" path="platform/core/uifw/libscl-ui" revision="840340a015d4f15c2387953e9c59c8b3ecbf03fb"/>
   <project name="platform/core/uifw/libtbm" path="platform/core/uifw/libtbm" revision="f624bd1fc7ce5bc949ad828393e9e5ec007404bd"/>
   <project name="platform/core/uifw/libtdm" path="platform/core/uifw/libtdm" revision="bd76cce9056a35a40da3555afe7d0b152f4e2a66"/>
-  <project name="platform/core/uifw/libtpl-egl" path="platform/core/uifw/libtpl-egl" revision="fb8bb9dbf1418d85a8d8897d93f3831ee1c03c98"/>
+  <project name="platform/core/uifw/libtpl-egl" path="platform/core/uifw/libtpl-egl" revision="856de427cee8f13a3e42afa25af61cc3b2b9220d"/>
   <project name="platform/core/uifw/pepper" path="platform/core/uifw/pepper" revision="83c42254bf2089dbeb1265d2913583226e895c31"/>
   <project name="platform/core/uifw/pepper-dali" path="platform/core/uifw/pepper-dali" revision="1f4f9c57710f3ffe917366d37561353faa59f428"/>
   <project name="platform/core/uifw/sketch" path="platform/core/uifw/sketch" revision="3de40b639430d5a3a2c36815ed088296dcb91904"/>
@@ -514,7 +514,7 @@
   <project name="platform/upstream/efl" path="platform/upstream/efl" revision="25207bfbf43eb9e933363a82b06e67f5bca0065f"/>
   <project name="platform/upstream/ejdb" path="platform/upstream/ejdb" revision="892012b3095bf5a90341c441b757d7d63d3322e6"/>
   <project name="platform/upstream/elementary" path="platform/upstream/elementary" revision="c2595279be57e143ff3a18199f7c867e3a34ab38"/>
-  <project name="platform/upstream/enlightenment" path="platform/upstream/enlightenment" revision="85bb73bbf33fed541854c0b449b4e9c8ab972694"/>
+  <project name="platform/upstream/enlightenment" path="platform/upstream/enlightenment" revision="0e8b54cadcf551ae3994c2e1f322df47a210deea"/>
   <project name="platform/upstream/expect" path="platform/upstream/expect" revision="579d1c972c9603cfc5bdfad2a1397ae1ba4cbb2d"/>
   <project name="platform/upstream/flac" path="platform/upstream/flac" revision="8fc4ea16ad857e1e927fde29f99d6fb49d6a5055"/>
   <project name="platform/upstream/fontconfig" path="platform/upstream/fontconfig" revision="7080099ef97b1d82e35fd74f7102c246a1dfae4a"/>
