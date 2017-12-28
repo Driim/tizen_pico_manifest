@@ -86,7 +86,7 @@
   <project name="platform/core/api/bluetooth" path="platform/core/api/bluetooth" revision="e9484b65066ae44083fd98fb3332efe5f6413cc9"/>
   <project name="platform/core/api/camera" path="platform/core/api/camera" revision="e91c411446cab69ac1c213adac36012a1cbdd752"/>
   <project name="platform/core/api/common" path="platform/core/api/common" revision="070508a09378509756fad89a2e468202152e92b4"/>
-  <project name="platform/core/api/connection" path="platform/core/api/connection" revision="87a55f04e2aa9ca2b22882083d824ff8c29d65af"/>
+  <project name="platform/core/api/connection" path="platform/core/api/connection" revision="9ebb0014ac0c97ad26512a240c9d18fdd83826b9"/>
   <project name="platform/core/api/context" path="platform/core/api/context" revision="7c2bbd7021bc9fdb80995a5ef3ef3838ada41662"/>
   <project name="platform/core/api/cordova-plugins" path="platform/core/api/cordova-plugins" revision="2901196b88fd1fa7a040415f1e8461a29ecb8162"/>
   <project name="platform/core/api/device" path="platform/core/api/device" revision="07cee0dcba690f9490feef66bcbc11d73eb1ff5a"/>
@@ -261,7 +261,7 @@
   <project name="platform/core/multimedia/mm-hal-interface" path="platform/core/multimedia/mm-hal-interface" revision="df10f465c54150fd65a725f9088b757f0ad6e7b5"/>
   <project name="platform/core/multimedia/mmfw-sysconf" path="platform/core/multimedia/mmfw-sysconf" revision="827828cd8f06b176bd636d5f5c1846d59a0a3cb9"/>
   <project name="platform/core/multimedia/mmsvc-camera" path="platform/core/multimedia/mmsvc-camera" revision="7f4c24d5db7a84a495b0aeda3b7053a01e758279"/>
-  <project name="platform/core/multimedia/mmsvc-core" path="platform/core/multimedia/mmsvc-core" revision="aa6c422afad1af8077d3703f5445338a7ac2c3ec"/>
+  <project name="platform/core/multimedia/mmsvc-core" path="platform/core/multimedia/mmsvc-core" revision="81a6d45fd4456905d810a595014808b424de7d18"/>
   <project name="platform/core/multimedia/mmsvc-player" path="platform/core/multimedia/mmsvc-player" revision="3212308157e4182a7533b48182df25cbc8296414"/>
   <project name="platform/core/multimedia/mmsvc-recorder" path="platform/core/multimedia/mmsvc-recorder" revision="6fc0c25b9932a09da530cef67b23b592a56cd6be"/>
   <project name="platform/core/multimedia/pulseaudio-modules-tizen" path="platform/core/multimedia/pulseaudio-modules-tizen" revision="e84eaf9259d6efd6b72ceffa905f7a62778ca07d"/>
@@ -276,7 +276,7 @@
   <project name="platform/core/security/cert-svc" path="platform/core/security/cert-svc" revision="f5502639c446f67e735e9fb33d91122fe8baa1a3"/>
   <project name="platform/core/security/cynara" path="platform/core/security/cynara" revision="b5a91e1eff3d97b13d266ee16ba37d80c6e54ffa"/>
   <project name="platform/core/security/default-ac-domains" path="platform/core/security/default-ac-domains" revision="687055563a65c6cfd15cfc40bdc3c9caa77eb27c"/>
-  <project name="platform/core/security/device-certificate-manager" path="platform/core/security/device-certificate-manager" revision="fa707323feafd524fd1c53440c8c9a198d6cf7b5"/>
+  <project name="platform/core/security/device-certificate-manager" path="platform/core/security/device-certificate-manager" revision="4331918c89c49b7b368a2c05198ebeeb6ac4ffaf"/>
   <project name="platform/core/security/device-policy-client" path="platform/core/security/device-policy-client" revision="27c7e6e649d91f4c89ba56ad9a9ab4c1dc211a9f"/>
   <project name="platform/core/security/device-policy-manager" path="platform/core/security/device-policy-manager" revision="71c8ad3d2fdc455d0c449c3bd183de3ba265691d"/>
   <project name="platform/core/security/dpm-application" path="platform/core/security/dpm-application" revision="74144e16cba3298336ddeba1df6e51c9221f6fbf"/>
