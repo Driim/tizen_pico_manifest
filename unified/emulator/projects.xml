@@ -341,7 +341,7 @@
   <project name="platform/core/system/swap-probe" path="platform/core/system/swap-probe" revision="7e1a9619687e04e1265694257502980481eeaca1"/>
   <project name="platform/core/system/system-configuration" path="platform/core/system/system-configuration" revision="73dd341e4cdd02af4355968698f91d64c76256b5"/>
   <project name="platform/core/system/system-popup" path="platform/core/system/system-popup" revision="a86fd726614849b94a76ea4940ae869470bbe222"/>
-  <project name="platform/core/system/system-rw-update" path="platform/core/system/system-rw-update" revision="7126f56bcdbb6a9a5f95c2077fb8e8a506b99f1d"/>
+  <project name="platform/core/system/system-rw-update" path="platform/core/system/system-rw-update" revision="814f70c0c4dd4a766cbbdfe49e82fbef62621b6c"/>
   <project name="platform/core/system/tizen-platform-config" path="platform/core/system/tizen-platform-config" revision="eb4ba339773587498112bf177b87376c4d4a078b"/>
   <project name="platform/core/system/tizen-platform-config-meta" path="platform/core/system/tizen-platform-config-meta" revision="64e83cf1280d45506154d688e6173032c125723d"/>
   <project name="platform/core/system/tlm" path="platform/core/system/tlm" revision="d8699f2e8a89a39a5670a8443f00157d4715d95e"/>
@@ -761,7 +761,7 @@
   <project name="profile/mobile/apps/native/voice/voice-setting" path="profile/mobile/apps/native/voice/voice-setting" revision="fa795a8134068286e47e14db5f7edc206629e769"/>
   <project name="profile/mobile/apps/native/wallpaper-ui-service" path="profile/mobile/apps/native/wallpaper-ui-service" revision="31482e1a340aaab20a76d6549d3e83680c342026"/>
   <project name="profile/mobile/apps/web/browser" path="profile/mobile/apps/web/browser" revision="e3ec7eb49fee09337840753e6e36042f6a52d050"/>
-  <project name="profile/mobile/meta-mobile" path="profile/mobile/meta-mobile" revision="ff7ba7addc85e6cce3f60ed4f811b8819d9f1d25"/>
+  <project name="profile/mobile/meta-mobile" path="profile/mobile/meta-mobile" revision="fbdb63008a2c77035f2bb956a3eed453017809a9"/>
   <project name="profile/mobile/platform/adaptation/spreadtrum/audio-config-sc" path="profile/mobile/platform/adaptation/spreadtrum/audio-config-sc" revision="6cd164b8051bd07c9a0130796c2a9fc8c47818f3"/>
   <project name="profile/mobile/platform/adaptation/spreadtrum/device-manager-plugin-sc7730" path="profile/mobile/platform/adaptation/spreadtrum/device-manager-plugin-sc7730" revision="334c8232b104b8166c81b14ba02249f3db0edd69"/>
   <project name="profile/mobile/platform/core/appfw/app-selector" path="profile/mobile/platform/core/appfw/app-selector" revision="52beab85697be447adfa807a77a871362e6e9907"/>
@@ -811,7 +811,7 @@
   <project name="profile/wearable/apps/native/w-clock-viewer" path="profile/wearable/apps/native/w-clock-viewer" revision="79314a7db3f1552433bd31bc8597e3097965097f"/>
   <project name="profile/wearable/apps/native/w3-home" path="profile/wearable/apps/native/w3-home" revision="13899a9accb4c2cfee3a3d9ca3377520160bebef"/>
   <project name="profile/wearable/apps/native/watch-setting" path="profile/wearable/apps/native/watch-setting" revision="e5c623aef9a4e201f11aff8f95a6618f06006028"/>
-  <project name="profile/wearable/meta-wearable" path="profile/wearable/meta-wearable" revision="afd44bcefa96411d4c83ea3cf05f3eced038daa6"/>
+  <project name="profile/wearable/meta-wearable" path="profile/wearable/meta-wearable" revision="786acb6cc83701b8addc44374a41a81b66693807"/>
   <project name="profile/wearable/platform/adaptation/samsung_exynos/audio-config-wm1831" path="profile/wearable/platform/adaptation/samsung_exynos/audio-config-wm1831" revision="32a3cd600356504c8f00646f53c81f87a8bed440"/>
   <project name="profile/wearable/platform/adaptation/samsung_exynos/device-manager-plugin-exynos3250" path="profile/wearable/platform/adaptation/samsung_exynos/device-manager-plugin-exynos3250" revision="3008ec06c41863dcde120ae2519beeb7a6ccb566"/>
   <project name="profile/wearable/platform/core/appfw/app-selector" path="profile/wearable/platform/core/appfw/app-selector" revision="c19793f918faf458674df4e65d824616f65e3624"/>
