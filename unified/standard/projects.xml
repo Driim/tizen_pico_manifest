@@ -289,7 +289,7 @@
   <project name="platform/core/multimedia/pulseaudio-modules-tizen" path="platform/core/multimedia/pulseaudio-modules-tizen" revision="e84eaf9259d6efd6b72ceffa905f7a62778ca07d"/>
   <project name="platform/core/multimedia/tinycompress" path="platform/core/multimedia/tinycompress" revision="0da814597b847b80eac626071b2132887a78385f"/>
   <project name="platform/core/pim/calendar-service" path="platform/core/pim/calendar-service" revision="b6df0bed25ee00bfbe36a7873db71badbbe95368"/>
-  <project name="platform/core/pim/contacts-service" path="platform/core/pim/contacts-service" revision="5406845f2a4d8d9c5c121e4e0ecfa04852550dfa"/>
+  <project name="platform/core/pim/contacts-service" path="platform/core/pim/contacts-service" revision="d5f68feb0f95f4351b2c5dd5e74450051886b41d"/>
   <project name="platform/core/pim/pims-ipc" path="platform/core/pim/pims-ipc" revision="9e7d3a9c6950e58c415cd7578b80bc3ee7a7d3fa"/>
   <project name="platform/core/security/askuser" path="platform/core/security/askuser" revision="c6e6651b7b9561a7fdec178be4b4d5cb293b9737"/>
   <project name="platform/core/security/auth-fw" path="platform/core/security/auth-fw" revision="ec1b9369baa553defaedbbbaf3d453c7198d3662"/>
