@@ -156,7 +156,7 @@
   <project name="platform/core/api/zigbee" path="platform/core/api/zigbee" revision="61cf16c7bf2e962f2704634769e4e41051b7fbaf"/>
   <project name="platform/core/appfw/alarm-manager" path="platform/core/appfw/alarm-manager" revision="60b1a06bd19b12c1cb3d2b0a35849230e8003133"/>
   <project name="platform/core/appfw/amd" path="platform/core/appfw/amd" revision="40200803b4894a496f0f2f0272a3920f0ca8e6df"/>
-  <project name="platform/core/appfw/app-core" path="platform/core/appfw/app-core" revision="1df2343d66036399377da032b40924045b2383ad"/>
+  <project name="platform/core/appfw/app-core" path="platform/core/appfw/app-core" revision="cb0f1c142d4f42d68e3d5899e8446721a26149b1"/>
   <project name="platform/core/appfw/app-installers" path="platform/core/appfw/app-installers" revision="0f1c32e5b17ee79a07b96e254b62f5d907528901"/>
   <project name="platform/core/appfw/app-svc" path="platform/core/appfw/app-svc" revision="805ab1c08875a46cb8feb6dd02d5563e98cf5a5e"/>
   <project name="platform/core/appfw/app2sd" path="platform/core/appfw/app2sd" revision="22b0a8548b92ce0d3c6bad9fb7d2a57b3a5721e3"/>
@@ -363,7 +363,7 @@
   <project name="platform/core/telephony/telephony-daemon" path="platform/core/telephony/telephony-daemon" revision="5725d12e7d07fb545e489e90a3905cddbb51def4"/>
   <project name="platform/core/telephony/telephony-syspopup" path="platform/core/telephony/telephony-syspopup" revision="009e253ae02d971fac8eade42bcee95b5479ff74"/>
   <project name="platform/core/uifw/anthy" path="platform/core/uifw/anthy" revision="f1193f620a94036d914ecbeeeffd2795ae8aff28"/>
-  <project name="platform/core/uifw/coregl" path="platform/core/uifw/coregl" revision="7e446cebde8da046ebecb77dd63ebfd41202bc08"/>
+  <project name="platform/core/uifw/coregl" path="platform/core/uifw/coregl" revision="fa4dcac799209d8c39eb587bc8a53a66b731911b"/>
   <project name="platform/core/uifw/dali-adaptor" path="platform/core/uifw/dali-adaptor" revision="fa08b43b7866eaf37c186cfbe57bf8241927ff51"/>
   <project name="platform/core/uifw/dali-core" path="platform/core/uifw/dali-core" revision="fba30a5631f7f74bf556fa3e7da79357159a05ce"/>
   <project name="platform/core/uifw/dali-csharp-binder" path="platform/core/uifw/dali-csharp-binder" revision="89c1f181a4ca004a831bf371ed866d7ae354bfe3"/>
@@ -483,7 +483,7 @@
   <project name="platform/upstream/efl" path="platform/upstream/efl" revision="1d36fcc19363021a902e9c03dd81a5d399da35e2"/>
   <project name="platform/upstream/ejdb" path="platform/upstream/ejdb" revision="892012b3095bf5a90341c441b757d7d63d3322e6"/>
   <project name="platform/upstream/elementary" path="platform/upstream/elementary" revision="5bc2f512b69c5d269193bb9f4e9173718b64a59f"/>
-  <project name="platform/upstream/enlightenment" path="platform/upstream/enlightenment" revision="c413b12a508a29f950a10cc24aed91d006ff815c"/>
+  <project name="platform/upstream/enlightenment" path="platform/upstream/enlightenment" revision="e4d24aa5486afddb3d4a34f0c72e0ea1df95e4ff"/>
   <project name="platform/upstream/expect" path="platform/upstream/expect" revision="579d1c972c9603cfc5bdfad2a1397ae1ba4cbb2d"/>
   <project name="platform/upstream/flac" path="platform/upstream/flac" revision="8fc4ea16ad857e1e927fde29f99d6fb49d6a5055"/>
   <project name="platform/upstream/fontconfig" path="platform/upstream/fontconfig" revision="7080099ef97b1d82e35fd74f7102c246a1dfae4a"/>
@@ -815,7 +815,7 @@
   <project name="profile/wearable/platform/adaptation/samsung_exynos/device-manager-plugin-exynos3250" path="profile/wearable/platform/adaptation/samsung_exynos/device-manager-plugin-exynos3250" revision="3008ec06c41863dcde120ae2519beeb7a6ccb566"/>
   <project name="profile/wearable/platform/core/appfw/app-selector" path="profile/wearable/platform/core/appfw/app-selector" revision="c19793f918faf458674df4e65d824616f65e3624"/>
   <project name="profile/wearable/platform/core/uifw/e-tizen-data" path="profile/wearable/platform/core/uifw/e-tizen-data" revision="9fbf58fa86c5d96ef41bfae54d800979d9abf2a7"/>
-  <project name="profile/wearable/platform/core/uifw/efl-theme-tizen-wearable" path="profile/wearable/platform/core/uifw/efl-theme-tizen-wearable" revision="45ec5b0332c7e5c6cfe32510c4d1ed6efd9138cd"/>
+  <project name="profile/wearable/platform/core/uifw/efl-theme-tizen-wearable" path="profile/wearable/platform/core/uifw/efl-theme-tizen-wearable" revision="10850595166427170e50be05b586b15ea34253fb"/>
   <project name="profile/wearable/platform/core/uifw/isf-config" path="profile/wearable/platform/core/uifw/isf-config" revision="e7ae0da85a732699c6ab912d398ff1fc3e93dc2a"/>
   <project name="profile/wearable/platform/framework/web/web-widget-engine" path="profile/wearable/platform/framework/web/web-widget-engine" revision="6c2c27134ebd1514ed0fc2feb7680b65a94879d8"/>
   <project name="profile/wearable/platform/framework/web/web-widget-js" path="profile/wearable/platform/framework/web/web-widget-js" revision="987e9b1be7008bb76fb6f6f0c3b4cb65407a6688"/>
