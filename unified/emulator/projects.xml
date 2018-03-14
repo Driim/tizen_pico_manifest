@@ -403,7 +403,7 @@
   <project name="platform/core/uifw/libscl-core" path="platform/core/uifw/libscl-core" revision="75b8fcf819bb7857a8b22a0ea4ab60bc300a6f2b"/>
   <project name="platform/core/uifw/libscl-ui" path="platform/core/uifw/libscl-ui" revision="ea38a4ff434458e20709662e232619acb5e03a4b"/>
   <project name="platform/core/uifw/libtbm" path="platform/core/uifw/libtbm" revision="f624bd1fc7ce5bc949ad828393e9e5ec007404bd"/>
-  <project name="platform/core/uifw/libtdm" path="platform/core/uifw/libtdm" revision="e7b3acef7e8f5d8548139ec6dc90f52853c2599f"/>
+  <project name="platform/core/uifw/libtdm" path="platform/core/uifw/libtdm" revision="54d76503b08c618f39293847aa44d2759a024e50"/>
   <project name="platform/core/uifw/libtpl-egl" path="platform/core/uifw/libtpl-egl" revision="4a5f648b9a4400582fbf2ad8452169f579acd7de"/>
   <project name="platform/core/uifw/pepper" path="platform/core/uifw/pepper" revision="83c42254bf2089dbeb1265d2913583226e895c31"/>
   <project name="platform/core/uifw/pepper-dali" path="platform/core/uifw/pepper-dali" revision="1f4f9c57710f3ffe917366d37561353faa59f428"/>
@@ -428,7 +428,7 @@
   <project name="platform/core/uifw/xkb-tizen-data" path="platform/core/uifw/xkb-tizen-data" revision="96ff7eac4052283b169ec950b557bea9f901e0cb"/>
   <project name="platform/core/webapi/libteec" path="platform/core/webapi/libteec" revision="34e134bae726d863ae6a83071823c777204ff576"/>
   <project name="platform/framework/web/browser-provider" path="platform/framework/web/browser-provider" revision="93a630bcf9e520f9fcc053fda7130f8c358c0100"/>
-  <project name="platform/framework/web/chromium-efl" path="platform/framework/web/chromium-efl" revision="c56bb872e771cfa242272dedbb8f8ca0fa108e56"/>
+  <project name="platform/framework/web/chromium-efl" path="platform/framework/web/chromium-efl" revision="1346cba8fa1b03ef0fa2f1614328f3d7ebd67b12"/>
   <project name="platform/framework/web/crosswalk-tizen" path="platform/framework/web/crosswalk-tizen" revision="5c4f17218595a535cba3378d1a7828974d430218"/>
   <project name="platform/framework/web/download-provider" path="platform/framework/web/download-provider" revision="6a96844fb1c5800837d97e25862b53e81f28a35f"/>
   <project name="platform/framework/web/wrt-service" path="platform/framework/web/wrt-service" revision="ededabd3caadfdf331ae4a83f7c63184b3161203"/>
@@ -458,7 +458,7 @@
   <project name="platform/upstream/check" path="platform/upstream/check" revision="4ffeb66dcbec0c4d3df38a278b3f422094bfd1da"/>
   <project name="platform/upstream/cmocka" path="platform/upstream/cmocka" revision="cb91536511fe9ece8e08878644e90c7444cff77e"/>
   <project name="platform/upstream/connman" path="platform/upstream/connman" revision="8de2c0e35a554a4508034930a34e99c212f88870"/>
-  <project name="platform/upstream/coreclr" path="platform/upstream/coreclr" revision="399653b670d9e14c47cef78c7e4dcdc369f66ed7"/>
+  <project name="platform/upstream/coreclr" path="platform/upstream/coreclr" revision="bf88f670189b7baae58b538ae3b77052f8ec7e08"/>
   <project name="platform/upstream/corefx" path="platform/upstream/corefx" revision="ad8bf68f27431277bd0f58b014efef6cda1e80cc"/>
   <project name="platform/upstream/createrepo" path="platform/upstream/createrepo" revision="3bba8eb0a7b7a11090fa8aa469c3609ff8e29089"/>
   <project name="platform/upstream/cryptsetup" path="platform/upstream/cryptsetup" revision="3749bcf2a54aff673885f6e3fb572e96f52646d2"/>
@@ -759,7 +759,7 @@
   <project name="profile/mobile/apps/native/voice/voice-control-panel" path="profile/mobile/apps/native/voice/voice-control-panel" revision="675c663e41ddb6bbe1b4755c0b02731f79b867c3"/>
   <project name="profile/mobile/apps/native/voice/voice-setting" path="profile/mobile/apps/native/voice/voice-setting" revision="fa795a8134068286e47e14db5f7edc206629e769"/>
   <project name="profile/mobile/apps/native/wallpaper-ui-service" path="profile/mobile/apps/native/wallpaper-ui-service" revision="31482e1a340aaab20a76d6549d3e83680c342026"/>
-  <project name="profile/mobile/apps/web/browser" path="profile/mobile/apps/web/browser" revision="e3ec7eb49fee09337840753e6e36042f6a52d050"/>
+  <project name="profile/mobile/apps/web/browser" path="profile/mobile/apps/web/browser" revision="71e482b4417b7be55246b2f1d326ef8c59c95430"/>
   <project name="profile/mobile/meta-mobile" path="profile/mobile/meta-mobile" revision="fb4505b0e98cb38c68dfae42a8932b90e4d604f8"/>
   <project name="profile/mobile/platform/adaptation/spreadtrum/audio-config-sc" path="profile/mobile/platform/adaptation/spreadtrum/audio-config-sc" revision="6cd164b8051bd07c9a0130796c2a9fc8c47818f3"/>
   <project name="profile/mobile/platform/adaptation/spreadtrum/device-manager-plugin-sc7730" path="profile/mobile/platform/adaptation/spreadtrum/device-manager-plugin-sc7730" revision="334c8232b104b8166c81b14ba02249f3db0edd69"/>
