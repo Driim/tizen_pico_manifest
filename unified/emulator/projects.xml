@@ -102,7 +102,7 @@
   <project name="platform/core/api/libteec" path="platform/core/api/libteec" revision="15af876c011436af06f616a110a2ee6c0c5f7677"/>
   <project name="platform/core/api/location-manager" path="platform/core/api/location-manager" revision="8bc40bca80440b65e70e2fc8fb2cd55bfd7c867d"/>
   <project name="platform/core/api/maps-service" path="platform/core/api/maps-service" revision="16e6f11e1f39abb003e7dc6b016f13e503028e32"/>
-  <project name="platform/core/api/media-content" path="platform/core/api/media-content" revision="afe4ea7ee19c8196a8a086c5b67c803003d591c7"/>
+  <project name="platform/core/api/media-content" path="platform/core/api/media-content" revision="2dac6857e5cb33cbb7e5bbaa86a3e166b8496910"/>
   <project name="platform/core/api/media-controller" path="platform/core/api/media-controller" revision="00a650695d7985cbba14def4b30ed60532133e20"/>
   <project name="platform/core/api/media-key" path="platform/core/api/media-key" revision="4d2380a486acb4cfa09a551ad4f70e8670685ab4"/>
   <project name="platform/core/api/mediacodec" path="platform/core/api/mediacodec" revision="394532f4b687c1db5b0107751c0685013490399f"/>
@@ -161,7 +161,7 @@
   <project name="platform/core/appfw/app-svc" path="platform/core/appfw/app-svc" revision="805ab1c08875a46cb8feb6dd02d5563e98cf5a5e"/>
   <project name="platform/core/appfw/app2sd" path="platform/core/appfw/app2sd" revision="22b0a8548b92ce0d3c6bad9fb7d2a57b3a5721e3"/>
   <project name="platform/core/appfw/appcore-agent" path="platform/core/appfw/appcore-agent" revision="4dea835b040be892f0538ea6dc6a29dc25472b3b"/>
-  <project name="platform/core/appfw/appcore-watch" path="platform/core/appfw/appcore-watch" revision="3bd087523981b50ebced83c119f1be9aa507282b"/>
+  <project name="platform/core/appfw/appcore-watch" path="platform/core/appfw/appcore-watch" revision="cb62e91b9624354fbf14c0a1ef7e5d7204701303"/>
   <project name="platform/core/appfw/appcore-widget" path="platform/core/appfw/appcore-widget" revision="78e2f4ade8d499255a24c2d4ced86943171cfb18"/>
   <project name="platform/core/appfw/aul-1" path="platform/core/appfw/aul-1" revision="e3703dc58e6ce6ed12f973cabc3334d348a1f532"/>
   <project name="platform/core/appfw/badge" path="platform/core/appfw/badge" revision="c7b29d648b0710d6b749576f1eb1bc675ee3ef5f"/>
@@ -257,7 +257,7 @@
   <project name="platform/core/multimedia/libmm-transcode" path="platform/core/multimedia/libmm-transcode" revision="68780d7877550c1539cdce898c3c4d619e2e275a"/>
   <project name="platform/core/multimedia/libmm-utility" path="platform/core/multimedia/libmm-utility" revision="01c05d50bb016c938493559b63c67c90e2ab2563"/>
   <project name="platform/core/multimedia/libmm-wfd" path="platform/core/multimedia/libmm-wfd" revision="858cc1c45259634e970dc3ab00d7f2333e53d05c"/>
-  <project name="platform/core/multimedia/media-server" path="platform/core/multimedia/media-server" revision="8efd3ebea308c4805d3ac1564251bc73a8b75797"/>
+  <project name="platform/core/multimedia/media-server" path="platform/core/multimedia/media-server" revision="0ee9c4e05bfa596ff1efa8da44805174303c72ee"/>
   <project name="platform/core/multimedia/mm-hal-interface" path="platform/core/multimedia/mm-hal-interface" revision="df10f465c54150fd65a725f9088b757f0ad6e7b5"/>
   <project name="platform/core/multimedia/mmfw-sysconf" path="platform/core/multimedia/mmfw-sysconf" revision="5280b5aac3dda45f091fc4c533c565ec9dd46ae7"/>
   <project name="platform/core/multimedia/mmsvc-camera" path="platform/core/multimedia/mmsvc-camera" revision="d93131333671b4fc5270315456d0d821601f5bfd"/>
@@ -294,7 +294,7 @@
   <project name="platform/core/security/dpm-zone" path="platform/core/security/dpm-zone" revision="6e448a8c1542fa28f5079a6156f24e3732e66b0a"/>
   <project name="platform/core/security/drm-service-core-tizen" path="platform/core/security/drm-service-core-tizen" revision="fb32653b859e7ffeb57e89fe5b1cfb13124d69f1"/>
   <project name="platform/core/security/hash-signer" path="platform/core/security/hash-signer" revision="26198be3d642e670116f0f55b93aadf4ba73f536"/>
-  <project name="platform/core/security/key-manager" path="platform/core/security/key-manager" revision="9682ce95dd4a079511c225be2839d93af4ecdc69"/>
+  <project name="platform/core/security/key-manager" path="platform/core/security/key-manager" revision="d793d73f28b6e5498316e7f22c7cf0041080b6ab"/>
   <project name="platform/core/security/klay" path="platform/core/security/klay" revision="01c93655dc45117ea2e14ce85eafa23442a0066c"/>
   <project name="platform/core/security/krate" path="platform/core/security/krate" revision="e396f44aba5aa55700e63426381d2ee87a49a7fa"/>
   <project name="platform/core/security/libcryptsvc" path="platform/core/security/libcryptsvc" revision="bb7d0dd6c3c2a902ae544f78f1cc6952723a1a19"/>
@@ -327,7 +327,7 @@
   <project name="platform/core/system/libdevice-node" path="platform/core/system/libdevice-node" revision="a07cd1fca58e0b38b203ed2dfe907502f8014a06"/>
   <project name="platform/core/system/libstorage" path="platform/core/system/libstorage" revision="fa8f2e4e89856d50005e95403e3d5c0002a99cb7"/>
   <project name="platform/core/system/libsvi" path="platform/core/system/libsvi" revision="5bad628f3879dd7370e498f4b0a7ed79094cce1f"/>
-  <project name="platform/core/system/libtota" path="platform/core/system/libtota" revision="9796fcd3921bc655ee95ca0cb22ba333b3395832"/>
+  <project name="platform/core/system/libtota" path="platform/core/system/libtota" revision="a907a105ea55cfe14540448255b99beda41d4f9e"/>
   <project name="platform/core/system/libtracker" path="platform/core/system/libtracker" revision="d789673b26ec65faa5bd4c05c2e86110d65c8ca4"/>
   <project name="platform/core/system/memps" path="platform/core/system/memps" revision="38772da2dedcf22b148f4638a377484f14e3b65c"/>
   <project name="platform/core/system/pass" path="platform/core/system/pass" revision="24f3382cfb59af89b86dba595ece062518d285a9"/>
@@ -459,7 +459,7 @@
   <project name="platform/upstream/cmocka" path="platform/upstream/cmocka" revision="cb91536511fe9ece8e08878644e90c7444cff77e"/>
   <project name="platform/upstream/connman" path="platform/upstream/connman" revision="8de2c0e35a554a4508034930a34e99c212f88870"/>
   <project name="platform/upstream/coreclr" path="platform/upstream/coreclr" revision="bf88f670189b7baae58b538ae3b77052f8ec7e08"/>
-  <project name="platform/upstream/corefx" path="platform/upstream/corefx" revision="ad8bf68f27431277bd0f58b014efef6cda1e80cc"/>
+  <project name="platform/upstream/corefx" path="platform/upstream/corefx" revision="52bf80e1c671c40ca7f5370e13f7d3ec34c84e42"/>
   <project name="platform/upstream/createrepo" path="platform/upstream/createrepo" revision="3bba8eb0a7b7a11090fa8aa469c3609ff8e29089"/>
   <project name="platform/upstream/cryptsetup" path="platform/upstream/cryptsetup" revision="3749bcf2a54aff673885f6e3fb572e96f52646d2"/>
   <project name="platform/upstream/cscope" path="platform/upstream/cscope" revision="f9e72a9ab56627f5b3b8c811e0bc9d4ec23073c4"/>
