@@ -102,7 +102,7 @@
   <project name="platform/core/api/libteec" path="platform/core/api/libteec" revision="15af876c011436af06f616a110a2ee6c0c5f7677"/>
   <project name="platform/core/api/location-manager" path="platform/core/api/location-manager" revision="8bc40bca80440b65e70e2fc8fb2cd55bfd7c867d"/>
   <project name="platform/core/api/maps-service" path="platform/core/api/maps-service" revision="16e6f11e1f39abb003e7dc6b016f13e503028e32"/>
-  <project name="platform/core/api/media-content" path="platform/core/api/media-content" revision="2dac6857e5cb33cbb7e5bbaa86a3e166b8496910"/>
+  <project name="platform/core/api/media-content" path="platform/core/api/media-content" revision="1b9c5eb78affb4edad4ab54ccfb552ee6f9d0e91"/>
   <project name="platform/core/api/media-controller" path="platform/core/api/media-controller" revision="00a650695d7985cbba14def4b30ed60532133e20"/>
   <project name="platform/core/api/media-key" path="platform/core/api/media-key" revision="4d2380a486acb4cfa09a551ad4f70e8670685ab4"/>
   <project name="platform/core/api/mediacodec" path="platform/core/api/mediacodec" revision="394532f4b687c1db5b0107751c0685013490399f"/>
@@ -157,7 +157,7 @@
   <project name="platform/core/appfw/alarm-manager" path="platform/core/appfw/alarm-manager" revision="60b1a06bd19b12c1cb3d2b0a35849230e8003133"/>
   <project name="platform/core/appfw/amd" path="platform/core/appfw/amd" revision="bea1b1c6fc40e939e3e51db199b05b8fc1435970"/>
   <project name="platform/core/appfw/app-core" path="platform/core/appfw/app-core" revision="87b5e00d052787deccba1b7c50d85646a6ef00f8"/>
-  <project name="platform/core/appfw/app-installers" path="platform/core/appfw/app-installers" revision="0f1c32e5b17ee79a07b96e254b62f5d907528901"/>
+  <project name="platform/core/appfw/app-installers" path="platform/core/appfw/app-installers" revision="99eba2acfd18f6e845cc1b33e6a9b85c54571437"/>
   <project name="platform/core/appfw/app-svc" path="platform/core/appfw/app-svc" revision="805ab1c08875a46cb8feb6dd02d5563e98cf5a5e"/>
   <project name="platform/core/appfw/app2sd" path="platform/core/appfw/app2sd" revision="22b0a8548b92ce0d3c6bad9fb7d2a57b3a5721e3"/>
   <project name="platform/core/appfw/appcore-agent" path="platform/core/appfw/appcore-agent" revision="4dea835b040be892f0538ea6dc6a29dc25472b3b"/>
@@ -257,7 +257,7 @@
   <project name="platform/core/multimedia/libmm-transcode" path="platform/core/multimedia/libmm-transcode" revision="68780d7877550c1539cdce898c3c4d619e2e275a"/>
   <project name="platform/core/multimedia/libmm-utility" path="platform/core/multimedia/libmm-utility" revision="01c05d50bb016c938493559b63c67c90e2ab2563"/>
   <project name="platform/core/multimedia/libmm-wfd" path="platform/core/multimedia/libmm-wfd" revision="858cc1c45259634e970dc3ab00d7f2333e53d05c"/>
-  <project name="platform/core/multimedia/media-server" path="platform/core/multimedia/media-server" revision="0ee9c4e05bfa596ff1efa8da44805174303c72ee"/>
+  <project name="platform/core/multimedia/media-server" path="platform/core/multimedia/media-server" revision="9e7ef0008277ca32fddd67218b4ef862df66c5db"/>
   <project name="platform/core/multimedia/mm-hal-interface" path="platform/core/multimedia/mm-hal-interface" revision="df10f465c54150fd65a725f9088b757f0ad6e7b5"/>
   <project name="platform/core/multimedia/mmfw-sysconf" path="platform/core/multimedia/mmfw-sysconf" revision="5280b5aac3dda45f091fc4c533c565ec9dd46ae7"/>
   <project name="platform/core/multimedia/mmsvc-camera" path="platform/core/multimedia/mmsvc-camera" revision="d93131333671b4fc5270315456d0d821601f5bfd"/>
@@ -448,7 +448,7 @@
   <project name="platform/upstream/audit" path="platform/upstream/audit" revision="e1cbe10c87168c20e2a2505cda42b73b881f7f54"/>
   <project name="platform/upstream/augeas" path="platform/upstream/augeas" revision="9ae4d10a24d610bef3ed5817dcd34b025ab1cfd5"/>
   <project name="platform/upstream/bcc" path="platform/upstream/bcc" revision="f725cdfa7e5d602b6f85521f97014abc1cde7dc4"/>
-  <project name="platform/upstream/bind" path="platform/upstream/bind" revision="4f4751ba4ecc441c16f7b98cc984ef0afce05f25"/>
+  <project name="platform/upstream/bind" path="platform/upstream/bind" revision="85803ab000aa31dd32f39436bc63211981de7c88"/>
   <project name="platform/upstream/bluez" path="platform/upstream/bluez" revision="3e856e4b2c2e12e96f526b1967229a0add29cdfb"/>
   <project name="platform/upstream/boost" path="platform/upstream/boost" revision="7502b819824658306a3990677d08cfba4a4ca629"/>
   <project name="platform/upstream/boost-jam" path="platform/upstream/boost-jam" revision="2e801cdf3a5993b849d0ab42e96a01040bf0897c"/>
