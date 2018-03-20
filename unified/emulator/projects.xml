@@ -211,7 +211,7 @@
   <project name="platform/core/connectivity/smartcard-plugin-nfc" path="platform/core/connectivity/smartcard-plugin-nfc" revision="1e74825669656e7dab97a57a0bbc96f498a6ce77"/>
   <project name="platform/core/connectivity/smartcard-plugin-uicc" path="platform/core/connectivity/smartcard-plugin-uicc" revision="f933b6f3006737a903b64d41898e776b923f1d6a"/>
   <project name="platform/core/connectivity/smartcard-service" path="platform/core/connectivity/smartcard-service" revision="445e2ca54b98e34f955f33c25cffd63f453a40ca"/>
-  <project name="platform/core/connectivity/stc-manager" path="platform/core/connectivity/stc-manager" revision="b0a0c95cc309240fe7cf1331c62364751d927519"/>
+  <project name="platform/core/connectivity/stc-manager" path="platform/core/connectivity/stc-manager" revision="814aa9b4ed19915b2f811302ebb3ee09ec32bf6a"/>
   <project name="platform/core/connectivity/wifi-direct-manager" path="platform/core/connectivity/wifi-direct-manager" revision="03d07345580e34858f67fa6e22fb63b6b1267454"/>
   <project name="platform/core/connectivity/wifi-mesh-manager" path="platform/core/connectivity/wifi-mesh-manager" revision="50e907c48cd886ea454ab0f2d00090ea0524228f"/>
   <project name="platform/core/connectivity/zigbee-manager" path="platform/core/connectivity/zigbee-manager" revision="42d9c14822ff56246f6a1075bb732e8c53f839b9"/>
@@ -223,8 +223,8 @@
   <project name="platform/core/context/sensor-recorder" path="platform/core/context/sensor-recorder" revision="7ed36e93f13079e0fcbf737ec4a8db32ce7c9d3f"/>
   <project name="platform/core/convergence/plugin/service-plugin-sample" path="platform/core/convergence/plugin/service-plugin-sample" revision="a70e04c2697258c1e90653a7bdf57a2370a8b78f"/>
   <project name="platform/core/convergence/service-adaptor" path="platform/core/convergence/service-adaptor" revision="57f0b55e7d7360e7a0825b0e7e2497993931144e"/>
-  <project name="platform/core/csapi/tizenfx" path="platform/core/csapi/tizenfx" revision="fc1c3bdb668c78cd1d011fc88acf08da7bca7386"/>
-  <project name="platform/core/dotnet/build-tools" path="platform/core/dotnet/build-tools" revision="5bc00509597ae289c30bf4498bbb96e51dfe13b5"/>
+  <project name="platform/core/csapi/tizenfx" path="platform/core/csapi/tizenfx" revision="2e3e6ec5d0d42c4421160802ce030592ba23fde3"/>
+  <project name="platform/core/dotnet/build-tools" path="platform/core/dotnet/build-tools" revision="04430841d47472278872a5c8dc80891cad415332"/>
   <project name="platform/core/dotnet/launcher" path="platform/core/dotnet/launcher" revision="65ee437b4cf72d4e4720f5d9c7c2e1d0a0d28676"/>
   <project name="platform/core/graphics/cairo" path="platform/core/graphics/cairo" revision="8d4b91462e9315ec30f65f921c28f4650049ac43"/>
   <project name="platform/core/graphics/default-fonts-fc-sdk" path="platform/core/graphics/default-fonts-fc-sdk" revision="347120509eb9e542497e87be50ca2ddd1f944265"/>
@@ -387,7 +387,7 @@
   <project name="platform/core/uifw/efl-modules" path="platform/core/uifw/efl-modules" revision="036da548dc710a996bcf77d5f75870c3e8fe2cca"/>
   <project name="platform/core/uifw/inputdelegator" path="platform/core/uifw/inputdelegator" revision="1cfc76a0e2a0c0a1897c113b4d24c1ed6bc9128d"/>
   <project name="platform/core/uifw/inputmethod-setting" path="platform/core/uifw/inputmethod-setting" revision="ad4e2e62bf5754f2d7e01dcf4e1d6a6e38c5ac17"/>
-  <project name="platform/core/uifw/ise-default" path="platform/core/uifw/ise-default" revision="2f534e74105e0985d3b096b987a3fd100b2089c2"/>
+  <project name="platform/core/uifw/ise-default" path="platform/core/uifw/ise-default" revision="b97997f1f4d8e834ba84a99c23abfe09bb835241"/>
   <project name="platform/core/uifw/ise-engine-anthy" path="platform/core/uifw/ise-engine-anthy" revision="eb4db979b00515e7385e8d763568445fcd5b1719"/>
   <project name="platform/core/uifw/ise-engine-default" path="platform/core/uifw/ise-engine-default" revision="08c65726f08ebec4efaf12cd049b3beb77e6e72d"/>
   <project name="platform/core/uifw/ise-engine-glm" path="platform/core/uifw/ise-engine-glm" revision="807ef1ba31635bfef457dff97e69ce716ebb3fb3"/>
@@ -416,7 +416,7 @@
   <project name="platform/core/uifw/tts" path="platform/core/uifw/tts" revision="2d32797ba7e37ec153e6784dfe1ab0c9ef453d7b"/>
   <project name="platform/core/uifw/tts-engine-default" path="platform/core/uifw/tts-engine-default" revision="9bce08ceede5cd91e62188f7b9772ff840a821ca"/>
   <project name="platform/core/uifw/tts-engine-rsc" path="platform/core/uifw/tts-engine-rsc" revision="389526fef5ecdcae37a9bafca3508d0d555928d5"/>
-  <project name="platform/core/uifw/ui-viewmgr" path="platform/core/uifw/ui-viewmgr" revision="10609471485dec4c735baf63a10d96fb34f51cb0"/>
+  <project name="platform/core/uifw/ui-viewmgr" path="platform/core/uifw/ui-viewmgr" revision="3b02ab9f696b7090f8fbad9739bd3ea9787dd795"/>
   <project name="platform/core/uifw/vc-engine-default" path="platform/core/uifw/vc-engine-default" revision="7b6fc0ed2906cbcb4eeddd61f9238cd3576143f0"/>
   <project name="platform/core/uifw/vc-webview" path="platform/core/uifw/vc-webview" revision="45d3148e68068710a3f0730148b82f5785a0ec56"/>
   <project name="platform/core/uifw/vc-webview-js" path="platform/core/uifw/vc-webview-js" revision="f916781dcb43f2c9c095c306fe467577c4260f84"/>
@@ -428,7 +428,7 @@
   <project name="platform/core/uifw/xkb-tizen-data" path="platform/core/uifw/xkb-tizen-data" revision="96ff7eac4052283b169ec950b557bea9f901e0cb"/>
   <project name="platform/core/webapi/libteec" path="platform/core/webapi/libteec" revision="34e134bae726d863ae6a83071823c777204ff576"/>
   <project name="platform/framework/web/browser-provider" path="platform/framework/web/browser-provider" revision="93a630bcf9e520f9fcc053fda7130f8c358c0100"/>
-  <project name="platform/framework/web/chromium-efl" path="platform/framework/web/chromium-efl" revision="1346cba8fa1b03ef0fa2f1614328f3d7ebd67b12"/>
+  <project name="platform/framework/web/chromium-efl" path="platform/framework/web/chromium-efl" revision="6647f96bf4f2ea221c48a720d7ae02e56eb36e9c"/>
   <project name="platform/framework/web/crosswalk-tizen" path="platform/framework/web/crosswalk-tizen" revision="5c4f17218595a535cba3378d1a7828974d430218"/>
   <project name="platform/framework/web/download-provider" path="platform/framework/web/download-provider" revision="6a96844fb1c5800837d97e25862b53e81f28a35f"/>
   <project name="platform/framework/web/wrt-service" path="platform/framework/web/wrt-service" revision="ededabd3caadfdf331ae4a83f7c63184b3161203"/>
@@ -480,13 +480,13 @@
   <project name="platform/upstream/doxygen" path="platform/upstream/doxygen" revision="90bb82245a271bdc3c9d75c07f3f62043311102b"/>
   <project name="platform/upstream/ecryptfs-utils" path="platform/upstream/ecryptfs-utils" revision="0342ba1b12a89cc2d2a9d9b820c8270585bee62c"/>
   <project name="platform/upstream/edbus" path="platform/upstream/edbus" revision="86395d99f9525a52dfd540cdef26e218fa20a0a0"/>
-  <project name="platform/upstream/efl" path="platform/upstream/efl" revision="57855d775d5ad066f0f988cbfe503ba6a6c1fb25"/>
+  <project name="platform/upstream/efl" path="platform/upstream/efl" revision="b0a9d4f08478e6d24d9091e58e7174b9d2ed1287"/>
   <project name="platform/upstream/ejdb" path="platform/upstream/ejdb" revision="892012b3095bf5a90341c441b757d7d63d3322e6"/>
-  <project name="platform/upstream/elementary" path="platform/upstream/elementary" revision="ef018e8a03bf7b35798bd1ac2c4f56121e9c3793"/>
-  <project name="platform/upstream/enlightenment" path="platform/upstream/enlightenment" revision="227ddef34800528125131404e8f0ebed826ea265"/>
+  <project name="platform/upstream/elementary" path="platform/upstream/elementary" revision="72f4c02d05f945e272cc5dc9da77c24e39b51968"/>
+  <project name="platform/upstream/enlightenment" path="platform/upstream/enlightenment" revision="f4ac3031843eb3ab733749e2f91b45c312ab2aca"/>
   <project name="platform/upstream/expect" path="platform/upstream/expect" revision="579d1c972c9603cfc5bdfad2a1397ae1ba4cbb2d"/>
   <project name="platform/upstream/flac" path="platform/upstream/flac" revision="8fc4ea16ad857e1e927fde29f99d6fb49d6a5055"/>
-  <project name="platform/upstream/fontconfig" path="platform/upstream/fontconfig" revision="7080099ef97b1d82e35fd74f7102c246a1dfae4a"/>
+  <project name="platform/upstream/fontconfig" path="platform/upstream/fontconfig" revision="b5dedab82244472285929de21784f32acc01bb9c"/>
   <project name="platform/upstream/freealut" path="platform/upstream/freealut" revision="c08c9c0b1268cd85bc1ccd333ffc7121dc43ecd9"/>
   <project name="platform/upstream/freetype2" path="platform/upstream/freetype2" revision="69299f9ca02ee1aab4900c19b9db407503b8903e"/>
   <project name="platform/upstream/fribidi" path="platform/upstream/fribidi" revision="52b2a884dbc6393d59c66386646b5430e67e292a"/>
@@ -815,7 +815,7 @@
   <project name="profile/wearable/platform/adaptation/samsung_exynos/device-manager-plugin-exynos3250" path="profile/wearable/platform/adaptation/samsung_exynos/device-manager-plugin-exynos3250" revision="3008ec06c41863dcde120ae2519beeb7a6ccb566"/>
   <project name="profile/wearable/platform/core/appfw/app-selector" path="profile/wearable/platform/core/appfw/app-selector" revision="c19793f918faf458674df4e65d824616f65e3624"/>
   <project name="profile/wearable/platform/core/uifw/e-tizen-data" path="profile/wearable/platform/core/uifw/e-tizen-data" revision="9fbf58fa86c5d96ef41bfae54d800979d9abf2a7"/>
-  <project name="profile/wearable/platform/core/uifw/efl-theme-tizen-wearable" path="profile/wearable/platform/core/uifw/efl-theme-tizen-wearable" revision="7aadab34e1e38b8a0558134a88054e8529ff7f52"/>
+  <project name="profile/wearable/platform/core/uifw/efl-theme-tizen-wearable" path="profile/wearable/platform/core/uifw/efl-theme-tizen-wearable" revision="d32934418db3a30a77c8442f4cf8eaa714d91c79"/>
   <project name="profile/wearable/platform/core/uifw/isf-config" path="profile/wearable/platform/core/uifw/isf-config" revision="e7ae0da85a732699c6ab912d398ff1fc3e93dc2a"/>
   <project name="profile/wearable/platform/framework/web/web-widget-engine" path="profile/wearable/platform/framework/web/web-widget-engine" revision="6c2c27134ebd1514ed0fc2feb7680b65a94879d8"/>
   <project name="profile/wearable/platform/framework/web/web-widget-js" path="profile/wearable/platform/framework/web/web-widget-js" revision="987e9b1be7008bb76fb6f6f0c3b4cb65407a6688"/>
