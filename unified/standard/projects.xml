@@ -105,7 +105,7 @@
   <project name="platform/core/api/audio-io" path="platform/core/api/audio-io" revision="66c149f391b8951f93ba10c17d4a19a4209a0276"/>
   <project name="platform/core/api/base-utils" path="platform/core/api/base-utils" revision="340425923ee22821eaa41ca9d78aa307c18c3fea"/>
   <project name="platform/core/api/bluetooth" path="platform/core/api/bluetooth" revision="1c29dbc37074e7355a2023ead01fcae9099e662d"/>
-  <project name="platform/core/api/camera" path="platform/core/api/camera" revision="d705c94f847cf563a8b7505b778d202deed14fc3"/>
+  <project name="platform/core/api/camera" path="platform/core/api/camera" revision="bd54f158614b892b1efd1b19a8b966ac84c205a0"/>
   <project name="platform/core/api/common" path="platform/core/api/common" revision="070508a09378509756fad89a2e468202152e92b4"/>
   <project name="platform/core/api/connection" path="platform/core/api/connection" revision="227db34b50998c7fd5479ae8b66c4313359b8c56"/>
   <project name="platform/core/api/context" path="platform/core/api/context" revision="7c2bbd7021bc9fdb80995a5ef3ef3838ada41662"/>
@@ -265,8 +265,8 @@
   <project name="platform/core/multimedia/dcm-service" path="platform/core/multimedia/dcm-service" revision="a9b06f20a491d5ba30f1d8bd6382d4cc2a7c24e3"/>
   <project name="platform/core/multimedia/libmedia-service" path="platform/core/multimedia/libmedia-service" revision="2c868fc062f341bbaa43705ed06ed31b85f97354"/>
   <project name="platform/core/multimedia/libmedia-thumbnail" path="platform/core/multimedia/libmedia-thumbnail" revision="2aa7f961ff8e46f484d51f7e925fb0a7a7854d14"/>
-  <project name="platform/core/multimedia/libmm-camcorder" path="platform/core/multimedia/libmm-camcorder" revision="4329f7c2742e8870cdbf49234c16e108dcb38950"/>
-  <project name="platform/core/multimedia/libmm-common" path="platform/core/multimedia/libmm-common" revision="798e47a639c818dc2f68b428ab264ff872585639"/>
+  <project name="platform/core/multimedia/libmm-camcorder" path="platform/core/multimedia/libmm-camcorder" revision="de2e9ba1c5ee8fedfb95d7d42da24714045d77b9"/>
+  <project name="platform/core/multimedia/libmm-common" path="platform/core/multimedia/libmm-common" revision="bf9c3e6f2c28c4865486f72168da1927a0153559"/>
   <project name="platform/core/multimedia/libmm-evas-renderer" path="platform/core/multimedia/libmm-evas-renderer" revision="3b99df5466e675dd6df3fbf6b2be96d664b652ac"/>
   <project name="platform/core/multimedia/libmm-fileinfo" path="platform/core/multimedia/libmm-fileinfo" revision="38f8e87f6bd54b393f9f81871a9e63f3f138f7be"/>
   <project name="platform/core/multimedia/libmm-imgp-gstcs" path="platform/core/multimedia/libmm-imgp-gstcs" revision="b0fe4a4bdf404a0e3d6ba84f5dfcb5d046665a6a"/>
@@ -281,9 +281,9 @@
   <project name="platform/core/multimedia/libmm-wfd" path="platform/core/multimedia/libmm-wfd" revision="858cc1c45259634e970dc3ab00d7f2333e53d05c"/>
   <project name="platform/core/multimedia/media-server" path="platform/core/multimedia/media-server" revision="f23db7317c582acee7e1db6292ba811bb5d50946"/>
   <project name="platform/core/multimedia/mm-hal-interface" path="platform/core/multimedia/mm-hal-interface" revision="df10f465c54150fd65a725f9088b757f0ad6e7b5"/>
-  <project name="platform/core/multimedia/mmfw-sysconf" path="platform/core/multimedia/mmfw-sysconf" revision="5280b5aac3dda45f091fc4c533c565ec9dd46ae7"/>
-  <project name="platform/core/multimedia/mmsvc-camera" path="platform/core/multimedia/mmsvc-camera" revision="d93131333671b4fc5270315456d0d821601f5bfd"/>
-  <project name="platform/core/multimedia/mmsvc-core" path="platform/core/multimedia/mmsvc-core" revision="c72d11a23f4437304bf2b60af9387e47700a5143"/>
+  <project name="platform/core/multimedia/mmfw-sysconf" path="platform/core/multimedia/mmfw-sysconf" revision="336dc4847f61713ff313cd1bbb58e85817be0142"/>
+  <project name="platform/core/multimedia/mmsvc-camera" path="platform/core/multimedia/mmsvc-camera" revision="4aa7ac5bccf39944a56ad9f8bb9e4d51f968ea2f"/>
+  <project name="platform/core/multimedia/mmsvc-core" path="platform/core/multimedia/mmsvc-core" revision="b3f5fbedd31d8ee414b6e5a0cf02bd666bc7784d"/>
   <project name="platform/core/multimedia/mmsvc-player" path="platform/core/multimedia/mmsvc-player" revision="3b52db53acd3115cabcea403794c8e5d07dcdf72"/>
   <project name="platform/core/multimedia/mmsvc-recorder" path="platform/core/multimedia/mmsvc-recorder" revision="11195e503c21f5dc94a57cf2e2d75c706838f7c4"/>
   <project name="platform/core/multimedia/pulseaudio-modules-tizen" path="platform/core/multimedia/pulseaudio-modules-tizen" revision="e84eaf9259d6efd6b72ceffa905f7a62778ca07d"/>
@@ -394,12 +394,12 @@
   <project name="platform/core/telephony/telephony-syspopup" path="platform/core/telephony/telephony-syspopup" revision="009e253ae02d971fac8eade42bcee95b5479ff74"/>
   <project name="platform/core/uifw/anthy" path="platform/core/uifw/anthy" revision="f1193f620a94036d914ecbeeeffd2795ae8aff28"/>
   <project name="platform/core/uifw/coregl" path="platform/core/uifw/coregl" revision="fa4dcac799209d8c39eb587bc8a53a66b731911b"/>
-  <project name="platform/core/uifw/dali-adaptor" path="platform/core/uifw/dali-adaptor" revision="fa08b43b7866eaf37c186cfbe57bf8241927ff51"/>
-  <project name="platform/core/uifw/dali-core" path="platform/core/uifw/dali-core" revision="fba30a5631f7f74bf556fa3e7da79357159a05ce"/>
-  <project name="platform/core/uifw/dali-csharp-binder" path="platform/core/uifw/dali-csharp-binder" revision="89c1f181a4ca004a831bf371ed866d7ae354bfe3"/>
+  <project name="platform/core/uifw/dali-adaptor" path="platform/core/uifw/dali-adaptor" revision="47c031ee61b72f3d1c0475888617222f25593b63"/>
+  <project name="platform/core/uifw/dali-core" path="platform/core/uifw/dali-core" revision="6cfca9c46bbcb1cfd5fe97e43b20332e8775d27c"/>
+  <project name="platform/core/uifw/dali-csharp-binder" path="platform/core/uifw/dali-csharp-binder" revision="bb5f452829639b8abcfffde635c8abaa07605548"/>
   <project name="platform/core/uifw/dali-demo" path="platform/core/uifw/dali-demo" revision="2474668c12d20521c0343f8b80054b721f8e2c41"/>
-  <project name="platform/core/uifw/dali-extension" path="platform/core/uifw/dali-extension" revision="ccff969b8ff5d3ffc3d0e5642d30954f5c4d526e"/>
-  <project name="platform/core/uifw/dali-toolkit" path="platform/core/uifw/dali-toolkit" revision="64b90aecea705b24c5d54b5ae608209b88dca466"/>
+  <project name="platform/core/uifw/dali-extension" path="platform/core/uifw/dali-extension" revision="6b3701873b6ebc7ad03f9fc1bf405419946dd82b"/>
+  <project name="platform/core/uifw/dali-toolkit" path="platform/core/uifw/dali-toolkit" revision="6b42869988f5074e9636289ccd3274a00209dbb7"/>
   <project name="platform/core/uifw/download-fonts-service" path="platform/core/uifw/download-fonts-service" revision="d49e82ff8c57a80bcc56d7aab229231db02a2d1a"/>
   <project name="platform/core/uifw/e-mod-tizen-devicemgr" path="platform/core/uifw/e-mod-tizen-devicemgr" revision="a50a059474cf9a68071c9cd5228ee2402962d4c2"/>
   <project name="platform/core/uifw/e-mod-tizen-effect" path="platform/core/uifw/e-mod-tizen-effect" revision="6cfcb7365038cd01e95753240448bb618eba75d9"/>
@@ -448,7 +448,7 @@
   <project name="platform/core/uifw/tts-engine-rsc" path="platform/core/uifw/tts-engine-rsc" revision="389526fef5ecdcae37a9bafca3508d0d555928d5"/>
   <project name="platform/core/uifw/ui-viewmgr" path="platform/core/uifw/ui-viewmgr" revision="3b02ab9f696b7090f8fbad9739bd3ea9787dd795"/>
   <project name="platform/core/uifw/vc-engine-default" path="platform/core/uifw/vc-engine-default" revision="7b6fc0ed2906cbcb4eeddd61f9238cd3576143f0"/>
-  <project name="platform/core/uifw/vc-webview" path="platform/core/uifw/vc-webview" revision="45d3148e68068710a3f0730148b82f5785a0ec56"/>
+  <project name="platform/core/uifw/vc-webview" path="platform/core/uifw/vc-webview" revision="a9dcf130eca9961e8f3f84468e19a42104f65d27"/>
   <project name="platform/core/uifw/vc-webview-js" path="platform/core/uifw/vc-webview-js" revision="f916781dcb43f2c9c095c306fe467577c4260f84"/>
   <project name="platform/core/uifw/voice-control" path="platform/core/uifw/voice-control" revision="d73a148aca19b5423df39706b304b807421e98c5"/>
   <project name="platform/core/uifw/voice-control-elm" path="platform/core/uifw/voice-control-elm" revision="6cf6b4a474831b8be2b87ac4c23b56e5ccf1b09d"/>
@@ -458,7 +458,7 @@
   <project name="platform/core/uifw/xkb-tizen-data" path="platform/core/uifw/xkb-tizen-data" revision="96ff7eac4052283b169ec950b557bea9f901e0cb"/>
   <project name="platform/core/webapi/libteec" path="platform/core/webapi/libteec" revision="34e134bae726d863ae6a83071823c777204ff576"/>
   <project name="platform/framework/web/browser-provider" path="platform/framework/web/browser-provider" revision="93a630bcf9e520f9fcc053fda7130f8c358c0100"/>
-  <project name="platform/framework/web/chromium-efl" path="platform/framework/web/chromium-efl" revision="6647f96bf4f2ea221c48a720d7ae02e56eb36e9c"/>
+  <project name="platform/framework/web/chromium-efl" path="platform/framework/web/chromium-efl" revision="045554a29017a267bca90d536f56bef65efe30cd"/>
   <project name="platform/framework/web/crosswalk-tizen" path="platform/framework/web/crosswalk-tizen" revision="5c4f17218595a535cba3378d1a7828974d430218"/>
   <project name="platform/framework/web/download-provider" path="platform/framework/web/download-provider" revision="f9d6a2c6a8ed5b255bb043d5b9bd311db3fb53bc"/>
   <project name="platform/framework/web/wrt-service" path="platform/framework/web/wrt-service" revision="ededabd3caadfdf331ae4a83f7c63184b3161203"/>
@@ -544,7 +544,7 @@
   <project name="platform/upstream/gst-omx" path="platform/upstream/gst-omx" revision="ab20322819f43f19b87822dd1d5701a2268c5386"/>
   <project name="platform/upstream/gst-plugins-bad" path="platform/upstream/gst-plugins-bad" revision="657891ad9e93cb208462e95491c0c2f2f6d4965c"/>
   <project name="platform/upstream/gst-plugins-base" path="platform/upstream/gst-plugins-base" revision="7dcdc839271d25134b5b6fab54839097223c6564"/>
-  <project name="platform/upstream/gst-plugins-good" path="platform/upstream/gst-plugins-good" revision="91af68a0f11ac4b137046b70dbd59e78122852ab"/>
+  <project name="platform/upstream/gst-plugins-good" path="platform/upstream/gst-plugins-good" revision="7c9cac83a4fb38133300a00e4d01ee811896a3de"/>
   <project name="platform/upstream/gst-plugins-tizen" path="platform/upstream/gst-plugins-tizen" revision="c8406f50cca14e8ba374dcf18f11d467c254782d"/>
   <project name="platform/upstream/gst-plugins-ugly" path="platform/upstream/gst-plugins-ugly" revision="196968fbe019058ce5257a117f0c9dff3f7ef511"/>
   <project name="platform/upstream/gst-rtsp-server" path="platform/upstream/gst-rtsp-server" revision="f7be8d17b884624d01f4aa979767b4bb8d7265d4"/>
