@@ -136,7 +136,7 @@
   <project name="platform/core/api/softap" path="platform/core/api/softap" revision="82f2f63ac4a2dd4bcb0c6f155bc6f2677adb5d8e"/>
   <project name="platform/core/api/sound-manager" path="platform/core/api/sound-manager" revision="3f79c14e9f6969a41af64b2f9c65c01c9624011f"/>
   <project name="platform/core/api/sound-pool" path="platform/core/api/sound-pool" revision="308d723339eedbcd741d11663dbdef6c7b5d8592"/>
-  <project name="platform/core/api/system-info" path="platform/core/api/system-info" revision="a7b38080b5b69a31fe4ac5ff4249e1720e682068"/>
+  <project name="platform/core/api/system-info" path="platform/core/api/system-info" revision="301a6a0bcd313f01469adb4456bfac3d7b66fe48"/>
   <project name="platform/core/api/system-settings" path="platform/core/api/system-settings" revision="96e4ed3baa9d31ebe33e183edef5dcda82019033"/>
   <project name="platform/core/api/telephony" path="platform/core/api/telephony" revision="1573b2e9c64ea469c10892f507896173a06e4cf3"/>
   <project name="platform/core/api/tethering" path="platform/core/api/tethering" revision="2747413f1196f77b829942b98b4de6302ed60245"/>
@@ -242,7 +242,7 @@
   <project name="platform/core/multimedia/audio-session-manager" path="platform/core/multimedia/audio-session-manager" revision="568852f0ea4a20d01445abe0957b55e7771436c3"/>
   <project name="platform/core/multimedia/dcm-service" path="platform/core/multimedia/dcm-service" revision="a9b06f20a491d5ba30f1d8bd6382d4cc2a7c24e3"/>
   <project name="platform/core/multimedia/libmedia-service" path="platform/core/multimedia/libmedia-service" revision="2c868fc062f341bbaa43705ed06ed31b85f97354"/>
-  <project name="platform/core/multimedia/libmedia-thumbnail" path="platform/core/multimedia/libmedia-thumbnail" revision="2aa7f961ff8e46f484d51f7e925fb0a7a7854d14"/>
+  <project name="platform/core/multimedia/libmedia-thumbnail" path="platform/core/multimedia/libmedia-thumbnail" revision="ee7fad384fc11fa482ca52032846976e408edd73"/>
   <project name="platform/core/multimedia/libmm-camcorder" path="platform/core/multimedia/libmm-camcorder" revision="de2e9ba1c5ee8fedfb95d7d42da24714045d77b9"/>
   <project name="platform/core/multimedia/libmm-common" path="platform/core/multimedia/libmm-common" revision="bf9c3e6f2c28c4865486f72168da1927a0153559"/>
   <project name="platform/core/multimedia/libmm-evas-renderer" path="platform/core/multimedia/libmm-evas-renderer" revision="3b99df5466e675dd6df3fbf6b2be96d664b652ac"/>
@@ -257,7 +257,7 @@
   <project name="platform/core/multimedia/libmm-transcode" path="platform/core/multimedia/libmm-transcode" revision="68780d7877550c1539cdce898c3c4d619e2e275a"/>
   <project name="platform/core/multimedia/libmm-utility" path="platform/core/multimedia/libmm-utility" revision="01c05d50bb016c938493559b63c67c90e2ab2563"/>
   <project name="platform/core/multimedia/libmm-wfd" path="platform/core/multimedia/libmm-wfd" revision="858cc1c45259634e970dc3ab00d7f2333e53d05c"/>
-  <project name="platform/core/multimedia/media-server" path="platform/core/multimedia/media-server" revision="f23db7317c582acee7e1db6292ba811bb5d50946"/>
+  <project name="platform/core/multimedia/media-server" path="platform/core/multimedia/media-server" revision="10d281ce094ae5d48dad40a04b3392bf2be65185"/>
   <project name="platform/core/multimedia/mm-hal-interface" path="platform/core/multimedia/mm-hal-interface" revision="df10f465c54150fd65a725f9088b757f0ad6e7b5"/>
   <project name="platform/core/multimedia/mmfw-sysconf" path="platform/core/multimedia/mmfw-sysconf" revision="336dc4847f61713ff313cd1bbb58e85817be0142"/>
   <project name="platform/core/multimedia/mmsvc-camera" path="platform/core/multimedia/mmsvc-camera" revision="4aa7ac5bccf39944a56ad9f8bb9e4d51f968ea2f"/>
@@ -274,7 +274,7 @@
   <project name="platform/core/security/ca-certificates" path="platform/core/security/ca-certificates" revision="a2f804cb30d7c50457d94ab7c0d4c3aaf64d05aa"/>
   <project name="platform/core/security/ca-certificates-tizen" path="platform/core/security/ca-certificates-tizen" revision="32a0ac8f19adef3956ba8649031a02c999799317"/>
   <project name="platform/core/security/cert-svc" path="platform/core/security/cert-svc" revision="f5502639c446f67e735e9fb33d91122fe8baa1a3"/>
-  <project name="platform/core/security/cynara" path="platform/core/security/cynara" revision="106a56d028c8509211293f0ea5b4ee21ac4a6532"/>
+  <project name="platform/core/security/cynara" path="platform/core/security/cynara" revision="d2e55eeec17afc9991113e2cd87890f1fa05350c"/>
   <project name="platform/core/security/default-ac-domains" path="platform/core/security/default-ac-domains" revision="687055563a65c6cfd15cfc40bdc3c9caa77eb27c"/>
   <project name="platform/core/security/device-certificate-manager" path="platform/core/security/device-certificate-manager" revision="b246792830f5171bacab90131608ef5e9ac4a370"/>
   <project name="platform/core/security/device-policy-client" path="platform/core/security/device-policy-client" revision="c2fd61cb3555748bc0e314b8eac56ebc201a3e37"/>
@@ -633,7 +633,7 @@
   <project name="platform/upstream/protobuf" path="platform/upstream/protobuf" revision="a0557d2d4fa1cb622472228bf2798e013920d5dd"/>
   <project name="platform/upstream/psmisc" path="platform/upstream/psmisc" revision="cdfc127fe94cefe7f0bccb32c00a0cca4b2474b0"/>
   <project name="platform/upstream/pth" path="platform/upstream/pth" revision="0ca5a10d4f4864a6232d18078065f87c20018298"/>
-  <project name="platform/upstream/pulseaudio" path="platform/upstream/pulseaudio" revision="7f7ce82aa5631db285d1f771993fb350f5546db1"/>
+  <project name="platform/upstream/pulseaudio" path="platform/upstream/pulseaudio" revision="2f0a3b6bc0a2f11742fb7042169e1a33fef1fda9"/>
   <project name="platform/upstream/pygobject2" path="platform/upstream/pygobject2" revision="ab8bccfcb4b6be6d38390d730780d82c56c77308"/>
   <project name="platform/upstream/python-Cheetah" path="platform/upstream/python-Cheetah" revision="233a54fa2616d3b19b7559e1a77ed64163fcbcf3"/>
   <project name="platform/upstream/python-M2Crypto" path="platform/upstream/python-M2Crypto" revision="5015799de7fb1dc08b584c0044d8393e4062ff34"/>
@@ -827,6 +827,6 @@
   <project name="tools/bmap-tools" path="tools/bmap-tools" revision="05e5d08012dba106383f0eff62d8f86b01f1f3a1"/>
   <project name="tools/building-blocks" path="tools/building-blocks" revision="b2cf4ebba1ab2684aa99af8c8d7ab7ffe115c3b3"/>
   <project name="tools/libFuzzer" path="tools/libFuzzer" revision="c35b593f3d6270f19f8ae4e3d2d01143fd525ae0"/>
-  <project name="tools/mic-bootstrap" path="tools/mic-bootstrap" revision="f033204c72b134909e2e0f7da57fcce59e023e1c"/>
+  <project name="tools/mic-bootstrap" path="tools/mic-bootstrap" revision="3c9f0f5ada193922974d3904136a06691a3b95d3"/>
   <project name="tools/ttrace" path="tools/ttrace" revision="02e9925e85f88a50f65c941cc16b01f09f695773"/>
 </manifest>
