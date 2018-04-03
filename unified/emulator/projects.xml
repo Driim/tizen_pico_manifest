@@ -105,7 +105,7 @@
   <project name="platform/core/api/media-content" path="platform/core/api/media-content" revision="b2f6b0c2d24e0460fcc2d191323a02dcdcd01271"/>
   <project name="platform/core/api/media-controller" path="platform/core/api/media-controller" revision="00a650695d7985cbba14def4b30ed60532133e20"/>
   <project name="platform/core/api/media-key" path="platform/core/api/media-key" revision="4d2380a486acb4cfa09a551ad4f70e8670685ab4"/>
-  <project name="platform/core/api/mediacodec" path="platform/core/api/mediacodec" revision="cb51e054ac8320588b730369b13572356a761f37"/>
+  <project name="platform/core/api/mediacodec" path="platform/core/api/mediacodec" revision="8be274a4360be3d8f50899c9b78c285fabfef76a"/>
   <project name="platform/core/api/mediademuxer" path="platform/core/api/mediademuxer" revision="41497313433fa2f928c4a1e5de13817e1408b261"/>
   <project name="platform/core/api/mediamuxer" path="platform/core/api/mediamuxer" revision="83c781e420816f27e04763759e3678ba25b16d12"/>
   <project name="platform/core/api/mediastreamer" path="platform/core/api/mediastreamer" revision="543e8529f3c2fa5bc2de6cbf2c949933bec1e153"/>
@@ -405,7 +405,7 @@
   <project name="platform/core/uifw/libtbm" path="platform/core/uifw/libtbm" revision="f624bd1fc7ce5bc949ad828393e9e5ec007404bd"/>
   <project name="platform/core/uifw/libtdm" path="platform/core/uifw/libtdm" revision="54d76503b08c618f39293847aa44d2759a024e50"/>
   <project name="platform/core/uifw/libtpl-egl" path="platform/core/uifw/libtpl-egl" revision="4a5f648b9a4400582fbf2ad8452169f579acd7de"/>
-  <project name="platform/core/uifw/pepper" path="platform/core/uifw/pepper" revision="83c42254bf2089dbeb1265d2913583226e895c31"/>
+  <project name="platform/core/uifw/pepper" path="platform/core/uifw/pepper" revision="57db26b511832308e23f52af84bc1dda0420a135"/>
   <project name="platform/core/uifw/pepper-dali" path="platform/core/uifw/pepper-dali" revision="1f4f9c57710f3ffe917366d37561353faa59f428"/>
   <project name="platform/core/uifw/sketch" path="platform/core/uifw/sketch" revision="3de40b639430d5a3a2c36815ed088296dcb91904"/>
   <project name="platform/core/uifw/smartreply" path="platform/core/uifw/smartreply" revision="01962fcaa79795a5b04b6872aa2a62c3786d7c16"/>
