@@ -124,7 +124,7 @@
   <project name="platform/core/api/package-manager" path="platform/core/api/package-manager" revision="cf35a1169099004f1c1e22bbeb0fb506f18a7ea0"/>
   <project name="platform/core/api/peripheral-io" path="platform/core/api/peripheral-io" revision="22db0745c4e7ea6feb10a14bfe2556e6ef6f01dd"/>
   <project name="platform/core/api/player" path="platform/core/api/player" revision="1a45cd088306b03061cd4c2d531bb45dbec8ca3a"/>
-  <project name="platform/core/api/preference" path="platform/core/api/preference" revision="3053b4fe95d62fffb32acb02151c568f2b05fbd6"/>
+  <project name="platform/core/api/preference" path="platform/core/api/preference" revision="411142cdcb0f3a702d9200788350e3817c6767af"/>
   <project name="platform/core/api/radio" path="platform/core/api/radio" revision="ee4d512bc1eb11fa6870e522771be04a1f68059a"/>
   <project name="platform/core/api/recorder" path="platform/core/api/recorder" revision="d09a130bf08e627195d93af6db6ac59243723411"/>
   <project name="platform/core/api/runtime-info" path="platform/core/api/runtime-info" revision="28bc128d61d2d68c7fd5665588148e76f585cb39"/>
@@ -319,7 +319,7 @@
   <project name="platform/core/system/buxton2" path="platform/core/system/buxton2" revision="1fc594122d4328ba81b20560b6c1c51a56599ea7"/>
   <project name="platform/core/system/crash-worker" path="platform/core/system/crash-worker" revision="f26e36031b5001835703da10f5f94a0eab6f7df7"/>
   <project name="platform/core/system/deviced" path="platform/core/system/deviced" revision="34f6f9790f411d477680595415089555464d3563"/>
-  <project name="platform/core/system/dlog" path="platform/core/system/dlog" revision="a7f27f5bca5a022321963c1d73b5b683e785fe4c"/>
+  <project name="platform/core/system/dlog" path="platform/core/system/dlog" revision="b1b8764efd17076dccb7b0376e9a4cf4bf09da8c"/>
   <project name="platform/core/system/faultd" path="platform/core/system/faultd" revision="18bbf391a1cb70d7dd99c5788614867607620456"/>
   <project name="platform/core/system/feedbackd" path="platform/core/system/feedbackd" revision="3d0911660109981a074d35edb56f2bfe72eb237a"/>
   <project name="platform/core/system/initrd" path="platform/core/system/initrd" revision="b85688873c5d0cb909878096e6d507b9147d67c5"/>
@@ -404,7 +404,7 @@
   <project name="platform/core/uifw/libscl-ui" path="platform/core/uifw/libscl-ui" revision="ea38a4ff434458e20709662e232619acb5e03a4b"/>
   <project name="platform/core/uifw/libtbm" path="platform/core/uifw/libtbm" revision="f624bd1fc7ce5bc949ad828393e9e5ec007404bd"/>
   <project name="platform/core/uifw/libtdm" path="platform/core/uifw/libtdm" revision="54d76503b08c618f39293847aa44d2759a024e50"/>
-  <project name="platform/core/uifw/libtpl-egl" path="platform/core/uifw/libtpl-egl" revision="4a5f648b9a4400582fbf2ad8452169f579acd7de"/>
+  <project name="platform/core/uifw/libtpl-egl" path="platform/core/uifw/libtpl-egl" revision="fdcd5f74fdb427456db77aca85ad55d07a6f4f7a"/>
   <project name="platform/core/uifw/pepper" path="platform/core/uifw/pepper" revision="57db26b511832308e23f52af84bc1dda0420a135"/>
   <project name="platform/core/uifw/pepper-dali" path="platform/core/uifw/pepper-dali" revision="1f4f9c57710f3ffe917366d37561353faa59f428"/>
   <project name="platform/core/uifw/sketch" path="platform/core/uifw/sketch" revision="3de40b639430d5a3a2c36815ed088296dcb91904"/>
@@ -466,7 +466,7 @@
   <project name="platform/upstream/csr-framework" path="platform/upstream/csr-framework" revision="c17f3b2a294a450e83d0d436862ca80acb136f6d"/>
   <project name="platform/upstream/ctags" path="platform/upstream/ctags" revision="fdf26526d4d0661fb1afc6b3d18b91d926222aa1"/>
   <project name="platform/upstream/curl" path="platform/upstream/curl" revision="84227c8189d9397d00ca22e2648c9442959e4df2"/>
-  <project name="platform/upstream/dbus" path="platform/upstream/dbus" revision="10ba7c55d1dfcbcaf721a4a0cc14095ef51d36cd"/>
+  <project name="platform/upstream/dbus" path="platform/upstream/dbus" revision="2a318a5abf412616d4e92f3774c7f474e5c53349"/>
   <project name="platform/upstream/dbus-glib" path="platform/upstream/dbus-glib" revision="90c5f376cdff870e5660767091bd56fab6bf9f18"/>
   <project name="platform/upstream/dbus-python" path="platform/upstream/dbus-python" revision="9cd0ed2fee90c247f52a825238c2fc8d600cc133"/>
   <project name="platform/upstream/deltarpm" path="platform/upstream/deltarpm" revision="f022dc53010190e5810d6292730866f99a437754"/>
