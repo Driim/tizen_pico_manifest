@@ -36,7 +36,7 @@
   <project name="platform/adaptation/emulator/nfc-plugin-emul" path="platform/adaptation/emulator/nfc-plugin-emul" revision="3e7e8660af063e8cb4806ca160d5d42b6ece5083"/>
   <project name="platform/adaptation/emulator/sensor-hal-emulator" path="platform/adaptation/emulator/sensor-hal-emulator" revision="e94ca9a101e9ae2ed2f08303156ca98c015199e9"/>
   <project name="platform/adaptation/emulator/system-plugin-emulator" path="platform/adaptation/emulator/system-plugin-emulator" revision="8583a42dc16ad63b16cfe874b315c2e48a7e7fa3"/>
-  <project name="platform/adaptation/emulator/vmodem-daemon-emulator" path="platform/adaptation/emulator/vmodem-daemon-emulator" revision="be4766cc088a9ebaaee00404ecfa422a1cf2bd26"/>
+  <project name="platform/adaptation/emulator/vmodem-daemon-emulator" path="platform/adaptation/emulator/vmodem-daemon-emulator" revision="4333f9c0407f089f570df340f3b200f24ddb2a70"/>
   <project name="platform/adaptation/emulator/xf86-misc-vigs" path="platform/adaptation/emulator/xf86-misc-vigs" revision="0ae5b45428bd168ffe5c745719190d53cb507455"/>
   <project name="platform/adaptation/hawkp/audio-hal-hawkp" path="platform/adaptation/hawkp/audio-hal-hawkp" revision="05217cb57753b5ecc75046c44233861b625aa0b2"/>
   <project name="platform/adaptation/libtbm-dumb" path="platform/adaptation/libtbm-dumb" revision="2cdfb7fcfeab223202f73da717a2bb13cff9290c"/>
@@ -148,7 +148,7 @@
   <project name="platform/core/api/vpn-service" path="platform/core/api/vpn-service" revision="a3983ee811ce3b9613b7d7e1516c6875c93d86dc"/>
   <project name="platform/core/api/vpn-setting" path="platform/core/api/vpn-setting" revision="3d33c8533b57616d265133e96effe387e9f97e34"/>
   <project name="platform/core/api/wav-player" path="platform/core/api/wav-player" revision="eb252f37e73b1a6b912d99330a4b3adbcaca09bc"/>
-  <project name="platform/core/api/webapi-plugins" path="platform/core/api/webapi-plugins" revision="3add7aa4dabea244c5b70e04e89cbec8c4d75a24"/>
+  <project name="platform/core/api/webapi-plugins" path="platform/core/api/webapi-plugins" revision="490fb1f6dd15813b76c0a584acb5a9abf5f1dfd9"/>
   <project name="platform/core/api/wifi" path="platform/core/api/wifi" revision="bfadaacb83d65db53b64baea919f75a3f77fa771"/>
   <project name="platform/core/api/wifi-direct" path="platform/core/api/wifi-direct" revision="f144ff7768bb3d84c1bb49c424c563dd63b8d5c8"/>
   <project name="platform/core/api/wifi-manager" path="platform/core/api/wifi-manager" revision="0e8ad310d90dd481fb579272914096bab20fffdd"/>
@@ -302,7 +302,7 @@
   <project name="platform/core/security/libwebappenc" path="platform/core/security/libwebappenc" revision="bb1d90909f7185b436204a1fde5da99a902788c1"/>
   <project name="platform/core/security/nether" path="platform/core/security/nether" revision="023ead25336a8d3f7a35d1bd0d7d248b8f19daab"/>
   <project name="platform/core/security/nice-lad" path="platform/core/security/nice-lad" revision="cd0f53cc9d2f3af1ffddd3d7ba22bc42852a690d"/>
-  <project name="platform/core/security/ode" path="platform/core/security/ode" revision="62d08e4cf4255e8d37a0798914e436f4fa6dfca5"/>
+  <project name="platform/core/security/ode" path="platform/core/security/ode" revision="3d3afbdfbbdebc01980b0fa9288bf8a3e40d5b00"/>
   <project name="platform/core/security/ode-ui" path="platform/core/security/ode-ui" revision="59dac006780f77ad6eb75ed05f26f6d83b27f642"/>
   <project name="platform/core/security/privacy-guard" path="platform/core/security/privacy-guard" revision="e6fa4be8a4d8f3ab745c55870b6ab9f8bd16ae6b"/>
   <project name="platform/core/security/privilege-checker" path="platform/core/security/privilege-checker" revision="5895e0e1b91f13a8382ec6041a8e7fe33bdc5bd5"/>
@@ -332,7 +332,7 @@
   <project name="platform/core/system/memps" path="platform/core/system/memps" revision="38772da2dedcf22b148f4638a377484f14e3b65c"/>
   <project name="platform/core/system/pass" path="platform/core/system/pass" revision="24f3382cfb59af89b86dba595ece062518d285a9"/>
   <project name="platform/core/system/peripheral-bus" path="platform/core/system/peripheral-bus" revision="6251be1bfddecc8763fc35758fd18c2de3d9d0ca"/>
-  <project name="platform/core/system/resourced" path="platform/core/system/resourced" revision="8c36ad32a1d99482afef4ec9526a94d4f2ad8fb0"/>
+  <project name="platform/core/system/resourced" path="platform/core/system/resourced" revision="0f9f0a2872ff4ae01fe8b142fa016666fa665bb6"/>
   <project name="platform/core/system/resourced-headless" path="platform/core/system/resourced-headless" revision="24fd8bb9a4dd0ef2f3281797540268e58a24285b"/>
   <project name="platform/core/system/sensord" path="platform/core/system/sensord" revision="d2c481d0428b2dc4275e1b086b675523522e3eae"/>
   <project name="platform/core/system/session-utils" path="platform/core/system/session-utils" revision="47059c648b69f56c58df6565c22d332586c5176f"/>
@@ -465,7 +465,7 @@
   <project name="platform/upstream/cscope" path="platform/upstream/cscope" revision="f9e72a9ab56627f5b3b8c811e0bc9d4ec23073c4"/>
   <project name="platform/upstream/csr-framework" path="platform/upstream/csr-framework" revision="c17f3b2a294a450e83d0d436862ca80acb136f6d"/>
   <project name="platform/upstream/ctags" path="platform/upstream/ctags" revision="fdf26526d4d0661fb1afc6b3d18b91d926222aa1"/>
-  <project name="platform/upstream/curl" path="platform/upstream/curl" revision="84227c8189d9397d00ca22e2648c9442959e4df2"/>
+  <project name="platform/upstream/curl" path="platform/upstream/curl" revision="7c66a6ac24fc61bfc1af2f15774ce2d831742df0"/>
   <project name="platform/upstream/dbus" path="platform/upstream/dbus" revision="2a318a5abf412616d4e92f3774c7f474e5c53349"/>
   <project name="platform/upstream/dbus-glib" path="platform/upstream/dbus-glib" revision="90c5f376cdff870e5660767091bd56fab6bf9f18"/>
   <project name="platform/upstream/dbus-python" path="platform/upstream/dbus-python" revision="9cd0ed2fee90c247f52a825238c2fc8d600cc133"/>
@@ -823,7 +823,7 @@
   <project name="profile/wearable/platform/tw1/model-config-tw1" path="profile/wearable/platform/tw1/model-config-tw1" revision="f402de810adbcc5317cc99bd555bb51fd9c2ede8"/>
   <project name="profile/wearable/platform/tw2/model-config-tw2" path="profile/wearable/platform/tw2/model-config-tw2" revision="6ea2cffc732edd0eefc1792b0426a521afcb4899"/>
   <project name="sdk/emulator/emulator-kernel" path="sdk/emulator/emulator-kernel" revision="d0dd04966dffa6d3e70a838353caebfa72d66e26"/>
-  <project name="sdk/target/sdbd" path="sdk/target/sdbd" revision="c876c390b3681f34854d8d797503b1ad9a90e67c"/>
+  <project name="sdk/target/sdbd" path="sdk/target/sdbd" revision="0e2bbf525c0202ff68e1d6eec0cfc6c5728c8d8a"/>
   <project name="tools/bmap-tools" path="tools/bmap-tools" revision="05e5d08012dba106383f0eff62d8f86b01f1f3a1"/>
   <project name="tools/building-blocks" path="tools/building-blocks" revision="9fff07efe5cc280c9353279502b9507406305086"/>
   <project name="tools/libFuzzer" path="tools/libFuzzer" revision="c35b593f3d6270f19f8ae4e3d2d01143fd525ae0"/>
