@@ -394,7 +394,7 @@
   <project name="platform/core/uifw/ise-engine-hangul" path="platform/core/uifw/ise-engine-hangul" revision="d77f150638bdfcd23aa555cabe7a80d2978f06b2"/>
   <project name="platform/core/uifw/ise-engine-sunpinyin" path="platform/core/uifw/ise-engine-sunpinyin" revision="5e42b6e7475d3ba8122df70b3978f199c54d91f1"/>
   <project name="platform/core/uifw/ise-engine-tables" path="platform/core/uifw/ise-engine-tables" revision="4df5959f2009e9835d5389d6e7d7917479af66ad"/>
-  <project name="platform/core/uifw/isf" path="platform/core/uifw/isf" revision="5a2c9a00f6c02e8f4f3133b92f9988443e7c4038"/>
+  <project name="platform/core/uifw/isf" path="platform/core/uifw/isf" revision="f5c7801a62ef2d0d990a6e14b73616b696080d9e"/>
   <project name="platform/core/uifw/libeom" path="platform/core/uifw/libeom" revision="7f4ad9e4290976e2be33ab4a89453fbe5c99d2fc"/>
   <project name="platform/core/uifw/libgbm" path="platform/core/uifw/libgbm" revision="cae1345fea77c2164ac337274a3a78e986ca19d8"/>
   <project name="platform/core/uifw/libhangul" path="platform/core/uifw/libhangul" revision="025191eda9ef24340d1cc660ccea982147f3ff95"/>
@@ -422,7 +422,7 @@
   <project name="platform/core/uifw/vc-webview-js" path="platform/core/uifw/vc-webview-js" revision="f916781dcb43f2c9c095c306fe467577c4260f84"/>
   <project name="platform/core/uifw/voice-control" path="platform/core/uifw/voice-control" revision="d73a148aca19b5423df39706b304b807421e98c5"/>
   <project name="platform/core/uifw/voice-control-elm" path="platform/core/uifw/voice-control-elm" revision="6cf6b4a474831b8be2b87ac4c23b56e5ccf1b09d"/>
-  <project name="platform/core/uifw/wayland-extension" path="platform/core/uifw/wayland-extension" revision="56c3dfb90159e70f6eb693e9705de9443045d83d"/>
+  <project name="platform/core/uifw/wayland-extension" path="platform/core/uifw/wayland-extension" revision="7c00243cccdb22f368250fa4201c5e77c1385670"/>
   <project name="platform/core/uifw/wayland-tbm" path="platform/core/uifw/wayland-tbm" revision="9e50c501e89d9cec34eeb0bae4118a5ac2ac8d70"/>
   <project name="platform/core/uifw/widget-viewer-dali" path="platform/core/uifw/widget-viewer-dali" revision="0f49d23c1d4963ba8c502b9d03f0806da7a84141"/>
   <project name="platform/core/uifw/xkb-tizen-data" path="platform/core/uifw/xkb-tizen-data" revision="96ff7eac4052283b169ec950b557bea9f901e0cb"/>
@@ -433,7 +433,7 @@
   <project name="platform/framework/web/download-provider" path="platform/framework/web/download-provider" revision="320bd789fbe798eb01986acd69a3fd67f800dd34"/>
   <project name="platform/framework/web/wrt-service" path="platform/framework/web/wrt-service" revision="2e52ebfadb75f51564ed0b8fe0623170265fd1c5"/>
   <project name="platform/framework/web/xwalk-extensions-common" path="platform/framework/web/xwalk-extensions-common" revision="9825fe4f69e44aa94e6cc973a5c3c33bb68b2180"/>
-  <project name="platform/kernel/swap-modules" path="platform/kernel/swap-modules" revision="17e636d494efecebd7356e7c084b731386bb2dd7"/>
+  <project name="platform/kernel/swap-modules" path="platform/kernel/swap-modules" revision="fb9f315d256c4d6e3703f0ff3304b67d2c996b63"/>
   <project name="platform/upstream/7zip" path="platform/upstream/7zip" revision="71bbbf39d5d7f95657e1c6d5681af4d914dfc34f"/>
   <project name="platform/upstream/SDL" path="platform/upstream/SDL" revision="9f91cd3730e8c5c6f1bad8492449b3b689e007e1"/>
   <project name="platform/upstream/Vulkan-LoaderAndValidationLayers" path="platform/upstream/Vulkan-LoaderAndValidationLayers" revision="b583e7eca2a071ee9050322226985fa0d1a7608b"/>
@@ -465,7 +465,6 @@
   <project name="platform/upstream/cscope" path="platform/upstream/cscope" revision="f9e72a9ab56627f5b3b8c811e0bc9d4ec23073c4"/>
   <project name="platform/upstream/csr-framework" path="platform/upstream/csr-framework" revision="c17f3b2a294a450e83d0d436862ca80acb136f6d"/>
   <project name="platform/upstream/ctags" path="platform/upstream/ctags" revision="fdf26526d4d0661fb1afc6b3d18b91d926222aa1"/>
-  <project name="platform/upstream/curl" path="platform/upstream/curl" revision="7c66a6ac24fc61bfc1af2f15774ce2d831742df0"/>
   <project name="platform/upstream/dbus" path="platform/upstream/dbus" revision="2a318a5abf412616d4e92f3774c7f474e5c53349"/>
   <project name="platform/upstream/dbus-glib" path="platform/upstream/dbus-glib" revision="90c5f376cdff870e5660767091bd56fab6bf9f18"/>
   <project name="platform/upstream/dbus-python" path="platform/upstream/dbus-python" revision="9cd0ed2fee90c247f52a825238c2fc8d600cc133"/>
