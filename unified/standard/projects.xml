@@ -273,7 +273,7 @@
   <project name="platform/core/multimedia/libmm-fileinfo" path="platform/core/multimedia/libmm-fileinfo" revision="38f8e87f6bd54b393f9f81871a9e63f3f138f7be"/>
   <project name="platform/core/multimedia/libmm-imgp-gstcs" path="platform/core/multimedia/libmm-imgp-gstcs" revision="b0fe4a4bdf404a0e3d6ba84f5dfcb5d046665a6a"/>
   <project name="platform/core/multimedia/libmm-log" path="platform/core/multimedia/libmm-log" revision="064010cd2bef498279e12691fcaffcfad79319b2"/>
-  <project name="platform/core/multimedia/libmm-player" path="platform/core/multimedia/libmm-player" revision="91b9407e2fdd9b6fd756ac077e70f8c086d46639"/>
+  <project name="platform/core/multimedia/libmm-player" path="platform/core/multimedia/libmm-player" revision="0776e13c50d34c1417e54373d742086dce18206a"/>
   <project name="platform/core/multimedia/libmm-radio" path="platform/core/multimedia/libmm-radio" revision="250558bcb26f1156ea390cda3b12d5193cfef880"/>
   <project name="platform/core/multimedia/libmm-session" path="platform/core/multimedia/libmm-session" revision="0adc911948a9e8607b6becdab975ed0a492f9450"/>
   <project name="platform/core/multimedia/libmm-sound" path="platform/core/multimedia/libmm-sound" revision="95248238f9fba716c0afc885390786a702d7bb53"/>
@@ -719,7 +719,7 @@
   <project name="platform/upstream/tayga" path="platform/upstream/tayga" revision="14f6f3c3c3da75bee590bb78dba129f1c4237a8c"/>
   <project name="platform/upstream/tcl" path="platform/upstream/tcl" revision="6efd1ad25a13bdf8ae82c72674a7b040d05a3297"/>
   <project name="platform/upstream/tcpdump" path="platform/upstream/tcpdump" revision="a61e689a611b3f90e03940ca66d03fb1c92b3ea2"/>
-  <project name="platform/upstream/tiff" path="platform/upstream/tiff" revision="4bdd4849804bbbb9acfd5dcf62182bee51e3653d"/>
+  <project name="platform/upstream/tiff" path="platform/upstream/tiff" revision="58c1412379d1e29ff8f8e2dd6beefc75be3025bd"/>
   <project name="platform/upstream/tizen-debug" path="platform/upstream/tizen-debug" revision="fe8ad58114a408b00b47549a58d8b66f9fb67860"/>
   <project name="platform/upstream/tizen-release" path="platform/upstream/tizen-release" revision="3e69b0c74f9a6b4de11bd04e730fc2c277075ef7"/>
   <project name="platform/upstream/tolua++" path="platform/upstream/tolua++" revision="62382404e512a2427bbb3b5f1f1f5dd514a91f28"/>
@@ -750,7 +750,7 @@
   <project name="profile/common/apps/web/browser" path="profile/common/apps/web/browser" revision="498ae8d78ff6605bd42f6ed10296cf8c4114e8a5"/>
   <project name="profile/common/desktop-skin" path="profile/common/desktop-skin" revision="7c59e1de7c9ea52e468875bba1e7d612b1e4376d"/>
   <project name="profile/common/meta" path="profile/common/meta" revision="b0ba07278a40797b68680182ca175835fa7d6901"/>
-  <project name="profile/common/platform/core/uifw/e-tizen-data" path="profile/common/platform/core/uifw/e-tizen-data" revision="256c9240ba6606f7a2ce70a914d84c8eaf700acb"/>
+  <project name="profile/common/platform/core/uifw/e-tizen-data" path="profile/common/platform/core/uifw/e-tizen-data" revision="4e9bbbd7a03828041fd0f14ee5ea0bd571a7e056"/>
   <project name="profile/common/platform/core/uifw/efl-theme-tizen-common" path="profile/common/platform/core/uifw/efl-theme-tizen-common" revision="23696027fd8df2d1763f59b396a9aba4dd4a7177"/>
   <project name="profile/common/platform/core/uifw/isf-config" path="profile/common/platform/core/uifw/isf-config" revision="4bcfae1f7294a3d7f298a57b9e85ff0279c8aa12"/>
   <project name="profile/common/platform/kernel/linux-3.10-artik" path="profile/common/platform/kernel/linux-3.10-artik" revision="6c3eb77746717f91bc3129b08b027d73d0dc04c4"/>
@@ -809,7 +809,7 @@
   <project name="profile/mobile/platform/core/security/cert-checker" path="profile/mobile/platform/core/security/cert-checker" revision="a8e78310ca6323c84fe44c7b60fd3925c978a1bc"/>
   <project name="profile/mobile/platform/core/security/cert-svc-ui" path="profile/mobile/platform/core/security/cert-svc-ui" revision="fdca3c330563e858cd6a3dafb783b300dd399ca6"/>
   <project name="profile/mobile/platform/core/uifw/cbhm" path="profile/mobile/platform/core/uifw/cbhm" revision="2416613993790154d7d11f22e156738b9ee9dc75"/>
-  <project name="profile/mobile/platform/core/uifw/e-tizen-data" path="profile/mobile/platform/core/uifw/e-tizen-data" revision="9e0d43e0438c584c66f9749f4e0dff07d9a6e3fa"/>
+  <project name="profile/mobile/platform/core/uifw/e-tizen-data" path="profile/mobile/platform/core/uifw/e-tizen-data" revision="d1a9530e3b84344e6ba220d0ba776ae7e4fd5581"/>
   <project name="profile/mobile/platform/core/uifw/efl-theme-tizen-mobile" path="profile/mobile/platform/core/uifw/efl-theme-tizen-mobile" revision="a7b17a8d968d6e0e2b963ac7c640fa20046aa9d4"/>
   <project name="profile/mobile/platform/core/uifw/isf-config" path="profile/mobile/platform/core/uifw/isf-config" revision="0b5273073a0a1681301200b0bdcfe908a2e2cd0c"/>
   <project name="profile/mobile/platform/kernel/linux-3.10-sc7730" path="profile/mobile/platform/kernel/linux-3.10-sc7730" revision="ddbd08fca1cb8bd6bcc35acef090eae9ca0c1d23"/>
@@ -828,7 +828,7 @@
   <project name="profile/tv/apps/native/location/simple-maps" path="profile/tv/apps/native/location/simple-maps" revision="6441adf8ca5c8d83b036405bc33076ae61ebab43"/>
   <project name="profile/tv/apps/native/utils/app-utils" path="profile/tv/apps/native/utils/app-utils" revision="b045bc26bba98b080424958fec7e05db926c3ac4"/>
   <project name="profile/tv/meta-tv" path="profile/tv/meta-tv" revision="2b27f4e7e1975db9fa1d5227f0a5df67ee32f26d"/>
-  <project name="profile/tv/platform/core/uifw/e-tizen-data" path="profile/tv/platform/core/uifw/e-tizen-data" revision="f7645be2f5b662f52b03838f18ac0a7222fa59a2"/>
+  <project name="profile/tv/platform/core/uifw/e-tizen-data" path="profile/tv/platform/core/uifw/e-tizen-data" revision="c0aaf29a51d63eda1ec36f98bf2a0e6ea5c8a4b9"/>
   <project name="profile/tv/platform/core/uifw/efl-theme-tizen-tv" path="profile/tv/platform/core/uifw/efl-theme-tizen-tv" revision="e7efa703f039adae298c386369bc58c8d4b6c339"/>
   <project name="profile/tv/platform/core/uifw/isf-config" path="profile/tv/platform/core/uifw/isf-config" revision="2787d6f3efa400ba11f2566551cc5653e66ecc50"/>
   <project name="profile/wearable/apps/native/accessibility-setting" path="profile/wearable/apps/native/accessibility-setting" revision="fa832d567ef937678e731d4e0c69e14dc6e3972b"/>
@@ -857,7 +857,7 @@
   <project name="profile/wearable/platform/adaptation/samsung_exynos/audio-config-wm1831" path="profile/wearable/platform/adaptation/samsung_exynos/audio-config-wm1831" revision="32a3cd600356504c8f00646f53c81f87a8bed440"/>
   <project name="profile/wearable/platform/adaptation/samsung_exynos/device-manager-plugin-exynos3250" path="profile/wearable/platform/adaptation/samsung_exynos/device-manager-plugin-exynos3250" revision="3008ec06c41863dcde120ae2519beeb7a6ccb566"/>
   <project name="profile/wearable/platform/core/appfw/app-selector" path="profile/wearable/platform/core/appfw/app-selector" revision="c19793f918faf458674df4e65d824616f65e3624"/>
-  <project name="profile/wearable/platform/core/uifw/e-tizen-data" path="profile/wearable/platform/core/uifw/e-tizen-data" revision="9fbf58fa86c5d96ef41bfae54d800979d9abf2a7"/>
+  <project name="profile/wearable/platform/core/uifw/e-tizen-data" path="profile/wearable/platform/core/uifw/e-tizen-data" revision="3735e49e6d1bfa4f3683b149eec43fb693aa75db"/>
   <project name="profile/wearable/platform/core/uifw/efl-theme-tizen-wearable" path="profile/wearable/platform/core/uifw/efl-theme-tizen-wearable" revision="35dc318ef8202bdaaabf411c9cf4c9a8ce9e7600"/>
   <project name="profile/wearable/platform/core/uifw/isf-config" path="profile/wearable/platform/core/uifw/isf-config" revision="d756a8624b5aae71c2da11f1359b089765684144"/>
   <project name="profile/wearable/platform/framework/web/web-widget-engine" path="profile/wearable/platform/framework/web/web-widget-engine" revision="6c2c27134ebd1514ed0fc2feb7680b65a94879d8"/>
