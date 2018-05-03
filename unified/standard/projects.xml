@@ -116,7 +116,7 @@
   <project name="platform/core/api/geofence-manager" path="platform/core/api/geofence-manager" revision="0d38d9dd6f23f01d1d0c798a3b85fb76368ca7e9"/>
   <project name="platform/core/api/http" path="platform/core/api/http" revision="8fa5ca7b31206d7ef0c8cd14397169bef7ec6a5d"/>
   <project name="platform/core/api/image-util" path="platform/core/api/image-util" revision="f75f73827900131e5e67a590f55123a6991f6e60"/>
-  <project name="platform/core/api/inputmethod" path="platform/core/api/inputmethod" revision="c20bf89e211432cdf9bd8796d6ad5629fb446870"/>
+  <project name="platform/core/api/inputmethod" path="platform/core/api/inputmethod" revision="1a41395a9009722e1ad13a426c5511f2b862021a"/>
   <project name="platform/core/api/inputmethod-manager" path="platform/core/api/inputmethod-manager" revision="036f176956070951c827106487ddbe1e7c79838e"/>
   <project name="platform/core/api/job-scheduler" path="platform/core/api/job-scheduler" revision="a6f8e85ab71b8bff7f1140952a2f9b93ec31e26d"/>
   <project name="platform/core/api/libaccount-service" path="platform/core/api/libaccount-service" revision="682f828ac51276f7e881e73a6baf374d8d85daf5"/>
@@ -346,7 +346,7 @@
   <project name="platform/core/system/buxton2" path="platform/core/system/buxton2" revision="1fc594122d4328ba81b20560b6c1c51a56599ea7"/>
   <project name="platform/core/system/crash-worker" path="platform/core/system/crash-worker" revision="f26e36031b5001835703da10f5f94a0eab6f7df7"/>
   <project name="platform/core/system/deviced" path="platform/core/system/deviced" revision="34f6f9790f411d477680595415089555464d3563"/>
-  <project name="platform/core/system/dlog" path="platform/core/system/dlog" revision="3a72cff75ee0be7d1c923129db28fa1c52af7ac9"/>
+  <project name="platform/core/system/dlog" path="platform/core/system/dlog" revision="126182f4f8408984c8f334cafca2a164b8f61fc7"/>
   <project name="platform/core/system/factory-reset" path="platform/core/system/factory-reset" revision="d867203f4188579d5e57217ffa5d2e88a8ab92d0"/>
   <project name="platform/core/system/faultd" path="platform/core/system/faultd" revision="18bbf391a1cb70d7dd99c5788614867607620456"/>
   <project name="platform/core/system/feedbackd" path="platform/core/system/feedbackd" revision="3d0911660109981a074d35edb56f2bfe72eb237a"/>
@@ -460,7 +460,7 @@
   <project name="platform/core/uifw/xkb-tizen-data" path="platform/core/uifw/xkb-tizen-data" revision="96ff7eac4052283b169ec950b557bea9f901e0cb"/>
   <project name="platform/core/webapi/libteec" path="platform/core/webapi/libteec" revision="34e134bae726d863ae6a83071823c777204ff576"/>
   <project name="platform/framework/web/browser-provider" path="platform/framework/web/browser-provider" revision="93a630bcf9e520f9fcc053fda7130f8c358c0100"/>
-  <project name="platform/framework/web/chromium-efl" path="platform/framework/web/chromium-efl" revision="e372891c85eb1771b3963e1fa64dbfd24380b0d7"/>
+  <project name="platform/framework/web/chromium-efl" path="platform/framework/web/chromium-efl" revision="25a500f7e57547efa99451b8ac2becd29bb467f7"/>
   <project name="platform/framework/web/crosswalk-tizen" path="platform/framework/web/crosswalk-tizen" revision="5c4f17218595a535cba3378d1a7828974d430218"/>
   <project name="platform/framework/web/download-provider" path="platform/framework/web/download-provider" revision="320bd789fbe798eb01986acd69a3fd67f800dd34"/>
   <project name="platform/framework/web/wrt-service" path="platform/framework/web/wrt-service" revision="2e52ebfadb75f51564ed0b8fe0623170265fd1c5"/>
@@ -869,7 +869,7 @@
   <project name="profile/wearable/platform/tw2/model-config-tw2" path="profile/wearable/platform/tw2/model-config-tw2" revision="6ea2cffc732edd0eefc1792b0426a521afcb4899"/>
   <project name="sdk/target/sdbd" path="sdk/target/sdbd" revision="0e2bbf525c0202ff68e1d6eec0cfc6c5728c8d8a"/>
   <project name="tools/bmap-tools" path="tools/bmap-tools" revision="05e5d08012dba106383f0eff62d8f86b01f1f3a1"/>
-  <project name="tools/building-blocks" path="tools/building-blocks" revision="9fff07efe5cc280c9353279502b9507406305086"/>
+  <project name="tools/building-blocks" path="tools/building-blocks" revision="b1c7838f572291a40106a083e9001f98f87e7ba2"/>
   <project name="tools/libFuzzer" path="tools/libFuzzer" revision="c35b593f3d6270f19f8ae4e3d2d01143fd525ae0"/>
   <project name="tools/mic-bootstrap" path="tools/mic-bootstrap" revision="3c9f0f5ada193922974d3904136a06691a3b95d3"/>
   <project name="tools/ttrace" path="tools/ttrace" revision="02e9925e85f88a50f65c941cc16b01f09f695773"/>
