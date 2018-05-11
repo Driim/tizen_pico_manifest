@@ -468,7 +468,7 @@
   <project name="platform/kernel/linux-exynos" path="platform/kernel/linux-exynos" revision="ad265f50eb4621de76a13be7d520ea9a1689a417"/>
   <project name="platform/kernel/linux-rpi3" path="platform/kernel/linux-rpi3" revision="4b21690fecf60ff9be50034083bbe6339fa98d78"/>
   <project name="platform/kernel/swap-modules" path="platform/kernel/swap-modules" revision="cfbf6bcf16d378252e3f4029ea8e24de0829c9f5"/>
-  <project name="platform/kernel/u-boot" path="platform/kernel/u-boot" revision="100ccd60192241f5b9317e235899222fef494f47"/>
+  <project name="platform/kernel/u-boot" path="platform/kernel/u-boot" revision="2ad13b7b63730dd4867a1e80377968d0e6a7bccb"/>
   <project name="platform/upstream/7zip" path="platform/upstream/7zip" revision="71bbbf39d5d7f95657e1c6d5681af4d914dfc34f"/>
   <project name="platform/upstream/SDL" path="platform/upstream/SDL" revision="9f91cd3730e8c5c6f1bad8492449b3b689e007e1"/>
   <project name="platform/upstream/Vulkan-LoaderAndValidationLayers" path="platform/upstream/Vulkan-LoaderAndValidationLayers" revision="b583e7eca2a071ee9050322226985fa0d1a7608b"/>
