@@ -155,7 +155,7 @@
   <project name="platform/core/api/wifi-mesh" path="platform/core/api/wifi-mesh" revision="4ecd346816cd80cc24debcb33b7ea0b13ebab6ac"/>
   <project name="platform/core/api/zigbee" path="platform/core/api/zigbee" revision="1511e8b2acf88fd438935d47d4a88a4a76433b2c"/>
   <project name="platform/core/appfw/alarm-manager" path="platform/core/appfw/alarm-manager" revision="86a3558476cbfbfb86f987fda1e973e212efefda"/>
-  <project name="platform/core/appfw/amd" path="platform/core/appfw/amd" revision="75692a9de750ef96251365068d74d0a4009b408c"/>
+  <project name="platform/core/appfw/amd" path="platform/core/appfw/amd" revision="b045325bc61363fc8e12adbf5610f0566eb23f0a"/>
   <project name="platform/core/appfw/app-core" path="platform/core/appfw/app-core" revision="87b5e00d052787deccba1b7c50d85646a6ef00f8"/>
   <project name="platform/core/appfw/app-installers" path="platform/core/appfw/app-installers" revision="a2f5133453f0e8f040a2edb8d2b6db308309385a"/>
   <project name="platform/core/appfw/app-svc" path="platform/core/appfw/app-svc" revision="805ab1c08875a46cb8feb6dd02d5563e98cf5a5e"/>
@@ -168,7 +168,7 @@
   <project name="platform/core/appfw/data-control" path="platform/core/appfw/data-control" revision="4aeeec54269c1a7b4690d8468ca928ce000c9d10"/>
   <project name="platform/core/appfw/data-provider-master" path="platform/core/appfw/data-provider-master" revision="5a02a99b948f4a65b7e2b699716af8234ac90c0d"/>
   <project name="platform/core/appfw/event-system" path="platform/core/appfw/event-system" revision="5f601f9cf0bb21e51db62d25c246641d8754e18f"/>
-  <project name="platform/core/appfw/launchpad" path="platform/core/appfw/launchpad" revision="cdbb5ae85eb29432ab8df992ad2d4c5d39623730"/>
+  <project name="platform/core/appfw/launchpad" path="platform/core/appfw/launchpad" revision="31710d641f8f75a01da1e5d70f2ff6a2da90c1e2"/>
   <project name="platform/core/appfw/libeventsystem" path="platform/core/appfw/libeventsystem" revision="276f27c11fa8a8f16b0d30b3c3ba3bd457905d3f"/>
   <project name="platform/core/appfw/librua" path="platform/core/appfw/librua" revision="31cc4f3dc1f6ea1ff241cb42ed055ba6b5312cc6"/>
   <project name="platform/core/appfw/libslp-db-util" path="platform/core/appfw/libslp-db-util" revision="af89c77820745488debade053a4782fe213ab36b"/>
@@ -225,7 +225,7 @@
   <project name="platform/core/context/sensor-recorder" path="platform/core/context/sensor-recorder" revision="7ed36e93f13079e0fcbf737ec4a8db32ce7c9d3f"/>
   <project name="platform/core/convergence/plugin/service-plugin-sample" path="platform/core/convergence/plugin/service-plugin-sample" revision="a70e04c2697258c1e90653a7bdf57a2370a8b78f"/>
   <project name="platform/core/convergence/service-adaptor" path="platform/core/convergence/service-adaptor" revision="57f0b55e7d7360e7a0825b0e7e2497993931144e"/>
-  <project name="platform/core/csapi/tizenfx" path="platform/core/csapi/tizenfx" revision="77f5533735237f96cf60ebcd8a0d498c296bc980"/>
+  <project name="platform/core/csapi/tizenfx" path="platform/core/csapi/tizenfx" revision="2dee3f1107a22f9c19a20e2954a1f6f7f1383aa1"/>
   <project name="platform/core/dotnet/build-tools" path="platform/core/dotnet/build-tools" revision="0eae046444888f371bb5fb1a740dbbd5b897eec9"/>
   <project name="platform/core/dotnet/launcher" path="platform/core/dotnet/launcher" revision="edea3655d6e5a0a93354a06e8cc8072ed805d9d0"/>
   <project name="platform/core/graphics/cairo" path="platform/core/graphics/cairo" revision="8d4b91462e9315ec30f65f921c28f4650049ac43"/>
@@ -367,7 +367,7 @@
   <project name="platform/core/uifw/anthy" path="platform/core/uifw/anthy" revision="f1193f620a94036d914ecbeeeffd2795ae8aff28"/>
   <project name="platform/core/uifw/coregl" path="platform/core/uifw/coregl" revision="fa4dcac799209d8c39eb587bc8a53a66b731911b"/>
   <project name="platform/core/uifw/dali-adaptor" path="platform/core/uifw/dali-adaptor" revision="0b33e5bea8c4fdab2135ca73960417b9e6368a2f"/>
-  <project name="platform/core/uifw/dali-core" path="platform/core/uifw/dali-core" revision="a4bad224fe0346d75da1bbc84d22fb494305f8d4"/>
+  <project name="platform/core/uifw/dali-core" path="platform/core/uifw/dali-core" revision="c56d2ad3057b218a9eea8703a9f838714fd986f1"/>
   <project name="platform/core/uifw/dali-csharp-binder" path="platform/core/uifw/dali-csharp-binder" revision="bb5f452829639b8abcfffde635c8abaa07605548"/>
   <project name="platform/core/uifw/dali-demo" path="platform/core/uifw/dali-demo" revision="4501a50fa0fdc9a9e9b8391c1f3e2e67612fffa1"/>
   <project name="platform/core/uifw/dali-extension" path="platform/core/uifw/dali-extension" revision="6b3701873b6ebc7ad03f9fc1bf405419946dd82b"/>
@@ -529,7 +529,7 @@
   <project name="platform/upstream/iso-codes" path="platform/upstream/iso-codes" revision="441ef980d82e26b1e859b2b1823b63697916cede"/>
   <project name="platform/upstream/iso_ent" path="platform/upstream/iso_ent" revision="40109c53959c87ebd0d1be7859080468e655c204"/>
   <project name="platform/upstream/json-c" path="platform/upstream/json-c" revision="89e637a8427616a1c22ed96d05396b254f38556d"/>
-  <project name="platform/upstream/json-glib" path="platform/upstream/json-glib" revision="ca86c21772484fae98eda4c68a5ec38fa2d91d47"/>
+  <project name="platform/upstream/json-glib" path="platform/upstream/json-glib" revision="76aedc5430931f2a75dd1e59dc88684398227fce"/>
   <project name="platform/upstream/jsoncpp" path="platform/upstream/jsoncpp" revision="de39333c3445430c234b5dfe72c9fbf0e31793a2"/>
   <project name="platform/upstream/jsontool" path="platform/upstream/jsontool" revision="a8f2cbe756409574f27dbdd4bbf809ca04ce17e3"/>
   <project name="platform/upstream/kbd" path="platform/upstream/kbd" revision="f419199889fa344910a45ab7070ef4705bb9726b"/>
