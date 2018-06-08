@@ -112,7 +112,7 @@
   <project name="platform/core/api/context" path="platform/core/api/context" revision="7c2bbd7021bc9fdb80995a5ef3ef3838ada41662"/>
   <project name="platform/core/api/cordova-plugins" path="platform/core/api/cordova-plugins" revision="2901196b88fd1fa7a040415f1e8461a29ecb8162"/>
   <project name="platform/core/api/device" path="platform/core/api/device" revision="07cee0dcba690f9490feef66bcbc11d73eb1ff5a"/>
-  <project name="platform/core/api/efl-util" path="platform/core/api/efl-util" revision="449aa0e94b81cc82319870f89a7dbfea62a92cce"/>
+  <project name="platform/core/api/efl-util" path="platform/core/api/efl-util" revision="09624adbf590be99de6a854c870021d69547ad3b"/>
   <project name="platform/core/api/email" path="platform/core/api/email" revision="6176b4107b634b563efa23961de2b19523c6f21c"/>
   <project name="platform/core/api/geofence-manager" path="platform/core/api/geofence-manager" revision="0d38d9dd6f23f01d1d0c798a3b85fb76368ca7e9"/>
   <project name="platform/core/api/http" path="platform/core/api/http" revision="8fa5ca7b31206d7ef0c8cd14397169bef7ec6a5d"/>
@@ -156,7 +156,7 @@
   <project name="platform/core/api/smart-traffic-control" path="platform/core/api/smart-traffic-control" revision="020b20bd50380347398555874f1bdd6620952a44"/>
   <project name="platform/core/api/smartcard" path="platform/core/api/smartcard" revision="d5394bd03bdb7685a6fe5af46fb049148e17ab6b"/>
   <project name="platform/core/api/softap" path="platform/core/api/softap" revision="82f2f63ac4a2dd4bcb0c6f155bc6f2677adb5d8e"/>
-  <project name="platform/core/api/sound-manager" path="platform/core/api/sound-manager" revision="3f79c14e9f6969a41af64b2f9c65c01c9624011f"/>
+  <project name="platform/core/api/sound-manager" path="platform/core/api/sound-manager" revision="7a9cfb12133595bc414c18b9e44bfff662f2bae8"/>
   <project name="platform/core/api/sound-pool" path="platform/core/api/sound-pool" revision="308d723339eedbcd741d11663dbdef6c7b5d8592"/>
   <project name="platform/core/api/system-info" path="platform/core/api/system-info" revision="cbea74c6e00e38639f98e5e825e66888024bf3a7"/>
   <project name="platform/core/api/system-settings" path="platform/core/api/system-settings" revision="d79899100de2d3b0e33e4fc0ee098b0b6747c23d"/>
@@ -213,7 +213,7 @@
   <project name="platform/core/appfw/wgt-backend" path="platform/core/appfw/wgt-backend" revision="4cdad6a4d8f9c7d6f9158de92a7ce4ca7b142b0e"/>
   <project name="platform/core/appfw/wgt-manifest-handlers" path="platform/core/appfw/wgt-manifest-handlers" revision="a9faff623a79d9d75a68fee96ac6414645243fe8"/>
   <project name="platform/core/appfw/widget-service" path="platform/core/appfw/widget-service" revision="a326fb342f8880af05764999230ea8680072e2b5"/>
-  <project name="platform/core/appfw/widget-viewer" path="platform/core/appfw/widget-viewer" revision="2f92c077ba1e65b92770e82b8b1796b6f04062af"/>
+  <project name="platform/core/appfw/widget-viewer" path="platform/core/appfw/widget-viewer" revision="1d22448ae4cefce5bfe042e76307e49e79c8594b"/>
   <project name="platform/core/appfw/xdgmime" path="platform/core/appfw/xdgmime" revision="72c1b75d405995bd07d8f858b2ddb4dc1004663a"/>
   <project name="platform/core/base/bundle" path="platform/core/base/bundle" revision="f249b2721cb0f6196a19474623bf7e12b880f1d3"/>
   <project name="platform/core/base/syspopup" path="platform/core/base/syspopup" revision="a3fc988b0ee00e5c5d302e61ab8ab98ea8584b43"/>
@@ -274,7 +274,7 @@
   <project name="platform/core/multimedia/libmm-fileinfo" path="platform/core/multimedia/libmm-fileinfo" revision="38f8e87f6bd54b393f9f81871a9e63f3f138f7be"/>
   <project name="platform/core/multimedia/libmm-imgp-gstcs" path="platform/core/multimedia/libmm-imgp-gstcs" revision="b0fe4a4bdf404a0e3d6ba84f5dfcb5d046665a6a"/>
   <project name="platform/core/multimedia/libmm-log" path="platform/core/multimedia/libmm-log" revision="064010cd2bef498279e12691fcaffcfad79319b2"/>
-  <project name="platform/core/multimedia/libmm-player" path="platform/core/multimedia/libmm-player" revision="6154ef8909a71c8dfa1e38ba34ced599f1ff0254"/>
+  <project name="platform/core/multimedia/libmm-player" path="platform/core/multimedia/libmm-player" revision="7f5478d2d9e5bc2ee91610ce776de94e67523b74"/>
   <project name="platform/core/multimedia/libmm-radio" path="platform/core/multimedia/libmm-radio" revision="9603f6b37a2d58af3e66d4a127818e4190a3dc67"/>
   <project name="platform/core/multimedia/libmm-session" path="platform/core/multimedia/libmm-session" revision="0adc911948a9e8607b6becdab975ed0a492f9450"/>
   <project name="platform/core/multimedia/libmm-sound" path="platform/core/multimedia/libmm-sound" revision="95248238f9fba716c0afc885390786a702d7bb53"/>
