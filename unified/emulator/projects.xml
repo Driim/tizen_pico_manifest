@@ -228,7 +228,7 @@
   <project name="platform/core/convergence/service-adaptor" path="platform/core/convergence/service-adaptor" revision="57f0b55e7d7360e7a0825b0e7e2497993931144e"/>
   <project name="platform/core/csapi/tizenfx" path="platform/core/csapi/tizenfx" revision="740798e2bdf235722c8d691b18eb1311e131316d"/>
   <project name="platform/core/dotnet/build-tools" path="platform/core/dotnet/build-tools" revision="0eae046444888f371bb5fb1a740dbbd5b897eec9"/>
-  <project name="platform/core/dotnet/launcher" path="platform/core/dotnet/launcher" revision="3ce4107099d1f109aa47bd42db28c9de54ac5735"/>
+  <project name="platform/core/dotnet/launcher" path="platform/core/dotnet/launcher" revision="9400928e9f620218d860b5fb886aacb0eb9d73f0"/>
   <project name="platform/core/graphics/cairo" path="platform/core/graphics/cairo" revision="9fe8ce93e843b8fcc0d9169067c337e90692f81c"/>
   <project name="platform/core/graphics/default-fonts-fc-sdk" path="platform/core/graphics/default-fonts-fc-sdk" revision="347120509eb9e542497e87be50ca2ddd1f944265"/>
   <project name="platform/core/graphics/default-fonts-sdk" path="platform/core/graphics/default-fonts-sdk" revision="00521e5c9620f9881c9937f1d4d2c144d96a890a"/>
@@ -305,7 +305,7 @@
   <project name="platform/core/security/libwebappenc" path="platform/core/security/libwebappenc" revision="bb1d90909f7185b436204a1fde5da99a902788c1"/>
   <project name="platform/core/security/nether" path="platform/core/security/nether" revision="023ead25336a8d3f7a35d1bd0d7d248b8f19daab"/>
   <project name="platform/core/security/nice-lad" path="platform/core/security/nice-lad" revision="cd0f53cc9d2f3af1ffddd3d7ba22bc42852a690d"/>
-  <project name="platform/core/security/ode" path="platform/core/security/ode" revision="0021171f3615e28cb985bb8033982d533ef95a43"/>
+  <project name="platform/core/security/ode" path="platform/core/security/ode" revision="2aa2f307a008e9dc1ad0e4b5e329ab0476dbcd53"/>
   <project name="platform/core/security/ode-ui" path="platform/core/security/ode-ui" revision="061f03e2e0829843dffc10649eb123df3798613e"/>
   <project name="platform/core/security/privacy-guard" path="platform/core/security/privacy-guard" revision="e6fa4be8a4d8f3ab745c55870b6ab9f8bd16ae6b"/>
   <project name="platform/core/security/privilege-checker" path="platform/core/security/privilege-checker" revision="adbb429c8bdafb1157b4d6c10f9868983e4990ad"/>
@@ -334,7 +334,7 @@
   <project name="platform/core/system/libtracker" path="platform/core/system/libtracker" revision="d789673b26ec65faa5bd4c05c2e86110d65c8ca4"/>
   <project name="platform/core/system/memps" path="platform/core/system/memps" revision="38772da2dedcf22b148f4638a377484f14e3b65c"/>
   <project name="platform/core/system/pass" path="platform/core/system/pass" revision="24f3382cfb59af89b86dba595ece062518d285a9"/>
-  <project name="platform/core/system/peripheral-bus" path="platform/core/system/peripheral-bus" revision="3be69da35f6505cf01cf4b8a47d778135883e463"/>
+  <project name="platform/core/system/peripheral-bus" path="platform/core/system/peripheral-bus" revision="9f589de5cfdc4b6c315c3c98b74ce44b43e92adc"/>
   <project name="platform/core/system/resourced" path="platform/core/system/resourced" revision="20248845aa7719653d7a845076624c6fd1aa41bc"/>
   <project name="platform/core/system/resourced-headless" path="platform/core/system/resourced-headless" revision="e831d8868bb0b97cdc01a82efa92ff5cc663786a"/>
   <project name="platform/core/system/sensord" path="platform/core/system/sensord" revision="691912aa9065d263530213aa2d729a9566f7c795"/>
