@@ -125,7 +125,7 @@
   <project name="platform/core/api/location-manager" path="platform/core/api/location-manager" revision="8bc40bca80440b65e70e2fc8fb2cd55bfd7c867d"/>
   <project name="platform/core/api/maps-service" path="platform/core/api/maps-service" revision="16e6f11e1f39abb003e7dc6b016f13e503028e32"/>
   <project name="platform/core/api/media-content" path="platform/core/api/media-content" revision="b2f6b0c2d24e0460fcc2d191323a02dcdcd01271"/>
-  <project name="platform/core/api/media-controller" path="platform/core/api/media-controller" revision="0971466b8521355634d65088082c9af5101f09f3"/>
+  <project name="platform/core/api/media-controller" path="platform/core/api/media-controller" revision="8a367c06d0dba5028ecb1fb40e78d99f33a4f15b"/>
   <project name="platform/core/api/media-key" path="platform/core/api/media-key" revision="4d2380a486acb4cfa09a551ad4f70e8670685ab4"/>
   <project name="platform/core/api/mediacodec" path="platform/core/api/mediacodec" revision="2f9ef0ab4a126af98ba2fa39b33edd4bd78510f1"/>
   <project name="platform/core/api/mediademuxer" path="platform/core/api/mediademuxer" revision="41497313433fa2f928c4a1e5de13817e1408b261"/>
@@ -179,7 +179,7 @@
   <project name="platform/core/appfw/alarm-manager" path="platform/core/appfw/alarm-manager" revision="afd90b424b96368525bef80e33f6329bb6e229af"/>
   <project name="platform/core/appfw/amd" path="platform/core/appfw/amd" revision="9d9b8897ec7ef307be2467f546d88045134217f6"/>
   <project name="platform/core/appfw/app-core" path="platform/core/appfw/app-core" revision="87b5e00d052787deccba1b7c50d85646a6ef00f8"/>
-  <project name="platform/core/appfw/app-installers" path="platform/core/appfw/app-installers" revision="d51764cb95c634aab20aa30d1224829ec84ee2c1"/>
+  <project name="platform/core/appfw/app-installers" path="platform/core/appfw/app-installers" revision="63de53fdcbd69a922b722b8163efb5e3e6b85fc5"/>
   <project name="platform/core/appfw/app-svc" path="platform/core/appfw/app-svc" revision="805ab1c08875a46cb8feb6dd02d5563e98cf5a5e"/>
   <project name="platform/core/appfw/app2sd" path="platform/core/appfw/app2sd" revision="22b0a8548b92ce0d3c6bad9fb7d2a57b3a5721e3"/>
   <project name="platform/core/appfw/appcore-agent" path="platform/core/appfw/appcore-agent" revision="74a758669e16e737f353b3594845b27ff159d27d"/>
@@ -399,7 +399,7 @@
   <project name="platform/core/uifw/coregl" path="platform/core/uifw/coregl" revision="fa4dcac799209d8c39eb587bc8a53a66b731911b"/>
   <project name="platform/core/uifw/dali-adaptor" path="platform/core/uifw/dali-adaptor" revision="0a1f89af522fc6d2e102e0706f85c4bbb58fc154"/>
   <project name="platform/core/uifw/dali-core" path="platform/core/uifw/dali-core" revision="f4fbb66fb2618691a624e672ec9547d9f240a16b"/>
-  <project name="platform/core/uifw/dali-csharp-binder" path="platform/core/uifw/dali-csharp-binder" revision="06519325d06de8fac7871688547fa43419c36d23"/>
+  <project name="platform/core/uifw/dali-csharp-binder" path="platform/core/uifw/dali-csharp-binder" revision="7cb04e5a01d0c03abefeba23ecb8267327cdc4c0"/>
   <project name="platform/core/uifw/dali-demo" path="platform/core/uifw/dali-demo" revision="4501a50fa0fdc9a9e9b8391c1f3e2e67612fffa1"/>
   <project name="platform/core/uifw/dali-extension" path="platform/core/uifw/dali-extension" revision="616771ecd56d1b20323bf85ee9e403ecdb979c35"/>
   <project name="platform/core/uifw/dali-toolkit" path="platform/core/uifw/dali-toolkit" revision="73a4b6ba65c5c5bb083695c0afb49a0be0994436"/>
@@ -548,7 +548,7 @@
   <project name="platform/upstream/gst-plugins-tizen" path="platform/upstream/gst-plugins-tizen" revision="c8406f50cca14e8ba374dcf18f11d467c254782d"/>
   <project name="platform/upstream/gst-plugins-ugly" path="platform/upstream/gst-plugins-ugly" revision="196968fbe019058ce5257a117f0c9dff3f7ef511"/>
   <project name="platform/upstream/gst-rtsp-server" path="platform/upstream/gst-rtsp-server" revision="f7be8d17b884624d01f4aa979767b4bb8d7265d4"/>
-  <project name="platform/upstream/gstreamer" path="platform/upstream/gstreamer" revision="f2cc8d1abcc0523fd22169f8a3bf10e9521b0f53"/>
+  <project name="platform/upstream/gstreamer" path="platform/upstream/gstreamer" revision="6ae5cc0526ae431896dd39b7e600d9de15a90b54"/>
   <project name="platform/upstream/gtest" path="platform/upstream/gtest" revision="2be114ead208337292a3af5a3ebf5e015d4ca393"/>
   <project name="platform/upstream/gtk-doc" path="platform/upstream/gtk-doc" revision="280210cae6389e64b42a43bf70eafc1c6a490084"/>
   <project name="platform/upstream/gumd" path="platform/upstream/gumd" revision="98da260d634e48c5904b7e7e062d54ec675a9c43"/>
