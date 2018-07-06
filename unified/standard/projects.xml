@@ -467,7 +467,7 @@
   <project name="platform/framework/web/wrt-service" path="platform/framework/web/wrt-service" revision="2e52ebfadb75f51564ed0b8fe0623170265fd1c5"/>
   <project name="platform/framework/web/xwalk-extensions-common" path="platform/framework/web/xwalk-extensions-common" revision="9825fe4f69e44aa94e6cc973a5c3c33bb68b2180"/>
   <project name="platform/kernel/linux-exynos" path="platform/kernel/linux-exynos" revision="ad265f50eb4621de76a13be7d520ea9a1689a417"/>
-  <project name="platform/kernel/linux-rpi3" path="platform/kernel/linux-rpi3" revision="4b21690fecf60ff9be50034083bbe6339fa98d78"/>
+  <project name="platform/kernel/linux-rpi3" path="platform/kernel/linux-rpi3" revision="9288ccbdcc6c76062a9d7461d8dbe00f50025a6f"/>
   <project name="platform/kernel/swap-modules" path="platform/kernel/swap-modules" revision="d96db54b59d3d1b50aab94dede5768fb0c85c199"/>
   <project name="platform/kernel/u-boot" path="platform/kernel/u-boot" revision="2ad13b7b63730dd4867a1e80377968d0e6a7bccb"/>
   <project name="platform/upstream/7zip" path="platform/upstream/7zip" revision="71bbbf39d5d7f95657e1c6d5681af4d914dfc34f"/>
@@ -865,6 +865,7 @@
   <project name="profile/wearable/platform/tw1/model-config-tw1" path="profile/wearable/platform/tw1/model-config-tw1" revision="f402de810adbcc5317cc99bd555bb51fd9c2ede8"/>
   <project name="profile/wearable/platform/tw2/model-config-tw2" path="profile/wearable/platform/tw2/model-config-tw2" revision="6ea2cffc732edd0eefc1792b0426a521afcb4899"/>
   <project name="sdk/target/sdbd" path="sdk/target/sdbd" revision="e3895063ee7783a222bd96b4c173983216b89617"/>
+  <project name="test/appium/uiautomator" path="test/appium/uiautomator" revision="becedcdc201b463a092f99cd4e2671a5a609b82f"/>
   <project name="tools/bmap-tools" path="tools/bmap-tools" revision="05e5d08012dba106383f0eff62d8f86b01f1f3a1"/>
   <project name="tools/building-blocks" path="tools/building-blocks" revision="93b6ba64fc28f598e93e8827b6ccb30685d1e880"/>
   <project name="tools/libFuzzer" path="tools/libFuzzer" revision="c35b593f3d6270f19f8ae4e3d2d01143fd525ae0"/>
