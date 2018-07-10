@@ -115,7 +115,7 @@
   <project name="platform/core/api/efl-util" path="platform/core/api/efl-util" revision="5d7db9117747d440b5b9752db68c9ab5294e7825"/>
   <project name="platform/core/api/email" path="platform/core/api/email" revision="6176b4107b634b563efa23961de2b19523c6f21c"/>
   <project name="platform/core/api/geofence-manager" path="platform/core/api/geofence-manager" revision="0d38d9dd6f23f01d1d0c798a3b85fb76368ca7e9"/>
-  <project name="platform/core/api/http" path="platform/core/api/http" revision="8fa5ca7b31206d7ef0c8cd14397169bef7ec6a5d"/>
+  <project name="platform/core/api/http" path="platform/core/api/http" revision="3ec73f21d074cef006519e64ace92487d0413727"/>
   <project name="platform/core/api/image-util" path="platform/core/api/image-util" revision="f75f73827900131e5e67a590f55123a6991f6e60"/>
   <project name="platform/core/api/inputmethod" path="platform/core/api/inputmethod" revision="1a41395a9009722e1ad13a426c5511f2b862021a"/>
   <project name="platform/core/api/inputmethod-manager" path="platform/core/api/inputmethod-manager" revision="036f176956070951c827106487ddbe1e7c79838e"/>
@@ -146,7 +146,7 @@
   <project name="platform/core/api/package-manager" path="platform/core/api/package-manager" revision="cf35a1169099004f1c1e22bbeb0fb506f18a7ea0"/>
   <project name="platform/core/api/peripheral-io" path="platform/core/api/peripheral-io" revision="22db0745c4e7ea6feb10a14bfe2556e6ef6f01dd"/>
   <project name="platform/core/api/player" path="platform/core/api/player" revision="357046cd0ecc4a18eafb59c2350629742c2998d5"/>
-  <project name="platform/core/api/preference" path="platform/core/api/preference" revision="411142cdcb0f3a702d9200788350e3817c6767af"/>
+  <project name="platform/core/api/preference" path="platform/core/api/preference" revision="5247e3565e773e1575541ae3830b6d63986e5ff9"/>
   <project name="platform/core/api/radio" path="platform/core/api/radio" revision="ee4d512bc1eb11fa6870e522771be04a1f68059a"/>
   <project name="platform/core/api/recorder" path="platform/core/api/recorder" revision="d09a130bf08e627195d93af6db6ac59243723411"/>
   <project name="platform/core/api/runtime-info" path="platform/core/api/runtime-info" revision="28bc128d61d2d68c7fd5665588148e76f585cb39"/>
@@ -183,7 +183,7 @@
   <project name="platform/core/appfw/app-svc" path="platform/core/appfw/app-svc" revision="805ab1c08875a46cb8feb6dd02d5563e98cf5a5e"/>
   <project name="platform/core/appfw/app2sd" path="platform/core/appfw/app2sd" revision="22b0a8548b92ce0d3c6bad9fb7d2a57b3a5721e3"/>
   <project name="platform/core/appfw/appcore-agent" path="platform/core/appfw/appcore-agent" revision="74a758669e16e737f353b3594845b27ff159d27d"/>
-  <project name="platform/core/appfw/appcore-watch" path="platform/core/appfw/appcore-watch" revision="0d1e1473d6177375878e298e1c26636261121f84"/>
+  <project name="platform/core/appfw/appcore-watch" path="platform/core/appfw/appcore-watch" revision="65faa27835d33aa35fb25c063e0864e9ac656a08"/>
   <project name="platform/core/appfw/appcore-widget" path="platform/core/appfw/appcore-widget" revision="08be3c14a2a8fe906f0d050a58a750692ffe1f8c"/>
   <project name="platform/core/appfw/aul-1" path="platform/core/appfw/aul-1" revision="ae10ef6a8f574f3a560a8b9e41258475ae4fe6fa"/>
   <project name="platform/core/appfw/badge" path="platform/core/appfw/badge" revision="d5adad5bfbe6c1c95f6bedff76e3f84aabc0ffd5"/>
@@ -327,7 +327,7 @@
   <project name="platform/core/security/libwebappenc" path="platform/core/security/libwebappenc" revision="bb1d90909f7185b436204a1fde5da99a902788c1"/>
   <project name="platform/core/security/nether" path="platform/core/security/nether" revision="dad086fbff06f61ba7aaaa38829fd5985a1598a7"/>
   <project name="platform/core/security/nice-lad" path="platform/core/security/nice-lad" revision="cd0f53cc9d2f3af1ffddd3d7ba22bc42852a690d"/>
-  <project name="platform/core/security/ode" path="platform/core/security/ode" revision="0c5d81a9e197a076fb67a093a54a30eb104e5982"/>
+  <project name="platform/core/security/ode" path="platform/core/security/ode" revision="dc9a1862ff41497ad3c01ffa4919f81ac80ce01e"/>
   <project name="platform/core/security/ode-ui" path="platform/core/security/ode-ui" revision="061f03e2e0829843dffc10649eb123df3798613e"/>
   <project name="platform/core/security/privacy-guard" path="platform/core/security/privacy-guard" revision="e6fa4be8a4d8f3ab745c55870b6ab9f8bd16ae6b"/>
   <project name="platform/core/security/privilege-checker" path="platform/core/security/privilege-checker" revision="adbb429c8bdafb1157b4d6c10f9868983e4990ad"/>
@@ -346,7 +346,7 @@
   <project name="platform/core/system/argos_watchdog" path="platform/core/system/argos_watchdog" revision="84c289a9a5c65d6cdcbfe8c75ab25a29d36f9396"/>
   <project name="platform/core/system/buxton2" path="platform/core/system/buxton2" revision="65c4d992e8fd1cbfbd54e56640664c7e29549499"/>
   <project name="platform/core/system/crash-worker" path="platform/core/system/crash-worker" revision="9005aa118cdf26b5205ee8ba30a71eba88205d51"/>
-  <project name="platform/core/system/deviced" path="platform/core/system/deviced" revision="559d124d2fdfeefb6451f480e338086050eaf57d"/>
+  <project name="platform/core/system/deviced" path="platform/core/system/deviced" revision="4e6529b4607a62c7dbe294559069690716ba043f"/>
   <project name="platform/core/system/dlog" path="platform/core/system/dlog" revision="58b42cf4b30f92a013d9cab45bd2591c26142e31"/>
   <project name="platform/core/system/factory-reset" path="platform/core/system/factory-reset" revision="d867203f4188579d5e57217ffa5d2e88a8ab92d0"/>
   <project name="platform/core/system/faultd" path="platform/core/system/faultd" revision="18bbf391a1cb70d7dd99c5788614867607620456"/>
