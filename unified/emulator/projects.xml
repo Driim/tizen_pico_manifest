@@ -126,12 +126,12 @@
   <project name="platform/core/api/player" path="platform/core/api/player" revision="2bd93a796f8725e815f7771b3099d9b5d77039c6"/>
   <project name="platform/core/api/preference" path="platform/core/api/preference" revision="5247e3565e773e1575541ae3830b6d63986e5ff9"/>
   <project name="platform/core/api/radio" path="platform/core/api/radio" revision="ee4d512bc1eb11fa6870e522771be04a1f68059a"/>
-  <project name="platform/core/api/recorder" path="platform/core/api/recorder" revision="d09a130bf08e627195d93af6db6ac59243723411"/>
+  <project name="platform/core/api/recorder" path="platform/core/api/recorder" revision="b4b7f4df5f23b9e5d0bb7f5c7c65fca1905aa441"/>
   <project name="platform/core/api/runtime-info" path="platform/core/api/runtime-info" revision="28bc128d61d2d68c7fd5665588148e76f585cb39"/>
   <project name="platform/core/api/screen-mirroring" path="platform/core/api/screen-mirroring" revision="f21679ab46c9b630e243dbe1c67047c872be9200"/>
   <project name="platform/core/api/sensor" path="platform/core/api/sensor" revision="5c52b48eae844575e432456dbf38a61e97788834"/>
   <project name="platform/core/api/serial" path="platform/core/api/serial" revision="b9f6270c3c823ac1cdd8e9714d10e6fe0090b151"/>
-  <project name="platform/core/api/smart-traffic-control" path="platform/core/api/smart-traffic-control" revision="ff6e495d462f056a35adccce0f25faea7aaa2db2"/>
+  <project name="platform/core/api/smart-traffic-control" path="platform/core/api/smart-traffic-control" revision="ac9549a07f7929dc7d607d64f1c6e7ed8133bf89"/>
   <project name="platform/core/api/smartcard" path="platform/core/api/smartcard" revision="d5394bd03bdb7685a6fe5af46fb049148e17ab6b"/>
   <project name="platform/core/api/softap" path="platform/core/api/softap" revision="82f2f63ac4a2dd4bcb0c6f155bc6f2677adb5d8e"/>
   <project name="platform/core/api/sound-manager" path="platform/core/api/sound-manager" revision="7a9cfb12133595bc414c18b9e44bfff662f2bae8"/>
