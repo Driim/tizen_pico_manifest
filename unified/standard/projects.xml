@@ -153,7 +153,7 @@
   <project name="platform/core/api/screen-mirroring" path="platform/core/api/screen-mirroring" revision="f21679ab46c9b630e243dbe1c67047c872be9200"/>
   <project name="platform/core/api/sensor" path="platform/core/api/sensor" revision="5c52b48eae844575e432456dbf38a61e97788834"/>
   <project name="platform/core/api/serial" path="platform/core/api/serial" revision="b9f6270c3c823ac1cdd8e9714d10e6fe0090b151"/>
-  <project name="platform/core/api/smart-traffic-control" path="platform/core/api/smart-traffic-control" revision="ac9549a07f7929dc7d607d64f1c6e7ed8133bf89"/>
+  <project name="platform/core/api/smart-traffic-control" path="platform/core/api/smart-traffic-control" revision="ff6e495d462f056a35adccce0f25faea7aaa2db2"/>
   <project name="platform/core/api/smartcard" path="platform/core/api/smartcard" revision="d5394bd03bdb7685a6fe5af46fb049148e17ab6b"/>
   <project name="platform/core/api/softap" path="platform/core/api/softap" revision="82f2f63ac4a2dd4bcb0c6f155bc6f2677adb5d8e"/>
   <project name="platform/core/api/sound-manager" path="platform/core/api/sound-manager" revision="7a9cfb12133595bc414c18b9e44bfff662f2bae8"/>
@@ -229,7 +229,7 @@
   <project name="platform/core/connectivity/libnet-client" path="platform/core/connectivity/libnet-client" revision="8a1b3be744e425b7b424267a749d9ac35ce72409"/>
   <project name="platform/core/connectivity/mobileap-agent" path="platform/core/connectivity/mobileap-agent" revision="171f7b39e49b873e56ebb4c9e119f0945a6c4a78"/>
   <project name="platform/core/connectivity/mtp-initiator" path="platform/core/connectivity/mtp-initiator" revision="3e8f1b1e70aa7383a17b56edfdd9ad451f8e39b8"/>
-  <project name="platform/core/connectivity/mtp-responder" path="platform/core/connectivity/mtp-responder" revision="7f14bf4603f3e577d59782525e2af8eee5301ec2"/>
+  <project name="platform/core/connectivity/mtp-responder" path="platform/core/connectivity/mtp-responder" revision="a7e56e25a7ae786c814e633bf05be56d1066551c"/>
   <project name="platform/core/connectivity/net-config" path="platform/core/connectivity/net-config" revision="7dbd8a84fcd9facabfa9079119668fccca3b9aa4"/>
   <project name="platform/core/connectivity/net-popup" path="platform/core/connectivity/net-popup" revision="9dfe4a31a494436325ce024c3b168a5a1e1abbf3"/>
   <project name="platform/core/connectivity/nfc-manager" path="platform/core/connectivity/nfc-manager" revision="31afd324127bf3d4745f74418ea55856bd93e39e"/>
@@ -848,7 +848,7 @@
   <project name="profile/wearable/apps/native/taskmanager" path="profile/wearable/apps/native/taskmanager" revision="ec4b7bccf8c2aaf264e6e8f7fc78953acf590d72"/>
   <project name="profile/wearable/apps/native/timer" path="profile/wearable/apps/native/timer" revision="dfe0c4f0027240a0e218d202913dda55b3ff66be"/>
   <project name="profile/wearable/apps/native/w-clock-viewer" path="profile/wearable/apps/native/w-clock-viewer" revision="79314a7db3f1552433bd31bc8597e3097965097f"/>
-  <project name="profile/wearable/apps/native/w3-home" path="profile/wearable/apps/native/w3-home" revision="13899a9accb4c2cfee3a3d9ca3377520160bebef"/>
+  <project name="profile/wearable/apps/native/w3-home" path="profile/wearable/apps/native/w3-home" revision="07190e8330702f8982eb2bbf4a13c0796c268431"/>
   <project name="profile/wearable/apps/native/watch-setting" path="profile/wearable/apps/native/watch-setting" revision="7372bf68da2288ecc9ccd3b88130f8d57d1a6b95"/>
   <project name="profile/wearable/meta-wearable" path="profile/wearable/meta-wearable" revision="b2640642c7b1fe47813aac59d4b8b750173d1568"/>
   <project name="profile/wearable/platform/adaptation/samsung_exynos/audio-config-wm1831" path="profile/wearable/platform/adaptation/samsung_exynos/audio-config-wm1831" revision="32a3cd600356504c8f00646f53c81f87a8bed440"/>
