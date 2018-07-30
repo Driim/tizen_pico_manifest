@@ -821,7 +821,7 @@
   <project name="profile/wearable/platform/tw1/model-config-tw1" path="profile/wearable/platform/tw1/model-config-tw1" revision="f402de810adbcc5317cc99bd555bb51fd9c2ede8"/>
   <project name="profile/wearable/platform/tw2/model-config-tw2" path="profile/wearable/platform/tw2/model-config-tw2" revision="6ea2cffc732edd0eefc1792b0426a521afcb4899"/>
   <project name="sdk/emulator/emulator-kernel" path="sdk/emulator/emulator-kernel" revision="d0dd04966dffa6d3e70a838353caebfa72d66e26"/>
-  <project name="sdk/target/sdbd" path="sdk/target/sdbd" revision="e3895063ee7783a222bd96b4c173983216b89617"/>
+  <project name="sdk/target/sdbd" path="sdk/target/sdbd" revision="aff220330766f2fa4b164a6457229c0d22cd7857"/>
   <project name="test/appium/uiautomator" path="test/appium/uiautomator" revision="1759bb1e6a3fef345ce3655a71db4e3801c89016"/>
   <project name="tools/bmap-tools" path="tools/bmap-tools" revision="05e5d08012dba106383f0eff62d8f86b01f1f3a1"/>
   <project name="tools/building-blocks" path="tools/building-blocks" revision="93b6ba64fc28f598e93e8827b6ccb30685d1e880"/>
