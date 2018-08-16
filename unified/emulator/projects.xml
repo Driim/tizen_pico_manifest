@@ -147,7 +147,7 @@
   <project name="platform/core/api/video-util" path="platform/core/api/video-util" revision="818a44cf869197d5440282ea4237eb1b495cdb0f"/>
   <project name="platform/core/api/vpn-service" path="platform/core/api/vpn-service" revision="a3983ee811ce3b9613b7d7e1516c6875c93d86dc"/>
   <project name="platform/core/api/vpn-setting" path="platform/core/api/vpn-setting" revision="3d33c8533b57616d265133e96effe387e9f97e34"/>
-  <project name="platform/core/api/wav-player" path="platform/core/api/wav-player" revision="eb252f37e73b1a6b912d99330a4b3adbcaca09bc"/>
+  <project name="platform/core/api/wav-player" path="platform/core/api/wav-player" revision="cb55cffd298630ca39bb4f21688bc77e554729a8"/>
   <project name="platform/core/api/webapi-plugins" path="platform/core/api/webapi-plugins" revision="48371350deb80c8560b6d7484e80d0aee91a9d9d"/>
   <project name="platform/core/api/wifi" path="platform/core/api/wifi" revision="bfadaacb83d65db53b64baea919f75a3f77fa771"/>
   <project name="platform/core/api/wifi-direct" path="platform/core/api/wifi-direct" revision="f144ff7768bb3d84c1bb49c424c563dd63b8d5c8"/>
@@ -253,8 +253,8 @@
   <project name="platform/core/multimedia/libmm-log" path="platform/core/multimedia/libmm-log" revision="064010cd2bef498279e12691fcaffcfad79319b2"/>
   <project name="platform/core/multimedia/libmm-player" path="platform/core/multimedia/libmm-player" revision="1a4968ba3280ba96de1f0378c608e1902de0d750"/>
   <project name="platform/core/multimedia/libmm-radio" path="platform/core/multimedia/libmm-radio" revision="9603f6b37a2d58af3e66d4a127818e4190a3dc67"/>
-  <project name="platform/core/multimedia/libmm-session" path="platform/core/multimedia/libmm-session" revision="0adc911948a9e8607b6becdab975ed0a492f9450"/>
-  <project name="platform/core/multimedia/libmm-sound" path="platform/core/multimedia/libmm-sound" revision="a68e196afe8ae9b0398ede1fdd2862060cbf8cc2"/>
+  <project name="platform/core/multimedia/libmm-session" path="platform/core/multimedia/libmm-session" revision="2df33f659a36cc57db0d01d460c31e2c5eff0faf"/>
+  <project name="platform/core/multimedia/libmm-sound" path="platform/core/multimedia/libmm-sound" revision="450a966385c9ac958bb0012538a9a168510c5196"/>
   <project name="platform/core/multimedia/libmm-streamrecorder" path="platform/core/multimedia/libmm-streamrecorder" revision="79d5a2ca6b79be4678d262a27f71eae2b3b0fe7f"/>
   <project name="platform/core/multimedia/libmm-transcode" path="platform/core/multimedia/libmm-transcode" revision="68780d7877550c1539cdce898c3c4d619e2e275a"/>
   <project name="platform/core/multimedia/libmm-utility" path="platform/core/multimedia/libmm-utility" revision="01c05d50bb016c938493559b63c67c90e2ab2563"/>
@@ -266,7 +266,7 @@
   <project name="platform/core/multimedia/mmsvc-core" path="platform/core/multimedia/mmsvc-core" revision="863bf2974d169c7e9e57257bfa7a15ce722a75ab"/>
   <project name="platform/core/multimedia/mmsvc-player" path="platform/core/multimedia/mmsvc-player" revision="b0408b79e0bf60da50d8f553437b4d210a8c101f"/>
   <project name="platform/core/multimedia/mmsvc-recorder" path="platform/core/multimedia/mmsvc-recorder" revision="11195e503c21f5dc94a57cf2e2d75c706838f7c4"/>
-  <project name="platform/core/multimedia/pulseaudio-modules-tizen" path="platform/core/multimedia/pulseaudio-modules-tizen" revision="a31d39850ff853e1c73def71018bf205a9924798"/>
+  <project name="platform/core/multimedia/pulseaudio-modules-tizen" path="platform/core/multimedia/pulseaudio-modules-tizen" revision="7deb4c09a9924da7635d35b0d97cdded1b9753df"/>
   <project name="platform/core/multimedia/tinycompress" path="platform/core/multimedia/tinycompress" revision="0da814597b847b80eac626071b2132887a78385f"/>
   <project name="platform/core/pim/calendar-service" path="platform/core/pim/calendar-service" revision="594ddf9cd8ac0ba54b3e1aeceb054287a336a992"/>
   <project name="platform/core/pim/contacts-service" path="platform/core/pim/contacts-service" revision="da6323cedfa16e178b7157e09c8f75f0b78b2ab5"/>
