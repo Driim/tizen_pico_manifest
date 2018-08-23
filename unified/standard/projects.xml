@@ -276,8 +276,8 @@
   <project name="platform/core/multimedia/libmm-log" path="platform/core/multimedia/libmm-log" revision="064010cd2bef498279e12691fcaffcfad79319b2"/>
   <project name="platform/core/multimedia/libmm-player" path="platform/core/multimedia/libmm-player" revision="1a4968ba3280ba96de1f0378c608e1902de0d750"/>
   <project name="platform/core/multimedia/libmm-radio" path="platform/core/multimedia/libmm-radio" revision="9603f6b37a2d58af3e66d4a127818e4190a3dc67"/>
-  <project name="platform/core/multimedia/libmm-session" path="platform/core/multimedia/libmm-session" revision="2df33f659a36cc57db0d01d460c31e2c5eff0faf"/>
-  <project name="platform/core/multimedia/libmm-sound" path="platform/core/multimedia/libmm-sound" revision="450a966385c9ac958bb0012538a9a168510c5196"/>
+  <project name="platform/core/multimedia/libmm-session" path="platform/core/multimedia/libmm-session" revision="0adc911948a9e8607b6becdab975ed0a492f9450"/>
+  <project name="platform/core/multimedia/libmm-sound" path="platform/core/multimedia/libmm-sound" revision="a68e196afe8ae9b0398ede1fdd2862060cbf8cc2"/>
   <project name="platform/core/multimedia/libmm-streamrecorder" path="platform/core/multimedia/libmm-streamrecorder" revision="79d5a2ca6b79be4678d262a27f71eae2b3b0fe7f"/>
   <project name="platform/core/multimedia/libmm-transcode" path="platform/core/multimedia/libmm-transcode" revision="68780d7877550c1539cdce898c3c4d619e2e275a"/>
   <project name="platform/core/multimedia/libmm-utility" path="platform/core/multimedia/libmm-utility" revision="01c05d50bb016c938493559b63c67c90e2ab2563"/>
@@ -289,7 +289,7 @@
   <project name="platform/core/multimedia/mmsvc-core" path="platform/core/multimedia/mmsvc-core" revision="863bf2974d169c7e9e57257bfa7a15ce722a75ab"/>
   <project name="platform/core/multimedia/mmsvc-player" path="platform/core/multimedia/mmsvc-player" revision="b0408b79e0bf60da50d8f553437b4d210a8c101f"/>
   <project name="platform/core/multimedia/mmsvc-recorder" path="platform/core/multimedia/mmsvc-recorder" revision="11195e503c21f5dc94a57cf2e2d75c706838f7c4"/>
-  <project name="platform/core/multimedia/pulseaudio-modules-tizen" path="platform/core/multimedia/pulseaudio-modules-tizen" revision="7deb4c09a9924da7635d35b0d97cdded1b9753df"/>
+  <project name="platform/core/multimedia/pulseaudio-modules-tizen" path="platform/core/multimedia/pulseaudio-modules-tizen" revision="a31d39850ff853e1c73def71018bf205a9924798"/>
   <project name="platform/core/multimedia/tinycompress" path="platform/core/multimedia/tinycompress" revision="0da814597b847b80eac626071b2132887a78385f"/>
   <project name="platform/core/pim/calendar-service" path="platform/core/pim/calendar-service" revision="594ddf9cd8ac0ba54b3e1aeceb054287a336a992"/>
   <project name="platform/core/pim/contacts-service" path="platform/core/pim/contacts-service" revision="da6323cedfa16e178b7157e09c8f75f0b78b2ab5"/>
@@ -356,7 +356,7 @@
   <project name="platform/core/system/initrd-recovery" path="platform/core/system/initrd-recovery" revision="a2ebc581672e65c627852cd2abefccdce684b2d7"/>
   <project name="platform/core/system/libdbuspolicy" path="platform/core/system/libdbuspolicy" revision="94e9ac5e78497fb6860f85df40b8b4ff8d006dcf"/>
   <project name="platform/core/system/libdevice-node" path="platform/core/system/libdevice-node" revision="a07cd1fca58e0b38b203ed2dfe907502f8014a06"/>
-  <project name="platform/core/system/libstorage" path="platform/core/system/libstorage" revision="472b06f2e08c48e391cc25bcf73254e6e9e66e21"/>
+  <project name="platform/core/system/libstorage" path="platform/core/system/libstorage" revision="430860f71b8758e1a9fd29d8bc9555a39ebf6cd4"/>
   <project name="platform/core/system/libsvi" path="platform/core/system/libsvi" revision="54026a73fb32fd5c56e02ec5f36b300205b6eabd"/>
   <project name="platform/core/system/libtota" path="platform/core/system/libtota" revision="f4dbb35ef4c3fc5cfce243ff462c491c7f5863bc"/>
   <project name="platform/core/system/libtracker" path="platform/core/system/libtracker" revision="d789673b26ec65faa5bd4c05c2e86110d65c8ca4"/>
@@ -364,7 +364,7 @@
   <project name="platform/core/system/pass" path="platform/core/system/pass" revision="24f3382cfb59af89b86dba595ece062518d285a9"/>
   <project name="platform/core/system/peripheral-bus" path="platform/core/system/peripheral-bus" revision="b202f1cf676948340fb7fb36df84a36e20107030"/>
   <project name="platform/core/system/resourced" path="platform/core/system/resourced" revision="048d632299e0061ddb8349a10743ce329d7709dc"/>
-  <project name="platform/core/system/resourced-headless" path="platform/core/system/resourced-headless" revision="e831d8868bb0b97cdc01a82efa92ff5cc663786a"/>
+  <project name="platform/core/system/resourced-headless" path="platform/core/system/resourced-headless" revision="560d5e23eedcadb6dbec545a22c6116f930ec2a0"/>
   <project name="platform/core/system/sensord" path="platform/core/system/sensord" revision="9b0f647259c99c1368132ce7622d5da0f651bb3e"/>
   <project name="platform/core/system/session-utils" path="platform/core/system/session-utils" revision="47059c648b69f56c58df6565c22d332586c5176f"/>
   <project name="platform/core/system/setup-adaptor" path="platform/core/system/setup-adaptor" revision="cab62ac87eebb37b8b9e3cb02ba767a801327f8d"/>
@@ -450,7 +450,7 @@
   <project name="platform/core/uifw/tts-engine-default" path="platform/core/uifw/tts-engine-default" revision="0a282847fbed05e12aee2338a8d0791179db3f88"/>
   <project name="platform/core/uifw/tts-engine-rsc" path="platform/core/uifw/tts-engine-rsc" revision="389526fef5ecdcae37a9bafca3508d0d555928d5"/>
   <project name="platform/core/uifw/ui-viewmgr" path="platform/core/uifw/ui-viewmgr" revision="3b02ab9f696b7090f8fbad9739bd3ea9787dd795"/>
-  <project name="platform/core/uifw/vc-engine-default" path="platform/core/uifw/vc-engine-default" revision="59c9a0f12696172fbb18fe441b23602abce3cc93"/>
+  <project name="platform/core/uifw/vc-engine-default" path="platform/core/uifw/vc-engine-default" revision="92cc2404e7755259ff0038b2038f8fba71fc891e"/>
   <project name="platform/core/uifw/vc-webview" path="platform/core/uifw/vc-webview" revision="4c97cdddff6f4558149dde3ba51d2f2cd35902a1"/>
   <project name="platform/core/uifw/vc-webview-js" path="platform/core/uifw/vc-webview-js" revision="f916781dcb43f2c9c095c306fe467577c4260f84"/>
   <project name="platform/core/uifw/voice-control" path="platform/core/uifw/voice-control" revision="95b1646cae11be57ea4f9b4a76d93ca1113ba6ff"/>
@@ -863,7 +863,7 @@
   <project name="profile/wearable/platform/kernel/linux-3.18-exynos7270" path="profile/wearable/platform/kernel/linux-3.18-exynos7270" revision="25302011772b2e82d13d7ae53596d9830ccd98ef"/>
   <project name="profile/wearable/platform/kernel/linux-3.4-exynos3250" path="profile/wearable/platform/kernel/linux-3.4-exynos3250" revision="f46fce201225c32a97f409cafe45810634595eb0"/>
   <project name="profile/wearable/platform/tw1/model-config-tw1" path="profile/wearable/platform/tw1/model-config-tw1" revision="f402de810adbcc5317cc99bd555bb51fd9c2ede8"/>
-  <project name="profile/wearable/platform/tw2/model-config-tw2" path="profile/wearable/platform/tw2/model-config-tw2" revision="6ea2cffc732edd0eefc1792b0426a521afcb4899"/>
+  <project name="profile/wearable/platform/tw2/model-config-tw2" path="profile/wearable/platform/tw2/model-config-tw2" revision="311da1e2d803abca14a055ae720a8c044bffd9a0"/>
   <project name="sdk/target/sdbd" path="sdk/target/sdbd" revision="aff220330766f2fa4b164a6457229c0d22cd7857"/>
   <project name="test/appium/uiautomator" path="test/appium/uiautomator" revision="1759bb1e6a3fef345ce3655a71db4e3801c89016"/>
   <project name="tools/bmap-tools" path="tools/bmap-tools" revision="05e5d08012dba106383f0eff62d8f86b01f1f3a1"/>
