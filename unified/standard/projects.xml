@@ -190,7 +190,7 @@
   <project name="platform/core/appfw/data-control" path="platform/core/appfw/data-control" revision="4aeeec54269c1a7b4690d8468ca928ce000c9d10"/>
   <project name="platform/core/appfw/data-provider-master" path="platform/core/appfw/data-provider-master" revision="f04268f5605fadd61270cec4435262d07d3a2390"/>
   <project name="platform/core/appfw/event-system" path="platform/core/appfw/event-system" revision="2d4405f6136b15025925de73600d0f7a8be5ff7d"/>
-  <project name="platform/core/appfw/launchpad" path="platform/core/appfw/launchpad" revision="6ccdc36dee72d063e965d67648e24d18a5df6e23"/>
+  <project name="platform/core/appfw/launchpad" path="platform/core/appfw/launchpad" revision="bd563efba91862c8435f4a22affc7d7ff5bec1b1"/>
   <project name="platform/core/appfw/libeventsystem" path="platform/core/appfw/libeventsystem" revision="bcf5fa318b8be128e33bac916d3ef21feedb7d91"/>
   <project name="platform/core/appfw/librua" path="platform/core/appfw/librua" revision="31cc4f3dc1f6ea1ff241cb42ed055ba6b5312cc6"/>
   <project name="platform/core/appfw/libslp-db-util" path="platform/core/appfw/libslp-db-util" revision="af89c77820745488debade053a4782fe213ab36b"/>
@@ -212,7 +212,7 @@
   <project name="platform/core/appfw/vconf-internal-keys" path="platform/core/appfw/vconf-internal-keys" revision="303979969fd4c429b90c0c0186c3579da54069e5"/>
   <project name="platform/core/appfw/wgt-backend" path="platform/core/appfw/wgt-backend" revision="4cdad6a4d8f9c7d6f9158de92a7ce4ca7b142b0e"/>
   <project name="platform/core/appfw/wgt-manifest-handlers" path="platform/core/appfw/wgt-manifest-handlers" revision="a9faff623a79d9d75a68fee96ac6414645243fe8"/>
-  <project name="platform/core/appfw/widget-service" path="platform/core/appfw/widget-service" revision="19372b11feb291b9330dc9aaf3e3c6dee424728e"/>
+  <project name="platform/core/appfw/widget-service" path="platform/core/appfw/widget-service" revision="eee1d33040dc3ff1003c4e0fe9160f25f9940e34"/>
   <project name="platform/core/appfw/widget-viewer" path="platform/core/appfw/widget-viewer" revision="187d05925c964b9ca0b6db9a531023453e7bd6f3"/>
   <project name="platform/core/appfw/xdgmime" path="platform/core/appfw/xdgmime" revision="72c1b75d405995bd07d8f858b2ddb4dc1004663a"/>
   <project name="platform/core/base/bundle" path="platform/core/base/bundle" revision="f249b2721cb0f6196a19474623bf7e12b880f1d3"/>
@@ -610,7 +610,7 @@
   <project name="platform/upstream/libpng" path="platform/upstream/libpng" revision="50e3240a99b6d3dc0fe8cd26fbd82b1d4dd28bb4"/>
   <project name="platform/upstream/libsndfile" path="platform/upstream/libsndfile" revision="e24b15a21e9dc259479a0f23a11cf66748ea22e3"/>
   <project name="platform/upstream/libsolv" path="platform/upstream/libsolv" revision="ee36d2b09eed0edad1e45761f9cc0894ea655efb"/>
-  <project name="platform/upstream/libsoup" path="platform/upstream/libsoup" revision="99e5d143b36993ac01cc03509bfb9c36b705bf74"/>
+  <project name="platform/upstream/libsoup" path="platform/upstream/libsoup" revision="9267b433b80a62ca92434af55d97568efc10d961"/>
   <project name="platform/upstream/libtasn1" path="platform/upstream/libtasn1" revision="c4ca8f2727376ff41930567ee26798ab1d1d9ce4"/>
   <project name="platform/upstream/libtheora" path="platform/upstream/libtheora" revision="16f45e2e4642e8917c66cf9addb9c474c876adf7"/>
   <project name="platform/upstream/libusb" path="platform/upstream/libusb" revision="f99412bfd13c526be1f42bd9b5aad7b59c79bccb"/>
