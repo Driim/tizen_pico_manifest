@@ -195,9 +195,9 @@
   <project name="platform/core/appfw/xdgmime" path="platform/core/appfw/xdgmime" revision="72c1b75d405995bd07d8f858b2ddb4dc1004663a"/>
   <project name="platform/core/base/bundle" path="platform/core/base/bundle" revision="f249b2721cb0f6196a19474623bf7e12b880f1d3"/>
   <project name="platform/core/base/syspopup" path="platform/core/base/syspopup" revision="968981b686446b69263657e1d75566ca2e1e2be3"/>
-  <project name="platform/core/base/tizen-locale" path="platform/core/base/tizen-locale" revision="c9ae3e43043ccc695c8da8463d35f94965cadfee"/>
+  <project name="platform/core/base/tizen-locale" path="platform/core/base/tizen-locale" revision="2a8d9ca7729ec0b8b19960e087f0f23db63d6028"/>
   <project name="platform/core/base/tzdata-update-parser" path="platform/core/base/tzdata-update-parser" revision="af1ca978bd327a26b3332f78d3280e64b5ffcc26"/>
-  <project name="platform/core/connectivity/asp-manager" path="platform/core/connectivity/asp-manager" revision="14a19451beba4a99d54d9ce9ca2879c075ffecdf"/>
+  <project name="platform/core/connectivity/asp-manager" path="platform/core/connectivity/asp-manager" revision="8bb2dcc494a65a94cb7daa2edbe0e8105966389c"/>
   <project name="platform/core/connectivity/bluetooth-agent" path="platform/core/connectivity/bluetooth-agent" revision="5f06538624daa62310df358f37da4839f711a20f"/>
   <project name="platform/core/connectivity/bluetooth-frwk" path="platform/core/connectivity/bluetooth-frwk" revision="a54217ac66b8270fa93dc75accb334a53dfb9c42"/>
   <project name="platform/core/connectivity/bluetooth-share" path="platform/core/connectivity/bluetooth-share" revision="1df06fb9ffc89b2f5b698e6e39b1470bf06b15f3"/>
@@ -207,7 +207,7 @@
   <project name="platform/core/connectivity/libnet-client" path="platform/core/connectivity/libnet-client" revision="8a1b3be744e425b7b424267a749d9ac35ce72409"/>
   <project name="platform/core/connectivity/mobileap-agent" path="platform/core/connectivity/mobileap-agent" revision="171f7b39e49b873e56ebb4c9e119f0945a6c4a78"/>
   <project name="platform/core/connectivity/mtp-initiator" path="platform/core/connectivity/mtp-initiator" revision="fe93775ff2f5a1243871689a1d077f66bbb1d4c2"/>
-  <project name="platform/core/connectivity/net-config" path="platform/core/connectivity/net-config" revision="7dbd8a84fcd9facabfa9079119668fccca3b9aa4"/>
+  <project name="platform/core/connectivity/net-config" path="platform/core/connectivity/net-config" revision="6a560855c7a4c4599bc5c007a41cd66337a99b51"/>
   <project name="platform/core/connectivity/net-popup" path="platform/core/connectivity/net-popup" revision="9dfe4a31a494436325ce024c3b168a5a1e1abbf3"/>
   <project name="platform/core/connectivity/nfc-manager" path="platform/core/connectivity/nfc-manager" revision="d81875913976fa8d447a74e7458f342408435ace"/>
   <project name="platform/core/connectivity/smartcard-plugin-nfc" path="platform/core/connectivity/smartcard-plugin-nfc" revision="1e74825669656e7dab97a57a0bbc96f498a6ce77"/>
@@ -225,7 +225,7 @@
   <project name="platform/core/context/sensor-recorder" path="platform/core/context/sensor-recorder" revision="025b2c679aa851b632a4d4b790e1f2d04f38c7bc"/>
   <project name="platform/core/convergence/plugin/service-plugin-sample" path="platform/core/convergence/plugin/service-plugin-sample" revision="a70e04c2697258c1e90653a7bdf57a2370a8b78f"/>
   <project name="platform/core/convergence/service-adaptor" path="platform/core/convergence/service-adaptor" revision="57f0b55e7d7360e7a0825b0e7e2497993931144e"/>
-  <project name="platform/core/csapi/tizenfx" path="platform/core/csapi/tizenfx" revision="83f8d19b2c5befbd84af518fd23a18c1124af15c"/>
+  <project name="platform/core/csapi/tizenfx" path="platform/core/csapi/tizenfx" revision="d83858b44640f05a4e4f50c815677fea65855f45"/>
   <project name="platform/core/dotnet/build-tools" path="platform/core/dotnet/build-tools" revision="0eae046444888f371bb5fb1a740dbbd5b897eec9"/>
   <project name="platform/core/dotnet/launcher" path="platform/core/dotnet/launcher" revision="0afb92f931e2d25b8d1c1a53eaa60d5ea450549a"/>
   <project name="platform/core/graphics/cairo" path="platform/core/graphics/cairo" revision="9fe8ce93e843b8fcc0d9169067c337e90692f81c"/>
@@ -271,7 +271,7 @@
   <project name="platform/core/pim/calendar-service" path="platform/core/pim/calendar-service" revision="594ddf9cd8ac0ba54b3e1aeceb054287a336a992"/>
   <project name="platform/core/pim/contacts-service" path="platform/core/pim/contacts-service" revision="da6323cedfa16e178b7157e09c8f75f0b78b2ab5"/>
   <project name="platform/core/pim/pims-ipc" path="platform/core/pim/pims-ipc" revision="9e7d3a9c6950e58c415cd7578b80bc3ee7a7d3fa"/>
-  <project name="platform/core/security/askuser" path="platform/core/security/askuser" revision="afe19eafa148744fdf22a9993981a34fe50cf890"/>
+  <project name="platform/core/security/askuser" path="platform/core/security/askuser" revision="5e9f9733972b88ca0d51d35af4ab5529ba418465"/>
   <project name="platform/core/security/auth-fw" path="platform/core/security/auth-fw" revision="ec1b9369baa553defaedbbbaf3d453c7198d3662"/>
   <project name="platform/core/security/ca-certificates" path="platform/core/security/ca-certificates" revision="a2f804cb30d7c50457d94ab7c0d4c3aaf64d05aa"/>
   <project name="platform/core/security/ca-certificates-tizen" path="platform/core/security/ca-certificates-tizen" revision="32a0ac8f19adef3956ba8649031a02c999799317"/>
@@ -335,7 +335,7 @@
   <project name="platform/core/system/pass" path="platform/core/system/pass" revision="24f3382cfb59af89b86dba595ece062518d285a9"/>
   <project name="platform/core/system/peripheral-bus" path="platform/core/system/peripheral-bus" revision="b202f1cf676948340fb7fb36df84a36e20107030"/>
   <project name="platform/core/system/resourced" path="platform/core/system/resourced" revision="ae5c12b53b5114a41b5406e6937085d26f433496"/>
-  <project name="platform/core/system/resourced-headless" path="platform/core/system/resourced-headless" revision="c94ae76c35b44003f566b87072c856ce3d70eb90"/>
+  <project name="platform/core/system/resourced-headless" path="platform/core/system/resourced-headless" revision="9a137ebe5e7a6d5c1c277bd8d1a958649e3617e3"/>
   <project name="platform/core/system/sensord" path="platform/core/system/sensord" revision="366c6b013cada01b90321bbd7141cacc0921b398"/>
   <project name="platform/core/system/session-utils" path="platform/core/system/session-utils" revision="47059c648b69f56c58df6565c22d332586c5176f"/>
   <project name="platform/core/system/storaged" path="platform/core/system/storaged" revision="48ecf2c93278e6bc5f18cec4bdd71ca941b50eb5"/>
@@ -432,7 +432,7 @@
   <project name="platform/framework/web/browser-provider" path="platform/framework/web/browser-provider" revision="93a630bcf9e520f9fcc053fda7130f8c358c0100"/>
   <project name="platform/framework/web/chromium-efl" path="platform/framework/web/chromium-efl" revision="a893a746cb32552d079da5d372f2a100efb8fe4b"/>
   <project name="platform/framework/web/crosswalk-tizen" path="platform/framework/web/crosswalk-tizen" revision="0266d0ee0f1be9f0184c7ada996e48880719a313"/>
-  <project name="platform/framework/web/download-provider" path="platform/framework/web/download-provider" revision="1c2aef4b6b01d0d7e843660cadb17a55dd43643e"/>
+  <project name="platform/framework/web/download-provider" path="platform/framework/web/download-provider" revision="c753fa8a7c7b05fe2a034fc2c5ae6ee2c48eb329"/>
   <project name="platform/framework/web/wrt-service" path="platform/framework/web/wrt-service" revision="2e52ebfadb75f51564ed0b8fe0623170265fd1c5"/>
   <project name="platform/framework/web/xwalk-extensions-common" path="platform/framework/web/xwalk-extensions-common" revision="9825fe4f69e44aa94e6cc973a5c3c33bb68b2180"/>
   <project name="platform/kernel/swap-modules" path="platform/kernel/swap-modules" revision="d96db54b59d3d1b50aab94dede5768fb0c85c199"/>
@@ -763,7 +763,7 @@
   <project name="profile/mobile/platform/adaptation/spreadtrum/audio-config-sc" path="profile/mobile/platform/adaptation/spreadtrum/audio-config-sc" revision="6cd164b8051bd07c9a0130796c2a9fc8c47818f3"/>
   <project name="profile/mobile/platform/adaptation/spreadtrum/device-manager-plugin-sc7730" path="profile/mobile/platform/adaptation/spreadtrum/device-manager-plugin-sc7730" revision="334c8232b104b8166c81b14ba02249f3db0edd69"/>
   <project name="profile/mobile/platform/core/appfw/app-selector" path="profile/mobile/platform/core/appfw/app-selector" revision="52beab85697be447adfa807a77a871362e6e9907"/>
-  <project name="profile/mobile/platform/core/appfw/installer-app" path="profile/mobile/platform/core/appfw/installer-app" revision="79d00e1f3d27433ba9bec7a915d89ff9634a06a2"/>
+  <project name="profile/mobile/platform/core/appfw/installer-app" path="profile/mobile/platform/core/appfw/installer-app" revision="4784527891e49142fd3876de4e12da8388c09c4f"/>
   <project name="profile/mobile/platform/core/security/cert-checker" path="profile/mobile/platform/core/security/cert-checker" revision="a8e78310ca6323c84fe44c7b60fd3925c978a1bc"/>
   <project name="profile/mobile/platform/core/security/cert-svc-ui" path="profile/mobile/platform/core/security/cert-svc-ui" revision="fdca3c330563e858cd6a3dafb783b300dd399ca6"/>
   <project name="profile/mobile/platform/core/uifw/cbhm" path="profile/mobile/platform/core/uifw/cbhm" revision="2416613993790154d7d11f22e156738b9ee9dc75"/>
