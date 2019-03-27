@@ -2,7 +2,7 @@
 <manifest>
   <include name="_remote.xml" />
   <default revision="accepted/tizen_4.0_unified"
-           remote="tizen-gerrit"
+           remote="github"
            sync-j="4" />
   <include name="unified/standard/metadata.xml" />
   <include name="unified/standard/projects.xml" />
